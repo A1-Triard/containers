@@ -35,10 +35,10 @@ def main():
         rmtree('ar')
     mkdir('ar')
     copytree('Data Files', 'ar/Data Files')
-    copyfile('A1_Containers_V6.esp.yaml', 'ar/Data Files/A1_Containers_V6.esp.yaml')
+    copyfile('A1_Containers_V7.esp.yaml', 'ar/Data Files/A1_Containers_V7.esp.yaml')
     prepare_text('Readme', 'ar/')
     copytree('Screenshots', 'ar/Screenshots')
-    assembly_plugin('ar/Data Files/A1_Containers_V6.esp', 2014, 8, 15, 18, 53, 0)
+    assembly_plugin('ar/Data Files/A1_Containers_V7.esp', 2014, 8, 15, 18, 53, 0)
     make_archive('A1_Containers_2.0', 'zip', 'ar')
     rmtree('ar')
 
