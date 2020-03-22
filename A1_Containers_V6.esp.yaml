@@ -13,36 +13,36 @@
     - MAST: Bloodmoon.esm
     - DATA: 11799703
 - GLOB:
-    - NAME: A1V6_RoadBagX
+    - NAME: A1V7_RoadBagX
     - FNAM: f
     - FLTV: 0.0
 - GLOB:
-    - NAME: A1V6_RoadBagY
+    - NAME: A1V7_RoadBagY
     - FNAM: f
     - FLTV: 0.0
 - GLOB:
-    - NAME: A1V6_RoadBagZ
+    - NAME: A1V7_RoadBagZ
     - FNAM: f
     - FLTV: 0.0
 - GLOB:
-    - NAME: A1V6_RoadBagAngle
+    - NAME: A1V7_RoadBagAngle
     - FNAM: f
     - FLTV: 0.0
 - GLOB:
-    - NAME: A1V6_RoadBagIngrExt
+    - NAME: A1V7_RoadBagIngrExt
     - FNAM: s
     - FLTV: 0.0
 - GLOB:
-    - NAME: A1V6_RoadBagAlchExt
+    - NAME: A1V7_RoadBagAlchExt
     - FNAM: s
     - FLTV: 0.0
 - GLOB:
-    - NAME: A1V6_RoadBagMiscExt
+    - NAME: A1V7_RoadBagMiscExt
     - FNAM: s
     - FLTV: 0.0
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagAlchCont_1_sc
+        name: A1V7_RoadBagAlchCont_1_sc
         vars:
           shorts: 7
           longs: 8
@@ -70,9 +70,9 @@
         - cz
         - ca
         - invWeight
-    - SCDT: eJyNVLtuE0EUvXcea68hsMYipAGNEhckFPYuItpIm0CQwEpLgRw3YSG2QSwxioMEn0HBL9DwFVR8AFS8CqTQRPADAcGd2Yd3bechF3N97plznzsWWrYaclBrymtaKGzV/uqo1VXlShwKuKI81aqtu/eXt+4Nwu3bYX89evT4zss9whtqSeJUp1R0Fd5VEepo089CNgryxakbiJcTqPnJmc2L3A2fdjd2+rvdbQaUBIeY6Kpr9VQrzfGzYwhMudpRoiAl0A4vrkQZVpM4JeJQeTiv2n8dNZgdT3pjr/tsy03ZiaKNdSxroUTVJYFM1U1UPc3S0XMuDdR8gJo/BAjO+wLO+gOs+B+Zaer88U3VlR7b2O+6atQ5SuwhVFVrJs9tU9d6bALe1DCfgDsaFnBRtaqFgDv9qAtnnDYFoGOTBOnokADM0EFZLAVxiREwsjCz2BiWNuAtGyHpTQgWg5N0Kn6HjW3IaGJI2Ud6XHpsTLekjmb2QwvyU9KnpWmXku0TFUV8Q0mvNsE5Bx/2D/78Uz8OD37/3P91CPAt4WPZ8NfUDTNCUiwhJmZTT5sXpv1Q1vyQV/wn3Hoeha+6u3A5iDlxcbzQmgcyLRdyvrmA35zeGpFZsoD1jGVlWCmzoBBvQVJBF1Qk4wZ4rnd9eWXFP11p70XND0TFvyWY24A0HASNXDqmX5Flvm5SkiNRmYqKCdHXJPpGcLcRniAaGNEj0luQ09Ys39XFYBrjajDapEjkNyo3fNdwpIrKAMlTRGbybORucdoqmz74F1yvI0uvx874X+E5m8ueFCveYRsR/wNWD+a3
+    - SCDT: eJyNVLtuE0EUvXcea68hsMYipAGNEhckFPYuAjbSJhAksNJSIMdNWIhtEEuM4iDBZ1DwCzR8BRUfABWvAik0EfxAQHBn9uFd23nIxVyfe+bc546Flq2GHNSq8poWClu1vzpqZUW5EocCLilPtWpr7v0bm/cG4dbtsL8WPXp85+Uu4Q21JHGqUyq6Cu+qCHW06WchGwX54tQNxMsJ1PzkzOZF7oZPu+vb/Z3uFgNKgkNMdNWVeqqV5vjZMQSmXO0oUZASaIcXV6IMq0mcEnGoPJxX7b+OGsyOJ72+23226absRNHGOpa1UKLqkkCm6iaqnmbp6DmXBmo+QM0fAgRnfQGn/QFW/I/MNHX+6KbqSo9s7HddNeocJfYQqqo1k+e2qWs9NgFvaJhPwB0NCzivWtVCwO1+1IVTTpsC0LFBgnR0SABm6KAsloK4xAgYWZhZbAxLG/CWjZD0JgSLwXE6Fb/DxjZkNDGk7CM9Lj02pltSRzP7oQX5KenT0rQLyfaJiiK+oaRXm+CcgQ97+3/+qR8H+79/7v06APiW8LFs+KvqmhkhKZYQE7Opp80L034oa37IK/4Tbj2PwlfdHbgYxJy4OF5ozQOZlgs531zAb05vjcgsWcB6xrIyrJRZUIi3IKmgcyqScQM817t6fXnZP1lp70XND0TFvyWY24A0HASNXDqmX5Flvm5SkiNRmYqKCdHXJPpGcLcRHiMaGNFD0luQ09Ys39XFYBrjcjDapEjkNyo3fNdwpIrKAMlTRGbybORucdoqmz74F1yvI0uvx874X+E5m8ueFCveYRsR/wOETubC
     - SCTX:
-        - Begin A1V6_RoadBagAlchCont_1_sc
+        - Begin A1V7_RoadBagAlchCont_1_sc
         - ""
         - short doOnce
         - short doRemove
@@ -97,8 +97,8 @@
         - ""
         - if ( doDisable > 20 )
         - "\tif ( GetDisabled == 1 )"
-        - "\t\tset temp to 2 * ( A1V6_RoadBagAlchExt / 2 )"
-        - "\t\tset A1V6_RoadBagAlchExt to temp"
+        - "\t\tset temp to 2 * ( A1V7_RoadBagAlchExt / 2 )"
+        - "\t\tset A1V7_RoadBagAlchExt to temp"
         - "\t\tSetDelete 1"
         - "\t\treturn"
         - "\tendif"
@@ -110,7 +110,7 @@
         - endif
         - ""
         - if ( doDisable > 0 )
-        - "\tAddItem \"A1V6_RoadBagFakeIngred\", 2"
+        - "\tAddItem \"A1V7_RoadBagFakeIngred\", 2"
         - "\tset doDisable to ( doDisable + 1 )"
         - "\treturn"
         - endif
@@ -123,7 +123,7 @@
         - if ( waitActivate == 2 )
         - "\tif ( MenuMode == 0 )"
         - "\t\tset waitActivate to 0"
-        - "\t\tif ( GetItemCount A1V6_RoadBagAlchItem_1 == 0 )"
+        - "\t\tif ( GetItemCount A1V7_RoadBagAlchItem_1 == 0 )"
         - "\t\t\tset doDisable to 1"
         - "\t\tendif"
         - "\tendif"
@@ -141,14 +141,14 @@
         - ""
         - ifx ( doOnce )
         - else
-        - "\tset temp to 2 * ( A1V6_RoadBagAlchExt / 2 ) + 1"
-        - "\tset A1V6_RoadBagAlchExt to temp"
+        - "\tset temp to 2 * ( A1V7_RoadBagAlchExt / 2 ) + 1"
+        - "\tset A1V7_RoadBagAlchExt to temp"
         - "\tDisablePlayerControls"
         - "\tset doOnce to 1"
-        - "\tset cx to A1V6_RoadBagX"
-        - "\tset cy to A1V6_RoadBagY"
-        - "\tset cz to A1V6_RoadBagZ"
-        - "\tset ca to A1V6_RoadBagAngle"
+        - "\tset cx to A1V7_RoadBagX"
+        - "\tset cy to A1V7_RoadBagY"
+        - "\tset cz to A1V7_RoadBagZ"
+        - "\tset ca to A1V7_RoadBagAngle"
         - "\tSetPos X cx"
         - "\tSetPos Y cy"
         - "\tSetPos Z cz"
@@ -158,7 +158,7 @@
         - "\t\txRemoveItem invItem invCount"
         - "\t\tsetx invItem,invCount,invRef to xInventory"
         - "\tendwhile"
-        - "\tAddItem \"A1V6_RoadBagAlchItem_1\", 1"
+        - "\tAddItem \"A1V7_RoadBagAlchItem_1\", 1"
         - "\tset invRef to 0"
         - "\tset doRemove to 1"
         - "\treturn"
@@ -240,7 +240,7 @@
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagAlchCont_2_sc
+        name: A1V7_RoadBagAlchCont_2_sc
         vars:
           shorts: 7
           longs: 8
@@ -268,9 +268,9 @@
         - cz
         - ca
         - invWeight
-    - SCDT: eJylVM1qE1EUPmfu3EkmWp00WEtBOMgsbIskM9IyhWmlgoZuXUjaTQk2ieDYStOFPkmfQdy48B3cuaou1LoQKkjRF6ii5975yUySGkECuWe+893vnj+OhWWb+gJojfyGhZZNrU8Ora6SJ7Fvwhw1a+veg+Xt+3vtnTvt3nr08NHdZwfkU137p4n/+Cv+r9MC3dQ4nXtPOTVrLEEqP7ysIrho889CYxDeR8fVkCgnUOPImcmL3Gs/7mzs9vY7OwZwGAJiokeLbqqVZvfB0QSDPOUo8SMlUA7fQpNZpFkN5pSYw4XB69T65dDezHDQGwedJ9t+yk4UbXSxrIQSVY8FMlUvUfUVS72ecymgFgDUgj5AeDkw4WLwAitBU/xXO9xJ7WBr8a8t+azqhSo7iV2EKjWn8twW17trjMCbChYj8JaCTbhCzWrhwd1e1IELTosf4GOTBfnYYgGY4oOjWAjj4kRgsIWZZQxhaenmxABJb0I4H07SqQRvjaHZGvQaOfpINVo13FAlcVFPTd+CfH/VaSna1WRuzQoxX1PSqw1wLsGbk9Ofv+nL2emPryffzwCOEz6WNX+NlnQTWbGEmJgNNSeiMCfvZS14JyrBsbCeRu3nnX24FsacODlRKM2RTNOFnG82FLfHl8bMLFnAutqyMqyUWVB471ByQtMUybgAvuffWl5ZCf4ttSUO9pVZCV6bhleH9DkI67lwdL0iS+8FVpIDUZmKmiOiUlYCWwqv3p4gGmrRc8I7lOPGLF/V+XAc40Y4mKTIzE9Urvme5kiKygDJEmMzWTi5W4KnyuZV8U2ocTTS67Ez/ioswtlsGVnxDNuI+Aei1v/m
+    - SCDT: eJylVM1qE1EUPmfu3EkmWp00WEtBOMgsbIskM1KdwrRSQUO3LiTtpgSbRHBspelCn6TPIG5c+A7uXFUXal0IFaToC1TRc+/8ZCZJjSCB3DPf+e53zx/HwrJNfQG0Sn7DQsum1ieHVlbIk9g3YY6atTXvwa2t+7vt7Tvt3lr08NHdZ/vkU137p4n/+Cv+r9MCXdc4nXlPOTVrLEEqP7ysIrho889CYxDeR8fVkCgnUOPQmcmL3Gs/7qzv9PY62wZwGAJiokeLbqqVZvfB0QSDPOUo8SMlUA7fQpNZpFkN5pSYw4XBq9T65dDuzHDQ6/udJ1t+yk4UbXSxrIQSVY8FMlUvUfUVS72ecymgFgDUgj5AeDEw4XzwAitBU/xXO9xJ7WBr8a8t+azqhSo7iV2EKjWn8twW17trjMAbChYj8KaCTbhEzWrhwZ1e1IFzTosf4GODBfnYZAGY4oOjWAjj4kRgsIWZZQxhaenmxABJb0I4H07SqQRvjaHZGvQaOfpINVo13FAlcVFPTd+CfH/VaSna5WRuzQoxX1PSqw1wLsCb45Ofv+nL6cmPr8ffTwGOEj6WNX+VlnQTWbGEmJgNNSeiMCfvZS14JyrBkbCeRu3nnT24EsacODlRKM2hTNOFnG82FLfHl8bMLFnAutqyMqyUWVB470ByQtMUybgAvuffuLm8HPxbaksc7CuzErw2Da8O6XMQ1nPh6HpFlt4LrCQHojIVNUdEpawEthRevT1BNNSiZ4R3IMeNWb6q8+E4xrVwMEmRmZ+oXPM9zZEUlQGSJcZmsnBytwRPlc2r4ptQ42ik12Nn/FVYhLPZMrLiGbYR8Q/cSAAC
     - SCTX:
-        - Begin A1V6_RoadBagAlchCont_2_sc
+        - Begin A1V7_RoadBagAlchCont_2_sc
         - ""
         - short doOnce
         - short doRemove
@@ -295,10 +295,10 @@
         - ""
         - if ( doDisable > 20 )
         - "\tif ( GetDisabled == 1 )"
-        - "\t\tset temp to A1V6_RoadBagAlchExt / 2"
+        - "\t\tset temp to A1V7_RoadBagAlchExt / 2"
         - "\t\tset temp to temp - 2 * ( temp / 2 )"
-        - "\t\tset temp to A1V6_RoadBagAlchExt - 2 * temp"
-        - "\t\tset A1V6_RoadBagAlchExt to temp"
+        - "\t\tset temp to A1V7_RoadBagAlchExt - 2 * temp"
+        - "\t\tset A1V7_RoadBagAlchExt to temp"
         - "\t\tSetDelete 1"
         - "\t\treturn"
         - "\tendif"
@@ -310,7 +310,7 @@
         - endif
         - ""
         - if ( doDisable > 0 )
-        - "\tAddItem \"A1V6_RoadBagFakeIngred\", 2"
+        - "\tAddItem \"A1V7_RoadBagFakeIngred\", 2"
         - "\tset doDisable to ( doDisable + 1 )"
         - "\treturn"
         - endif
@@ -323,7 +323,7 @@
         - if ( waitActivate == 2 )
         - "\tif ( MenuMode == 0 )"
         - "\t\tset waitActivate to 0"
-        - "\t\tif ( GetItemCount A1V6_RoadBagAlchItem_2 == 0 )"
+        - "\t\tif ( GetItemCount A1V7_RoadBagAlchItem_2 == 0 )"
         - "\t\t\tset doDisable to 1"
         - "\t\tendif"
         - "\tendif"
@@ -341,16 +341,16 @@
         - ""
         - ifx ( doOnce )
         - else
-        - "\tset temp to A1V6_RoadBagAlchExt / 2"
+        - "\tset temp to A1V7_RoadBagAlchExt / 2"
         - "\tset temp to temp - 2 * ( temp / 2 )"
-        - "\tset temp to A1V6_RoadBagAlchExt - 2 * temp + 2"
-        - "\tset A1V6_RoadBagAlchExt to temp"
+        - "\tset temp to A1V7_RoadBagAlchExt - 2 * temp + 2"
+        - "\tset A1V7_RoadBagAlchExt to temp"
         - "\tDisablePlayerControls"
         - "\tset doOnce to 1"
-        - "\tset cx to A1V6_RoadBagX"
-        - "\tset cy to A1V6_RoadBagY"
-        - "\tset cz to A1V6_RoadBagZ"
-        - "\tset ca to A1V6_RoadBagAngle"
+        - "\tset cx to A1V7_RoadBagX"
+        - "\tset cy to A1V7_RoadBagY"
+        - "\tset cz to A1V7_RoadBagZ"
+        - "\tset ca to A1V7_RoadBagAngle"
         - "\tSetPos X cx"
         - "\tSetPos Y cy"
         - "\tSetPos Z cz"
@@ -360,7 +360,7 @@
         - "\t\txRemoveItem invItem invCount"
         - "\t\tsetx invItem,invCount,invRef to xInventory"
         - "\tendwhile"
-        - "\tAddItem \"A1V6_RoadBagAlchItem_2\", 1"
+        - "\tAddItem \"A1V7_RoadBagAlchItem_2\", 1"
         - "\tset invRef to 0"
         - "\tset doRemove to 1"
         - "\treturn"
@@ -442,7 +442,7 @@
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagAlchCont_3_sc
+        name: A1V7_RoadBagAlchCont_3_sc
         vars:
           shorts: 7
           longs: 8
@@ -470,9 +470,9 @@
         - cz
         - ca
         - invWeight
-    - SCDT: eJyNVM1u00AQnvF6nThQcIhoKySkEfKBtkKJU6hcyS0qEkS9ckBpL1VEkyBhWtT0ADcOvAAvwAm4IB6AJ+AF4MDvAakcqOAFCmpn1z+xk7SpctjJzLffznwzHgsLNvUE0DLVaxZKm5rfHFpaIk9iz4RL1KisePcWNu5utzZvtbor4f0Ht5/s0nWq6jgdG1fBWbomcSRAqji8LSO4aPPPQqOfxlfH1S5RjF21j85kluRO62F7dau70940gNMQEAE9mnMTrqSKL44GGOSpgKq1ACpQt9BkFGlUjTEFxrAAeIWa/x3anhxMenW3/WhjPkHHjDa6WFREMavHBCmrF7PWFUq9ngkpR8UHqPg9gOC8b8JZ/wWW/ClxKtndcbKzNXei9D+ULqiqkNhBKFNjIottsq4dY8i9ptxiyL2u3CZcpEY59+BWN2zDGafJD/CxxoR8rDMBTPDBWcwGkQghGGxhahkDvkSi30bfk9yEYCYYx1PyXxoDM9TvKXL2oWqoaqyhJHFRT0fPgmwf1Wkp2FQ8n2aJGK8hydUaOOfgw97+v0P6ebD/99fenwOA7zEeixq/TDd0E5mxgBibNTUPIjcPb2TFfy1K/jthPQ5bT9s7cDmIMFFxIifNK5mUC5nYdCBujpbGTC2Z83W0ZaW+QmpB7r2u5IIuUCgjAepefX5hcdE/XWmSk31mlvznpuFVIXkOgmomHa1XaOnvn5lkn1QmpOYQ6Scm/WwKr9oaQxpo0mPS68pRY5ZVdSYYhbga9CcpNLMTlWm+pzGSwiJAvKzYjBdL5pbgqbJ5JbwXahyN5HoUjP7lFt50unSsaIZtRDwChpL5Rw==
+    - SCDT: eJyNVM1u00AQnvF6nThQcIhoKySkEfKBtkKJU35cyS0qEkS9ckBpL1VEkyBhWtT0ADcOvAAvwAm4IB6AJ+AF4MDvAakcqOAFCmpn1z+xk7SpctjJzLffznwzHgsLNvUE0BLVaxZKm5rfHFpcJE9iz4QL1Kgse/durN/dam3canWXw/sPbj/ZoatU1XE6Mq6Cs3RF4kiAVHF4W0Zw0eafhUY/ja+Oq12iGLtqH53JLMmd1sP2ymZ3u71hAKchIAJ6NOcmXEkVXxwNMMhTAVVrAVSgbqHJKNKoGmMKjGEB8BI1/zu0NTmY9MpO+9H6fIKOGW10saiIYlaPCVJWL2atK5R6PRNSjooPUPF7AMFZ34TT/gss+VPiRLK742Rna+5Y6X8oXVBVIbGDUKbGRBbbZF07xpB7VbnFkHtNuU04T41y7sHNbtiGU06TH+BjlQn5WGMCmOCDs5gNIhFCMNjC1DIGfIlEv42+J7kJwUwwjqfkvzQGZqjfU+TsQ9VQ1VhDSeKino6eBdk+qtNSsKl4Ps0SMV5Dkqs1cM7Ah929fwf0c3/v76/dP/sA32M8FjV+ia7pJjJjATE2a2oeRG4e3siK/1qU/HfCehy2nra34WIQYaLiRE6aVzIpFzKx6UDcHC2NmVoy5+toy0p9hdSC3HtdyQWdo1BGAtS9+vz1hQX/ZKVJTvaZWfKfm4ZXheQ5CKqZdLReoaW/f2aSfVKZkJpDpJ+Y9LMpvGprDGmgSY9IrytHjVlW1ZlgFOJy0J+k0MxOVKb5nsZICosA8bJiM14smVuCp8rmlfBeqHE0kutRMPqXW3jT6dKxohm2EfEQv1z5VA==
     - SCTX:
-        - Begin A1V6_RoadBagAlchCont_3_sc
+        - Begin A1V7_RoadBagAlchCont_3_sc
         - ""
         - short doOnce
         - short doRemove
@@ -497,9 +497,9 @@
         - ""
         - if ( doDisable > 20 )
         - "\tif ( GetDisabled == 1 )"
-        - "\t\tset temp to A1V6_RoadBagAlchExt / 4"
-        - "\t\tset temp to A1V6_RoadBagAlchExt - 4 * temp"
-        - "\t\tset A1V6_RoadBagAlchExt to temp"
+        - "\t\tset temp to A1V7_RoadBagAlchExt / 4"
+        - "\t\tset temp to A1V7_RoadBagAlchExt - 4 * temp"
+        - "\t\tset A1V7_RoadBagAlchExt to temp"
         - "\t\tSetDelete 1"
         - "\t\treturn"
         - "\tendif"
@@ -511,7 +511,7 @@
         - endif
         - ""
         - if ( doDisable > 0 )
-        - "\tAddItem \"A1V6_RoadBagFakeIngred\", 2"
+        - "\tAddItem \"A1V7_RoadBagFakeIngred\", 2"
         - "\tset doDisable to ( doDisable + 1 )"
         - "\treturn"
         - endif
@@ -524,7 +524,7 @@
         - if ( waitActivate == 2 )
         - "\tif ( MenuMode == 0 )"
         - "\t\tset waitActivate to 0"
-        - "\t\tif ( GetItemCount A1V6_RoadBagAlchItem_3 == 0 )"
+        - "\t\tif ( GetItemCount A1V7_RoadBagAlchItem_3 == 0 )"
         - "\t\t\tset doDisable to 1"
         - "\t\tendif"
         - "\tendif"
@@ -542,15 +542,15 @@
         - ""
         - ifx ( doOnce )
         - else
-        - "\tset temp to A1V6_RoadBagAlchExt / 4"
-        - "\tset temp to A1V6_RoadBagAlchExt - 4 * temp + 4"
-        - "\tset A1V6_RoadBagAlchExt to temp"
+        - "\tset temp to A1V7_RoadBagAlchExt / 4"
+        - "\tset temp to A1V7_RoadBagAlchExt - 4 * temp + 4"
+        - "\tset A1V7_RoadBagAlchExt to temp"
         - "\tDisablePlayerControls"
         - "\tset doOnce to 1"
-        - "\tset cx to A1V6_RoadBagX"
-        - "\tset cy to A1V6_RoadBagY"
-        - "\tset cz to A1V6_RoadBagZ"
-        - "\tset ca to A1V6_RoadBagAngle"
+        - "\tset cx to A1V7_RoadBagX"
+        - "\tset cy to A1V7_RoadBagY"
+        - "\tset cz to A1V7_RoadBagZ"
+        - "\tset ca to A1V7_RoadBagAngle"
         - "\tSetPos X cx"
         - "\tSetPos Y cy"
         - "\tSetPos Z cz"
@@ -560,7 +560,7 @@
         - "\t\txRemoveItem invItem invCount"
         - "\t\tsetx invItem,invCount,invRef to xInventory"
         - "\tendwhile"
-        - "\tAddItem \"A1V6_RoadBagAlchItem_3\", 1"
+        - "\tAddItem \"A1V7_RoadBagAlchItem_3\", 1"
         - "\tset invRef to 0"
         - "\tset doRemove to 1"
         - "\treturn"
@@ -642,67 +642,67 @@
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagAlchDel_1_sc
+        name: A1V7_RoadBagAlchDel_1_sc
         vars:
           shorts: 0
           longs: 0
           floats: 0
         data_size: 114
         var_table_size: 0
-    - SCDT: eJx1yqEKgDAQAFCvDISFJTEYDv/gim1hYrEaxHaMOTRMJmrxQ/0cwWQRzO9JEGuwp98EQInDrTBmhvqKu2jH2k4muLk9/MKEWiPJt1/qp0GSQqHyLzY+MPHuAB5U9iET
+    - SCDT: eJx1yqEKgDAQAFCvDISFJTEYDv/gkmlhYrEaxHaMOTRMJmrxQ/0cwWQRzO9JEGuwp98EQInDrTBmhvqKu2jH2k4muLk9/MKEWiPJt1/qp0GSQqHyLzY+MPHuAB5VnCEW
     - SCTX:
-        - Begin A1V6_RoadBagAlchDel_1_sc
+        - Begin A1V7_RoadBagAlchDel_1_sc
         - ""
-        - if ( player->GetItemCount A1V6_RoadBagAlchItem_1 == 1 )
-        - "\tplayer->RemoveItem A1V6_RoadBagAlchItem_1, 1"
+        - if ( player->GetItemCount A1V7_RoadBagAlchItem_1 == 1 )
+        - "\tplayer->RemoveItem A1V7_RoadBagAlchItem_1, 1"
         - endif
         - ""
-        - StopScript A1V6_RoadBagAlchDel_1_sc
+        - StopScript A1V7_RoadBagAlchDel_1_sc
         - ""
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagAlchDel_2_sc
+        name: A1V7_RoadBagAlchDel_2_sc
         vars:
           shorts: 0
           longs: 0
           floats: 0
         data_size: 114
         var_table_size: 0
-    - SCDT: eJx1yiEKgDAUAFB/GQgLS2IwfLzBFmwLE4vVILbPmEPDZKIWD+pxBJNFML/Hga3Bnn5jACUOt8CYGdlX1EU71nYywc3t4RdSqDVK/vZL/DRIUihE/sXGB1K0O4AHVWchFg==
+    - SCDT: eJx1yiEKgDAUAFB/GQgLS2IwfLzBVkwLE4vVILbPmEPDZKIWD+pxBJNFML/Hga3Bnn5jACUOt8CYGdlX1EU71nYywc3t4RdSqDVK/vZL/DRIUihE/sXGB1K0O4AHVg0hGQ==
     - SCTX:
-        - Begin A1V6_RoadBagAlchDel_2_sc
+        - Begin A1V7_RoadBagAlchDel_2_sc
         - ""
-        - if ( player->GetItemCount A1V6_RoadBagAlchItem_2 == 1 )
-        - "\tplayer->RemoveItem A1V6_RoadBagAlchItem_2, 1"
+        - if ( player->GetItemCount A1V7_RoadBagAlchItem_2 == 1 )
+        - "\tplayer->RemoveItem A1V7_RoadBagAlchItem_2, 1"
         - endif
         - ""
-        - StopScript A1V6_RoadBagAlchDel_2_sc
+        - StopScript A1V7_RoadBagAlchDel_2_sc
         - ""
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagAlchDel_3_sc
+        name: A1V7_RoadBagAlchDel_3_sc
         vars:
           shorts: 0
           longs: 0
           floats: 0
         data_size: 114
         var_table_size: 0
-    - SCDT: eJx1yiEKgDAUAFB/GQgLS2IwfLzBGNgWJharQWyfMYeGyUQtHtTjCCaLYH6PA1uDPf3GAEocboExM7KvqIt2rO1kgpvbwy+kUGuU/O2X+GmQpFCI/IuND6RodwAPVdghGQ==
+    - SCDT: eJx1yiEKgDAUAFB/GQgLS2IwfLzBWDAtTCxWg9g+Yw4Nk4laPKjHEUwWwfweB7YGe/qNAZQ43AJjZmRfURftWNvJBDe3h19IodYo+dsv8dMgSaEQ+RcbH0jR7gAeVn4hHA==
     - SCTX:
-        - Begin A1V6_RoadBagAlchDel_3_sc
+        - Begin A1V7_RoadBagAlchDel_3_sc
         - ""
-        - if ( player->GetItemCount A1V6_RoadBagAlchItem_3 == 1 )
-        - "\tplayer->RemoveItem A1V6_RoadBagAlchItem_3, 1"
+        - if ( player->GetItemCount A1V7_RoadBagAlchItem_3 == 1 )
+        - "\tplayer->RemoveItem A1V7_RoadBagAlchItem_3, 1"
         - endif
         - ""
-        - StopScript A1V6_RoadBagAlchDel_3_sc
+        - StopScript A1V7_RoadBagAlchDel_3_sc
         - ""
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagAlchItem_1_sc
+        name: A1V7_RoadBagAlchItem_1_sc
         vars:
           shorts: 6
           longs: 0
@@ -716,9 +716,9 @@
         - OnPCDrop
         - temp1
         - temp2
-    - SCDT: eJyNUk0vA1EUvXfaeTqCPJGIkMiNWEnQIbEREV/B1kKGzaShYVEq2gW/yb8QW7FhxWI0HR3ajnYaiUSl3pvWqEqjq8k9575z59x7GCoaGQ+cFhZIv+hHGEcNGUY0SiH4oIopFVQyRjkw2SwqiUcFjqBQdIQPLenbc+ZWMra/HDtYSuwdrsYTpm6m9iKIQb/+3a9hfUSXoEIBFZJUD7KTROw8fsoQx8j45JQcbNXeTMePzBn/WdB+x9u0IWjYsehsZ6KzUlQaGBAGwoGBsDSg4npv8yODkdHNDWjFd3x85w++6+O7Eu//Nfz4IBEXXI/gnv7+10ryOG3qCAAbywBNhrv/32Lz0iP/7yfqx2GY1gdae9bO0jRD04JnEPGvXq9U6GtUgqAJmmRNqfiZftv+hvUYsQ4fNO6j4T3/jpkSXEmRVxIxHmljQE4APg+XH5S1n8texvHsfLXoUtGmN9cTFb26+WrOzVhetVyjcqWYrby4Bcrma5Sz887zIiihKwvC17YHjcjrXYjAJ+DGpYJTqlDJyj2W3LJV/KCM9e40RMRXKlRrBWcKfAuIXz6/Djc=
+    - SCDT: eJyNUk0vA1EUvXfaeTqCPJGIkMiNWEnQYWEhIr6CrYUMm0lDw6JUtAt+k38htmLDisVoOjq0He00EolKvTetUZVGV5N7zn3nzrn3MFQ0Mh44LSyQftGPMI4aMoxolELwQRVTKqhkjHJgsllUEo8KHEGh6AgfWtK358ytZGx/OXawlNg7XI0nTN1M7UUQg379u1/D+oguQYUCKiSpHmQnidh5/JQhjpHxySk52Kq9mY4fmTP+s6D9jrdpQ9CwY9HZzkRnpag0MCAMhAMDYWlAxfXe5kcGI6ObG9CK7/j4zh9818d3Jd7/a/jxQSIuuB7BPf39r5XkcdrUEQA2lgGaDHf/v8XmpUf+30/Uj8MwrQ+09qydpWmGpgXPIOJfvV6p0NeoBEETNMmaUvEz/bb9DesxYh0+aNxHw3v+HTMluJIiryRiPNLGgJwAfB4uPyhrP5e9jOPZ+WrRpaJNb64nKnp189Wcm7G8arlG5UoxW3lxC5TN1yhn553nRVBCVxaEr20PGpHXuxCBT8CNSwWnVKGSlXssuWWr+EEZ691piIivVKjWCs4U+BYQvwBepg5H
     - SCTX:
-        - Begin A1V6_RoadBagAlchItem_1_sc
+        - Begin A1V7_RoadBagAlchItem_1_sc
         - ""
         - short wait
         - short OnPCEquip
@@ -736,7 +736,7 @@
         - "\tset temp1 to GetButtonPressed"
         - "\tif ( temp1 == 0 )"
         - "\t\tset wait to 0"
-        - "\t\tStartScript A1V6_RoadBagAlchDel_1_sc"
+        - "\t\tStartScript A1V7_RoadBagAlchDel_1_sc"
         - "\telseif ( temp1 == 1 )"
         - "\t\tset wait to 0"
         - "\tendif"
@@ -745,30 +745,30 @@
         - ""
         - if ( OnPCAdd == 1 )
         - "\tset OnPCAdd to 0"
-        - "\tif ( player->GetItemCount A1V6_RoadBagAlchItem_2 == 1 )"
-        - "\t\tplayer->RemoveItem A1V6_RoadBagAlchItem_2, 1"
+        - "\tif ( player->GetItemCount A1V7_RoadBagAlchItem_2 == 1 )"
+        - "\t\tplayer->RemoveItem A1V7_RoadBagAlchItem_2, 1"
         - "\tendif"
-        - "\tif ( player->GetItemCount A1V6_RoadBagAlchItem_3 == 1 )"
-        - "\t\tplayer->RemoveItem A1V6_RoadBagAlchItem_3, 1"
+        - "\tif ( player->GetItemCount A1V7_RoadBagAlchItem_3 == 1 )"
+        - "\t\tplayer->RemoveItem A1V7_RoadBagAlchItem_3, 1"
         - "\tendif"
         - endif
         - ""
         - if ( OnPCDrop == 1 )
         - "\tset OnPCDrop to 0"
-        - "\tset A1V6_RoadBagX to ( GetPos X )"
-        - "\tset A1V6_RoadBagY to ( GetPos Y )"
-        - "\tset A1V6_RoadBagZ to ( GetPos Z )"
-        - "\tset A1V6_RoadBagAngle to ( GetAngle Z )"
-        - "\tPlaceAtPC A1V6_RoadBagAlchCont_1 1, 50, 0"
-        - "\tif ( player->GetItemCount A1V6_RoadBagAlchItem_2 == 0 )"
-        - "\t\tif ( player->GetItemCount A1V6_RoadBagAlchItem_3 == 0 )"
-        - "\t\t\tset temp1 to ( A1V6_RoadBagAlchExt / 2 )\t\t\t\t; temp1 = flags div 2"
+        - "\tset A1V7_RoadBagX to ( GetPos X )"
+        - "\tset A1V7_RoadBagY to ( GetPos Y )"
+        - "\tset A1V7_RoadBagZ to ( GetPos Z )"
+        - "\tset A1V7_RoadBagAngle to ( GetAngle Z )"
+        - "\tPlaceAtPC A1V7_RoadBagAlchCont_1 1, 50, 0"
+        - "\tif ( player->GetItemCount A1V7_RoadBagAlchItem_2 == 0 )"
+        - "\t\tif ( player->GetItemCount A1V7_RoadBagAlchItem_3 == 0 )"
+        - "\t\t\tset temp1 to ( A1V7_RoadBagAlchExt / 2 )\t\t\t\t; temp1 = flags div 2"
         - "\t\t\tset temp2 to ( temp1 / 2 )\t\t\t\t\t\t\t\t\t; temp2 = (flags div 2) div 2 ~ flags & 0b100"
         - "\t\t\tset temp1 to ( temp1 - 2 * temp2 )\t\t\t\t\t\t\t; temp1 = flags div 2 - 2 ((flags div 2) div 2) = (flags div 2) mod 2 ~ flags & 0b010"
         - "\t\t\tif ( temp1 == 0 )"
-        - "\t\t\t\tplayer->AddItem A1V6_RoadBagAlchItem_2, 1"
+        - "\t\t\t\tplayer->AddItem A1V7_RoadBagAlchItem_2, 1"
         - "\t\t\telseif ( temp2 == 0 )"
-        - "\t\t\t\tplayer->AddItem A1V6_RoadBagAlchItem_3, 1"
+        - "\t\t\t\tplayer->AddItem A1V7_RoadBagAlchItem_3, 1"
         - "\t\t\tendif"
         - "\t\tendif"
         - "\tendif"
@@ -777,7 +777,7 @@
         - ""
         - if ( OnPCEquip == 1 )
         - "\tset OnPCEquip to 0"
-        - "\tif ( A1V6_RoadBagAlchExt == 0 )"
+        - "\tif ( A1V7_RoadBagAlchExt == 0 )"
         - "\t\tMessageBox \"Вы действительно не хотите пользоваться сундуком для зелий?\" \"Да\" \"Нет\""
         - "\t\tset wait to 1"
         - "\telse"
@@ -788,7 +788,7 @@
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagAlchItem_2_sc
+        name: A1V7_RoadBagAlchItem_2_sc
         vars:
           shorts: 6
           longs: 0
@@ -802,9 +802,9 @@
         - OnPCDrop
         - temp1
         - temp2
-    - SCDT: eJyNU01LAlEUvXfUlxMFL4KIgrhEq6ByDNpERF9U2xYxtRmkpBaWkS7qN/Uvom20qVUtJnFySp10JAgy7L2XDWaIrYZ3zr3nfp1hqOlkPnBaWCDjYgBhAnVkGNUpg6DACGYiECFzjAOTweIl8ZjAETSKjfLhJWN7ztpKJ/aXEwdLqb3D1WTKiluZvShiEG/8xOv4XaJHUKGACkmqD9lJKnGePGWI42R+ckoPtWtvZpNHlqHSgvA73iEMQcd/i87+T3RWisoBBsUA4WCAsBwgguv9rUkmI7OXm9CO7yh85w++q/BdiQ/8Kn58kEoKrk9wT3/7WkkfZ604AsDGMkDLwL3dt9i69Gj3/cSUHUZofbA9Zu0sS3GaETwD6shLN0zSlFKJqpfIYconDH73c9v5qq3G6p7QvJiO9/zHeFpwN03eTRh7tEPLsgLwebj8oLzzXPVzru8U62WPyg69eb540atXrBe8nO3Xqw2q1sr52otXonyxQQWn6D4vgha6siF87fjQ/AmMHkTgk3DjUcmt1KhiFx4rXtUuf1DOfnebIuIrFeqNkjsNagTEL8RxFL4=
+    - SCDT: eJyNU01LAlEUvXfUlxMFL4KIgrhEq6BybNEiIvqi2raIqc0gJbWwjHRRv6l/EW2jTa1qMYmTU+qkI0GQYe+9bDBDbDW8c+499+sMQ00n84HTwgIZFwMIE6gjw6hOGQQFRjATgQiZYxyYDBYviccEjqBRbJQPLxnbc9ZWOrG/nDhYSu0driZTVtzK7EURg3jjJ17H7xI9ggoFVEhSfchOUonz5ClDHCfzk1N6qF17M5s8sgyVFoTf8Q5hCDr+W3T2f6KzUlQOMCgGCAcDhOUAEVzvb00yGZm93IR2fEfhO3/wXYXvSnzgV/Hjg1RScH2Ce/rb10r6OGvFEQA2lgFaBu7tvsXWpUe77yem7DBC64PtMWtnWYrTjOAZUEdeumGSppRKVL1EDlM+YfC7n9vOV201VveE5sV0vOc/xtOCu2nybsLYox1alhWAz8PlB+Wd56qfc32nWC97VHbozfPFi169Yr3g5Wy/Xm1QtVbO1168EuWLDSo4Rfd5EbTQlQ3ha8eH5k9g9CACn4Qbj0pupUYVu/BY8ap2+YNy9rvbFBFfqVBvlNxpUCMgfgHmlRTP
     - SCTX:
-        - Begin A1V6_RoadBagAlchItem_2_sc
+        - Begin A1V7_RoadBagAlchItem_2_sc
         - ""
         - short wait
         - short OnPCEquip
@@ -822,7 +822,7 @@
         - "\tset temp1 to GetButtonPressed"
         - "\tif ( temp1 == 0 )"
         - "\t\tset wait to 0"
-        - "\t\tStartScript A1V6_RoadBagAlchDel_2_sc"
+        - "\t\tStartScript A1V7_RoadBagAlchDel_2_sc"
         - "\telseif ( temp1 == 1 )"
         - "\t\tset wait to 0"
         - "\tendif"
@@ -831,30 +831,30 @@
         - ""
         - if ( OnPCAdd == 1 )
         - "\tset OnPCAdd to 0"
-        - "\tif ( player->GetItemCount A1V6_RoadBagAlchItem_1 == 1 )"
-        - "\t\tplayer->RemoveItem A1V6_RoadBagAlchItem_1, 1"
+        - "\tif ( player->GetItemCount A1V7_RoadBagAlchItem_1 == 1 )"
+        - "\t\tplayer->RemoveItem A1V7_RoadBagAlchItem_1, 1"
         - "\tendif"
-        - "\tif ( player->GetItemCount A1V6_RoadBagAlchItem_3 == 1 )"
-        - "\t\tplayer->RemoveItem A1V6_RoadBagAlchItem_3, 1"
+        - "\tif ( player->GetItemCount A1V7_RoadBagAlchItem_3 == 1 )"
+        - "\t\tplayer->RemoveItem A1V7_RoadBagAlchItem_3, 1"
         - "\tendif"
         - endif
         - ""
         - if ( OnPCDrop == 1 )
         - "\tset OnPCDrop to 0"
-        - "\tset A1V6_RoadBagX to ( GetPos X )"
-        - "\tset A1V6_RoadBagY to ( GetPos Y )"
-        - "\tset A1V6_RoadBagZ to ( GetPos Z )"
-        - "\tset A1V6_RoadBagAngle to ( GetAngle Z )"
-        - "\tPlaceAtPC A1V6_RoadBagAlchCont_2 1, 50, 0"
-        - "\tif ( player->GetItemCount A1V6_RoadBagAlchItem_1 == 0 )"
-        - "\t\tif ( player->GetItemCount A1V6_RoadBagAlchItem_3 == 0 )"
-        - "\t\t\tset temp1 to ( A1V6_RoadBagAlchExt / 2 )\t\t\t\t; temp1 = flags div 2"
-        - "\t\t\tset temp2 to ( A1V6_RoadBagAlchExt - 2 * temp1 )\t; temp2 = flags - 2 (flags div 2) = flags mod 2 ~ flags & 0b001"
+        - "\tset A1V7_RoadBagX to ( GetPos X )"
+        - "\tset A1V7_RoadBagY to ( GetPos Y )"
+        - "\tset A1V7_RoadBagZ to ( GetPos Z )"
+        - "\tset A1V7_RoadBagAngle to ( GetAngle Z )"
+        - "\tPlaceAtPC A1V7_RoadBagAlchCont_2 1, 50, 0"
+        - "\tif ( player->GetItemCount A1V7_RoadBagAlchItem_1 == 0 )"
+        - "\t\tif ( player->GetItemCount A1V7_RoadBagAlchItem_3 == 0 )"
+        - "\t\t\tset temp1 to ( A1V7_RoadBagAlchExt / 2 )\t\t\t\t; temp1 = flags div 2"
+        - "\t\t\tset temp2 to ( A1V7_RoadBagAlchExt - 2 * temp1 )\t; temp2 = flags - 2 (flags div 2) = flags mod 2 ~ flags & 0b001"
         - "\t\t\tset temp1 to ( temp1 / 2 )\t\t\t\t\t\t\t\t\t; temp1 = (flags div 2) div 2 ~ flags & 0b100"
         - "\t\t\tif ( temp2 == 0 )"
-        - "\t\t\t\tplayer->AddItem A1V6_RoadBagAlchItem_1, 1"
+        - "\t\t\t\tplayer->AddItem A1V7_RoadBagAlchItem_1, 1"
         - "\t\t\telseif ( temp1 == 0 )"
-        - "\t\t\t\tplayer->AddItem A1V6_RoadBagAlchItem_3, 1"
+        - "\t\t\t\tplayer->AddItem A1V7_RoadBagAlchItem_3, 1"
         - "\t\t\tendif"
         - "\t\tendif"
         - "\tendif"
@@ -863,7 +863,7 @@
         - ""
         - if ( OnPCEquip == 1 )
         - "\tset OnPCEquip to 0"
-        - "\tif ( A1V6_RoadBagAlchExt == 0 )"
+        - "\tif ( A1V7_RoadBagAlchExt == 0 )"
         - "\t\tMessageBox \"Вы действительно не хотите пользоваться сундуком для зелий?\" \"Да\" \"Нет\""
         - "\t\tset wait to 1"
         - "\telse"
@@ -874,7 +874,7 @@
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagAlchItem_3_sc
+        name: A1V7_RoadBagAlchItem_3_sc
         vars:
           shorts: 6
           longs: 0
@@ -888,9 +888,9 @@
         - OnPCDrop
         - temp1
         - temp2
-    - SCDT: eJyNU00vM1EUPmfaXp33Ra4QERI5ESsJOpXYiIivYGshw2bS0LAoFe2C3+RfiK3YsGIxmo4ObUc7jUSiUveOdlSl0dXMeZ7nPvd8XYaKSvo9p/l50s77EMZRRYZhlVIIHhjCVAhCpI9yYFIsIolHBI6gUGSEDy1qW7PGZjK2txTbX0zsHqzEE8aMkdoNI/p6raFX8euKLkEFfCogqW5kx4nYWfyEIY6R/sEpOdjqvZGOHxqad8yX3/I2MgQVOzaNdmYalaaygAFRQNAvICgLCOFaT/MhnZH+j+vQim97+PYvfMfDdyTe9+Pyo/1EXHDdgnv8nddy8ihtzCAArC8BNBX8/+8uNjdd/bs/EW8dhmmtv1WzepqmKE0LnkHYm3oj6q1H4pcmaNJzoLYOkhQq1rQ73znetJ/017KxDg/Up6jiHW8so+LPUpGzFMs+0iZJeQPwObh4p6z1VHYztmvlq0WHiha9Oq6I6MXJV3NOxnSr5RqVK8Vs5dkpUDZfo5yVt58WQAlcmhC8slyoPwytCxH4BFw7VLBLFSqZuYeSUzaL75Qx3+y6ifhKh2qtYE+BVwLiJ1b1F2Y=
+    - SCDT: eJyNU00vM1EUPmfaXp33Ra4QERI5ESsJOrWwEBFfwdZChs2koWFRKtoFv8m/EFuxYcViNB0d2o52GolEpe4d7ahKo6uZ8zzPfe75ugwVlfR7TvPzpJ33IYyjigzDKqUQPDCEqRCESB/lwKRYRBKPCBxBocgIH1rUtmaNzWRsbym2v5jYPViJJ4wZI7UbRvT1WkOv4tcVXYIK+FRAUt3IjhOxs/gJQxwj/YNTcrDVeyMdPzQ075gvv+VtZAgqdmwa7cw0Kk1lAQOigKBfQFAWEMK1nuZDOiP9H9ehFd/28O1f+I6H70i878flR/uJuOC6Bff4O6/l5FHamEEAWF8CaCr4/99dbG66+nd/It46DNNaf6tm9TRNUZoWPIOwN/VG1FuPxC9N0KTnQG0dJClUrGl3vnO8aT/pr2VjHR6oT1HFO95YRsWfpSJnKZZ9pE2S8gbgc3DxTlnrqexmbNfKV4sOFS16dVwR0YuTr+acjOlWyzUqV4rZyrNToGy+Rjkrbz8tgBK4NCF4ZblQfxhaFyLwCbh2qGCXKlQycw8lp2wW3yljvtl1E/GVDtVawZ4CrwTET3oPF3c=
     - SCTX:
-        - Begin A1V6_RoadBagAlchItem_3_sc
+        - Begin A1V7_RoadBagAlchItem_3_sc
         - ""
         - short wait
         - short OnPCEquip
@@ -908,7 +908,7 @@
         - "\tset temp1 to GetButtonPressed"
         - "\tif ( temp1 == 0 )"
         - "\t\tset wait to 0"
-        - "\t\tStartScript A1V6_RoadBagAlchDel_3_sc"
+        - "\t\tStartScript A1V7_RoadBagAlchDel_3_sc"
         - "\telseif ( temp1 == 1 )"
         - "\t\tset wait to 0"
         - "\tendif"
@@ -917,31 +917,31 @@
         - ""
         - if ( OnPCAdd == 1 )
         - "\tset OnPCAdd to 0"
-        - "\tif ( player->GetItemCount A1V6_RoadBagAlchItem_1 == 1 )"
-        - "\t\tplayer->RemoveItem A1V6_RoadBagAlchItem_1, 1"
+        - "\tif ( player->GetItemCount A1V7_RoadBagAlchItem_1 == 1 )"
+        - "\t\tplayer->RemoveItem A1V7_RoadBagAlchItem_1, 1"
         - "\tendif"
-        - "\tif ( player->GetItemCount A1V6_RoadBagAlchItem_2 == 1 )"
-        - "\t\tplayer->RemoveItem A1V6_RoadBagAlchItem_2, 1"
+        - "\tif ( player->GetItemCount A1V7_RoadBagAlchItem_2 == 1 )"
+        - "\t\tplayer->RemoveItem A1V7_RoadBagAlchItem_2, 1"
         - "\tendif"
         - endif
         - ""
         - if ( OnPCDrop == 1 )
         - "\tset OnPCDrop to 0"
-        - "\tset A1V6_RoadBagX to ( GetPos X )"
-        - "\tset A1V6_RoadBagY to ( GetPos Y )"
-        - "\tset A1V6_RoadBagZ to ( GetPos Z )"
-        - "\tset A1V6_RoadBagAngle to ( GetAngle Z )"
-        - "\tPlaceAtPC A1V6_RoadBagAlchCont_3 1, 50, 0"
-        - "\tif ( player->GetItemCount A1V6_RoadBagAlchItem_1 == 0 )"
-        - "\t\tif ( player->GetItemCount A1V6_RoadBagAlchItem_2 == 0 )"
-        - "\t\t\tset temp1 to ( A1V6_RoadBagAlchExt / 2 )\t\t\t\t; temp1 = flags div 2"
+        - "\tset A1V7_RoadBagX to ( GetPos X )"
+        - "\tset A1V7_RoadBagY to ( GetPos Y )"
+        - "\tset A1V7_RoadBagZ to ( GetPos Z )"
+        - "\tset A1V7_RoadBagAngle to ( GetAngle Z )"
+        - "\tPlaceAtPC A1V7_RoadBagAlchCont_3 1, 50, 0"
+        - "\tif ( player->GetItemCount A1V7_RoadBagAlchItem_1 == 0 )"
+        - "\t\tif ( player->GetItemCount A1V7_RoadBagAlchItem_2 == 0 )"
+        - "\t\t\tset temp1 to ( A1V7_RoadBagAlchExt / 2 )\t\t\t\t; temp1 = flags div 2"
         - "\t\t\tset temp2 to ( temp1 / 2 )\t\t\t\t\t\t\t\t\t; temp2 = (flags div 2) div 2"
         - "\t\t\tset temp2 to ( temp1 - 2 * temp2 )\t\t\t\t\t\t\t; temp2 = flags div 2 - 2 ((flags div 2) div 2) = (flags div 2) mod 2 ~ flags & 0b010"
-        - "\t\t\tset temp1 to ( A1V6_RoadBagAlchExt - 2 * temp1 )\t; temp1 = flags - 2 (flags div 2) = flags mod 2 ~ flags & 0b001"
+        - "\t\t\tset temp1 to ( A1V7_RoadBagAlchExt - 2 * temp1 )\t; temp1 = flags - 2 (flags div 2) = flags mod 2 ~ flags & 0b001"
         - "\t\t\tif ( temp1 == 0 )"
-        - "\t\t\t\tplayer->AddItem A1V6_RoadBagAlchItem_1, 1"
+        - "\t\t\t\tplayer->AddItem A1V7_RoadBagAlchItem_1, 1"
         - "\t\t\telseif ( temp2 == 0 )"
-        - "\t\t\t\tplayer->AddItem A1V6_RoadBagAlchItem_2, 1"
+        - "\t\t\t\tplayer->AddItem A1V7_RoadBagAlchItem_2, 1"
         - "\t\t\tendif"
         - "\t\tendif"
         - "\tendif"
@@ -950,7 +950,7 @@
         - ""
         - if ( OnPCEquip == 1 )
         - "\tset OnPCEquip to 0"
-        - "\tif ( A1V6_RoadBagAlchExt == 0 )"
+        - "\tif ( A1V7_RoadBagAlchExt == 0 )"
         - "\t\tMessageBox \"Вы действительно не хотите пользоваться сундуком для зелий?\" \"Да\" \"Нет\""
         - "\t\tset wait to 1"
         - "\telse"
@@ -961,7 +961,7 @@
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagIngrCont_1_sc
+        name: A1V7_RoadBagIngrCont_1_sc
         vars:
           shorts: 6
           longs: 7
@@ -986,9 +986,9 @@
         - cy
         - cz
         - invWeight
-    - SCDT: eJytlk2IHEUUx6v6a6Z7RjOTXjeLoJZhEJMI6RmjVKATXSEJAfUQQXYj2NTs1M6M2zO9dPcYJx5y8aB41IsevIkHURDEm6A30Yugp4160KyIsiIBEVkEX/XHTM/s5gMqzKFrXr361f+9V1U8AxsmiVRETpOWY2DNJCs/1MipU6Sp40hD95MWOWcvN59/3LsQsM5TrHt+2A3PvBKD/Tg5quN9J3UCS9GHdYwa2ISfgZXpJldrjcSkljOT831tsQg5yza4APGOgkCEilLHJjnWyFm5xq1a4qCQppgowSYGEhOtNBKSeDngY4APhIcPk5X/aiRYnBd9PuYDr5l7Z0QTN3BZgDJqEwATajOjtoSX2L0wJQw2RcimEULuAaqhKg2wRT9RkqQevnlSRaQ3TexPImosNOp4HaM6OXdX0XcFsrau7DGvCrO6x3wRVWorQIHPKqyCz0XwQkfdNAAfKTDCk5EyZ8vDe02ZWvKVyD3i3opjUarM1X9aDwySfVEMURRFBNzASWUjHRVrIL66cDuUnS3NIuCfuORLHVRbQF/t/PLX9rXftneu75Kfd//489ftnV2EfsxW4XKy6jR5LCkTcEsYZ0NHVFSdqeirVZueUS36jGps+mzMQ3Sfm/qkIaozCRpX86BRYW7JVZ/YP0HaZKTPENfnbMZkhGb2c6sQ0EHiZ5l6lDonnBPUOXlboXHNpkSD2miL/eQmeiG75D0XM78X9gee00TT7Y4X5CS3wE9vi3Nj/BeAvwL4tzS7gO/6LIqALYV+QLfpFqCvzyhP0XF/GERyyi8D/qQONdeLynk7GI5llV8F9NuA/lhfytCswwZsGPdHAy8IuXTWW4ZN/4YNdOPuXPuoPZbGvgnYpw2LvmjUMywf8JD5HdmE/A7g9wH8uXFoDrzZH/KYs1AKv1yCS1ay6ELpQIbfBKQvq/pdwL4A2EEpT0enzwbBUDod/wD4UwB/XVrocL457Hd7sReH7GXunw2CjlwRny3btF626IPlPBntkDNpzR8AtgfYy+X6Omj0Ni7BifZ4tysLRqZNvwTwd3vBLSnwKoDvNS36iJmXj0U9b8wGsoo/A3AE4DfMezJwtBb2295LPNyQfjvqlk2/Bfg1M3+W1kLW9gacxbLoIaCPWRZdthYydC8YwWnO2HLH7huAvw7w96bwETx5dwb+UMWm2wD/1zo4eavjO4O+AugnKxa9UKlPijmKY5/LZnsLwO8A+KNKrjlifhz21+Sff7e6X4dWbEWOuPt5POxOmzBfQ4VmrNAxNRMfnfglhLIeHYaZosIqFRoyEzrhVVV0ckq+PJ1M/830+UuTXlv0d0ljjfH/tlg9hA==
+    - SCDT: eJytlk2IHEUUx6v6a6Z7RjOTXjeLoJZhEJMI6RkjVqATXSEJAfUQQXYj2NTs1M6M2zO9dPcYJx5y8aB41IsevIkHURDEm6A30Yugp4160KyIsiIBEVkEX/XHTM/s5gMqzKFrXr361f+9V1U8AxsmiVRETpOWY2DNJCs/1MipU6Sp40hD95MWOWcvN59/3LsQsM5TrHt+2A3PvBKD/Tg5quN9J3UCS9GHdYwa2ISfgZXpJldrjcSkljOT831tsQg5yza4APGOgkCEilLHJjnWyFm5xq1a4qCQppgowSYGEhOtNBKSeDngY4APhIcPk5X/aiRYnBd9PuYDr5l7Z0QTN3BZgDJqEwATajOjtoSX2L0wJQw2RcimEULuAaqhKg2wRT9RkqQevnlSRaQ3TexPImosNOp4HaM6OXdX0XcFsrau7DGvCrO6x3wRVWorQIHPKqyCz0XwQkfdNAAfKTDCk5EyZ8vDe02ZWvKVyD3i3opjUarM1X9aDwySfVEMURRFBNzASWUjHRVrIL66cDuUnS3NIuCfuORLHVRbQF/t/PLX9rXftneu75Kfd//489ftnV2EfsxW4XKy6jR5LCkTcEsYZ0NHVFSdqeirVZueUS36jGps+mzMQ3Sfm/qkIaozCRpX86BRYW7JVZ/YP0HaZKTPENfnbMZkhGb2c6sQ0EHiZ5l6lDonnBPUOXlboXHNpkSD2miL/eQmeiG75D0XM78X9gee00TT7Y4X5CS3wE9vi3Nj/BeAvwL4tzS7gO/6LIqALYV+QLfpFqCvzyhP0XF/GERyyi8D/qQONdeLynk7GI5llV8F9NuA/lhfytCswwZsGPdHAy8IuXTWW4ZN/4YNdOPuXPuoPZbGvgnYpw2LvmjUMywf8JD5HdmE/A7g9wH8uXFoDrzZH/KYs1AKv1yCS1ay6ELpQIbfBKQvq/pdwL4A2EEpT0enzwbBUDod/wD4UwB/XVrocL457Hd7sReH7GXunw2CjlwRny3btF626IPlPBntkDNpzR8AtgfYy+X6Omj0Ni7BifZ4tysLRqZNvwTwd3vBLSnwKoDvNS36iJmXj0U9b8wGsoo/A3AE4DfMezJwtBb2295LPNyQfjvqlk2/Bfg1M3+W1kLW9gacxbLoIaCPWRZdthYydC8YwWnO2HLH7huAvw7w96bwETx5dwb+UMWm2wD/1zo4eavjO4O+AugnKxa9UKlPijmKY5/LZnsLwO8A+KNKrjlifhz21+Sff7e6X4dWbEWOuPt5POxOmzBfQ4VmrNAxNRMfnfglhLIeHYaZosIqFRoyEzrhVVV0ckq+PJ1M/830+UuTXlv0d0ljjfH/KDY9jg==
     - SCTX:
-        - Begin A1V6_RoadBagIngrCont_1_sc
+        - Begin A1V7_RoadBagIngrCont_1_sc
         - ""
         - short doOnce
         - short doRemove
@@ -1010,8 +1010,8 @@
         - ""
         - if ( doDisable > 20 )
         - "\tif ( GetDisabled == 1 )"
-        - "\t\tset temp to 2 * ( A1V6_RoadBagIngrExt / 2 )"
-        - "\t\tset A1V6_RoadBagIngrExt to temp"
+        - "\t\tset temp to 2 * ( A1V7_RoadBagIngrExt / 2 )"
+        - "\t\tset A1V7_RoadBagIngrExt to temp"
         - "\t\tSetDelete 1"
         - "\t\treturn"
         - "\tendif"
@@ -1023,7 +1023,7 @@
         - endif
         - ""
         - if ( doDisable > 0 )
-        - "\tAddItem \"A1V6_RoadBagFakeIngred\", 2"
+        - "\tAddItem \"A1V7_RoadBagFakeIngred\", 2"
         - "\tset doDisable to ( doDisable + 1 )"
         - "\treturn"
         - endif
@@ -1036,7 +1036,7 @@
         - if ( waitActivate == 2 )
         - "\tif ( MenuMode == 0 )"
         - "\t\tset waitActivate to 0"
-        - "\t\tif ( GetItemCount A1V6_RoadBagIngrItem_1 == 0 )"
+        - "\t\tif ( GetItemCount A1V7_RoadBagIngrItem_1 == 0 )"
         - "\t\t\tset doDisable to 1"
         - "\t\tendif"
         - "\tendif"
@@ -1054,13 +1054,13 @@
         - ""
         - ifx ( doOnce )
         - else
-        - "\tset temp to 2 * ( A1V6_RoadBagIngrExt / 2 ) + 1"
-        - "\tset A1V6_RoadBagIngrExt to temp"
+        - "\tset temp to 2 * ( A1V7_RoadBagIngrExt / 2 ) + 1"
+        - "\tset A1V7_RoadBagIngrExt to temp"
         - "\tDisablePlayerControls"
         - "\tset doOnce to 1"
-        - "\tset cx to A1V6_RoadBagX"
-        - "\tset cy to A1V6_RoadBagY"
-        - "\tset cz to A1V6_RoadBagZ"
+        - "\tset cx to A1V7_RoadBagX"
+        - "\tset cy to A1V7_RoadBagY"
+        - "\tset cz to A1V7_RoadBagZ"
         - "\tSetPos X cx"
         - "\tSetPos Y cy"
         - "\tSetPos Z cz"
@@ -1069,7 +1069,7 @@
         - "\t\txRemoveItem invItem invCount"
         - "\t\tsetx invItem,invCount,invRef to xInventory"
         - "\tendwhile"
-        - "\tAddItem \"A1V6_RoadBagIngrItem_1\", 1"
+        - "\tAddItem \"A1V7_RoadBagIngrItem_1\", 1"
         - "\tset invRef to 0"
         - "\tset doRemove to 1"
         - "\treturn"
@@ -1269,7 +1269,7 @@
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagIngrCont_2_sc
+        name: A1V7_RoadBagIngrCont_2_sc
         vars:
           shorts: 6
           longs: 7
@@ -1294,9 +1294,9 @@
         - cy
         - cz
         - invWeight
-    - SCDT: eJytl8+LG2UYx993JjOZmaRtsrNuV0V4LRHaLbKTuJVXSLco2qWXCgqS7cHhzWaSHXeSWWYmtvkDCp68qBcvehJEhR7swZv1IF6KIF7UKlhdFWRXsRdhW9rnncwkk+z2B7wlkHnzvN/38z7v8zzz8kTFmk5CGZFlUrNUrOqkca1ETp4kVQWHOfQYWTGfr772rP2Kz1ovsM6ZXid46UJEamQxnp8h8AW/ht+LZIE8HdvJXdfxyVi1r0Dh8+iTMkYVrMNHxdLYvZ9Kldgka4nJ+r40l4WcZhsOBzktCYEbMhoKq+R4JWWlp/uxFAskUuUTedhERXyipuIcqEisskCjggYCg4+Qxq0S8eemnT4TOV27lqoToo4rWOOghFoFwIhaTag1ruK7Z6a4waQImTREqH6I5lCRfowN+pQslI7K/dIBo+P3TMkvPF6Yn07BbYzKZOVAVtuAeLelPeZVbpb3mM+hQqkBFHiswip4nAMVWqgPj+4hCUZ4NJKmbGlg/pfGlnQlqh+r349j0E+lqcoZZxKDyx5PI0+nxA9cwXFNhArKZo8/FS47nFRlziCgjyXpUguVZtE327/9u/X7X1vb/+2S67t/7/yxtb2L0M/JKqzFq5bJiThRwM1jnAwtXgvyRC38UzTpF7JBr8jqpscGToCeqA81wyPKEwHaLqaHRpm5+bp8av8A5UYjZYLYnrKpoxGa2O9SEQ40Q7wkUs9Qa8laotZzD3S0H3ImfTcHucnNufE7bAfsvP1qxLz1wO3aVhWNt1vMuBO/P97wPbPujl9STHoD8HnFzOA7HgtDYAuh3wH0WcWgbWVuDzpye34o5vkO4D8D/JUJz52m3xuIev6yalJNNegRdT5Bsxbrsl7k9ru2HzjCUf8INnBhg4F6MPW93xwIY28D9kvAfqeWE6zTdQLmtUQD8nrepI/mDVrNH54Cb7o9J3JYIIS/DPgLgH8rfyjBbwLSE/X6oGbSbwH7az4NR8tlXb8nHI4NAB/VDLqszbYcZ7PndtYjOwrYm4532vdbYkn8CuAXAf6elgajGThM2OfHdZNeA+yOVm6Dj/bGeaho2+l0RMERgE/oBl3R94BrQuCrAH4bwB/qafpYuG4PWFfU4wXDpH8C+Jb+SAIO1wK3ab/hBBvCd8dFgL9oGLRhpNfSWsCadtdhkSj6OqA/APRlYzZBr/t9qOaELVZ2pwomvQnwmcII3ocr7+HA3wf4asGg3cLM6K6OHg76BqA/B/TXhfIomf0o8hzRaJ+FLuFA0aBPFlOfQ+ZFgbsmfv1fKu7XoWVbkWP1/RRH6+MmzMuhTDOW6ZiqsUYhXh6hpLuHYeJRZpUMDZkOPfRVmXdyUrp8ODn8NfEPYX7UpfP+Lm7JMb4DML1bKg==
+    - SCDT: eJytl8+LG2UYx993JjOZmaRtsrNuV0V4LRHaLbKTuMVXSLco2qWXCgqS7cHhzWaSHXeSWWYmtvkDCp68qBcvehJEhR7swZv1IF6KIF7UKlhdFWRXsRdhW9rnncwkk+z2B7wlkHnzvN/38z7v8zzz8kTFmk5CGZFlUrNUrOqkca1ETp4kVQWHOfQYWTGfr772rP2Kz1ovsM6ZXid46UJEamQxnp8h8AW/ht+LZIE8HdvJXdfxyVi1r0Dh8+iTMkYVrMNHxdLYvZ9Kldgka4nJ+r40l4WcZhsOBzktCYEbMhoKq+R4JWWlp/uxFAskUuUTedhERXyipuIcqEisskCjggYCg4+Qxq0S8eemnT4TOV27lqoToo4rWOOghFoFwIhaTag1ruK7Z6a4waQImTREqH6I5lCRfowN+pQslI7K/dIBo+P3TMkvPF6Yn07BbYzKZOVAVtuAeLelPeZVbpb3mM+hQqkBFHiswip4nAMVWqgPj+4hCUZ4NJKmbGlg/pfGlnQlqh+r349j0E+lqcoZZxKDyx5PI0+nxA9cwXFNhArKZo8/FS47nFRlziCgjyXpUguVZtE327/9u/X7X1vb/+2S67t/7/yxtb2L0M/JKqzFq5bJiThRwM1jnAwtXgvyRC38UzTpF7JBr8jqpscGToCeqA81wyPKEwHaLqaHRpm5+bp8av8A5UYjZYLYnrKpoxGa2O9SEQ40Q7wkUs9Qa8laotZzD3S0H3ImfTcHucnNufE7bAfsvP1qxLz1wO3aVhWNt1vMuBO/P97wPbPujl9STHoD8HnFzOA7HgtDYAuh3wH0WcWgbWVuDzpye34o5vkO4D8D/JUJz52m3xuIev6yalJNNegRdT5Bsxbrsl7k9ru2HzjCUf8INnBhg4F6MPW93xwIY28D9kvAfqeWE6zTdQLmtUQD8nrepI/mDVrNH54Cb7o9J3JYIIS/DPgLgH8rfyjBbwLSE/X6oGbSbwH7az4NR8tlXb8nHI4NAB/VDLqszbYcZ7PndtYjOwrYm4532vdbYkn8CuAXAf6elgajGThM2OfHdZNeA+yOVm6Dj/bGeaho2+l0RMERgE/oBl3R94BrQuCrAH4bwB/qafpYuG4PWFfU4wXDpH8C+Jb+SAIO1wK3ab/hBBvCd8dFgL9oGLRhpNfSWsCadtdhkSj6OqA/APRlYzZBr/t9qOaELVZ2pwomvQnwmcII3ocr7+HA3wf4asGg3cLM6K6OHg76BqA/B/TXhfIomf0o8hzRaJ+FLuFA0aBPFlOfQ+ZFgbsmfv1fKu7XoWVbkWP1/RRH6+MmzMuhTDOW6ZiqsUYhXh6hpLuHYeJRZpUMDZkOPfRVmXdyUrp8ODn8NfEPYX7UpfP+Lm7JMb4Du/FbNg==
     - SCTX:
-        - Begin A1V6_RoadBagIngrCont_2_sc
+        - Begin A1V7_RoadBagIngrCont_2_sc
         - ""
         - short doOnce
         - short doRemove
@@ -1318,10 +1318,10 @@
         - ""
         - if ( doDisable > 20 )
         - "\tif ( GetDisabled == 1 )"
-        - "\t\tset temp to A1V6_RoadBagIngrExt / 2"
+        - "\t\tset temp to A1V7_RoadBagIngrExt / 2"
         - "\t\tset temp to temp - 2 * ( temp / 2 )"
-        - "\t\tset temp to A1V6_RoadBagIngrExt - 2 * temp"
-        - "\t\tset A1V6_RoadBagIngrExt to temp"
+        - "\t\tset temp to A1V7_RoadBagIngrExt - 2 * temp"
+        - "\t\tset A1V7_RoadBagIngrExt to temp"
         - "\t\tSetDelete 1"
         - "\t\treturn"
         - "\tendif"
@@ -1333,7 +1333,7 @@
         - endif
         - ""
         - if ( doDisable > 0 )
-        - "\tAddItem \"A1V6_RoadBagFakeIngred\", 2"
+        - "\tAddItem \"A1V7_RoadBagFakeIngred\", 2"
         - "\tset doDisable to ( doDisable + 1 )"
         - "\treturn"
         - endif
@@ -1346,7 +1346,7 @@
         - if ( waitActivate == 2 )
         - "\tif ( MenuMode == 0 )"
         - "\t\tset waitActivate to 0"
-        - "\t\tif ( GetItemCount A1V6_RoadBagIngrItem_2 == 0 )"
+        - "\t\tif ( GetItemCount A1V7_RoadBagIngrItem_2 == 0 )"
         - "\t\t\tset doDisable to 1"
         - "\t\tendif"
         - "\tendif"
@@ -1364,15 +1364,15 @@
         - ""
         - ifx ( doOnce )
         - else
-        - "\tset temp to A1V6_RoadBagIngrExt / 2"
+        - "\tset temp to A1V7_RoadBagIngrExt / 2"
         - "\tset temp to temp - 2 * ( temp / 2 )"
-        - "\tset temp to A1V6_RoadBagIngrExt - 2 * temp + 2"
-        - "\tset A1V6_RoadBagIngrExt to temp"
+        - "\tset temp to A1V7_RoadBagIngrExt - 2 * temp + 2"
+        - "\tset A1V7_RoadBagIngrExt to temp"
         - "\tDisablePlayerControls"
         - "\tset doOnce to 1"
-        - "\tset cx to A1V6_RoadBagX"
-        - "\tset cy to A1V6_RoadBagY"
-        - "\tset cz to A1V6_RoadBagZ"
+        - "\tset cx to A1V7_RoadBagX"
+        - "\tset cy to A1V7_RoadBagY"
+        - "\tset cz to A1V7_RoadBagZ"
         - "\tSetPos X cx"
         - "\tSetPos Y cy"
         - "\tSetPos Z cz"
@@ -1381,7 +1381,7 @@
         - "\t\txRemoveItem invItem invCount"
         - "\t\tsetx invItem,invCount,invRef to xInventory"
         - "\tendwhile"
-        - "\tAddItem \"A1V6_RoadBagIngrItem_2\", 1"
+        - "\tAddItem \"A1V7_RoadBagIngrItem_2\", 1"
         - "\tset invRef to 0"
         - "\tset doRemove to 1"
         - "\treturn"
@@ -1581,7 +1581,7 @@
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagIngrCont_3_sc
+        name: A1V7_RoadBagIngrCont_3_sc
         vars:
           shorts: 6
           longs: 7
@@ -1606,9 +1606,9 @@
         - cy
         - cz
         - invWeight
-    - SCDT: eJytl01sG0UUx2f2y961aexuSCIkygj50LSCrtNQTYVTBIKWXEFFbg+sxvHEcbP2Wrvrlkgg9UAP3AgHbhUSNwQXuHCiHHrpAcQFCQS0h0IQqAqCSkiIqFLfrHfttZN+SFPlsJP3/vPb9zE7ejZwziShisgJsuAYWDdJ/ZcSWVoiVR2HGnqCnLJfrL5xzH3NZ82XWGu52wpeeSsii+RI7Cf39AvnIfKMjvcU6MKPPi1jVMEm/BlYGYXxc6kSm9R8YnK+L81kISfZOhcg3lQQhKGigbBKDldSVprFT6VYoJCqcIhcDSQcCwbWQEVilQMaAzRQAPw0qd8pEX9mMujliHfco6k6IZq4gvMClFCrABhSqwl1QajE2zMuYbApQjYNEapNUQ0V6Sa26L/KQ5W98qCyw+rwfUt/Q9QFiyx0vIpRmZx6LKutQ11XlV3mM8Ks7jKfRYVSHSjwOAO74HEWVOhQbZCihxRY4eFKmbClBbimjCzpTlSbrz2IY9G3lYkTMuoYhpA90S7RNkUkXMFx70MdZbsknrqQzSanT7MI6GNJutVBpWl0bfvXv7d++2Nr+/YOublz66/ft7Z3ELqe7ML5eNcJ8lzcKODmME6Wjui5Otbzr4s2fU+16KZq9Dy2wQP0ZG2gGaSojhXoq2KaNMr45mrqC3sXSBuu9DHi6oTNGK7Q2PsuFiGh/cRLKnWUOovOInWOP1Rqn2g2bWrQG22mHX+rbsAuuK9HzFsL2h3XqaLR645kwom/E2/wPTn3xmu6Ta8C/gfNzuBbHgtDYEuhVwB9QLfoMX1mFzpqd/1QLvIrgH8H8Jt6NnLe8LsbspE/Zdj0R0Df1ucSNGuyDutG7X7H9QMuXfXz8ILjhkWXjX1p7P3GhjT2O8C+D9iPjXKC5R0eMK8pW5Bnczb9E8A4NzsB7rW7POIskMJfAvyrOYvWc1MJvgdITzbqG4D9CLCf59JyNNus43ely/F83qb/AXhffrrJea/bbq1FbhSw89w76ftNuSZ+APDTeYvyfFqMRsCZdMy3APsZYK/ky6sQo7t+AU60y1stWfDLJmwxLTpr7gIvSIEvA/hNAPfMtH0sXHM3WEc24v8B/CWAvzUfT8DhStBuuOd4sC59d5y2bDptWfSglV5LKwFruB3OIln0F4D2AX3Jmk7Qa34fTnPCljt2UwWbfgPwmyN4H668RwM/B/D5gkWXCvuHd3X0aNBXAf0uoD8slIfN7EeRx2WrfQCmhOsA/mcYc8i8KGivyF//F4t7TWjZUWS+tpfiYG00hHkaygxjmYmpGmt04uUQSqZ4WCYRZXapMJCZMCtfVsUkp6TbB87Bf2O/BOaG07iY7+LRG+O7mk5SQg==
+    - SCDT: eJytl01sG0UUx2f2y961aexuSCIkygj50LSCrtMAU+EUgaAlV1CR2wOrcTxx3Ky91u66JRJIPdADN8KBW4XEDcEFLpwoh156AHFBAgHtoRAEqoKgEhIiqtQ361177aQf0lQ57OS9//z2fcyOng2cM0moInKcLDgG1k1S/6VElpZIVcehhh4jJ+0Xq288577ms+ZLrLXcbQWvvBWRRXIk9pO7+oXzEHlKx3sKdOFHn5YxqmAT/gysjML4uVSJTWo+MTnfl2aykBNsnQsQbyoIwlDRQFglhyspK83ip1IsUEhVOESuBhKOBQNroCKxygGNARooAH6S1G+XiD8zGfRyxDvu0VSdEE1cwXkBSqhVAAyp1YS6IFTi7RmXMNgUIZuGCNWmqIaKdBNb9F/lgcpeuV/ZYXX4nqW/LuqCRRY6XsWoTE4+ktXWoa6ryi7zaWFWd5nPoEKpDhR4nIZd8DgDKnSoNkjRQwqs8HClTNjSAlxVRpZ0J6rN1+7HsejbysQJGXUMQ8ieaJdomyISruC496GOsl0ST13IZpPTp1kE9LEk3eqg0jS6uv3r31u//bG1fWuH3Ni5+dfvW9s7CF1LduF8vOs4eSZuFHBzGCdLR/RcHev510WbvqdadFM1eh7b4AF6vDbQDFJUxwr0VTFNGmV8czX1hb0LpA1X+hhxdcJmDFdo7H0XipDQfuIllTpKnUVnkTrHHii1TzSbNjXojTbTjr9VN2Dn3dcj5q0F7Y7rVNHodUcy4cTfiTf4npy74zXdplcA/4NmZ/Atj4UhsKXQK4A+oFv0WX1mFzpqd/1QLvLLgH8H8Jt6NnLe8LsbspE/Ydj0R0Df0ucSNGuyDutG7X7H9QMuXfVz8IJjhkWXjX1p7P3GhjT2O8C+D9iPjXKC5R0eMK8pW5Cnczb9E8A4NzsB7rW7POIskMJfBPyrOYvWc1MJvgdITzbq64D9CLCf59JyNNus43ely/F83qb/AXhffrrJea/bbq1FbhSwc9w74ftNuSZ+APBTeYvyfFqMRsCZdMw3AfsZYC/ny6sQo7t+Hk60y1stWfDLJmwxLTpr7gIvSIEvAfhNAPfMtH0sXHM3WEc24v8B/CWAvzUfTcDhStBuuGd5sC59d5yybDptWfSglV5LKwFruB3OIln0F4D2AX3Rmk7Qa34fTnPCljt2UwWbfgPwGyN4H668hwM/C/D5gkWXCvuHd3X0cNBXAP0uoD8slIfN7EeRx2WrfQCmhGsA/mcYc8i8KGivyF//F4p7TWjZUWS+tpfiYG00hHkaygxjmYmpGmt04uUQSqZ4WCYRZXapMJCZMCtfUsUkp6TbB87Bf2O/BOaG07iY7+LRG+M7JOlSTg==
     - SCTX:
-        - Begin A1V6_RoadBagIngrCont_3_sc
+        - Begin A1V7_RoadBagIngrCont_3_sc
         - ""
         - short doOnce
         - short doRemove
@@ -1630,9 +1630,9 @@
         - ""
         - if ( doDisable > 20 )
         - "\tif ( GetDisabled == 1 )"
-        - "\t\tset temp to A1V6_RoadBagIngrExt / 4"
-        - "\t\tset temp to A1V6_RoadBagIngrExt - 4 * temp"
-        - "\t\tset A1V6_RoadBagIngrExt to temp"
+        - "\t\tset temp to A1V7_RoadBagIngrExt / 4"
+        - "\t\tset temp to A1V7_RoadBagIngrExt - 4 * temp"
+        - "\t\tset A1V7_RoadBagIngrExt to temp"
         - "\t\tSetDelete 1"
         - "\t\treturn"
         - "\tendif"
@@ -1644,7 +1644,7 @@
         - endif
         - ""
         - if ( doDisable > 0 )
-        - "\tAddItem \"A1V6_RoadBagFakeIngred\", 2"
+        - "\tAddItem \"A1V7_RoadBagFakeIngred\", 2"
         - "\tset doDisable to ( doDisable + 1 )"
         - "\treturn"
         - endif
@@ -1657,7 +1657,7 @@
         - if ( waitActivate == 2 )
         - "\tif ( MenuMode == 0 )"
         - "\t\tset waitActivate to 0"
-        - "\t\tif ( GetItemCount A1V6_RoadBagIngrItem_3 == 0 )"
+        - "\t\tif ( GetItemCount A1V7_RoadBagIngrItem_3 == 0 )"
         - "\t\t\tset doDisable to 1"
         - "\t\tendif"
         - "\tendif"
@@ -1675,14 +1675,14 @@
         - ""
         - ifx ( doOnce )
         - else
-        - "\tset temp to A1V6_RoadBagIngrExt / 4"
-        - "\tset temp to A1V6_RoadBagIngrExt - 4 * temp + 4"
-        - "\tset A1V6_RoadBagIngrExt to temp"
+        - "\tset temp to A1V7_RoadBagIngrExt / 4"
+        - "\tset temp to A1V7_RoadBagIngrExt - 4 * temp + 4"
+        - "\tset A1V7_RoadBagIngrExt to temp"
         - "\tDisablePlayerControls"
         - "\tset doOnce to 1"
-        - "\tset cx to A1V6_RoadBagX"
-        - "\tset cy to A1V6_RoadBagY"
-        - "\tset cz to A1V6_RoadBagZ"
+        - "\tset cx to A1V7_RoadBagX"
+        - "\tset cy to A1V7_RoadBagY"
+        - "\tset cz to A1V7_RoadBagZ"
         - "\tSetPos X cx"
         - "\tSetPos Y cy"
         - "\tSetPos Z cz"
@@ -1691,7 +1691,7 @@
         - "\t\txRemoveItem invItem invCount"
         - "\t\tsetx invItem,invCount,invRef to xInventory"
         - "\tendwhile"
-        - "\tAddItem \"A1V6_RoadBagIngrItem_3\", 1"
+        - "\tAddItem \"A1V7_RoadBagIngrItem_3\", 1"
         - "\tset invRef to 0"
         - "\tset doRemove to 1"
         - "\treturn"
@@ -1891,67 +1891,67 @@
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagIngrDel_1_sc
+        name: A1V7_RoadBagIngrDel_1_sc
         vars:
           shorts: 0
           longs: 0
           floats: 0
         data_size: 114
         var_table_size: 0
-    - SCDT: eJx1yqEKgDAQAFCvCMLCkhgMh39wxbagWFYNYjuGjpXpZFr8UD9HMFkE83sC0s2b08YUoMLxlhjyhoaa+2Dm1ji9uqgPuzChUkji7Zf8aZBkUMrii531TLxPAA9hhiFb
+    - SCDT: eJx1yqEKgDAQAFCvCMLCkhgMh39wybSgWFYNYjuGjpXpZFr8UD9HMFkE83sC0s2b08YUoMLxlhjyhoaa+2Dm1ji9uqgPuzChUkji7Zf8aZBkUMrii531TLxPAA9iLCFe
     - SCTX:
-        - Begin A1V6_RoadBagIngrDel_1_sc
+        - Begin A1V7_RoadBagIngrDel_1_sc
         - ""
-        - if ( player->GetItemCount A1V6_RoadBagIngrItem_1 == 1 )
-        - "\tplayer->RemoveItem A1V6_RoadBagIngrItem_1, 1"
+        - if ( player->GetItemCount A1V7_RoadBagIngrItem_1 == 1 )
+        - "\tplayer->RemoveItem A1V7_RoadBagIngrItem_1, 1"
         - endif
         - ""
-        - StopScript A1V6_RoadBagIngrDel_1_sc
+        - StopScript A1V7_RoadBagIngrDel_1_sc
         - ""
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagIngrDel_2_sc
+        name: A1V7_RoadBagIngrDel_2_sc
         vars:
           shorts: 0
           longs: 0
           floats: 0
         data_size: 114
         var_table_size: 0
-    - SCDT: eJx1yiEKgDAUAFB/EYSFJTEYPt5gC7YFxbJqENtn6FiZTqbFg3ocwWQRzO8xSDdvThtTgArHm2PIGzHU1Aczt8bp1UV92IUkKoWCvf3iPw2SDEpefLGzniTtE8ADYfchXg==
+    - SCDT: eJx1yiEKgDAUAFB/EYSFJTEYPt5gK6YFxbJqENtn6FiZTqbFg3ocwWQRzO8xSDdvThtTgArHm2PIGzHU1Aczt8bp1UV92IUkKoWCvf3iPw2SDEpefLGzniTtE8ADYp0hYQ==
     - SCTX:
-        - Begin A1V6_RoadBagIngrDel_2_sc
+        - Begin A1V7_RoadBagIngrDel_2_sc
         - ""
-        - if ( player->GetItemCount A1V6_RoadBagIngrItem_2 == 1 )
-        - "\tplayer->RemoveItem A1V6_RoadBagIngrItem_2, 1"
+        - if ( player->GetItemCount A1V7_RoadBagIngrItem_2 == 1 )
+        - "\tplayer->RemoveItem A1V7_RoadBagIngrItem_2, 1"
         - endif
         - ""
-        - StopScript A1V6_RoadBagIngrDel_2_sc
+        - StopScript A1V7_RoadBagIngrDel_2_sc
         - ""
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagIngrDel_3_sc
+        name: A1V7_RoadBagIngrDel_3_sc
         vars:
           shorts: 0
           longs: 0
           floats: 0
         data_size: 114
         var_table_size: 0
-    - SCDT: eJx1yiEKgDAUAFB/EYSFJTEYPt5gDGwLimXVILbP0LEynUyLB/U4gskimN9jkG7enDamABWON8eQN2KoqQ9mbo3Tq4v6sAtJVAoFe/vFfxokGZS8+GJnPUnaJ4AHYmghYQ==
+    - SCDT: eJx1yiEKgDAUAFB/EYSFJTEYPt5gLJgWFMuqQWyfoWNlOpkWD+pxBJNFML/HIN28OW1MASocb44hb8RQUx/M3BqnVxf1YReSqBQK9vaL/zRIMih58cXOepK0TwAPYw4hZA==
     - SCTX:
-        - Begin A1V6_RoadBagIngrDel_3_sc
+        - Begin A1V7_RoadBagIngrDel_3_sc
         - ""
-        - if ( player->GetItemCount A1V6_RoadBagIngrItem_3 == 1 )
-        - "\tplayer->RemoveItem A1V6_RoadBagIngrItem_3, 1"
+        - if ( player->GetItemCount A1V7_RoadBagIngrItem_3 == 1 )
+        - "\tplayer->RemoveItem A1V7_RoadBagIngrItem_3, 1"
         - endif
         - ""
-        - StopScript A1V6_RoadBagIngrDel_3_sc
+        - StopScript A1V7_RoadBagIngrDel_3_sc
         - ""
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagIngrItem_1_sc
+        name: A1V7_RoadBagIngrItem_1_sc
         vars:
           shorts: 6
           longs: 0
@@ -1965,9 +1965,9 @@
         - OnPCDrop
         - temp1
         - temp2
-    - SCDT: eJyNUj9Lw3AQvUubn42o/FQQUZBDnAS1UXAT/6OuDhJdQtHiolbaDvqZ/BbiKi466RBrY6NtYhsRCq3UJG1jaCnteO/evePdO4aCRMoLp5UVkm+GEWZQQoYRiVIIHihiSgSRlCkOzCU7lYtHHRxBoOgkH1+XD5bV/UTsZCN2undxmtyKn6mymjqOIPp8ucmXsL6iz2mF/FbIbQ0guzyLXceTDHGalF9OibFW7b10/Fxd9MZ8+hPvQEOQsGfRpd5El1xR18CIYyDsGwi7BkTcGQwOKYyUfq5AK37o4Ydt+JGHH8F7++7NxEValREAdjcAAqb6u18qeNhI9xtEvcgnaGe0lbN9laZFWnD6DCJesvVKhKFG5TRoluZYIPn/7Y+dc6q/CutxoJGBhM+8+UqCn4TgJuG86mQHA+4G4GtwW6Gs/lGyM4at56umRaZOP5btVPRl5as5K6PZ1VKNCnr50ypQNl8jw3wr6llDN20rswpC6E6D8L1uQ+O35T5E4PPwYFHBKH5TUcu9Fq2SZlYoo5UNT8mgUkBGKxjz4HlB/ANzzxAr
+    - SCDT: eJyNUj9Lw3AQvUubn42o/FQQUZBDnAS10cFJ/I+6Okh0CUWLi1ppO+hn8luIq7jopEOsjY22iW1EKLRSk7SNoaW0471794537xgKEikvnFZWSL4ZRphBCRlGJEoheKCIKRFEUqY4MJfsVC4edXAEgaKTfHxdPlhW9xOxk43Y6d7FaXIrfqbKauo4gujz5SZfwvqKPqcV8lshtzWA7PIsdh1PMsRpUn45JcZatffS8XN10Rvz6U+8Aw1Bwp5Fl3oTXXJFXQMjjoGwbyDsGhBxZzA4pDBS+rkCrfihhx+24UcefgTv7bs3ExdpVUYA2N0ACJjq736p4GEj3W8Q9SKfoJ3RVs72VZoWacHpM4h4ydYrEYYaldOgWZpjgeT/tz92zqn+KqzHgUYGEj7z5isJfhKCm4TzqpMdDLgbgK/BbYWy+kfJzhi2nq+aFpk6/Vi2U9GXla/mrIxmV0s1KujlT6tA2XyNDPOtqGcN3bStzCoIoTsNwve6DY3flvsQgc/Dg0UFo/hNRS33WrRKmlmhjFY2PCWDSgEZrWDMg+cF8Q+RXBA6
     - SCTX:
-        - Begin A1V6_RoadBagIngrItem_1_sc
+        - Begin A1V7_RoadBagIngrItem_1_sc
         - ""
         - short wait
         - short OnPCEquip
@@ -1985,7 +1985,7 @@
         - "\tset temp1 to GetButtonPressed"
         - "\tif ( temp1 == 0 )"
         - "\t\tset wait to 0"
-        - "\t\tStartScript A1V6_RoadBagIngrDel_1_sc"
+        - "\t\tStartScript A1V7_RoadBagIngrDel_1_sc"
         - "\telseif ( temp1 == 1 )"
         - "\t\tset wait to 0"
         - "\tendif"
@@ -1994,29 +1994,29 @@
         - ""
         - if ( OnPCAdd == 1 )
         - "\tset OnPCAdd to 0"
-        - "\tif ( player->GetItemCount A1V6_RoadBagIngrItem_2 == 1 )"
-        - "\t\tplayer->RemoveItem A1V6_RoadBagIngrItem_2, 1"
+        - "\tif ( player->GetItemCount A1V7_RoadBagIngrItem_2 == 1 )"
+        - "\t\tplayer->RemoveItem A1V7_RoadBagIngrItem_2, 1"
         - "\tendif"
-        - "\tif ( player->GetItemCount A1V6_RoadBagIngrItem_3 == 1 )"
-        - "\t\tplayer->RemoveItem A1V6_RoadBagIngrItem_3, 1"
+        - "\tif ( player->GetItemCount A1V7_RoadBagIngrItem_3 == 1 )"
+        - "\t\tplayer->RemoveItem A1V7_RoadBagIngrItem_3, 1"
         - "\tendif"
         - endif
         - ""
         - if ( OnPCDrop == 1 )
         - "\tset OnPCDrop to 0"
-        - "\tset A1V6_RoadBagX to ( GetPos X )"
-        - "\tset A1V6_RoadBagY to ( GetPos Y )"
-        - "\tset A1V6_RoadBagZ to ( GetPos Z )"
-        - "\tPlaceAtPC A1V6_RoadBagIngrCont_1 1, 50, 0"
-        - "\tif ( player->GetItemCount A1V6_RoadBagIngrItem_2 == 0 )"
-        - "\t\tif ( player->GetItemCount A1V6_RoadBagIngrItem_3 == 0 )"
-        - "\t\t\tset temp1 to ( A1V6_RoadBagIngrExt / 2 )\t\t\t\t; temp1 = flags div 2"
+        - "\tset A1V7_RoadBagX to ( GetPos X )"
+        - "\tset A1V7_RoadBagY to ( GetPos Y )"
+        - "\tset A1V7_RoadBagZ to ( GetPos Z )"
+        - "\tPlaceAtPC A1V7_RoadBagIngrCont_1 1, 50, 0"
+        - "\tif ( player->GetItemCount A1V7_RoadBagIngrItem_2 == 0 )"
+        - "\t\tif ( player->GetItemCount A1V7_RoadBagIngrItem_3 == 0 )"
+        - "\t\t\tset temp1 to ( A1V7_RoadBagIngrExt / 2 )\t\t\t\t; temp1 = flags div 2"
         - "\t\t\tset temp2 to ( temp1 / 2 )\t\t\t\t\t\t\t\t\t; temp2 = (flags div 2) div 2 ~ flags & 0b100"
         - "\t\t\tset temp1 to ( temp1 - 2 * temp2 )\t\t\t\t\t\t\t; temp1 = flags div 2 - 2 ((flags div 2) div 2) = (flags div 2) mod 2 ~ flags & 0b010"
         - "\t\t\tif ( temp1 == 0 )"
-        - "\t\t\t\tplayer->AddItem A1V6_RoadBagIngrItem_2, 1"
+        - "\t\t\t\tplayer->AddItem A1V7_RoadBagIngrItem_2, 1"
         - "\t\t\telseif ( temp2 == 0 )"
-        - "\t\t\t\tplayer->AddItem A1V6_RoadBagIngrItem_3, 1"
+        - "\t\t\t\tplayer->AddItem A1V7_RoadBagIngrItem_3, 1"
         - "\t\t\tendif"
         - "\t\tendif"
         - "\tendif"
@@ -2025,7 +2025,7 @@
         - ""
         - if ( OnPCEquip == 1 )
         - "\tset OnPCEquip to 0"
-        - "\tif ( A1V6_RoadBagIngrExt == 0 )"
+        - "\tif ( A1V7_RoadBagIngrExt == 0 )"
         - "\t\tMessageBox \"Вы действительно не хотите пользоваться мешком для ингредиентов?\" \"Да\" \"Нет\""
         - "\t\tset wait to 1"
         - "\telse"
@@ -2036,7 +2036,7 @@
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagIngrItem_2_sc
+        name: A1V7_RoadBagIngrItem_2_sc
         vars:
           shorts: 6
           longs: 0
@@ -2050,9 +2050,9 @@
         - OnPCDrop
         - temp1
         - temp2
-    - SCDT: eJyNUk0vA1EUvXfaPh0heUhESORGrCToVGInvoOthQybSUNjg4p2wW/yL8RWbFixGNVhaGe0IxKJCvOedjLaNO3ynXvuue/ccxkqKun3nObmSDvvQxhHFRnGVcoiSDCG2RjESB/lwATZfwk84eMICiVG+NCitjVrbGZSe0up/Y2j/ZOV9IGRNLK7ccSAr9X5Kv6N6PJLkaAUEaUeZMcHqbP0CUMcI/2bU2awUXsjlz40NNkW0G95CxqCih2LznQmOiNEhYF+30A0MBAVBmK41htu0hnp3VyHRnxb4ttN+I7Ed+CpefZy5ihnJBEA1pcAQqa6228qvNh4+x0kZOTDtDbQyFk9zVGSpv06A2pZF4lP0KRUicuX38PkLTD4/5+b1smFj6d9Qy0VFe94/biUIBtFZOMf70iLL4sJwBfg4osK1kvFy9ueVaw6LjkWfbie/6I3t1h9dvOmV638UMn6fHVLVCj+kO08lq2CbTmem58HJXJpQvTK8qB27VoXIvApuHapZJffqWw+P5Tdiul8Ud78tKWSTZWQjFmyp0B6QfwF4m4Wyg==
+    - SCDT: eJyNUk0vA1EUvXfaPh0heUhESORGrCTo1MJKfAdbCxk2k4bGBhXtgt/kX4it2LBiMarD0M5oRyQSFeY97WS0adrlO/fcc9+55zJUVNLvOc3NkXbehzCOKjKMq5RFkGAMszGIkT7KgQmy/xJ4wscRFEqM8KFFbWvW2Myk9pZS+xtH+ycr6QMjaWR344gBX6vzVfwb0eWXIkEpIko9yI4PUmfpE4Y4Rvo3p8xgo/ZGLn1oaLItoN/yFjQEFTsWnelMdEaICgP9voFoYCAqDMRwrTfcpDPSu7kOjfi2xLeb8B2J78BT8+zlzFHOSCIArC8BhEx1t99UeLHx9jtIyMiHaW2gkbN6mqMkTft1BtSyLhKfoEmpEpcvv4fJW2Dw/z83rZMLH0/7hloqKt7x+nEpQTaKyMY/3pEWXxYTgC/AxRcVrJeKl7c9q1h1XHIs+nA9/0VvbrH67OZNr1r5oZL1+eqWqFD8Idt5LFsF23I8Nz8PSuTShOiV5UHt2rUuROBTcO1SyS6/U9l8fii7FdP5orz5aUslmyohGbNkT4H0gvgLAj4W2g==
     - SCTX:
-        - Begin A1V6_RoadBagIngrItem_2_sc
+        - Begin A1V7_RoadBagIngrItem_2_sc
         - ""
         - short wait
         - short OnPCEquip
@@ -2070,7 +2070,7 @@
         - "\tset temp1 to GetButtonPressed"
         - "\tif ( temp1 == 0 )"
         - "\t\tset wait to 0"
-        - "\t\tStartScript A1V6_RoadBagIngrDel_2_sc"
+        - "\t\tStartScript A1V7_RoadBagIngrDel_2_sc"
         - "\telseif ( temp1 == 1 )"
         - "\t\tset wait to 0"
         - "\tendif"
@@ -2079,29 +2079,29 @@
         - ""
         - if ( OnPCAdd == 1 )
         - "\tset OnPCAdd to 0"
-        - "\tif ( player->GetItemCount A1V6_RoadBagIngrItem_1 == 1 )"
-        - "\t\tplayer->RemoveItem A1V6_RoadBagIngrItem_1, 1"
+        - "\tif ( player->GetItemCount A1V7_RoadBagIngrItem_1 == 1 )"
+        - "\t\tplayer->RemoveItem A1V7_RoadBagIngrItem_1, 1"
         - "\tendif"
-        - "\tif ( player->GetItemCount A1V6_RoadBagIngrItem_3 == 1 )"
-        - "\t\tplayer->RemoveItem A1V6_RoadBagIngrItem_3, 1"
+        - "\tif ( player->GetItemCount A1V7_RoadBagIngrItem_3 == 1 )"
+        - "\t\tplayer->RemoveItem A1V7_RoadBagIngrItem_3, 1"
         - "\tendif"
         - endif
         - ""
         - if ( OnPCDrop == 1 )
         - "\tset OnPCDrop to 0"
-        - "\tset A1V6_RoadBagX to ( GetPos X )"
-        - "\tset A1V6_RoadBagY to ( GetPos Y )"
-        - "\tset A1V6_RoadBagZ to ( GetPos Z )"
-        - "\tPlaceAtPC A1V6_RoadBagIngrCont_2 1, 50, 0"
-        - "\tif ( player->GetItemCount A1V6_RoadBagIngrItem_1 == 0 )"
-        - "\t\tif ( player->GetItemCount A1V6_RoadBagIngrItem_3 == 0 )"
-        - "\t\t\tset temp1 to ( A1V6_RoadBagIngrExt / 2 )\t\t\t\t; temp1 = flags div 2"
-        - "\t\t\tset temp2 to ( A1V6_RoadBagIngrExt - 2 * temp1 )\t; temp2 = flags - 2 (flags div 2) = flags mod 2 ~ flags & 0b001"
+        - "\tset A1V7_RoadBagX to ( GetPos X )"
+        - "\tset A1V7_RoadBagY to ( GetPos Y )"
+        - "\tset A1V7_RoadBagZ to ( GetPos Z )"
+        - "\tPlaceAtPC A1V7_RoadBagIngrCont_2 1, 50, 0"
+        - "\tif ( player->GetItemCount A1V7_RoadBagIngrItem_1 == 0 )"
+        - "\t\tif ( player->GetItemCount A1V7_RoadBagIngrItem_3 == 0 )"
+        - "\t\t\tset temp1 to ( A1V7_RoadBagIngrExt / 2 )\t\t\t\t; temp1 = flags div 2"
+        - "\t\t\tset temp2 to ( A1V7_RoadBagIngrExt - 2 * temp1 )\t; temp2 = flags - 2 (flags div 2) = flags mod 2 ~ flags & 0b001"
         - "\t\t\tset temp1 to ( temp1 / 2 )\t\t\t\t\t\t\t\t\t; temp1 = (flags div 2) div 2 ~ flags & 0b100"
         - "\t\t\tif ( temp2 == 0 )"
-        - "\t\t\t\tplayer->AddItem A1V6_RoadBagIngrItem_1, 1"
+        - "\t\t\t\tplayer->AddItem A1V7_RoadBagIngrItem_1, 1"
         - "\t\t\telseif ( temp1 == 0 )"
-        - "\t\t\t\tplayer->AddItem A1V6_RoadBagIngrItem_3, 1"
+        - "\t\t\t\tplayer->AddItem A1V7_RoadBagIngrItem_3, 1"
         - "\t\t\tendif"
         - "\t\tendif"
         - "\tendif"
@@ -2110,7 +2110,7 @@
         - ""
         - if ( OnPCEquip == 1 )
         - "\tset OnPCEquip to 0"
-        - "\tif ( A1V6_RoadBagIngrExt == 0 )"
+        - "\tif ( A1V7_RoadBagIngrExt == 0 )"
         - "\t\tMessageBox \"Вы действительно не хотите пользоваться мешком для ингредиентов?\" \"Да\" \"Нет\""
         - "\t\tset wait to 1"
         - "\telse"
@@ -2121,7 +2121,7 @@
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagIngrItem_3_sc
+        name: A1V7_RoadBagIngrItem_3_sc
         vars:
           shorts: 6
           longs: 0
@@ -2135,9 +2135,9 @@
         - OnPCDrop
         - temp1
         - temp2
-    - SCDT: eJyNU81K81AQnUnba/P9cT8EEQUZxJWgNhXcif+oWxcS3YSixY1asV3oM/kW4lbc6EoXsTYabRPbiCBY0XuvbQyVYneZM2fO3JkzYajpZF5xmpwk4+g/whDqyDCpUx5BgQnMJyBB5gAHJskiknhK4Agapfp574yxOmGt5DKbs5mt5d2t/fnstjVu5TeSiCHfaPJ1/GzRJVKxMBWTqT/I9rYzh9l9hjhI5hunXE+r9nIhu2MZqiykX/A2NAQdOxZNdyaalqJygG4xQDwcIC4HSODi32iRycj8xU1oxdcUvvYNX1f4Otx+7z2X2y1Y4wgAS7MAkaF+/7yp6GL1n3eQUpb30WJ3K2fhoEBpGhN5BknlbDP614jEJw3TiFKgtgoyKVgsch9fbzxv7+bnQbEOCxpO6XjJmwenhX5p0i9x0P1tHik7AJ+G41cqOfe1oOgGTrnu+eQ59OwHIqJHv1y/84t2UK+9U8V5efArVCq/k+vdVJ2S63iBX5wCLXZiQ/zUCaDxBxhdiMBH4cynilt9oqp9d131a7b3SkX7xVVKLtUiMnbFHQU1C+IHDV4Zcg==
+    - SCDT: eJyNU81K81AQnUnba/P9cT8EEQUZxJWgNnXhSvxH3bqQ6CYULW7Uiu1Cn8m3ELfiRle6iLXRaJvYRgTBit57bWOoFLvLnDlz5s6cCUNNJ/OK0+QkGUf/EYZQR4ZJnfIICkxgPgEJMgc4MEkWkcRTAkfQKNXPe2eM1QlrJZfZnM1sLe9u7c9nt61xK7+RRAz5RpOv42eLLpGKhamYTP1BtredOczuM8RBMt845XpatZcL2R3LUGUh/YK3oSHo2LFoujPRtBSVA3SLAeLhAHE5QAIX/0aLTEbmL25CK76m8LVv+LrC1+H2e++53G7BGkcAWJoFiAz1++dNRRer/7yDlLK8jxa7WzkLBwVK05jIM0gqZ5vRv0YkPmmYRpQCtVWQScFikfv4euN5ezc/D4p1WNBwSsdL3jw4LfRLk36Jg+5v80jZAfg0HL9SybmvBUU3cMp1zyfPoWc/EBE9+uX6nV+0g3rtnSrOy4NfoVL5nVzvpuqUXMcL/OIUaLETG+KnTgCNP8DoQgQ+Cmc+VdzqE1Xtu+uqX7O9VyraL65ScqkWkbEr7iioWRA/AC4BGYI=
     - SCTX:
-        - Begin A1V6_RoadBagIngrItem_3_sc
+        - Begin A1V7_RoadBagIngrItem_3_sc
         - ""
         - short wait
         - short OnPCEquip
@@ -2155,7 +2155,7 @@
         - "\tset temp1 to GetButtonPressed"
         - "\tif ( temp1 == 0 )"
         - "\t\tset wait to 0"
-        - "\t\tStartScript A1V6_RoadBagIngrDel_3_sc"
+        - "\t\tStartScript A1V7_RoadBagIngrDel_3_sc"
         - "\telseif ( temp1 == 1 )"
         - "\t\tset wait to 0"
         - "\tendif"
@@ -2164,30 +2164,30 @@
         - ""
         - if ( OnPCAdd == 1 )
         - "\tset OnPCAdd to 0"
-        - "\tif ( player->GetItemCount A1V6_RoadBagIngrItem_1 == 1 )"
-        - "\t\tplayer->RemoveItem A1V6_RoadBagIngrItem_1, 1"
+        - "\tif ( player->GetItemCount A1V7_RoadBagIngrItem_1 == 1 )"
+        - "\t\tplayer->RemoveItem A1V7_RoadBagIngrItem_1, 1"
         - "\tendif"
-        - "\tif ( player->GetItemCount A1V6_RoadBagIngrItem_2 == 1 )"
-        - "\t\tplayer->RemoveItem A1V6_RoadBagIngrItem_2, 1"
+        - "\tif ( player->GetItemCount A1V7_RoadBagIngrItem_2 == 1 )"
+        - "\t\tplayer->RemoveItem A1V7_RoadBagIngrItem_2, 1"
         - "\tendif"
         - endif
         - ""
         - if ( OnPCDrop == 1 )
         - "\tset OnPCDrop to 0"
-        - "\tset A1V6_RoadBagX to ( GetPos X )"
-        - "\tset A1V6_RoadBagY to ( GetPos Y )"
-        - "\tset A1V6_RoadBagZ to ( GetPos Z )"
-        - "\tPlaceAtPC A1V6_RoadBagIngrCont_3 1, 50, 0"
-        - "\tif ( player->GetItemCount A1V6_RoadBagIngrItem_1 == 0 )"
-        - "\t\tif ( player->GetItemCount A1V6_RoadBagIngrItem_2 == 0 )"
-        - "\t\t\tset temp1 to ( A1V6_RoadBagIngrExt / 2 )\t\t\t\t; temp1 = flags div 2"
+        - "\tset A1V7_RoadBagX to ( GetPos X )"
+        - "\tset A1V7_RoadBagY to ( GetPos Y )"
+        - "\tset A1V7_RoadBagZ to ( GetPos Z )"
+        - "\tPlaceAtPC A1V7_RoadBagIngrCont_3 1, 50, 0"
+        - "\tif ( player->GetItemCount A1V7_RoadBagIngrItem_1 == 0 )"
+        - "\t\tif ( player->GetItemCount A1V7_RoadBagIngrItem_2 == 0 )"
+        - "\t\t\tset temp1 to ( A1V7_RoadBagIngrExt / 2 )\t\t\t\t; temp1 = flags div 2"
         - "\t\t\tset temp2 to ( temp1 / 2 )\t\t\t\t\t\t\t\t\t; temp2 = (flags div 2) div 2"
         - "\t\t\tset temp2 to ( temp1 - 2 * temp2 )\t\t\t\t\t\t\t; temp2 = flags div 2 - 2 ((flags div 2) div 2) = (flags div 2) mod 2 ~ flags & 0b010"
-        - "\t\t\tset temp1 to ( A1V6_RoadBagIngrExt - 2 * temp1 )\t; temp1 = flags - 2 (flags div 2) = flags mod 2 ~ flags & 0b001"
+        - "\t\t\tset temp1 to ( A1V7_RoadBagIngrExt - 2 * temp1 )\t; temp1 = flags - 2 (flags div 2) = flags mod 2 ~ flags & 0b001"
         - "\t\t\tif ( temp1 == 0 )"
-        - "\t\t\t\tplayer->AddItem A1V6_RoadBagIngrItem_1, 1"
+        - "\t\t\t\tplayer->AddItem A1V7_RoadBagIngrItem_1, 1"
         - "\t\t\telseif ( temp2 == 0 )"
-        - "\t\t\t\tplayer->AddItem A1V6_RoadBagIngrItem_2, 1"
+        - "\t\t\t\tplayer->AddItem A1V7_RoadBagIngrItem_2, 1"
         - "\t\t\tendif"
         - "\t\tendif"
         - "\tendif"
@@ -2196,7 +2196,7 @@
         - ""
         - if ( OnPCEquip == 1 )
         - "\tset OnPCEquip to 0"
-        - "\tif ( A1V6_RoadBagIngrExt == 0 )"
+        - "\tif ( A1V7_RoadBagIngrExt == 0 )"
         - "\t\tMessageBox \"Вы действительно не хотите пользоваться мешком для ингредиентов?\" \"Да\" \"Нет\""
         - "\t\tset wait to 1"
         - "\telse"
@@ -2207,7 +2207,7 @@
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagMiscCont_1_sc
+        name: A1V7_RoadBagMiscCont_1_sc
         vars:
           shorts: 6
           longs: 7
@@ -2232,9 +2232,9 @@
         - cy
         - cz
         - invWeight
-    - SCDT: eJytl1toHFUYgM/M7Mzuzt4zuWFRhhJqbYXuRipH3KYasbFCEbSWpC/D2d2zu2PmsszMmqwvUhAUH0R8EexDQfTFy0MhvuqLj2IQfao1gjSCRIuID9ZQ6D+3vSVNH07Iw5z85/+/81/O/Du/xElp1RWQuqDOlyUukVaXbxbVM2fUisi5CfSIOq8uKc9WLj2pvWyTxiJpXdDd+vPrHshPqSdEbt9NUQVT9HmJQ3NcGv4kjh8c8nNxLhAJqUhU/qk4PQw5R1bpeavl0AaPwAkBhYoV9eRczIp9vFEMFHi14m8k4RAJ+RvzYSRqoFUGHQl0IDzuqLp8t6ja0+NOn/eoqVVi7YiY5ua4lA+KqBUA9KmViDrva/mnD235AgUjpGAXoWoBJ1AW25yMr/NBUo8enFQ/0gMTu+VHzfk+ilyTQyV1KTesuwxZa/J7xCu+WNgjvowyxWWgwGMFrOBxGbTQiWoYgIF4WHH9FT8mi8N7ix9IYktUfaz6II6MMT9W/0E9OHDZ8IvhF4X3A57jgsq6Ihqugf8UfbWZ6G4lZBX0A5XYtIyKJbT59/atP7f/2VV/2925/fv2X7sI/RKZcKnAZEE9HdQIoEmOi5Zlv5zCSDm3CgpeFGT8oiB1DNKjDnq4GuqE8Qkj2blZiCNGQ3uzVeHs/tlJ9FfiCLE5JpP6KzRy3rVCHMS432cTCv4f/J5ITOvBO6Y5ZE17xSNG29FNrVxBA9apobOC+22E70H5/mn5CPArCRmbCWUI3zKI6wKbCX0H0BuA/m7E8xDt6Zbtsnl+UVSwIsr4UXHYc1qzrR6r518B2gL0O+JshCYNYhLL07umZjuUOetZScGbcMCvYj72vVvrMWMpYI9J8IZKpQhLTeoQo8GakG8B/CaAP5RmxsAd3aIeJQ4T/khSwVuAvy0VInwHkAar1x5gTydlvJSM09HQiWlbzOn4AcDvAfiT5GSD0o6lt9qe5jnkdWqcs+0GWxGPpxS8A/DdZJyMmkMJs89XALuYkvHFVKkJPmqra3CjNdpqsYJvAPgqgL/cC55nAj+RVvC/AJbScfmI29Z6xGT1+H0AX0jLuJ6eisBu3dFr2mvUWWXuHTsA/wzgX6fjtlR3SE0zKfFY0S/IYCLL+Ig8GaHbdhduc8Rmu3afArwG8PUBvAst73DgKKPgbwD+ozzR79Xe4aBXAP1QRsaPZ0r9YnY9z6Cs2d4AsAvgtzOxzy4xPEevs7f/UlbB3wP6VmZq0D/qxOxAV7U8Rr87AD+ZlfFz2ZlFYtiOq3VsxyM1yMgibTi2YTDhNwH/LuA/zk6b8N2nNahmduurmtu2of0xp+ZYTsF/AP5ONt/sGoa2RjzquKu6xYa9AthnctD9chNtYjQPE70F6KuAvp6btPxfrd5hwp/OK/g/gOfzUyGcmh2vN6AzwT8A+Kt5GdN84TCxT8G38xeA3chLutWg69r9U5AKcAs+zZD6n/DBMgCLkdkALBZknCskQ/AbDwBXD3LzJSBdK+w3BIWa/moWBqL9NI5XB3OOkQif4bwjDeaSSqAjqkYSoWgMhmWUvCErAWaeNAyblwR/WOJj83Az/G9klJ7tj7P+CBXMrhx3D7Zd22s=
+    - SCDT: eJytl1toHFUYgM/M7Mzuzt4zuWFRhhJqbYXuRopH3KYasbFCEbSWpC/D2d2zu2PmsszMmqwvUhAUH0R8EexDQfTFy0MhvuqLj2IQfao1gjSCRIuID9ZQ6D+3vSVNH07Iw5z85/+/81/O/Du/xElp1RWQuqDOlyUukVaXbxbVM2fUisi5CfSIOq8uKc9WLj2pvWyTxiJpXdDd+vPrHshPqSdEbt9NUQVT9HmJQ3NcGv4kjh8c8nNxLhAJqUhU/qk4PQw5R1bpeavl0AaPwAkBhYoV9eRczIp9vFEMFHi14m8k4RAJ+RvzYSRqoFUGHQl0IDzuqLp8t6ja0+NOn/eoqVVi7YiY5ua4lA+KqBUA9KmViDrva/mnD235AgUjpGAXoWoBJ1AW25yMr/NBUo8enFQ/0gMTu+VHzfk+ilyTQyV1KTesuwxZa/J7xCu+WNgjvowyxWWgwGMFrOBxGbTQiWoYgIF4WHH9FT8mi8N7ix9IYktUfaz6II6MMT9W/0E9OHDZ8IvhF4X3A57jgsq6Ihqugf8UfbWZ6G4lZBX0A5XYtIyKJbT59/atP7f/2VV/2925/fv2X7sI/RKZcKnAZEE9HdQIoEmOi5Zlv5zCSDm3CgpeFGT8oiB1DNKjDnq4GuqE8Qkj2blZiCNGQ3uzVeHs/tlJ9FfiCLE5JpP6KzRy3rVCHMS432cTCv4f/J5ITOvBO6Y5ZE17xSNG29FNrVxBA9apobOC+22E70H5/mn5CPArCRmbCWUI3zKI6wKbCX0H0BuA/m7E8xDt6Zbtsnl+UVSwIsr4UXHYc1qzrR6r518B2gL0O+JshCYNYhLL07umZjuUOetZScGbcMCvYj72vVvrMWMpYI9J8IZKpQhLTeoQo8GakG8B/CaAP5RmxsAd3aIeJQ4T/khSwVuAvy0VInwHkAar1x5gTydlvJSM09HQiWlbzOn4AcDvAfiT5GSD0o6lt9qe5jnkdWqcs+0GWxGPpxS8A/DdZJyMmkMJs89XALuYkvHFVKkJPmqra3CjNdpqsYJvAPgqgL/cC55nAj+RVvC/AJbScfmI29Z6xGT1+H0AX0jLuJ6eisBu3dFr2mvUWWXuHTsA/wzgX6fjtlR3SE0zKfFY0S/IYCLL+Ig8GaHbdhduc8Rmu3afArwG8PUBvAst73DgKKPgbwD+ozzR79Xe4aBXAP1QRsaPZ0r9YnY9z6Cs2d4AsAvgtzOxzy4xPEevs7f/UlbB3wP6VmZq0D/qxOxAV7U8Rr87AD+ZlfFz2ZlFYtiOq3VsxyM1yMgibTi2YTDhNwH/LuA/zk6b8N2nNahmduurmtu2of0xp+ZYTsF/AP5ONt/sGoa2RjzquKu6xYa9AthnctD9chNtYjQPE70F6KuAvp6btPxfrd5hwp/OK/g/gOfzUyGcmh2vN6AzwT8A+Kt5GdN84TCxT8G38xeA3chLutWg69r9U5AKcAs+zZD6n/DBMgCLkdkALBZknCskQ/AbDwBXD3LzJSBdK+w3BIWa/moWBqL9NI5XB3OOkQif4bwjDeaSSqAjqkYSoWgMhmWUvCErAWaeNAyblwR/WOJj83Az/G9klJ7tj7P+CBXMrhx3D0oZ23U=
     - SCTX:
-        - Begin A1V6_RoadBagMiscCont_1_sc
+        - Begin A1V7_RoadBagMiscCont_1_sc
         - ""
         - short doOnce
         - short doRemove
@@ -2256,8 +2256,8 @@
         - ""
         - if ( doDisable > 20 )
         - "\tif ( GetDisabled == 1 )"
-        - "\t\tset temp to 2 * ( A1V6_RoadBagMiscExt / 2 )"
-        - "\t\tset A1V6_RoadBagMiscExt to temp"
+        - "\t\tset temp to 2 * ( A1V7_RoadBagMiscExt / 2 )"
+        - "\t\tset A1V7_RoadBagMiscExt to temp"
         - "\t\tSetDelete 1"
         - "\t\treturn"
         - "\tendif"
@@ -2269,7 +2269,7 @@
         - endif
         - ""
         - if ( doDisable > 0 )
-        - "\tAddItem \"A1V6_RoadBagFakeIngred\", 2"
+        - "\tAddItem \"A1V7_RoadBagFakeIngred\", 2"
         - "\tset doDisable to ( doDisable + 1 )"
         - "\treturn"
         - endif
@@ -2282,7 +2282,7 @@
         - if ( waitActivate == 2 )
         - "\tif ( MenuMode == 0 )"
         - "\t\tset waitActivate to 0"
-        - "\t\tif ( GetItemCount A1V6_RoadBagMiscItem_1 == 0 )"
+        - "\t\tif ( GetItemCount A1V7_RoadBagMiscItem_1 == 0 )"
         - "\t\t\tset doDisable to 1"
         - "\t\tendif"
         - "\tendif"
@@ -2300,13 +2300,13 @@
         - ""
         - ifx ( doOnce )
         - else
-        - "\tset temp to 2 * ( A1V6_RoadBagMiscExt / 2 ) + 1"
-        - "\tset A1V6_RoadBagMiscExt to temp"
+        - "\tset temp to 2 * ( A1V7_RoadBagMiscExt / 2 ) + 1"
+        - "\tset A1V7_RoadBagMiscExt to temp"
         - "\tDisablePlayerControls"
         - "\tset doOnce to 1"
-        - "\tset cx to A1V6_RoadBagX"
-        - "\tset cy to A1V6_RoadBagY"
-        - "\tset cz to A1V6_RoadBagZ"
+        - "\tset cx to A1V7_RoadBagX"
+        - "\tset cy to A1V7_RoadBagY"
+        - "\tset cz to A1V7_RoadBagZ"
         - "\tSetPos X cx"
         - "\tSetPos Y cy"
         - "\tSetPos Z cz"
@@ -2315,7 +2315,7 @@
         - "\t\txRemoveItem invItem invCount"
         - "\t\tsetx invItem,invCount,invRef to xInventory"
         - "\tendwhile"
-        - "\tAddItem \"A1V6_RoadBagMiscItem_1\", 1"
+        - "\tAddItem \"A1V7_RoadBagMiscItem_1\", 1"
         - "\tset invRef to 0"
         - "\tset doRemove to 1"
         - "\treturn"
@@ -2574,7 +2574,7 @@
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagMiscCont_2_sc
+        name: A1V7_RoadBagMiscCont_2_sc
         vars:
           shorts: 6
           longs: 7
@@ -2599,9 +2599,9 @@
         - cy
         - cz
         - invWeight
-    - SCDT: eJytl1+IG0Ucx2f2X3Y3SS/p1uspKKNEuGuRSyIn85CeWmmPCvrQglz7skwue8l6m+yxu7FNn3zSN/tufRB8kGLfhL4ogm9FKH0Rxb9g8VSwilgKhWuhv9nsJpvcXe9hSiA7+5vvfOY3v9/s8BsN6wYJZUSWSb2qYc0gqz+XyLFjpKbiUEFPkRXr1dpbL9mnfdY6ztpvuOHaiQsRqZPFuP8ggT94G/4vkiPkhdhO9hzHO2PVrgKV96PPyhhVsAE/DUtj934qVWKTrCem6rel2SzkJNtwTvXagdOSELgho6GwRo5WUla6uh9LsUAiNd6Rg0k0xDvqGlZARWJVFTQaaCAw+Dmy+qBE/Nlpp09FTteup+qEaOAK1jkoodYAMKLWEmqdq/jsmS5usChCFg0RasxQBRXoFWzS52WhdFT2Swe0jj4yJb/yeGG+OhWvY1QmK8WsdhXivS7tMJ/lZnmH+RzKl1aBAo+zMAoe50CFjjSGS/eQBC08aklTtjQw96SxJR2JGguN/TgmvSpN7ZxxJjG47PE08nRKfMEVHO+JUEXZ7PGnymWHk12pmAT0sSQdWkWlMrr539bvt7f+3ya3tv/+94+tf7YR+iUZgvV4yDJZirME0BzGSbPKN4I8sRGiokWvySb9StY2PTZwAvR0Y6gZrk+eiE5QTFeMMn1zDfnl3aOjjFrqBHF9yqaNWmhivqViuohpvz9XLNpTTPqeMuvGX6cdsPP2mYh5ncDt2tUaGrMWM3PFX4Y3/IKqe4flgGrRG4D/TbEy+LbHwhDYQuguoOdVk76izu5AR27PD8U8vw749wF/Wc167jT93kDU8wXNorcAfV+dS9CsxbqsF7n9ru0HjnDU34UJXtNMekY7kPrebw6EsT8A9kPAXtXKCdbpOgHzWqIBoTmL3gFwPnd4Crzp9pzIYYEQ/hLgT+dM2szNJPhNQHqiXv8F2CuA/SKXhqPlsq7fEw7HCR1OB92kc/qhluNs9tx2J7KjgL3jeCd9vyWWxI8AbgPc19NgNAOHCft8F7DXAHtdL6+Dj/bGedjRttNui4LfNCw6Y5j0WWMHuC4E/hTAHQBfNNL0sbBjD1hX1GPFtOjXAP7eeCIBh2uB27TfdoIN4bPDBvgzpknrZnosrQWsaXcdFomivwT0ANCXzEMJuuP3YTcnbLFt92Teot8B/PYY3ocj7/HAI4C/mDfpSv7g6KyOHg/6BqA/APTH+fIomf0o8hzRaM8XLPongLdHPofMiwJ3Tfz4vwno4wWTvl7Q3F7LuWDvjdNj3DKnedqoyImbMVhNho3BlwH8SSE3BF/cB9x4lJtbQFoq7lYmZkuihcZuivnGuBL0FJSpCDOVWy3WqMTLIZRcMaCZBC8zSoaq0IBC/huZl5NSOnzYOXybuKbMja4KvMiM7wUYPwQYymtZ
+    - SCDT: eJytl1+IG0Ucx2f2X3Y3SS/p1uspKKNEuGuRSyKH85CeWmmPCvrQglz7skwue8l6m+yxu7FNn3zSN/tufRB8kGLfhL4ogm9FKH0Rxb9g8VSwilgKhWuhv9nsJpvcXe9hSiA7+5vvfOY3v9/s8BsN6wYJZUSWSb2qYc0gqz+XyLFjpKbiUEFPkRXr1dpbL9mnfdY6ztpvuOHaiQsRqZPFuP8ggT94G/4vkiPkhdhO9hzHO2PVrgKV96PPyhhVsAE/DUtj934qVWKTrCem6rel2SzkJNtwTvXagdOSELgho6GwRo5WUla6uh9LsUAiNd6Rg0k0xDvqGlZARWJVFTQaaCAw+Dmy+qBE/Nlpp09FTteup+qEaOAK1jkoodYAMKLWEmqdq/jsmS5usChCFg0RasxQBRXoFWzS52WhdFT2Swe0jj4yJb/yeGG+OhWvY1QmK8WsdhXivS7tMJ/lZnmH+RzKl1aBAo+zMAoe50CFjjSGS/eQBC08aklTtjQw96SxJR2JGguN/TgmvSpN7ZxxJjG47PE08nRKfMEVHO+JUEXZ7PGnymWHk12pmAT0sSQdWkWlMrr539bvt7f+3ya3tv/+94+tf7YR+iUZgvV4yDJZirME0BzGSbPKN4I8sRGiokWvySb9StY2PTZwAvR0Y6gZrk+eiE5QTFeMMn1zDfnl3aOjjFrqBHF9yqaNWmhivqViuohpvz9XLNpTTPqeMuvGX6cdsPP2mYh5ncDt2tUaGrMWM3PFX4Y3/IKqe4flgGrRG4D/TbEy+LbHwhDYQuguoOdVk76izu5AR27PD8U8vw749wF/Wc167jT93kDU8wXNorcAfV+dS9CsxbqsF7n9ru0HjnDU34UJXtNMekY7kPrebw6EsT8A9kPAXtXKCdbpOgHzWqIBoTmL3gFwPnd4Crzp9pzIYYEQ/hLgT+dM2szNJPhNQHqiXv8F2CuA/SKXhqPlsq7fEw7HCR1OB92kc/qhluNs9tx2J7KjgL3jeCd9vyWWxI8AbgPc19NgNAOHCft8F7DXAHtdL6+Dj/bGedjRttNui4LfNCw6Y5j0WWMHuC4E/hTAHQBfNNL0sbBjD1hX1GPFtOjXAP7eeCIBh2uB27TfdoIN4bPDBvgzpknrZnosrQWsaXcdFomivwT0ANCXzEMJuuP3YTcnbLFt92Teot8B/PYY3ocj7/HAI4C/mDfpSv7g6KyOHg/6BqA/APTH+fIomf0o8hzRaM8XLPongLdHPofMiwJ3Tfz4vwno4wWTvl7Q3F7LuWDvjdNj3DKnedqoyImbMVhNho3BlwH8SSE3BF/cB9x4lJtbQFoq7lYmZkuihcZuivnGuBL0FJSpCDOVWy3WqMTLIZRcMaCZBC8zSoaq0IBC/huZl5NSOnzYOXybuKbMja4KvMiM7wUYPwSqOmtl
     - SCTX:
-        - Begin A1V6_RoadBagMiscCont_2_sc
+        - Begin A1V7_RoadBagMiscCont_2_sc
         - ""
         - short doOnce
         - short doRemove
@@ -2623,10 +2623,10 @@
         - ""
         - if ( doDisable > 20 )
         - "\tif ( GetDisabled == 1 )"
-        - "\t\tset temp to A1V6_RoadBagMiscExt / 2"
+        - "\t\tset temp to A1V7_RoadBagMiscExt / 2"
         - "\t\tset temp to temp - 2 * ( temp / 2 )"
-        - "\t\tset temp to A1V6_RoadBagMiscExt - 2 * temp"
-        - "\t\tset A1V6_RoadBagMiscExt to temp"
+        - "\t\tset temp to A1V7_RoadBagMiscExt - 2 * temp"
+        - "\t\tset A1V7_RoadBagMiscExt to temp"
         - "\t\tSetDelete 1"
         - "\t\treturn"
         - "\tendif"
@@ -2638,7 +2638,7 @@
         - endif
         - ""
         - if ( doDisable > 0 )
-        - "\tAddItem \"A1V6_RoadBagFakeIngred\", 2"
+        - "\tAddItem \"A1V7_RoadBagFakeIngred\", 2"
         - "\tset doDisable to ( doDisable + 1 )"
         - "\treturn"
         - endif
@@ -2651,7 +2651,7 @@
         - if ( waitActivate == 2 )
         - "\tif ( MenuMode == 0 )"
         - "\t\tset waitActivate to 0"
-        - "\t\tif ( GetItemCount A1V6_RoadBagMiscItem_2 == 0 )"
+        - "\t\tif ( GetItemCount A1V7_RoadBagMiscItem_2 == 0 )"
         - "\t\t\tset doDisable to 1"
         - "\t\tendif"
         - "\tendif"
@@ -2669,15 +2669,15 @@
         - ""
         - ifx ( doOnce )
         - else
-        - "\tset temp to A1V6_RoadBagMiscExt / 2"
+        - "\tset temp to A1V7_RoadBagMiscExt / 2"
         - "\tset temp to temp - 2 * ( temp / 2 )"
-        - "\tset temp to A1V6_RoadBagMiscExt - 2 * temp + 2"
-        - "\tset A1V6_RoadBagMiscExt to temp"
+        - "\tset temp to A1V7_RoadBagMiscExt - 2 * temp + 2"
+        - "\tset A1V7_RoadBagMiscExt to temp"
         - "\tDisablePlayerControls"
         - "\tset doOnce to 1"
-        - "\tset cx to A1V6_RoadBagX"
-        - "\tset cy to A1V6_RoadBagY"
-        - "\tset cz to A1V6_RoadBagZ"
+        - "\tset cx to A1V7_RoadBagX"
+        - "\tset cy to A1V7_RoadBagY"
+        - "\tset cz to A1V7_RoadBagZ"
         - "\tSetPos X cx"
         - "\tSetPos Y cy"
         - "\tSetPos Z cz"
@@ -2686,7 +2686,7 @@
         - "\t\txRemoveItem invItem invCount"
         - "\t\tsetx invItem,invCount,invRef to xInventory"
         - "\tendwhile"
-        - "\tAddItem \"A1V6_RoadBagMiscItem_2\", 1"
+        - "\tAddItem \"A1V7_RoadBagMiscItem_2\", 1"
         - "\tset invRef to 0"
         - "\tset doRemove to 1"
         - "\treturn"
@@ -2897,7 +2897,7 @@
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagMiscCont_3_sc
+        name: A1V7_RoadBagMiscCont_3_sc
         vars:
           shorts: 6
           longs: 7
@@ -2922,9 +2922,9 @@
         - cy
         - cz
         - invWeight
-    - SCDT: eJytl1+IG0Ucx2f2X5JNYpNue3cUlKHmwbbIJfEP85C7YqktJwiiUK99cJlc5nLbbP6wu/Ea6ZvQF0XoWxGKb4r4pCD64JsIgoIgfbJaQTxR1KKCUDmE/mazu9nk7nqFKXnYye/3m8/+5vubHX5j4EyO+Coiy6ReNbCeI6vfl8jSEqnp2NfQEXLWeqZ27mn7xT5rnWLt5x1/7dlLAXmSLIZ+sqdfOI+Tx3W8a4Au/OiDMkYVnIOfgZVJGjdLldCkZiNT9UZpLg05wzp8pdf2eEtBkIaKxoE1cqISs+JVfFcKAxRSEw6xVgMJR93AGkSRMKoKMQbEgAD4KFn9v0T6c7NJrwS8az8RR0fEHK7grABF1BoAEmototZFlHh7yiUMFkXIoj5CjQNUQwV6FZv0X+W+ZK/sJzuMTtxT+ltCFyxWoeN1jMrkbDEduwq6ris7zOeFWd1hvoDypVWgwOM8zILHBYhCxxvjJbpIgRFORsqMLRbgS2ViiWeixrHGfhyTXlZmdsikYhhSdkW5RNkUseAKDmvv6yhdJfHURdh8tPs0k0B8GBJPraJSGX3z19bPf2z9s01+2v799i9bf24j9EM0BWfDKcvkqbBKAM1gHA2rouDqVMFPFy16RTXpW6oxcNmIe+jhxjhmvD51Sp1TxXjFKOVbaKgnd1dHS0b6FHF9xmYkIzT1Pr0YL2I279c1iy5rJj2nzTnhV2h7bNN+KWDuhud07WoNTViLqXeFX4A7/lKqe8tyC/DXAf+hZqXwbZf5PrCl0Eu6Re8AuqTP7UAHTq/vy2V+DfAv6ybt6OnMebPfG8lm/h+gPwL01/pChGYt1mW9wBl27b7HpVV/wbCoZZj0UeOhOPdhcySNfR+wFwF72ShHWN7lHnNbsoJkMxb9HMA3jfkZ8MDp8YAzTwpvA/5oxqT1zIEIPwCkK5v1p4AdAfaNTCxHy2Hdfk9ajsNZi34L4F8zh1qcD3pOeyOwA4+9yt0z/X5LroguwBezJj2ZjcVoepxJ5/wFYK8A9lq2vA452p1N2NE2b7dlwY/kLPojgP/eCa5LgTcBTHMmfS4Xl4/5G/aIdWUzvgHgqwB+L3c4AvtrntO0L3KvI312LJoWvQ1wxYyPpTWPNe0uZ4Es+k1Ar5gmtc1DEXqjP4TdHLHltt1vAH8X4J9N4EM48h4M/HQeLHmTzucPJmd18GDQ1wH9CqAH+XJSzGEQuFxW7TsA/gTAXyU5+8wNPGdN/vh/p2DRgwWTHikYTq/FL9l747IhblnQXCNpcsJhCNajaRNwB8B+ITMGv7YPuHGvND8Gkl7crU1Mt0THGrtFPNaYdIKuhlIdYapzq4UxOnEzCEVXCRhG4qVmqdAV5qBhf1sV7aQSTx87x/+mriMLyZVANJlh/4/xXcQRYiA=
+    - SCDT: eJytl1+IG0Ucx2f2X5JNYpNue3cUlKHmwbbIJVFxHnJXLLXlBEEU6rUPLpPLXG6bzR92N14jfRP6ogh9K0LxTRGfFEQffBNBUBCkT1YriCeKWlQQKofQ32x2N5vcXa8wJQ87+f1+89nffH+zw28MnMkRX0VkmdSrBtZzZPX7EllaIjUd+xo6Qs5az9TOPW2/2GetU6z9vOOvPXspIE+SxdBP9vQL53HyuI53DdCFH31QxqiCc/AzsDJJ42apEprUbGSq3ijNpSFnWIev9NoebykI0lDROLBGTlRiVryK70phgEJqwiHWaiDhqBtYgygSRlUhxoAYEAAfJav/l0h/bjbplYB37Sfi6IiYwxWcFaCIWgNAQq1F1LqIEm9PuYTBoghZ1EeocYBqqECvYpP+q9yX7JX9ZIfRiXtKf0vogsUqdLyOUZmcLaZjV0HXdWWH+bwwqzvMF1C+tAoUeJyHWfC4AFHoeGO8RBcpMMLJSJmxxQJ8qUws8UzUONbYj2PSy8rMDplUDEPKriiXKJsiFlzBYe19HaWrJJ66CJuPdp9mEogPQ+KpVVQqo2/+2vr5j61/tslP27/f/mXrz22Efoim4Gw4ZZk8FVYJoBmMo2FVFFydKvjpokWvqCZ9SzUGLhtxDz3cGMeM16dOqXOqGK8YpXwLDfXk7upoyUifIq7P2IxkhKbepxfjRczm/bpm0WXNpOe0OSf8Cm2PbdovBczd8JyuXa2hCWsx9a7wC3DHX0p1b1luAf464D/UrBS+7TLfB7YUekm36B1Al/S5HejA6fV9ucyvAf5l3aQdPZ05b/Z7I9nM/wP0R4D+Wl+I0KzFuqwXOMOu3fe4tOovGBa1DJM+ajwU5z5sjqSx7wP2ImAvG+UIy7vcY25LVpBsxqKfA/imMT8DHjg9HnDmSeFtwB/NmLSeORDhB4B0ZbP+FLAjwL6RieVoOazb70nLcThr0W8B/GvmUIvzQc9pbwR24LFXuXum32/JFdEF+GLWpCezsRhNjzPpnL8A7BXAXsuW1yFHu7MJO9rm7bYs+JGcRX8E8N87wXUp8CaAac6kz+Xi8jF/wx6xrmzGNwB8FcDv5Q5HYH/Nc5r2Re51pM+ORdOitwGumPGxtOaxpt3lLJBFvwnoFdOktnkoQm/0h7CbI7bctvsN4O8C/LMJfAhH3oOBn86DJW/S+fzB5KwOHgz6OqBfAfQgX06KOQwCl8uqfQfAnwD4qyRnn7mB56zJH//vFCx6sGDSIwXD6bX4JXtvXDbELQuaayRNTjgMwXo0bQLuANgvZMbg1/YBN+6V5sdA0ou7tYnpluhYY7eIxxqTTtDVUKojTHVutTBGJ24GoegqAcNIvNQsFbrCHDTsb6uinVTi6WPn+N/UdWQhuRKIJjPs/zG+C1ToYiw=
     - SCTX:
-        - Begin A1V6_RoadBagMiscCont_3_sc
+        - Begin A1V7_RoadBagMiscCont_3_sc
         - ""
         - short doOnce
         - short doRemove
@@ -2946,9 +2946,9 @@
         - ""
         - if ( doDisable > 20 )
         - "\tif ( GetDisabled == 1 )"
-        - "\t\tset temp to A1V6_RoadBagMiscExt / 4"
-        - "\t\tset temp to A1V6_RoadBagMiscExt - 4 * temp"
-        - "\t\tset A1V6_RoadBagMiscExt to temp"
+        - "\t\tset temp to A1V7_RoadBagMiscExt / 4"
+        - "\t\tset temp to A1V7_RoadBagMiscExt - 4 * temp"
+        - "\t\tset A1V7_RoadBagMiscExt to temp"
         - "\t\tSetDelete 1"
         - "\t\treturn"
         - "\tendif"
@@ -2960,7 +2960,7 @@
         - endif
         - ""
         - if ( doDisable > 0 )
-        - "\tAddItem \"A1V6_RoadBagFakeIngred\", 2"
+        - "\tAddItem \"A1V7_RoadBagFakeIngred\", 2"
         - "\tset doDisable to ( doDisable + 1 )"
         - "\treturn"
         - endif
@@ -2973,7 +2973,7 @@
         - if ( waitActivate == 2 )
         - "\tif ( MenuMode == 0 )"
         - "\t\tset waitActivate to 0"
-        - "\t\tif ( GetItemCount A1V6_RoadBagMiscItem_3 == 0 )"
+        - "\t\tif ( GetItemCount A1V7_RoadBagMiscItem_3 == 0 )"
         - "\t\t\tset doDisable to 1"
         - "\t\tendif"
         - "\tendif"
@@ -2991,14 +2991,14 @@
         - ""
         - ifx ( doOnce )
         - else
-        - "\tset temp to A1V6_RoadBagMiscExt / 4"
-        - "\tset temp to A1V6_RoadBagMiscExt - 4 * temp + 4"
-        - "\tset A1V6_RoadBagMiscExt to temp"
+        - "\tset temp to A1V7_RoadBagMiscExt / 4"
+        - "\tset temp to A1V7_RoadBagMiscExt - 4 * temp + 4"
+        - "\tset A1V7_RoadBagMiscExt to temp"
         - "\tDisablePlayerControls"
         - "\tset doOnce to 1"
-        - "\tset cx to A1V6_RoadBagX"
-        - "\tset cy to A1V6_RoadBagY"
-        - "\tset cz to A1V6_RoadBagZ"
+        - "\tset cx to A1V7_RoadBagX"
+        - "\tset cy to A1V7_RoadBagY"
+        - "\tset cz to A1V7_RoadBagZ"
         - "\tSetPos X cx"
         - "\tSetPos Y cy"
         - "\tSetPos Z cz"
@@ -3007,7 +3007,7 @@
         - "\t\txRemoveItem invItem invCount"
         - "\t\tsetx invItem,invCount,invRef to xInventory"
         - "\tendwhile"
-        - "\tAddItem \"A1V6_RoadBagMiscItem_3\", 1"
+        - "\tAddItem \"A1V7_RoadBagMiscItem_3\", 1"
         - "\tset invRef to 0"
         - "\tset doRemove to 1"
         - "\treturn"
@@ -3218,67 +3218,67 @@
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagMiscDel_1_sc
+        name: A1V7_RoadBagMiscDel_1_sc
         vars:
           shorts: 0
           longs: 0
           floats: 0
         data_size: 114
         var_table_size: 0
-    - SCDT: eJx1yqEKgDAQAFCvCMLCkhgMh39wxbagWAwWg9iOMYcIk4mz+KF+jmCyCOb3BMSb06fdY4ACx1uiTysaSu69nmo9d0sw7WFXJlQKSbz9kj8NogRymX2xsY6JgwF4AF+oIU8=
+    - SCDT: eJx1yqEKgDAQAFCvCMLCkhgMh39wybSgWAwWg9iOMYcIk4mz+KF+jmCyCOb3BMSb06fdY4ACx1uiTysaSu69nmo9d0sw7WFXJlQKSbz9kj8NogRymX2xsY6JgwF4AGBOIVI=
     - SCTX:
-        - Begin A1V6_RoadBagMiscDel_1_sc
+        - Begin A1V7_RoadBagMiscDel_1_sc
         - ""
-        - if ( player->GetItemCount A1V6_RoadBagMiscItem_1 == 1 )
-        - "\tplayer->RemoveItem A1V6_RoadBagMiscItem_1, 1"
+        - if ( player->GetItemCount A1V7_RoadBagMiscItem_1 == 1 )
+        - "\tplayer->RemoveItem A1V7_RoadBagMiscItem_1, 1"
         - endif
         - ""
-        - StopScript A1V6_RoadBagMiscDel_1_sc
+        - StopScript A1V7_RoadBagMiscDel_1_sc
         - ""
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagMiscDel_2_sc
+        name: A1V7_RoadBagMiscDel_2_sc
         vars:
           shorts: 0
           longs: 0
           floats: 0
         data_size: 114
         var_table_size: 0
-    - SCDT: eJx1yiEKgDAUAFB/EYSFJTEYPt5gC7YFxWKwGMT2GXOIMJk4iwf1OILJIpjfYxBvTp92jwEKHG+OPq3EUFLv9VTruVuCaQ+7kkSlULC3X/ynQZRAzrMvNtaRpGAAHmAZIVI=
+    - SCDT: eJx1yiEKgDAUAFB/EYSFJTEYPt5gK6YFxWKwGMT2GXOIMJk4iwf1OILJIpjfYxBvTp92jwEKHG+OPq3EUFLv9VTruVuCaQ+7kkSlULC3X/ynQZRAzrMvNtaRpGAAHmC/IVU=
     - SCTX:
-        - Begin A1V6_RoadBagMiscDel_2_sc
+        - Begin A1V7_RoadBagMiscDel_2_sc
         - ""
-        - if ( player->GetItemCount A1V6_RoadBagMiscItem_2 == 1 )
-        - "\tplayer->RemoveItem A1V6_RoadBagMiscItem_2, 1"
+        - if ( player->GetItemCount A1V7_RoadBagMiscItem_2 == 1 )
+        - "\tplayer->RemoveItem A1V7_RoadBagMiscItem_2, 1"
         - endif
         - ""
-        - StopScript A1V6_RoadBagMiscDel_2_sc
+        - StopScript A1V7_RoadBagMiscDel_2_sc
         - ""
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagMiscDel_3_sc
+        name: A1V7_RoadBagMiscDel_3_sc
         vars:
           shorts: 0
           longs: 0
           floats: 0
         data_size: 114
         var_table_size: 0
-    - SCDT: eJx1yiEKgDAUAFB/EYSFJTEYPt5gDGwLisVgMYjtM+YQYTJxFg/qcQSTRTC/xyDenD7tHgMUON4cfVqJoaTe66nWc7cE0x52JYlKoWBvv/hPgyiBnGdfbKwjScEAPGCKIVU=
+    - SCDT: eJx1yiEKgDAUAFB/EYSFJTEYPt5gLJgWFIvBYhDbZ8whwmTiLB7U4wgmi2B+j0G8OX3aPQYocLw5+rQSQ0m911Ot524Jpj3sShKVQsHefvGfBlECOc++2FhHkoIBeABhMCFY
     - SCTX:
-        - Begin A1V6_RoadBagMiscDel_3_sc
+        - Begin A1V7_RoadBagMiscDel_3_sc
         - ""
-        - if ( player->GetItemCount A1V6_RoadBagMiscItem_3 == 1 )
-        - "\tplayer->RemoveItem A1V6_RoadBagMiscItem_3, 1"
+        - if ( player->GetItemCount A1V7_RoadBagMiscItem_3 == 1 )
+        - "\tplayer->RemoveItem A1V7_RoadBagMiscItem_3, 1"
         - endif
         - ""
-        - StopScript A1V6_RoadBagMiscDel_3_sc
+        - StopScript A1V7_RoadBagMiscDel_3_sc
         - ""
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagMiscItem_1_sc
+        name: A1V7_RoadBagMiscItem_1_sc
         vars:
           shorts: 6
           longs: 0
@@ -3292,9 +3292,9 @@
         - OnPCDrop
         - temp1
         - temp2
-    - SCDT: eJyNUk1LAlEUvXd0Xk5UvAoiCuISQRBUTkG0ieiLatGmRUxtBimJwDLSRf2m/kW0jTa1qsUkTlrqpBOCoFFvRp1EEV3ec8879517LkNJIe2V08oKqbeDCFOoIMOAQjEEF5QxJoNM2gQH5pBF5eBBgSNIFBzno2vqwZK+Hw2drIdO985ix5vhiK7qseMAosdX63wFqyN6RMvntXxOqw/ZZSR0E75iiJOk/XCKjjRr78bD5/qC+8yjP/M2NAQFuxZd7E500RF1DAwJA37PgN8xION2f+MjjZHWyzVoxg9d/LAFP3LxI3hvnb0RvYjrKgLAzjpAg6nezptqXGyg8w6CbuRjtD3czNm6jtMCzYs+g4CbbLWSYaBWiQbN0CxrSP5/+lP7nKqnwrp8UMtAwRdePyXJS0JykhCnOt7GgDMB+DLclSlpfhTsRNo2M5WcRTmTipYtKvqyMpWUlTDsSuFXFEUrmStnKWuWPq3sKki+ewP8D6YNtZtWexCBT8OjRdl0/pvyRuotbxWMXJkSRildVzBdhfQcuJ9H/AOrOAQY
+    - SCDT: eJyNUk1LAlEUvXd0Xk5UvAoiCuISQRBUTi1qE9EX1aJNi5jaDFISgWWki/pN/YtoG21qVYtJnLTUSScEQaPejDqJIrq855537jv3XIaSQtorp5UVUm8HEaZQQYYBhWIILihjTAaZtAkOzCGLysGDAkeQKDjOR9fUgyV9Pxo6WQ+d7p3FjjfDEV3VY8cBRI+v1vkKVkf0iJbPa/mcVh+yy0joJnzFECdJ++EUHWnW3o2Hz/UF95lHf+ZtaAgKdi262J3ooiPqGBgSBvyeAb9jQMbt/sZHGiOtl2vQjB+6+GELfuTiR/DeOnsjehHXVQSAnXWABlO9nTfVuNhA5x0E3cjHaHu4mbN1HacFmhd9BgE32Wolw0CtEg2aoVnWkPz/9Kf2OVVPhXX5oJaBgi+8fkqSl4TkJCFOdbyNAWcC8GW4K1PS/CjYibRtZio5i3ImFS1bVPRlZSopK2HYlcKvKIpWMlfOUtYsfVrZVZB89wb4H0wbajet9iACn4ZHi7Lp/DfljdRb3ioYuTIljFK6rmC6Cuk5cD+P+AfH5AQn
     - SCTX:
-        - Begin A1V6_RoadBagMiscItem_1_sc
+        - Begin A1V7_RoadBagMiscItem_1_sc
         - ""
         - short wait
         - short OnPCEquip
@@ -3312,7 +3312,7 @@
         - "\tset temp1 to GetButtonPressed"
         - "\tif ( temp1 == 0 )"
         - "\t\tset wait to 0"
-        - "\t\tStartScript A1V6_RoadBagMiscDel_1_sc"
+        - "\t\tStartScript A1V7_RoadBagMiscDel_1_sc"
         - "\telseif ( temp1 == 1 )"
         - "\t\tset wait to 0"
         - "\tendif"
@@ -3321,29 +3321,29 @@
         - ""
         - if ( OnPCAdd == 1 )
         - "\tset OnPCAdd to 0"
-        - "\tif ( player->GetItemCount A1V6_RoadBagMiscItem_2 == 1 )"
-        - "\t\tplayer->RemoveItem A1V6_RoadBagMiscItem_2, 1"
+        - "\tif ( player->GetItemCount A1V7_RoadBagMiscItem_2 == 1 )"
+        - "\t\tplayer->RemoveItem A1V7_RoadBagMiscItem_2, 1"
         - "\tendif"
-        - "\tif ( player->GetItemCount A1V6_RoadBagMiscItem_3 == 1 )"
-        - "\t\tplayer->RemoveItem A1V6_RoadBagMiscItem_3, 1"
+        - "\tif ( player->GetItemCount A1V7_RoadBagMiscItem_3 == 1 )"
+        - "\t\tplayer->RemoveItem A1V7_RoadBagMiscItem_3, 1"
         - "\tendif"
         - endif
         - ""
         - if ( OnPCDrop == 1 )
         - "\tset OnPCDrop to 0"
-        - "\tset A1V6_RoadBagX to ( GetPos X )"
-        - "\tset A1V6_RoadBagY to ( GetPos Y )"
-        - "\tset A1V6_RoadBagZ to ( GetPos Z )"
-        - "\tPlaceAtPC A1V6_RoadBagMiscCont_1 1, 50, 0"
-        - "\tif ( player->GetItemCount A1V6_RoadBagMiscItem_2 == 0 )"
-        - "\t\tif ( player->GetItemCount A1V6_RoadBagMiscItem_3 == 0 )"
-        - "\t\t\tset temp1 to ( A1V6_RoadBagMiscExt / 2 )\t\t\t\t; temp1 = flags div 2"
+        - "\tset A1V7_RoadBagX to ( GetPos X )"
+        - "\tset A1V7_RoadBagY to ( GetPos Y )"
+        - "\tset A1V7_RoadBagZ to ( GetPos Z )"
+        - "\tPlaceAtPC A1V7_RoadBagMiscCont_1 1, 50, 0"
+        - "\tif ( player->GetItemCount A1V7_RoadBagMiscItem_2 == 0 )"
+        - "\t\tif ( player->GetItemCount A1V7_RoadBagMiscItem_3 == 0 )"
+        - "\t\t\tset temp1 to ( A1V7_RoadBagMiscExt / 2 )\t\t\t\t; temp1 = flags div 2"
         - "\t\t\tset temp2 to ( temp1 / 2 )\t\t\t\t\t\t\t\t\t; temp2 = (flags div 2) div 2 ~ flags & 0b100"
         - "\t\t\tset temp1 to ( temp1 - 2 * temp2 )\t\t\t\t\t\t\t; temp1 = flags div 2 - 2 ((flags div 2) div 2) = (flags div 2) mod 2 ~ flags & 0b010"
         - "\t\t\tif ( temp1 == 0 )"
-        - "\t\t\t\tplayer->AddItem A1V6_RoadBagMiscItem_2, 1"
+        - "\t\t\t\tplayer->AddItem A1V7_RoadBagMiscItem_2, 1"
         - "\t\t\telseif ( temp2 == 0 )"
-        - "\t\t\t\tplayer->AddItem A1V6_RoadBagMiscItem_3, 1"
+        - "\t\t\t\tplayer->AddItem A1V7_RoadBagMiscItem_3, 1"
         - "\t\t\tendif"
         - "\t\tendif"
         - "\tendif"
@@ -3352,7 +3352,7 @@
         - ""
         - if ( OnPCEquip == 1 )
         - "\tset OnPCEquip to 0"
-        - "\tif ( A1V6_RoadBagMiscExt == 0 )"
+        - "\tif ( A1V7_RoadBagMiscExt == 0 )"
         - "\t\tMessageBox \"Вы действительно не хотите пользоваться походным мешком?\" \"Да\" \"Нет\""
         - "\t\tset wait to 1"
         - "\telse"
@@ -3363,7 +3363,7 @@
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagMiscItem_2_sc
+        name: A1V7_RoadBagMiscItem_2_sc
         vars:
           shorts: 6
           longs: 0
@@ -3377,9 +3377,9 @@
         - OnPCDrop
         - temp1
         - temp2
-    - SCDT: eJyNUk1LAlEUvXfUlxMFr4KIgrhEEASVYxBtIvqiWrRpEVObQUoiqIx0Ub+pfxFto02tajFJU1Y66UQgaNR7Lx1MEV3ec8899+NchppO5gOnuTkyLnoQRlFHhmGdkggKDGEyBCEyhzkwSRaRxCMCR9AoMsQHFoytGWszEdtbjO1vHCR3l+OHVtRK7oYRfb5R5ev416JDpAJ+KiBTXchODmPn8VOGOELmN6dEf732eip+ZBmqzKff8SY0BB3bFp1uT3RaisoFesUCQX+BoFwghKvdtUUmI7OTm1CPbyt8uwHfUfgOPDf2Xkocp6woAsDaIkDNUp2tL1V72HDrG0SU5YO02lfPWTlLUZSmRJ4BNc1Lx8dpQqmEVSRqmPoFBv/nuW3uXO3ztC6ouKLjPa8+l+Z7o0lvxPMONRlZdgA+C5clenJeC1464znv5ZxLOYe+XE9E9OG+l1/ctO2VCz8i+HKfcqUsZZ3im5udBy1wZUPw2vGg8uVGByLwMbhxKZvJf1LefnnMuwU7V6K0XcxUFRylkJkENTziL68ICrM=
+    - SCDT: eJyNUk1LAlEUvXfUlxMFr4KIgrhEEASVY4vaRPRFtWjTIqY2g5REUBnpon5T/yLaRpta1WKSpqx00olA0Kj3XjqYIrq855577se5DDWdzAdOc3NkXPQgjKKODMM6JREUGMJkCEJkDnNgkiwiiUcEjqBRZIgPLBhbM9ZmIra3GNvfOEjuLscPraiV3A0j+nyjytfxr0WHSAX8VECmupCdHMbO46cMcYTMb06J/nrt9VT8yDJUmU+/401oCDq2LTrdnui0FJUL9IoFgv4CQblACFe7a4tMRmYnN6Ee31b4dgO+o/AdeG7svZQ4TllRBIC1RYCapTpbX6r2sOHWN4goywdpta+es3KWoihNiTwDapqXjo/ThFIJq0jUMPULDP7Pc9vcudrnaV1QcUXHe159Ls33RpPeiOcdajKy7AB8Fi5L9OS8Frx0xnPeyzmXcg59uZ6I6MN9L7+4adsrF35E8OU+5UpZyjrFNzc7D1rgyobgteNB5cuNDkTgY3DjUjaT/6S8/fKYdwt2rkRpu5ipKjhKITMJanjEX83ZCsM=
     - SCTX:
-        - Begin A1V6_RoadBagMiscItem_2_sc
+        - Begin A1V7_RoadBagMiscItem_2_sc
         - ""
         - short wait
         - short OnPCEquip
@@ -3397,7 +3397,7 @@
         - "\tset temp1 to GetButtonPressed"
         - "\tif ( temp1 == 0 )"
         - "\t\tset wait to 0"
-        - "\t\tStartScript A1V6_RoadBagMiscDel_2_sc"
+        - "\t\tStartScript A1V7_RoadBagMiscDel_2_sc"
         - "\telseif ( temp1 == 1 )"
         - "\t\tset wait to 0"
         - "\tendif"
@@ -3406,29 +3406,29 @@
         - ""
         - if ( OnPCAdd == 1 )
         - "\tset OnPCAdd to 0"
-        - "\tif ( player->GetItemCount A1V6_RoadBagMiscItem_1 == 1 )"
-        - "\t\tplayer->RemoveItem A1V6_RoadBagMiscItem_1, 1"
+        - "\tif ( player->GetItemCount A1V7_RoadBagMiscItem_1 == 1 )"
+        - "\t\tplayer->RemoveItem A1V7_RoadBagMiscItem_1, 1"
         - "\tendif"
-        - "\tif ( player->GetItemCount A1V6_RoadBagMiscItem_3 == 1 )"
-        - "\t\tplayer->RemoveItem A1V6_RoadBagMiscItem_3, 1"
+        - "\tif ( player->GetItemCount A1V7_RoadBagMiscItem_3 == 1 )"
+        - "\t\tplayer->RemoveItem A1V7_RoadBagMiscItem_3, 1"
         - "\tendif"
         - endif
         - ""
         - if ( OnPCDrop == 1 )
         - "\tset OnPCDrop to 0"
-        - "\tset A1V6_RoadBagX to ( GetPos X )"
-        - "\tset A1V6_RoadBagY to ( GetPos Y )"
-        - "\tset A1V6_RoadBagZ to ( GetPos Z )"
-        - "\tPlaceAtPC A1V6_RoadBagMiscCont_2 1, 50, 0"
-        - "\tif ( player->GetItemCount A1V6_RoadBagMiscItem_1 == 0 )"
-        - "\t\tif ( player->GetItemCount A1V6_RoadBagMiscItem_3 == 0 )"
-        - "\t\t\tset temp1 to ( A1V6_RoadBagMiscExt / 2 )\t\t\t\t; temp1 = flags div 2"
-        - "\t\t\tset temp2 to ( A1V6_RoadBagMiscExt - 2 * temp1 )\t; temp2 = flags - 2 (flags div 2) = flags mod 2 ~ flags & 0b001"
+        - "\tset A1V7_RoadBagX to ( GetPos X )"
+        - "\tset A1V7_RoadBagY to ( GetPos Y )"
+        - "\tset A1V7_RoadBagZ to ( GetPos Z )"
+        - "\tPlaceAtPC A1V7_RoadBagMiscCont_2 1, 50, 0"
+        - "\tif ( player->GetItemCount A1V7_RoadBagMiscItem_1 == 0 )"
+        - "\t\tif ( player->GetItemCount A1V7_RoadBagMiscItem_3 == 0 )"
+        - "\t\t\tset temp1 to ( A1V7_RoadBagMiscExt / 2 )\t\t\t\t; temp1 = flags div 2"
+        - "\t\t\tset temp2 to ( A1V7_RoadBagMiscExt - 2 * temp1 )\t; temp2 = flags - 2 (flags div 2) = flags mod 2 ~ flags & 0b001"
         - "\t\t\tset temp1 to ( temp1 / 2 )\t\t\t\t\t\t\t\t\t; temp1 = (flags div 2) div 2 ~ flags & 0b100"
         - "\t\t\tif ( temp2 == 0 )"
-        - "\t\t\t\tplayer->AddItem A1V6_RoadBagMiscItem_1, 1"
+        - "\t\t\t\tplayer->AddItem A1V7_RoadBagMiscItem_1, 1"
         - "\t\t\telseif ( temp1 == 0 )"
-        - "\t\t\t\tplayer->AddItem A1V6_RoadBagMiscItem_3, 1"
+        - "\t\t\t\tplayer->AddItem A1V7_RoadBagMiscItem_3, 1"
         - "\t\t\tendif"
         - "\t\tendif"
         - "\tendif"
@@ -3437,7 +3437,7 @@
         - ""
         - if ( OnPCEquip == 1 )
         - "\tset OnPCEquip to 0"
-        - "\tif ( A1V6_RoadBagMiscExt == 0 )"
+        - "\tif ( A1V7_RoadBagMiscExt == 0 )"
         - "\t\tMessageBox \"Вы действительно не хотите пользоваться походным мешком?\" \"Да\" \"Нет\""
         - "\t\tset wait to 1"
         - "\telse"
@@ -3448,7 +3448,7 @@
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_RoadBagMiscItem_3_sc
+        name: A1V7_RoadBagMiscItem_3_sc
         vars:
           shorts: 6
           longs: 0
@@ -3462,9 +3462,9 @@
         - OnPCDrop
         - temp1
         - temp2
-    - SCDT: eJyNUk1LAlEUvXfUl9MXL4KIgrhEEASVYxBtIvqiWrRpEVObQUoiqIx0Ub+pfxFto02tajFJU1Y66UQQaNR7L51EEd29e+55536cy1DTybznNDtLxnkPwgjqyDCsUxJBgSFMhiBE5hAHJskiknhE4AgaRQZ5/7yxOW1tJGK7C7G99f3kzlL8wJqykjthRJ9vVPg6/pVoE6mAnwrIVCey44PYWfyEIQ6T+c0p0VervZaKH1qG+ubTb3kDGoKOLYtGWxONSlE5QK8YIOgPEJQDhHClq/qTychs5ybU4lsK36rDtxW+DU/1tRcTRylrCgFgdQGgaqiO5puqXqzefAcRZfkArfTWcpZPUxSlSZFnEFbOVqLuciSeNEbjSoEaKsikYLGq+/jv8aaxm38HxVr8UHZKxzteOTjN90uTfomDHmzQpKwAfAYuivTovBS8dMZz3ko5l3IOfbqeiOjdfSs9u2nbKxV+RPDpPuaKWco6X69udg60wKUNwSvHg/LlG22IwEfh2qVsJv9Befv5Ie8W7FyR0vZXpqLgKIXMBKjmEX8Br3kNWw==
+    - SCDT: eJyNUk1LAlEUvXfUl9MXL4KIgrhEEASVY4vaRPRFtWjTIqY2g5REUBnpon5T/yLaRpta1WKSpqx00okg0Kj3XjqJIrp799zzzv04l6Gmk3nPaXaWjPMehBHUkWFYpySCAkOYDEGIzCEOTJJFJPGIwBE0igzy/nljc9raSMR2F2J76/vJnaX4gTVlJXfCiD7fqPB1/CvRJlIBPxWQqU5kxwexs/gJQxwm85tToq9Wey0VP7QM9c2n3/IGNAQdWxaNtiYalaJygF4xQNAfICgHCOFKV/Unk5HZzk2oxbcUvlWHbyt8G57qay8mjlLWFALA6gJA1VAdzTdVvVi9+Q4iyvIBWumt5SyfpihKkyLPIKycrUTd5Ug8aYzGlQI1VJBJwWJV9/Hf401jN/8OirX4oeyUjne8cnCa75cm/RIHPdigSVkB+AxcFOnReSl46YznvJVyLuUc+nQ9EdG7+1Z6dtO2Vyr8iODTfcwVs5R1vl7d7BxogUsbgleOB+XLN9oQgY/CtUvZTP6D8vbzQ94t2Lkipe2vTEXBUQqZCVDNI/4CzywNaw==
     - SCTX:
-        - Begin A1V6_RoadBagMiscItem_3_sc
+        - Begin A1V7_RoadBagMiscItem_3_sc
         - ""
         - short wait
         - short OnPCEquip
@@ -3482,7 +3482,7 @@
         - "\tset temp1 to GetButtonPressed"
         - "\tif ( temp1 == 0 )"
         - "\t\tset wait to 0"
-        - "\t\tStartScript A1V6_RoadBagMiscDel_3_sc"
+        - "\t\tStartScript A1V7_RoadBagMiscDel_3_sc"
         - "\telseif ( temp1 == 1 )"
         - "\t\tset wait to 0"
         - "\tendif"
@@ -3491,30 +3491,30 @@
         - ""
         - if ( OnPCAdd == 1 )
         - "\tset OnPCAdd to 0"
-        - "\tif ( player->GetItemCount A1V6_RoadBagMiscItem_1 == 1 )"
-        - "\t\tplayer->RemoveItem A1V6_RoadBagMiscItem_1, 1"
+        - "\tif ( player->GetItemCount A1V7_RoadBagMiscItem_1 == 1 )"
+        - "\t\tplayer->RemoveItem A1V7_RoadBagMiscItem_1, 1"
         - "\tendif"
-        - "\tif ( player->GetItemCount A1V6_RoadBagMiscItem_2 == 1 )"
-        - "\t\tplayer->RemoveItem A1V6_RoadBagMiscItem_2, 1"
+        - "\tif ( player->GetItemCount A1V7_RoadBagMiscItem_2 == 1 )"
+        - "\t\tplayer->RemoveItem A1V7_RoadBagMiscItem_2, 1"
         - "\tendif"
         - endif
         - ""
         - if ( OnPCDrop == 1 )
         - "\tset OnPCDrop to 0"
-        - "\tset A1V6_RoadBagX to ( GetPos X )"
-        - "\tset A1V6_RoadBagY to ( GetPos Y )"
-        - "\tset A1V6_RoadBagZ to ( GetPos Z )"
-        - "\tPlaceAtPC A1V6_RoadBagMiscCont_3 1, 50, 0"
-        - "\tif ( player->GetItemCount A1V6_RoadBagMiscItem_1 == 0 )"
-        - "\t\tif ( player->GetItemCount A1V6_RoadBagMiscItem_2 == 0 )"
-        - "\t\t\tset temp1 to ( A1V6_RoadBagMiscExt / 2 )\t\t\t\t; temp1 = flags div 2"
+        - "\tset A1V7_RoadBagX to ( GetPos X )"
+        - "\tset A1V7_RoadBagY to ( GetPos Y )"
+        - "\tset A1V7_RoadBagZ to ( GetPos Z )"
+        - "\tPlaceAtPC A1V7_RoadBagMiscCont_3 1, 50, 0"
+        - "\tif ( player->GetItemCount A1V7_RoadBagMiscItem_1 == 0 )"
+        - "\t\tif ( player->GetItemCount A1V7_RoadBagMiscItem_2 == 0 )"
+        - "\t\t\tset temp1 to ( A1V7_RoadBagMiscExt / 2 )\t\t\t\t; temp1 = flags div 2"
         - "\t\t\tset temp2 to ( temp1 / 2 )\t\t\t\t\t\t\t\t\t; temp2 = (flags div 2) div 2"
         - "\t\t\tset temp2 to ( temp1 - 2 * temp2 )\t\t\t\t\t\t\t; temp2 = flags div 2 - 2 ((flags div 2) div 2) = (flags div 2) mod 2 ~ flags & 0b010"
-        - "\t\t\tset temp1 to ( A1V6_RoadBagMiscExt - 2 * temp1 )\t; temp1 = flags - 2 (flags div 2) = flags mod 2 ~ flags & 0b001"
+        - "\t\t\tset temp1 to ( A1V7_RoadBagMiscExt - 2 * temp1 )\t; temp1 = flags - 2 (flags div 2) = flags mod 2 ~ flags & 0b001"
         - "\t\t\tif ( temp1 == 0 )"
-        - "\t\t\t\tplayer->AddItem A1V6_RoadBagMiscItem_1, 1"
+        - "\t\t\t\tplayer->AddItem A1V7_RoadBagMiscItem_1, 1"
         - "\t\t\telseif ( temp2 == 0 )"
-        - "\t\t\t\tplayer->AddItem A1V6_RoadBagMiscItem_2, 1"
+        - "\t\t\t\tplayer->AddItem A1V7_RoadBagMiscItem_2, 1"
         - "\t\t\tendif"
         - "\t\tendif"
         - "\tendif"
@@ -3523,7 +3523,7 @@
         - ""
         - if ( OnPCEquip == 1 )
         - "\tset OnPCEquip to 0"
-        - "\tif ( A1V6_RoadBagMiscExt == 0 )"
+        - "\tif ( A1V7_RoadBagMiscExt == 0 )"
         - "\t\tMessageBox \"Вы действительно не хотите пользоваться походным мешком?\" \"Да\" \"Нет\""
         - "\t\tset wait to 1"
         - "\telse"
@@ -3534,7 +3534,7 @@
         - End
 - SCPT:
     - SCHD:
-        name: A1V6_StartContainers
+        name: A1V7_StartContainers
         vars:
           shorts: 1
           longs: 0
@@ -3543,39 +3543,39 @@
         var_table_size: 7
     - SCVR:
         - doOnce
-    - SCDT: eJyVzrEKwjAQxvF+SgsFhw7i5BDEBzAKbh2qUwcXBXEroZZaqI0kWXxPX0fQCqYqmKbcdPC/4zcOhhHdL5OdYkKteaVYUWVCeoBPJBwShoRO4cPFc+sROoB3Kdk1Ex7cCTncA8JHrwdbzo4rlkdleopVdk5ofTr7yPvGfP6bw5gvvvNb8AcBx0c9bey4ykUHts7t2Do3sxuELXtTyLQDW+d2bJ2b2Q3izQYeQjSlRA==
+    - SCDT: eJyVzrEKwjAQxvF+SgsFhw7i5BDEBzA6OHWoTh1cFMSthFpqoTaSZPE9fR1BK5iqYJpy08H/jt84GEZ0v0x2igm15pViRZUJ6QE+kXBIGBI6hQ8Xz61H6ADepWTXTHhwJ+RwDwgfvR5sOTuuWB6V6SlW2Tmh9ensI+8b8/lvDmO++M5vwR8EHB/1tLHjKhcd2Dq3Y+vczG4QtuxNIdMObJ3bsXVuZjeINxt4AFF7pVE=
     - SCTX:
-        - Begin A1V6_StartContainers
+        - Begin A1V7_StartContainers
         - ""
         - short doOnce
         - ""
-        - StopScript A1V6_StartContainers
+        - StopScript A1V7_StartContainers
         - ""
         - if ( doOnce == 1 )
         - "\treturn"
         - endif
         - set doOnce to 1
         - ""
-        - if ( player->GetItemCount A1V6_RoadBagAlchItem_1 == 0 )
-        - "\tif ( player->GetItemCount A1V6_RoadBagAlchItem_2 == 0 )"
-        - "\t\tif ( player->GetItemCount A1V6_RoadBagAlchItem_3 == 0 )"
-        - "\t\t\tplayer->AddItem A1V6_RoadBagAlchItem_1, 1"
+        - if ( player->GetItemCount A1V7_RoadBagAlchItem_1 == 0 )
+        - "\tif ( player->GetItemCount A1V7_RoadBagAlchItem_2 == 0 )"
+        - "\t\tif ( player->GetItemCount A1V7_RoadBagAlchItem_3 == 0 )"
+        - "\t\t\tplayer->AddItem A1V7_RoadBagAlchItem_1, 1"
         - "\t\tendif"
         - "\tendif"
         - endif
         - ""
-        - if ( player->GetItemCount A1V6_RoadBagIngrItem_1 == 0 )
-        - "\tif ( player->GetItemCount A1V6_RoadBagIngrItem_2 == 0 )"
-        - "\t\tif ( player->GetItemCount A1V6_RoadBagIngrItem_3 == 0 )"
-        - "\t\t\tplayer->AddItem A1V6_RoadBagIngrItem_1, 1"
+        - if ( player->GetItemCount A1V7_RoadBagIngrItem_1 == 0 )
+        - "\tif ( player->GetItemCount A1V7_RoadBagIngrItem_2 == 0 )"
+        - "\t\tif ( player->GetItemCount A1V7_RoadBagIngrItem_3 == 0 )"
+        - "\t\t\tplayer->AddItem A1V7_RoadBagIngrItem_1, 1"
         - "\t\tendif"
         - "\tendif"
         - endif
         - ""
-        - if ( player->GetItemCount A1V6_RoadBagMiscItem_1 == 0 )
-        - "\tif ( player->GetItemCount A1V6_RoadBagMiscItem_2 == 0 )"
-        - "\t\tif ( player->GetItemCount A1V6_RoadBagMiscItem_3 == 0 )"
-        - "\t\t\tplayer->AddItem A1V6_RoadBagMiscItem_1, 1"
+        - if ( player->GetItemCount A1V7_RoadBagMiscItem_1 == 0 )
+        - "\tif ( player->GetItemCount A1V7_RoadBagMiscItem_2 == 0 )"
+        - "\t\tif ( player->GetItemCount A1V7_RoadBagMiscItem_3 == 0 )"
+        - "\t\t\tplayer->AddItem A1V7_RoadBagMiscItem_1, 1"
         - "\t\tendif"
         - "\tendif"
         - endif
@@ -3583,9 +3583,9 @@
         - End
 - SSCR:
     - DATA: "789011789164707584"
-    - NAME: A1V6_StartContainers
+    - NAME: A1V7_StartContainers
 - INGR:
-    - NAME: A1V6_RoadBagFakeIngred
+    - NAME: A1V7_RoadBagFakeIngred
     - MODL: "n\\ingred_bittergreen_01.nif"
     - FNAM: ERROR
     - IRDT:
@@ -3605,155 +3605,155 @@
         effect_4_attribute: ~
     - ITEX: "n\\tx_bittergreen_petal_01.dds"
 - CONT:
-    - NAME: A1V6_RoadBagIngrCont_1
+    - NAME: A1V7_RoadBagIngrCont_1
     - MODL: "o\\Contain_Com_Sack_02.NIF"
     - FNAM: Мешок с ингредиентами
     - CNDT: 10000.0
     - FLAG: ""
-    - SCRI: A1V6_RoadBagIngrCont_1_sc
+    - SCRI: A1V7_RoadBagIngrCont_1_sc
 - CONT:
-    - NAME: A1V6_RoadBagIngrCont_2
+    - NAME: A1V7_RoadBagIngrCont_2
     - MODL: "o\\Contain_Com_Sack_02.NIF"
     - FNAM: Мешок с ингредиентами
     - CNDT: 10000.0
     - FLAG: ""
-    - SCRI: A1V6_RoadBagIngrCont_2_sc
+    - SCRI: A1V7_RoadBagIngrCont_2_sc
 - CONT:
-    - NAME: A1V6_RoadBagIngrCont_3
+    - NAME: A1V7_RoadBagIngrCont_3
     - MODL: "o\\Contain_Com_Sack_02.NIF"
     - FNAM: Мешок с ингредиентами
     - CNDT: 10000.0
     - FLAG: ""
-    - SCRI: A1V6_RoadBagIngrCont_3_sc
+    - SCRI: A1V7_RoadBagIngrCont_3_sc
 - CONT:
-    - NAME: A1V6_RoadBagMiscCont_1
+    - NAME: A1V7_RoadBagMiscCont_1
     - MODL: "o\\Contain_Com_Sack_02.NIF"
     - FNAM: Походный мешок
     - CNDT: 10000.0
     - FLAG: ""
-    - SCRI: A1V6_RoadBagMiscCont_1_sc
+    - SCRI: A1V7_RoadBagMiscCont_1_sc
 - CONT:
-    - NAME: A1V6_RoadBagMiscCont_2
+    - NAME: A1V7_RoadBagMiscCont_2
     - MODL: "o\\Contain_Com_Sack_02.NIF"
     - FNAM: Походный мешок
     - CNDT: 10000.0
     - FLAG: ""
-    - SCRI: A1V6_RoadBagMiscCont_2_sc
+    - SCRI: A1V7_RoadBagMiscCont_2_sc
 - CONT:
-    - NAME: A1V6_RoadBagMiscCont_3
+    - NAME: A1V7_RoadBagMiscCont_3
     - MODL: "o\\Contain_Com_Sack_02.NIF"
     - FNAM: Походный мешок
     - CNDT: 10000.0
     - FLAG: ""
-    - SCRI: A1V6_RoadBagMiscCont_3_sc
+    - SCRI: A1V7_RoadBagMiscCont_3_sc
 - MISC:
-    - NAME: A1V6_RoadBagIngrItem_1
+    - NAME: A1V7_RoadBagIngrItem_1
     - MODL: "o\\contain_com_sack_02.nif"
     - FNAM: Мешок с ингредиентами
     - MCDT:
         weight: 0.0
         value: 0
         is_key: false
-    - SCRI: A1V6_RoadBagIngrItem_1_sc
+    - SCRI: A1V7_RoadBagIngrItem_1_sc
     - ITEX: "m\\a1_alchemy_ingr.dds"
 - MISC:
-    - NAME: A1V6_RoadBagIngrItem_2
+    - NAME: A1V7_RoadBagIngrItem_2
     - MODL: "o\\contain_com_sack_02.nif"
     - FNAM: Мешок с ингредиентами
     - MCDT:
         weight: 0.0
         value: 0
         is_key: false
-    - SCRI: A1V6_RoadBagIngrItem_2_sc
+    - SCRI: A1V7_RoadBagIngrItem_2_sc
     - ITEX: "m\\a1_alchemy_ingr.dds"
 - MISC:
-    - NAME: A1V6_RoadBagIngrItem_3
+    - NAME: A1V7_RoadBagIngrItem_3
     - MODL: "o\\contain_com_sack_02.nif"
     - FNAM: Мешок с ингредиентами
     - MCDT:
         weight: 0.0
         value: 0
         is_key: false
-    - SCRI: A1V6_RoadBagIngrItem_3_sc
+    - SCRI: A1V7_RoadBagIngrItem_3_sc
     - ITEX: "m\\a1_alchemy_ingr.dds"
 - MISC:
-    - NAME: A1V6_RoadBagMiscItem_1
+    - NAME: A1V7_RoadBagMiscItem_1
     - MODL: "o\\contain_com_sack_02.nif"
     - FNAM: Походный мешок
     - MCDT:
         weight: 0.0
         value: 0
         is_key: false
-    - SCRI: A1V6_RoadBagMiscItem_1_sc
+    - SCRI: A1V7_RoadBagMiscItem_1_sc
     - ITEX: "m\\a1_alchemy_sack.dds"
 - MISC:
-    - NAME: A1V6_RoadBagMiscItem_2
+    - NAME: A1V7_RoadBagMiscItem_2
     - MODL: "o\\contain_com_sack_02.nif"
     - FNAM: Походный мешок
     - MCDT:
         weight: 0.0
         value: 0
         is_key: false
-    - SCRI: A1V6_RoadBagMiscItem_2_sc
+    - SCRI: A1V7_RoadBagMiscItem_2_sc
     - ITEX: "m\\a1_alchemy_sack.dds"
 - MISC:
-    - NAME: A1V6_RoadBagMiscItem_3
+    - NAME: A1V7_RoadBagMiscItem_3
     - MODL: "o\\contain_com_sack_02.nif"
     - FNAM: Походный мешок
     - MCDT:
         weight: 0.0
         value: 0
         is_key: false
-    - SCRI: A1V6_RoadBagMiscItem_3_sc
+    - SCRI: A1V7_RoadBagMiscItem_3_sc
     - ITEX: "m\\a1_alchemy_sack.dds"
 - MISC:
-    - NAME: A1V6_RoadBagAlchItem_1
+    - NAME: A1V7_RoadBagAlchItem_1
     - MODL: "o\\contain_chest10.nif"
     - FNAM: Сундук с зельями
     - MCDT:
         weight: 0.0
         value: 0
         is_key: false
-    - SCRI: A1V6_RoadBagAlchItem_1_sc
+    - SCRI: A1V7_RoadBagAlchItem_1_sc
     - ITEX: "m\\a1_alchemy_chest.dds"
 - CONT:
-    - NAME: A1V6_RoadBagAlchCont_1
+    - NAME: A1V7_RoadBagAlchCont_1
     - MODL: "o\\contain_chest10.nif"
     - FNAM: Сундук с зельями
     - CNDT: 10000.0
     - FLAG: ""
-    - SCRI: A1V6_RoadBagAlchCont_1_sc
+    - SCRI: A1V7_RoadBagAlchCont_1_sc
 - CONT:
-    - NAME: A1V6_RoadBagAlchCont_2
+    - NAME: A1V7_RoadBagAlchCont_2
     - MODL: "o\\contain_chest10.nif"
     - FNAM: Сундук с зельями
     - CNDT: 10000.0
     - FLAG: ""
-    - SCRI: A1V6_RoadBagAlchCont_2_sc
+    - SCRI: A1V7_RoadBagAlchCont_2_sc
 - CONT:
-    - NAME: A1V6_RoadBagAlchCont_3
+    - NAME: A1V7_RoadBagAlchCont_3
     - MODL: "o\\contain_chest10.nif"
     - FNAM: Сундук с зельями
     - CNDT: 10000.0
     - FLAG: ""
-    - SCRI: A1V6_RoadBagAlchCont_3_sc
+    - SCRI: A1V7_RoadBagAlchCont_3_sc
 - MISC:
-    - NAME: A1V6_RoadBagAlchItem_2
+    - NAME: A1V7_RoadBagAlchItem_2
     - MODL: "o\\contain_chest10.nif"
     - FNAM: Сундук с зельями
     - MCDT:
         weight: 0.0
         value: 0
         is_key: false
-    - SCRI: A1V6_RoadBagAlchItem_2_sc
+    - SCRI: A1V7_RoadBagAlchItem_2_sc
     - ITEX: "m\\a1_alchemy_chest.dds"
 - MISC:
-    - NAME: A1V6_RoadBagAlchItem_3
+    - NAME: A1V7_RoadBagAlchItem_3
     - MODL: "o\\contain_chest10.nif"
     - FNAM: Сундук с зельями
     - MCDT:
         weight: 0.0
         value: 0
         is_key: false
-    - SCRI: A1V6_RoadBagAlchItem_3_sc
+    - SCRI: A1V7_RoadBagAlchItem_3_sc
     - ITEX: "m\\a1_alchemy_chest.dds"
