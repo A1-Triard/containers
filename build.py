@@ -11,14 +11,14 @@ from subprocess import PIPE
 from shutil import copyfile, move, make_archive, rmtree, copytree
 
 def assembly_plugin(path, year, month, day, hour, minute, second, keep=False):
-    subprocess.run('espa -p ru -' + ('k' if keep else '') + 'v "' + path + '.yaml"', stdout=stdout, stderr=stderr, check=True)
+    subprocess.run(['espa', '-p', 'ru'] + (['-k'] if keep else []) + ['-v'] + [path + '.yaml'], stdout=stdout, stderr=stderr, check=True)
     date = datetime(year=year, month=month, day=day, hour=hour, minute=minute, second=second)
     t = mktime(date.timetuple())
     utime(path, (t, t))
 
 def check_espa_version():
-  espa = subprocess.run('espa -V', stdout=PIPE, check=True, universal_newlines=True)
-  if espa.stdout != '0.2.1\n':
+  espa = subprocess.run(['espa', '-V'], stdout=PIPE, check=True, universal_newlines=True)
+  if espa.stdout != '0.7.1\n':
     print('wrong espa version')
     sys.exit(1)
 
