@@ -10,6 +10,8 @@ import subprocess
 from subprocess import PIPE
 from shutil import copyfile, move, make_archive, rmtree, copytree
 
+def 
+
 def assembly_plugin(path, year, month, day, hour, minute, second, keep=False):
     subprocess.run(['espa', '-p', 'ru'] + (['-k'] if keep else []) + ['-v'] + [path + '.yaml'], stdout=stdout, stderr=stderr, check=True)
     date = datetime(year=year, month=month, day=day, hour=hour, minute=minute, second=second)
