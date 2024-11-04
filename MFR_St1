@@ -1,0 +1,844 @@
+    - set temp to ( GetItemCount "food_kwama_egg_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"food_kwama_egg_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "food_kwama_egg_02" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"food_kwama_egg_02\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_6th_corprusmeat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_02" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_6th_corprusmeat_02\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_03" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_6th_corprusmeat_03\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_04" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_6th_corprusmeat_04\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_05" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_6th_corprusmeat_05\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_06" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_6th_corprusmeat_06\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_07" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_6th_corprusmeat_07\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_adamantium_ore_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_adamantium_ore_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_aetherium_ore" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_aetherium_ore\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_alit_hide_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_alit_hide_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_alit_meat" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_alit_meat\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_amanit" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_amanit\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_amethyst_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_amethyst_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_animal_bone" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_animal_bone\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_animal_skin" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_animal_skin\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_ash_salts_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_ash_salts_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_ash_yam_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_ash_yam_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bc_ampoule_pod" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bc_ampoule_pod\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bc_bungler's_bane" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bc_bungler's_bane\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bc_coda_flower" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bc_coda_flower\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bc_hypha_facia" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bc_hypha_facia\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bc_spore_pod" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bc_spore_pod\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bear_claws" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bear_claws\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bear_pelt" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bear_pelt\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_belladonna_02" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_belladonna_02\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bittergreen_petals_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bittergreen_petals_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_black_anther_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_black_anther_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_black_lichen_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_black_lichen_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bloat_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bloat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_blueplasm_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_blueplasm_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_boar_tusk" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_boar_tusk\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bonemeal_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bonemeal_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bread_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bread_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bread_01_UNI2" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bread_01_UNI2\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bread_01_UNI3" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bread_01_UNI3\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bug_shell_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bug_shell_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bug_shell_02" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bug_shell_02\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bug_shell_03" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bug_shell_03\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bug_shell_04" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bug_shell_04\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_cephalopod_shell" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_cephalopod_shell\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_charcoal" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_charcoal\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_chokeweed_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_chokeweed_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_clannfear_claw" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_clannfear_claw\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_clannfear_eye" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_clannfear_eye\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_clannfear_skin" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_clannfear_skin\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_clannfear_tail" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_clannfear_tail\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_cliffracer_skin" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_cliffracer_skin\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_coal" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_coal\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_cokes" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_cokes\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_comberry_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_comberry_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_coprinus_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_coprinus_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_corkbulb_root_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_corkbulb_root_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_corprus_weepings_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_corprus_weepings_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_corundum_ore" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_corundum_ore\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_crab_meat_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_crab_meat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_craft_quest_1" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_craft_quest_1\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_craft_quest_2" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_craft_quest_2\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_daedras_heart_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_daedras_heart_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_daedra_silk" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_daedra_silk\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_daedra_skin_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_daedra_skin_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_daedra_venom" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_daedra_venom\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_daedroth_claw" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_daedroth_claw\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_daedroth_teeth" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_daedroth_teeth\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_daedroth_venom" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_daedroth_venom\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_diamond_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_diamond_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_dragonblood" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_dragonblood\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_dragonbone" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_dragonbone\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_dragonskin" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_dragonskin\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_dreugh_egg" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_dreugh_egg\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_dreugh_shell" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_dreugh_shell\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_dreugh_skin" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_dreugh_skin\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_dreugh_wax_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_dreugh_wax_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_durzog_meat_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_durzog_meat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_dwarven_oil" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_dwarven_oil\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_ectoplasm_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_ectoplasm_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_emerald_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_emerald_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_emerald_pinetear" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_emerald_pinetear\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_eye_of_beholder" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_eye_of_beholder\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_fabricant_skin" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_fabricant_skin\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_fal_bug_parts_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_fal_bug_parts_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_fal_charus_chitin_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_fal_charus_chitin_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_fal_charus_egg_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_fal_charus_egg_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_fal_ear_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_fal_ear_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_fal_glow_mush_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_fal_glow_mush_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_fireatro_heart" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_fireatro_heart\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_fire_petal_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_fire_petal_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_fire_salts_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_fire_salts_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_frost_salts_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_frost_salts_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_ghoul_heart_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_ghoul_heart_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_giant_finger" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_giant_finger\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_glyciniya" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_glyciniya\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_golden_ore" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_golden_ore\", temp"
+    - endif
+    - set temp to ( GetItemCount "Ingred_golden_sedge_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"Ingred_golden_sedge_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_gold_kanet_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_gold_kanet_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_gold_kanet_unique" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_gold_kanet_unique\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_gravedust_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_gravedust_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_gravetar_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_gravetar_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_green_lichen_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_green_lichen_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_guar_hide_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_guar_hide_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_guar_hide_girith" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_guar_hide_girith\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_guar_hide_marsus" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_guar_hide_marsus\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_guar_meat" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_guar_meat\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_hackle-lo_leaf_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_hackle-lo_leaf_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_heather_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_heather_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "Ingred_horn_lily_bulb_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"Ingred_horn_lily_bulb_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_hound_meat_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_hound_meat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_human_meat_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_human_meat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_hunger_claw" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_hunger_claw\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_hunger_skin" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_hunger_skin\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_hunger_tongue" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_hunger_tongue\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_innocent_heart" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_innocent_heart\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_iron_ore" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_iron_ore\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_kagouti_hide_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_kagouti_hide_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_kagouti_meat" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_kagouti_meat\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_kresh_fiber_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_kresh_fiber_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_kwama_cuttle_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_kwama_cuttle_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_kwama_meat" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_kwama_meat\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_liatom" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_liatom\", temp"
+    - endif
+    - set temp to ( GetItemCount "Ingred_lloramor_spines_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"Ingred_lloramor_spines_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_marshmerrow_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_marshmerrow_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "Ingred_meadow_rye_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"Ingred_meadow_rye_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_mithril_ore" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_mithril_ore\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_molecrab_shell" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_molecrab_shell\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_moonstone_ore" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_moonstone_ore\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_moon_sugar_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_moon_sugar_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_muck_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_muck_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_mudcrab_shell" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_mudcrab_shell\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_netch_jelly" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_netch_jelly\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_netch_leather_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_netch_leather_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_nirnroot_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_nirnroot_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_nirnroot_red" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_nirnroot_red\", temp"
+    - endif
+    - set temp to ( GetItemCount "Ingred_nirthfly_stalks_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"Ingred_nirthfly_stalks_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_nixhound_eye" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_nixhound_eye\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_nixhound_skin" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_nixhound_skin\", temp"
+    - endif
+    - set temp to ( GetItemCount "Ingred_noble_sedge_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"Ingred_noble_sedge_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_obsidian" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_obsidian\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_ogrim_horn" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_ogrim_horn\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_ogrim_skin" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_ogrim_skin\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_ogrim_teeth" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_ogrim_teeth\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_orichalcum_ore" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_orichalcum_ore\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_pearl_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_pearl_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_phosphorus" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_phosphorus\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_quicksilver_bottle" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_quicksilver_bottle\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_racer_plumes_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_racer_plumes_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_rat_eye" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_rat_eye\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_rat_meat_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_rat_meat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_raw_ebony_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_raw_ebony_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_raw_glass_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_raw_glass_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_raw_glass_tinos" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_raw_glass_tinos\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_red_lichen_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_red_lichen_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_resin_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_resin_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_roobrush_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_roobrush_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_ruby_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_ruby_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_russula_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_russula_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_saltrice_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_saltrice_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_sapfire_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_sapfire_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scales_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scales_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scamp_claw" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scamp_claw\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scamp_ear" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scamp_ear\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scamp_eye" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scamp_eye\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scamp_skin_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scamp_skin_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scathecraw_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scathecraw_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scrap_metal_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scrap_metal_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scrib_gland" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scrib_gland\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scrib_jelly_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scrib_jelly_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scrib_jelly_02" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scrib_jelly_02\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scrib_jerky_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scrib_jerky_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scrib_legs" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scrib_legs\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scuttle_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scuttle_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_shalk_antena" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_shalk_antena\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_shalk_mandible" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_shalk_mandible\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_shalk_resin_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_shalk_resin_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_shalk_shell" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_shalk_shell\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_silver_ore" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_silver_ore\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_slaughterfish_caviar" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_slaughterfish_caviar\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_slaughterfish_meat" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_slaughterfish_meat\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_sload_soap_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_sload_soap_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_snowbear_pelt_unique" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_snowbear_pelt_unique\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_snowwolf_pelt_unique" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_snowwolf_pelt_unique\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_spider_venom" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_spider_venom\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_stoneflower_petals_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_stoneflower_petals_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_stone_of_purity" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_stone_of_purity\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_stone_shroom" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_stone_shroom\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_sulfur" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_sulfur\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_swamp_slime" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_swamp_slime\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_telvanni_resin" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_telvanni_resin\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_throlle_fat_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_throlle_fat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "Ingred_timsa-come-by_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"Ingred_timsa-come-by_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_topaz_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_topaz_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_trama_root_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_trama_root_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_treated_bittergreen_uniq" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_treated_bittergreen_uniq\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_udyrfrykte_heart" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_udyrfrykte_heart\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_undead_skin" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_undead_skin\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_vampire_dust_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_vampire_dust_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_varnish_of_purity" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_varnish_of_purity\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_void_salts_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_void_salts_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_water" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_water\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_wickwheat_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_wickwheat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_willow_anther_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_willow_anther_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_wolf_claws" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_wolf_claws\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_wolf_fangs" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_wolf_fangs\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_wolf_heart" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_wolf_heart\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_wolf_pelt" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_wolf_pelt\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_wt_claw" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_wt_claw\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_wt_eye" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_wt_eye\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_wt_membrane" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_wt_membrane\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_wt_skin" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_wt_skin\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_wt_tail" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_wt_tail\", temp"
+    - endif
+    - set temp to ( GetItemCount "poison_goop00" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"poison_goop00\", temp"
+    - endif

@@ -1,0 +1,1055 @@
+    - set temp to ( player->GetItemCount "food_kwama_egg_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"food_kwama_egg_01\", temp"
+    -"\txAddItem \"food_kwama_egg_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "food_kwama_egg_02" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"food_kwama_egg_02\", temp"
+    -"\txAddItem \"food_kwama_egg_02\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_6th_corprusmeat_01\", temp"
+    -"\txAddItem \"ingred_6th_corprusmeat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_02" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_6th_corprusmeat_02\", temp"
+    -"\txAddItem \"ingred_6th_corprusmeat_02\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_03" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_6th_corprusmeat_03\", temp"
+    -"\txAddItem \"ingred_6th_corprusmeat_03\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_04" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_6th_corprusmeat_04\", temp"
+    -"\txAddItem \"ingred_6th_corprusmeat_04\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_05" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_6th_corprusmeat_05\", temp"
+    -"\txAddItem \"ingred_6th_corprusmeat_05\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_06" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_6th_corprusmeat_06\", temp"
+    -"\txAddItem \"ingred_6th_corprusmeat_06\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_07" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_6th_corprusmeat_07\", temp"
+    -"\txAddItem \"ingred_6th_corprusmeat_07\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_adamantium_ore_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_adamantium_ore_01\", temp"
+    -"\txAddItem \"ingred_adamantium_ore_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_aetherium_ore" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_aetherium_ore\", temp"
+    -"\txAddItem \"ingred_aetherium_ore\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_alit_hide_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_alit_hide_01\", temp"
+    -"\txAddItem \"ingred_alit_hide_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_alit_meat" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_alit_meat\", temp"
+    -"\txAddItem \"ingred_alit_meat\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_amanit" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_amanit\", temp"
+    -"\txAddItem \"ingred_amanit\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_amethyst_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_amethyst_01\", temp"
+    -"\txAddItem \"ingred_amethyst_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_animal_bone" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_animal_bone\", temp"
+    -"\txAddItem \"ingred_animal_bone\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_animal_skin" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_animal_skin\", temp"
+    -"\txAddItem \"ingred_animal_skin\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_ash_salts_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_ash_salts_01\", temp"
+    -"\txAddItem \"ingred_ash_salts_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_ash_yam_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_ash_yam_01\", temp"
+    -"\txAddItem \"ingred_ash_yam_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bc_ampoule_pod" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_bc_ampoule_pod\", temp"
+    -"\txAddItem \"ingred_bc_ampoule_pod\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bc_bungler's_bane" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_bc_bungler's_bane\", temp"
+    -"\txAddItem \"ingred_bc_bungler's_bane\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bc_coda_flower" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_bc_coda_flower\", temp"
+    -"\txAddItem \"ingred_bc_coda_flower\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bc_hypha_facia" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_bc_hypha_facia\", temp"
+    -"\txAddItem \"ingred_bc_hypha_facia\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bc_spore_pod" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_bc_spore_pod\", temp"
+    -"\txAddItem \"ingred_bc_spore_pod\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bear_claws" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_bear_claws\", temp"
+    -"\txAddItem \"ingred_bear_claws\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bear_pelt" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_bear_pelt\", temp"
+    -"\txAddItem \"ingred_bear_pelt\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_belladonna_02" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_belladonna_02\", temp"
+    -"\txAddItem \"ingred_belladonna_02\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bittergreen_petals_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_bittergreen_petals_01\", temp"
+    -"\txAddItem \"ingred_bittergreen_petals_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_black_anther_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_black_anther_01\", temp"
+    -"\txAddItem \"ingred_black_anther_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_black_lichen_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_black_lichen_01\", temp"
+    -"\txAddItem \"ingred_black_lichen_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bloat_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_bloat_01\", temp"
+    -"\txAddItem \"ingred_bloat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_blueplasm_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_blueplasm_01\", temp"
+    -"\txAddItem \"ingred_blueplasm_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_boar_tusk" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_boar_tusk\", temp"
+    -"\txAddItem \"ingred_boar_tusk\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bonemeal_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_bonemeal_01\", temp"
+    -"\txAddItem \"ingred_bonemeal_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bread_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_bread_01\", temp"
+    -"\txAddItem \"ingred_bread_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bread_01_UNI2" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_bread_01_UNI2\", temp"
+    -"\txAddItem \"ingred_bread_01_UNI2\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bread_01_UNI3" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_bread_01_UNI3\", temp"
+    -"\txAddItem \"ingred_bread_01_UNI3\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bug_shell_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_bug_shell_01\", temp"
+    -"\txAddItem \"ingred_bug_shell_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bug_shell_02" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_bug_shell_02\", temp"
+    -"\txAddItem \"ingred_bug_shell_02\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bug_shell_03" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_bug_shell_03\", temp"
+    -"\txAddItem \"ingred_bug_shell_03\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bug_shell_04" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_bug_shell_04\", temp"
+    -"\txAddItem \"ingred_bug_shell_04\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_cephalopod_shell" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_cephalopod_shell\", temp"
+    -"\txAddItem \"ingred_cephalopod_shell\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_charcoal" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_charcoal\", temp"
+    -"\txAddItem \"ingred_charcoal\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_chokeweed_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_chokeweed_01\", temp"
+    -"\txAddItem \"ingred_chokeweed_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_clannfear_claw" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_clannfear_claw\", temp"
+    -"\txAddItem \"ingred_clannfear_claw\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_clannfear_eye" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_clannfear_eye\", temp"
+    -"\txAddItem \"ingred_clannfear_eye\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_clannfear_skin" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_clannfear_skin\", temp"
+    -"\txAddItem \"ingred_clannfear_skin\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_clannfear_tail" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_clannfear_tail\", temp"
+    -"\txAddItem \"ingred_clannfear_tail\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_cliffracer_skin" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_cliffracer_skin\", temp"
+    -"\txAddItem \"ingred_cliffracer_skin\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_coal" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_coal\", temp"
+    -"\txAddItem \"ingred_coal\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_cokes" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_cokes\", temp"
+    -"\txAddItem \"ingred_cokes\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_comberry_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_comberry_01\", temp"
+    -"\txAddItem \"ingred_comberry_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_coprinus_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_coprinus_01\", temp"
+    -"\txAddItem \"ingred_coprinus_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_corkbulb_root_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_corkbulb_root_01\", temp"
+    -"\txAddItem \"ingred_corkbulb_root_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_corprus_weepings_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_corprus_weepings_01\", temp"
+    -"\txAddItem \"ingred_corprus_weepings_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_corundum_ore" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_corundum_ore\", temp"
+    -"\txAddItem \"ingred_corundum_ore\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_crab_meat_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_crab_meat_01\", temp"
+    -"\txAddItem \"ingred_crab_meat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_craft_quest_1" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_craft_quest_1\", temp"
+    -"\txAddItem \"ingred_craft_quest_1\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_craft_quest_2" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_craft_quest_2\", temp"
+    -"\txAddItem \"ingred_craft_quest_2\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_daedras_heart_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_daedras_heart_01\", temp"
+    -"\txAddItem \"ingred_daedras_heart_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_daedra_silk" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_daedra_silk\", temp"
+    -"\txAddItem \"ingred_daedra_silk\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_daedra_skin_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_daedra_skin_01\", temp"
+    -"\txAddItem \"ingred_daedra_skin_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_daedra_venom" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_daedra_venom\", temp"
+    -"\txAddItem \"ingred_daedra_venom\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_daedroth_claw" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_daedroth_claw\", temp"
+    -"\txAddItem \"ingred_daedroth_claw\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_daedroth_teeth" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_daedroth_teeth\", temp"
+    -"\txAddItem \"ingred_daedroth_teeth\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_daedroth_venom" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_daedroth_venom\", temp"
+    -"\txAddItem \"ingred_daedroth_venom\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_diamond_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_diamond_01\", temp"
+    -"\txAddItem \"ingred_diamond_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_dragonblood" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_dragonblood\", temp"
+    -"\txAddItem \"ingred_dragonblood\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_dragonbone" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_dragonbone\", temp"
+    -"\txAddItem \"ingred_dragonbone\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_dragonskin" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_dragonskin\", temp"
+    -"\txAddItem \"ingred_dragonskin\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_dreugh_egg" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_dreugh_egg\", temp"
+    -"\txAddItem \"ingred_dreugh_egg\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_dreugh_shell" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_dreugh_shell\", temp"
+    -"\txAddItem \"ingred_dreugh_shell\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_dreugh_skin" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_dreugh_skin\", temp"
+    -"\txAddItem \"ingred_dreugh_skin\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_dreugh_wax_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_dreugh_wax_01\", temp"
+    -"\txAddItem \"ingred_dreugh_wax_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_durzog_meat_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_durzog_meat_01\", temp"
+    -"\txAddItem \"ingred_durzog_meat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_dwarven_oil" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_dwarven_oil\", temp"
+    -"\txAddItem \"ingred_dwarven_oil\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_ectoplasm_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_ectoplasm_01\", temp"
+    -"\txAddItem \"ingred_ectoplasm_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_emerald_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_emerald_01\", temp"
+    -"\txAddItem \"ingred_emerald_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_emerald_pinetear" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_emerald_pinetear\", temp"
+    -"\txAddItem \"ingred_emerald_pinetear\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_eye_of_beholder" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_eye_of_beholder\", temp"
+    -"\txAddItem \"ingred_eye_of_beholder\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_fabricant_skin" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_fabricant_skin\", temp"
+    -"\txAddItem \"ingred_fabricant_skin\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_fal_bug_parts_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_fal_bug_parts_01\", temp"
+    -"\txAddItem \"ingred_fal_bug_parts_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_fal_charus_chitin_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_fal_charus_chitin_01\", temp"
+    -"\txAddItem \"ingred_fal_charus_chitin_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_fal_charus_egg_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_fal_charus_egg_01\", temp"
+    -"\txAddItem \"ingred_fal_charus_egg_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_fal_ear_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_fal_ear_01\", temp"
+    -"\txAddItem \"ingred_fal_ear_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_fal_glow_mush_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_fal_glow_mush_01\", temp"
+    -"\txAddItem \"ingred_fal_glow_mush_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_fireatro_heart" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_fireatro_heart\", temp"
+    -"\txAddItem \"ingred_fireatro_heart\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_fire_petal_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_fire_petal_01\", temp"
+    -"\txAddItem \"ingred_fire_petal_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_fire_salts_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_fire_salts_01\", temp"
+    -"\txAddItem \"ingred_fire_salts_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_frost_salts_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_frost_salts_01\", temp"
+    -"\txAddItem \"ingred_frost_salts_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_ghoul_heart_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_ghoul_heart_01\", temp"
+    -"\txAddItem \"ingred_ghoul_heart_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_giant_finger" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_giant_finger\", temp"
+    -"\txAddItem \"ingred_giant_finger\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_glyciniya" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_glyciniya\", temp"
+    -"\txAddItem \"ingred_glyciniya\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_golden_ore" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_golden_ore\", temp"
+    -"\txAddItem \"ingred_golden_ore\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "Ingred_golden_sedge_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"Ingred_golden_sedge_01\", temp"
+    -"\txAddItem \"Ingred_golden_sedge_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_gold_kanet_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_gold_kanet_01\", temp"
+    -"\txAddItem \"ingred_gold_kanet_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_gold_kanet_unique" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_gold_kanet_unique\", temp"
+    -"\txAddItem \"ingred_gold_kanet_unique\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_gravedust_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_gravedust_01\", temp"
+    -"\txAddItem \"ingred_gravedust_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_gravetar_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_gravetar_01\", temp"
+    -"\txAddItem \"ingred_gravetar_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_green_lichen_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_green_lichen_01\", temp"
+    -"\txAddItem \"ingred_green_lichen_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_guar_hide_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_guar_hide_01\", temp"
+    -"\txAddItem \"ingred_guar_hide_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_guar_hide_girith" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_guar_hide_girith\", temp"
+    -"\txAddItem \"ingred_guar_hide_girith\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_guar_hide_marsus" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_guar_hide_marsus\", temp"
+    -"\txAddItem \"ingred_guar_hide_marsus\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_guar_meat" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_guar_meat\", temp"
+    -"\txAddItem \"ingred_guar_meat\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_hackle-lo_leaf_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_hackle-lo_leaf_01\", temp"
+    -"\txAddItem \"ingred_hackle-lo_leaf_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_heather_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_heather_01\", temp"
+    -"\txAddItem \"ingred_heather_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "Ingred_horn_lily_bulb_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"Ingred_horn_lily_bulb_01\", temp"
+    -"\txAddItem \"Ingred_horn_lily_bulb_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_hound_meat_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_hound_meat_01\", temp"
+    -"\txAddItem \"ingred_hound_meat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_human_meat_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_human_meat_01\", temp"
+    -"\txAddItem \"ingred_human_meat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_hunger_claw" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_hunger_claw\", temp"
+    -"\txAddItem \"ingred_hunger_claw\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_hunger_skin" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_hunger_skin\", temp"
+    -"\txAddItem \"ingred_hunger_skin\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_hunger_tongue" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_hunger_tongue\", temp"
+    -"\txAddItem \"ingred_hunger_tongue\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_innocent_heart" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_innocent_heart\", temp"
+    -"\txAddItem \"ingred_innocent_heart\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_iron_ore" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_iron_ore\", temp"
+    -"\txAddItem \"ingred_iron_ore\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_kagouti_hide_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_kagouti_hide_01\", temp"
+    -"\txAddItem \"ingred_kagouti_hide_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_kagouti_meat" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_kagouti_meat\", temp"
+    -"\txAddItem \"ingred_kagouti_meat\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_kresh_fiber_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_kresh_fiber_01\", temp"
+    -"\txAddItem \"ingred_kresh_fiber_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_kwama_cuttle_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_kwama_cuttle_01\", temp"
+    -"\txAddItem \"ingred_kwama_cuttle_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_kwama_meat" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_kwama_meat\", temp"
+    -"\txAddItem \"ingred_kwama_meat\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_liatom" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_liatom\", temp"
+    -"\txAddItem \"ingred_liatom\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "Ingred_lloramor_spines_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"Ingred_lloramor_spines_01\", temp"
+    -"\txAddItem \"Ingred_lloramor_spines_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_marshmerrow_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_marshmerrow_01\", temp"
+    -"\txAddItem \"ingred_marshmerrow_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "Ingred_meadow_rye_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"Ingred_meadow_rye_01\", temp"
+    -"\txAddItem \"Ingred_meadow_rye_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_mithril_ore" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_mithril_ore\", temp"
+    -"\txAddItem \"ingred_mithril_ore\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_molecrab_shell" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_molecrab_shell\", temp"
+    -"\txAddItem \"ingred_molecrab_shell\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_moonstone_ore" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_moonstone_ore\", temp"
+    -"\txAddItem \"ingred_moonstone_ore\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_moon_sugar_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_moon_sugar_01\", temp"
+    -"\txAddItem \"ingred_moon_sugar_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_muck_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_muck_01\", temp"
+    -"\txAddItem \"ingred_muck_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_mudcrab_shell" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_mudcrab_shell\", temp"
+    -"\txAddItem \"ingred_mudcrab_shell\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_netch_jelly" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_netch_jelly\", temp"
+    -"\txAddItem \"ingred_netch_jelly\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_netch_leather_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_netch_leather_01\", temp"
+    -"\txAddItem \"ingred_netch_leather_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_nirnroot_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_nirnroot_01\", temp"
+    -"\txAddItem \"ingred_nirnroot_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_nirnroot_red" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_nirnroot_red\", temp"
+    -"\txAddItem \"ingred_nirnroot_red\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "Ingred_nirthfly_stalks_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"Ingred_nirthfly_stalks_01\", temp"
+    -"\txAddItem \"Ingred_nirthfly_stalks_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_nixhound_eye" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_nixhound_eye\", temp"
+    -"\txAddItem \"ingred_nixhound_eye\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_nixhound_skin" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_nixhound_skin\", temp"
+    -"\txAddItem \"ingred_nixhound_skin\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "Ingred_noble_sedge_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"Ingred_noble_sedge_01\", temp"
+    -"\txAddItem \"Ingred_noble_sedge_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_obsidian" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_obsidian\", temp"
+    -"\txAddItem \"ingred_obsidian\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_ogrim_horn" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_ogrim_horn\", temp"
+    -"\txAddItem \"ingred_ogrim_horn\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_ogrim_skin" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_ogrim_skin\", temp"
+    -"\txAddItem \"ingred_ogrim_skin\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_ogrim_teeth" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_ogrim_teeth\", temp"
+    -"\txAddItem \"ingred_ogrim_teeth\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_orichalcum_ore" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_orichalcum_ore\", temp"
+    -"\txAddItem \"ingred_orichalcum_ore\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_pearl_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_pearl_01\", temp"
+    -"\txAddItem \"ingred_pearl_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_phosphorus" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_phosphorus\", temp"
+    -"\txAddItem \"ingred_phosphorus\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_quicksilver_bottle" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_quicksilver_bottle\", temp"
+    -"\txAddItem \"ingred_quicksilver_bottle\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_racer_plumes_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_racer_plumes_01\", temp"
+    -"\txAddItem \"ingred_racer_plumes_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_rat_eye" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_rat_eye\", temp"
+    -"\txAddItem \"ingred_rat_eye\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_rat_meat_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_rat_meat_01\", temp"
+    -"\txAddItem \"ingred_rat_meat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_raw_ebony_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_raw_ebony_01\", temp"
+    -"\txAddItem \"ingred_raw_ebony_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_raw_glass_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_raw_glass_01\", temp"
+    -"\txAddItem \"ingred_raw_glass_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_raw_glass_tinos" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_raw_glass_tinos\", temp"
+    -"\txAddItem \"ingred_raw_glass_tinos\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_red_lichen_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_red_lichen_01\", temp"
+    -"\txAddItem \"ingred_red_lichen_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_resin_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_resin_01\", temp"
+    -"\txAddItem \"ingred_resin_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_roobrush_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_roobrush_01\", temp"
+    -"\txAddItem \"ingred_roobrush_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_ruby_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_ruby_01\", temp"
+    -"\txAddItem \"ingred_ruby_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_russula_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_russula_01\", temp"
+    -"\txAddItem \"ingred_russula_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_saltrice_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_saltrice_01\", temp"
+    -"\txAddItem \"ingred_saltrice_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_sapfire_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_sapfire_01\", temp"
+    -"\txAddItem \"ingred_sapfire_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scales_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_scales_01\", temp"
+    -"\txAddItem \"ingred_scales_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scamp_claw" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_scamp_claw\", temp"
+    -"\txAddItem \"ingred_scamp_claw\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scamp_ear" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_scamp_ear\", temp"
+    -"\txAddItem \"ingred_scamp_ear\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scamp_eye" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_scamp_eye\", temp"
+    -"\txAddItem \"ingred_scamp_eye\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scamp_skin_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_scamp_skin_01\", temp"
+    -"\txAddItem \"ingred_scamp_skin_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scathecraw_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_scathecraw_01\", temp"
+    -"\txAddItem \"ingred_scathecraw_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scrap_metal_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_scrap_metal_01\", temp"
+    -"\txAddItem \"ingred_scrap_metal_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scrib_gland" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_scrib_gland\", temp"
+    -"\txAddItem \"ingred_scrib_gland\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scrib_jelly_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_scrib_jelly_01\", temp"
+    -"\txAddItem \"ingred_scrib_jelly_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scrib_jelly_02" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_scrib_jelly_02\", temp"
+    -"\txAddItem \"ingred_scrib_jelly_02\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scrib_jerky_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_scrib_jerky_01\", temp"
+    -"\txAddItem \"ingred_scrib_jerky_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scrib_legs" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_scrib_legs\", temp"
+    -"\txAddItem \"ingred_scrib_legs\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scuttle_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_scuttle_01\", temp"
+    -"\txAddItem \"ingred_scuttle_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_shalk_antena" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_shalk_antena\", temp"
+    -"\txAddItem \"ingred_shalk_antena\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_shalk_mandible" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_shalk_mandible\", temp"
+    -"\txAddItem \"ingred_shalk_mandible\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_shalk_resin_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_shalk_resin_01\", temp"
+    -"\txAddItem \"ingred_shalk_resin_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_shalk_shell" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_shalk_shell\", temp"
+    -"\txAddItem \"ingred_shalk_shell\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_silver_ore" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_silver_ore\", temp"
+    -"\txAddItem \"ingred_silver_ore\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_slaughterfish_caviar" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_slaughterfish_caviar\", temp"
+    -"\txAddItem \"ingred_slaughterfish_caviar\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_slaughterfish_meat" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_slaughterfish_meat\", temp"
+    -"\txAddItem \"ingred_slaughterfish_meat\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_sload_soap_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_sload_soap_01\", temp"
+    -"\txAddItem \"ingred_sload_soap_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_snowbear_pelt_unique" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_snowbear_pelt_unique\", temp"
+    -"\txAddItem \"ingred_snowbear_pelt_unique\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_snowwolf_pelt_unique" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_snowwolf_pelt_unique\", temp"
+    -"\txAddItem \"ingred_snowwolf_pelt_unique\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_spider_venom" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_spider_venom\", temp"
+    -"\txAddItem \"ingred_spider_venom\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_stoneflower_petals_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_stoneflower_petals_01\", temp"
+    -"\txAddItem \"ingred_stoneflower_petals_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_stone_of_purity" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_stone_of_purity\", temp"
+    -"\txAddItem \"ingred_stone_of_purity\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_stone_shroom" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_stone_shroom\", temp"
+    -"\txAddItem \"ingred_stone_shroom\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_sulfur" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_sulfur\", temp"
+    -"\txAddItem \"ingred_sulfur\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_swamp_slime" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_swamp_slime\", temp"
+    -"\txAddItem \"ingred_swamp_slime\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_telvanni_resin" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_telvanni_resin\", temp"
+    -"\txAddItem \"ingred_telvanni_resin\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_throlle_fat_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_throlle_fat_01\", temp"
+    -"\txAddItem \"ingred_throlle_fat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "Ingred_timsa-come-by_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"Ingred_timsa-come-by_01\", temp"
+    -"\txAddItem \"Ingred_timsa-come-by_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_topaz_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_topaz_01\", temp"
+    -"\txAddItem \"ingred_topaz_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_trama_root_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_trama_root_01\", temp"
+    -"\txAddItem \"ingred_trama_root_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_treated_bittergreen_uniq" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_treated_bittergreen_uniq\", temp"
+    -"\txAddItem \"ingred_treated_bittergreen_uniq\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_udyrfrykte_heart" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_udyrfrykte_heart\", temp"
+    -"\txAddItem \"ingred_udyrfrykte_heart\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_undead_skin" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_undead_skin\", temp"
+    -"\txAddItem \"ingred_undead_skin\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_vampire_dust_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_vampire_dust_01\", temp"
+    -"\txAddItem \"ingred_vampire_dust_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_varnish_of_purity" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_varnish_of_purity\", temp"
+    -"\txAddItem \"ingred_varnish_of_purity\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_void_salts_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_void_salts_01\", temp"
+    -"\txAddItem \"ingred_void_salts_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_water" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_water\", temp"
+    -"\txAddItem \"ingred_water\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_wickwheat_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_wickwheat_01\", temp"
+    -"\txAddItem \"ingred_wickwheat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_willow_anther_01" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_willow_anther_01\", temp"
+    -"\txAddItem \"ingred_willow_anther_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_wolf_claws" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_wolf_claws\", temp"
+    -"\txAddItem \"ingred_wolf_claws\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_wolf_fangs" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_wolf_fangs\", temp"
+    -"\txAddItem \"ingred_wolf_fangs\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_wolf_heart" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_wolf_heart\", temp"
+    -"\txAddItem \"ingred_wolf_heart\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_wolf_pelt" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_wolf_pelt\", temp"
+    -"\txAddItem \"ingred_wolf_pelt\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_wt_claw" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_wt_claw\", temp"
+    -"\txAddItem \"ingred_wt_claw\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_wt_eye" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_wt_eye\", temp"
+    -"\txAddItem \"ingred_wt_eye\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_wt_membrane" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_wt_membrane\", temp"
+    -"\txAddItem \"ingred_wt_membrane\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_wt_skin" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_wt_skin\", temp"
+    -"\txAddItem \"ingred_wt_skin\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_wt_tail" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"ingred_wt_tail\", temp"
+    -"\txAddItem \"ingred_wt_tail\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "poison_goop00" )
+    - ifx ( temp )
+    -"\tplayer->xRemoveItem \"poison_goop00\", temp"
+    -"\txAddItem \"poison_goop00\", temp"
+    - endif
