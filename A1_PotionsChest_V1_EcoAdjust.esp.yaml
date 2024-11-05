@@ -4,7 +4,7 @@
       file_type: ESP
       author: A1
       description:
-      - Мешок, позволяющий быстро выкладывать ингредиенты. Версия для MFR.
+      - Сундук, позволяющий быстро выкладывать зелья. Версия для EcoAdjust.
       records: 131
   - MAST: Morrowind.esm
   - DATA: 79764287
@@ -12,42 +12,40 @@
   - DATA: 6616539
   - MAST: Bloodmoon.esm
   - DATA: 11799703
-  - MAST: MFR.esm
-  - DATA: 44615289
 
 - GLOB:
-  - NAME: A1V1_IngrBagX
+  - NAME: A1V1_PotChestX
   - FNAM: f
   - FLTV: 0.0
 
 - GLOB:
-  - NAME: A1V1_IngrBagY
+  - NAME: A1V1_PotChestY
   - FNAM: f
   - FLTV: 0.0
 
 - GLOB:
-  - NAME: A1V1_IngrBagZ
+  - NAME: A1V1_PotChestZ
   - FNAM: f
   - FLTV: 0.0
 
 - GLOB:
-  - NAME: A1V1_IngrBagAngle
+  - NAME: A1V1_PotChestAngle
   - FNAM: f
   - FLTV: 0.0
 
 - GLOB:
-  - NAME: A1V1_IngrBagExt
+  - NAME: A1V1_PotChestExt
   - FNAM: s
   - FLTV: 0.0
 
 - GLOB:
-  - NAME: A1V1_IngrBagIndex
+  - NAME: A1V1_PotChestIndex
   - FNAM: s
   - FLTV: 0.0
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagCont_1_sc
+      name: A1V1_PotChestCont_1_sc
       vars:
         shorts: 5
         longs: 0
@@ -79,11 +77,11 @@
           owner: null
           type: Short
           index: 3
-        - " 2 G\x0FA1V1_IngrBagExt 2 / *"
+        - " 2 G\x0FA1V1_PotChestExt 2 / *"
       - func: Set
         args:
         - kind: Global
-          name: A1V1_IngrBagExt
+          name: A1V1_PotChestExt
         - " s\x03\0\0"
       - func: SetDelete
         args: 1
@@ -109,7 +107,7 @@
         - " s\x02\0 > 0"
       - func: AddItem
         args:
-        - A1V1_IngrBagFakeIngred
+        - A1V1_PotChestFakeIngred
         - 2
       - func: Set
         args:
@@ -140,7 +138,7 @@
       - func: If
         args:
         - 1
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_1 == 0"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_1 == 0"
       - func: Set
         args:
         - kind: Local
@@ -193,11 +191,11 @@
           owner: null
           type: Short
           index: 3
-        - " 2 G\x0FA1V1_IngrBagExt 2 / * 1 +"
+        - " 2 G\x0FA1V1_PotChestExt 2 / * 1 +"
       - func: Set
         args:
         - kind: Global
-          name: A1V1_IngrBagExt
+          name: A1V1_PotChestExt
         - " s\x03\0\0"
       - func: DisablePlayerControls
         args: null
@@ -214,21 +212,21 @@
           owner: null
           type: Float
           index: 1
-        - " G\rA1V1_IngrBagX\0"
+        - " G\rA1V1_PotChestX\0"
       - func: Set
         args:
         - kind: Local
           owner: null
           type: Float
           index: 2
-        - " G\rA1V1_IngrBagY\0"
+        - " G\rA1V1_PotChestY\0"
       - func: Set
         args:
         - kind: Local
           owner: null
           type: Float
           index: 3
-        - " G\rA1V1_IngrBagZ\0"
+        - " G\rA1V1_PotChestZ\0"
       - func: SetPos
         args:
         - X
@@ -250,10 +248,10 @@
       - func: Set
         args:
         - kind: Global
-          name: A1V1_IngrBagIndex
+          name: A1V1_PotChestIndex
         - ' 1'
       - func: StartScript
-        args: A1V1_IngrBagInitSt1_sc
+        args: A1V1_PotChestInitSt1_sc
       - func: Return
         args: null
       - func: EndIf
@@ -301,7 +299,7 @@
         args: null
       raw: []
   - SCTX:
-    - Begin A1V1_IngrBagCont_1_sc
+    - Begin A1V1_PotChestCont_1_sc
     - ''
     - short doOnce
     - short doDisable
@@ -314,8 +312,8 @@
     - ''
     - if ( doDisable > 20 )
     - "\tif ( GetDisabled == 1 )"
-    - "\t\tset temp to 2 * ( A1V1_IngrBagExt / 2 )"
-    - "\t\tset A1V1_IngrBagExt to temp"
+    - "\t\tset temp to 2 * ( A1V1_PotChestExt / 2 )"
+    - "\t\tset A1V1_PotChestExt to temp"
     - "\t\tSetDelete 1"
     - "\t\treturn"
     - "\tendif"
@@ -327,7 +325,7 @@
     - endif
     - ''
     - if ( doDisable > 0 )
-    - "\tAddItem \"A1V1_IngrBagFakeIngred\", 2"
+    - "\tAddItem \"A1V1_PotChestFakeIngred\", 2"
     - "\tset doDisable to ( doDisable + 1 )"
     - "\treturn"
     - endif
@@ -335,7 +333,7 @@
     - if ( waitActivate == 2 )
     - "\tif ( MenuMode == 0 )"
     - "\t\tset waitActivate to 0"
-    - "\t\tif ( GetItemCount A1V1_IngrBagItem_1 == 0 )"
+    - "\t\tif ( GetItemCount A1V1_PotChestItem_1 == 0 )"
     - "\t\t\tset doDisable to 1"
     - "\t\tendif"
     - "\tendif"
@@ -352,18 +350,18 @@
     - endif
     - ''
     - if ( doOnce == 0 )
-    - "\tset temp to 2 * ( A1V1_IngrBagExt / 2 ) + 1"
-    - "\tset A1V1_IngrBagExt to temp"
+    - "\tset temp to 2 * ( A1V1_PotChestExt / 2 ) + 1"
+    - "\tset A1V1_PotChestExt to temp"
     - "\tDisablePlayerControls"
     - "\tset doOnce to 1"
-    - "\tset cx to A1V1_IngrBagX"
-    - "\tset cy to A1V1_IngrBagY"
-    - "\tset cz to A1V1_IngrBagZ"
+    - "\tset cx to A1V1_PotChestX"
+    - "\tset cy to A1V1_PotChestY"
+    - "\tset cz to A1V1_PotChestZ"
     - "\tSetPos X cx"
     - "\tSetPos Y cy"
     - "\tSetPos Z cz"
-    - "\tset A1V1_IngrBagIndex to 1"
-    - "\tStartScript A1V1_IngrBagInitSt1_sc"
+    - "\tset A1V1_PotChestIndex to 1"
+    - "\tStartScript A1V1_PotChestInitSt1_sc"
     - "\treturn"
     - endif
     - ''
@@ -383,7 +381,7 @@
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagCont_2_sc
+      name: A1V1_PotChestCont_2_sc
       vars:
         shorts: 5
         longs: 0
@@ -415,7 +413,7 @@
           owner: null
           type: Short
           index: 3
-        - " G\x0FA1V1_IngrBagExt 2 /"
+        - " G\x0FA1V1_PotChestExt 2 /"
       - func: Set
         args:
         - kind: Local
@@ -429,11 +427,11 @@
           owner: null
           type: Short
           index: 3
-        - " G\x0FA1V1_IngrBagExt 2 s\x03\0 * -"
+        - " G\x0FA1V1_PotChestExt 2 s\x03\0 * -"
       - func: Set
         args:
         - kind: Global
-          name: A1V1_IngrBagExt
+          name: A1V1_PotChestExt
         - " s\x03\0\0"
       - func: SetDelete
         args: 1
@@ -459,7 +457,7 @@
         - " s\x02\0 > 0"
       - func: AddItem
         args:
-        - A1V1_IngrBagFakeIngred
+        - A1V1_PotChestFakeIngred
         - 2
       - func: Set
         args:
@@ -490,7 +488,7 @@
       - func: If
         args:
         - 1
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_2 == 0"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_2 == 0"
       - func: Set
         args:
         - kind: Local
@@ -543,7 +541,7 @@
           owner: null
           type: Short
           index: 3
-        - " G\x0FA1V1_IngrBagExt 2 /"
+        - " G\x0FA1V1_PotChestExt 2 /"
       - func: Set
         args:
         - kind: Local
@@ -557,11 +555,11 @@
           owner: null
           type: Short
           index: 3
-        - " G\x0FA1V1_IngrBagExt 2 s\x03\0 * - 2 +"
+        - " G\x0FA1V1_PotChestExt 2 s\x03\0 * - 2 +"
       - func: Set
         args:
         - kind: Global
-          name: A1V1_IngrBagExt
+          name: A1V1_PotChestExt
         - " s\x03\0\0"
       - func: DisablePlayerControls
         args: null
@@ -578,21 +576,21 @@
           owner: null
           type: Float
           index: 1
-        - " G\rA1V1_IngrBagX\0"
+        - " G\rA1V1_PotChestX\0"
       - func: Set
         args:
         - kind: Local
           owner: null
           type: Float
           index: 2
-        - " G\rA1V1_IngrBagY\0"
+        - " G\rA1V1_PotChestY\0"
       - func: Set
         args:
         - kind: Local
           owner: null
           type: Float
           index: 3
-        - " G\rA1V1_IngrBagZ\0"
+        - " G\rA1V1_PotChestZ\0"
       - func: SetPos
         args:
         - X
@@ -614,10 +612,10 @@
       - func: Set
         args:
         - kind: Global
-          name: A1V1_IngrBagIndex
+          name: A1V1_PotChestIndex
         - ' 2'
       - func: StartScript
-        args: A1V1_IngrBagInitSt1_sc
+        args: A1V1_PotChestInitSt1_sc
       - func: Return
         args: null
       - func: EndIf
@@ -665,7 +663,7 @@
         args: null
       raw: []
   - SCTX:
-    - Begin A1V1_IngrBagCont_2_sc
+    - Begin A1V1_PotChestCont_2_sc
     - ''
     - short doOnce
     - short doDisable
@@ -678,10 +676,10 @@
     - ''
     - if ( doDisable > 20 )
     - "\tif ( GetDisabled == 1 )"
-    - "\t\tset temp to A1V1_IngrBagExt / 2"
+    - "\t\tset temp to A1V1_PotChestExt / 2"
     - "\t\tset temp to temp - 2 * ( temp / 2 )"
-    - "\t\tset temp to A1V1_IngrBagExt - 2 * temp"
-    - "\t\tset A1V1_IngrBagExt to temp"
+    - "\t\tset temp to A1V1_PotChestExt - 2 * temp"
+    - "\t\tset A1V1_PotChestExt to temp"
     - "\t\tSetDelete 1"
     - "\t\treturn"
     - "\tendif"
@@ -693,7 +691,7 @@
     - endif
     - ''
     - if ( doDisable > 0 )
-    - "\tAddItem \"A1V1_IngrBagFakeIngred\", 2"
+    - "\tAddItem \"A1V1_PotChestFakeIngred\", 2"
     - "\tset doDisable to ( doDisable + 1 )"
     - "\treturn"
     - endif
@@ -701,7 +699,7 @@
     - if ( waitActivate == 2 )
     - "\tif ( MenuMode == 0 )"
     - "\t\tset waitActivate to 0"
-    - "\t\tif ( GetItemCount A1V1_IngrBagItem_2 == 0 )"
+    - "\t\tif ( GetItemCount A1V1_PotChestItem_2 == 0 )"
     - "\t\t\tset doDisable to 1"
     - "\t\tendif"
     - "\tendif"
@@ -718,20 +716,20 @@
     - endif
     - ''
     - if ( doOnce == 0 )
-    - "\tset temp to A1V1_IngrBagExt / 2"
+    - "\tset temp to A1V1_PotChestExt / 2"
     - "\tset temp to temp - 2 * ( temp / 2 )"
-    - "\tset temp to A1V1_IngrBagExt - 2 * temp + 2"
-    - "\tset A1V1_IngrBagExt to temp"
+    - "\tset temp to A1V1_PotChestExt - 2 * temp + 2"
+    - "\tset A1V1_PotChestExt to temp"
     - "\tDisablePlayerControls"
     - "\tset doOnce to 1"
-    - "\tset cx to A1V1_IngrBagX"
-    - "\tset cy to A1V1_IngrBagY"
-    - "\tset cz to A1V1_IngrBagZ"
+    - "\tset cx to A1V1_PotChestX"
+    - "\tset cy to A1V1_PotChestY"
+    - "\tset cz to A1V1_PotChestZ"
     - "\tSetPos X cx"
     - "\tSetPos Y cy"
     - "\tSetPos Z cz"
-    - "\tset A1V1_IngrBagIndex to 2"
-    - "\tStartScript A1V1_IngrBagInitSt1_sc"
+    - "\tset A1V1_PotChestIndex to 2"
+    - "\tStartScript A1V1_PotChestInitSt1_sc"
     - "\treturn"
     - endif
     - ''
@@ -751,7 +749,7 @@
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagCont_3_sc
+      name: A1V1_PotChestCont_3_sc
       vars:
         shorts: 5
         longs: 0
@@ -783,18 +781,18 @@
           owner: null
           type: Short
           index: 3
-        - " G\x0FA1V1_IngrBagExt 4 /"
+        - " G\x0FA1V1_PotChestExt 4 /"
       - func: Set
         args:
         - kind: Local
           owner: null
           type: Short
           index: 3
-        - " G\x0FA1V1_IngrBagExt 4 s\x03\0 * -"
+        - " G\x0FA1V1_PotChestExt 4 s\x03\0 * -"
       - func: Set
         args:
         - kind: Global
-          name: A1V1_IngrBagExt
+          name: A1V1_PotChestExt
         - " s\x03\0\0"
       - func: SetDelete
         args: 1
@@ -820,7 +818,7 @@
         - " s\x02\0 > 0"
       - func: AddItem
         args:
-        - A1V1_IngrBagFakeIngred
+        - A1V1_PotChestFakeIngred
         - 2
       - func: Set
         args:
@@ -851,7 +849,7 @@
       - func: If
         args:
         - 1
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_3 == 0"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_3 == 0"
       - func: Set
         args:
         - kind: Local
@@ -904,18 +902,18 @@
           owner: null
           type: Short
           index: 3
-        - " G\x0FA1V1_IngrBagExt 4 /"
+        - " G\x0FA1V1_PotChestExt 4 /"
       - func: Set
         args:
         - kind: Local
           owner: null
           type: Short
           index: 3
-        - " G\x0FA1V1_IngrBagExt 4 s\x03\0 * - 4 +"
+        - " G\x0FA1V1_PotChestExt 4 s\x03\0 * - 4 +"
       - func: Set
         args:
         - kind: Global
-          name: A1V1_IngrBagExt
+          name: A1V1_PotChestExt
         - " s\x03\0\0"
       - func: DisablePlayerControls
         args: null
@@ -932,21 +930,21 @@
           owner: null
           type: Float
           index: 1
-        - " G\rA1V1_IngrBagX\0"
+        - " G\rA1V1_PotChestX\0"
       - func: Set
         args:
         - kind: Local
           owner: null
           type: Float
           index: 2
-        - " G\rA1V1_IngrBagY\0"
+        - " G\rA1V1_PotChestY\0"
       - func: Set
         args:
         - kind: Local
           owner: null
           type: Float
           index: 3
-        - " G\rA1V1_IngrBagZ\0"
+        - " G\rA1V1_PotChestZ\0"
       - func: SetPos
         args:
         - X
@@ -968,10 +966,10 @@
       - func: Set
         args:
         - kind: Global
-          name: A1V1_IngrBagIndex
+          name: A1V1_PotChestIndex
         - ' 3'
       - func: StartScript
-        args: A1V1_IngrBagInitSt1_sc
+        args: A1V1_PotChestInitSt1_sc
       - func: Return
         args: null
       - func: EndIf
@@ -1019,7 +1017,7 @@
         args: null
       raw: []
   - SCTX:
-    - Begin A1V1_IngrBagCont_3_sc
+    - Begin A1V1_PotChestCont_3_sc
     - ''
     - short doOnce
     - short doDisable
@@ -1032,9 +1030,9 @@
     - ''
     - if ( doDisable > 20 )
     - "\tif ( GetDisabled == 1 )"
-    - "\t\tset temp to A1V1_IngrBagExt / 4"
-    - "\t\tset temp to A1V1_IngrBagExt - 4 * temp"
-    - "\t\tset A1V1_IngrBagExt to temp"
+    - "\t\tset temp to A1V1_PotChestExt / 4"
+    - "\t\tset temp to A1V1_PotChestExt - 4 * temp"
+    - "\t\tset A1V1_PotChestExt to temp"
     - "\t\tSetDelete 1"
     - "\t\treturn"
     - "\tendif"
@@ -1046,7 +1044,7 @@
     - endif
     - ''
     - if ( doDisable > 0 )
-    - "\tAddItem \"A1V1_IngrBagFakeIngred\", 2"
+    - "\tAddItem \"A1V1_PotChestFakeIngred\", 2"
     - "\tset doDisable to ( doDisable + 1 )"
     - "\treturn"
     - endif
@@ -1054,7 +1052,7 @@
     - if ( waitActivate == 2 )
     - "\tif ( MenuMode == 0 )"
     - "\t\tset waitActivate to 0"
-    - "\t\tif ( GetItemCount A1V1_IngrBagItem_3 == 0 )"
+    - "\t\tif ( GetItemCount A1V1_PotChestItem_3 == 0 )"
     - "\t\t\tset doDisable to 1"
     - "\t\tendif"
     - "\tendif"
@@ -1071,19 +1069,19 @@
     - endif
     - ''
     - if ( doOnce == 0 )
-    - "\tset temp to A1V1_IngrBagExt / 4"
-    - "\tset temp to A1V1_IngrBagExt - 4 * temp + 4"
-    - "\tset A1V1_IngrBagExt to temp"
+    - "\tset temp to A1V1_PotChestExt / 4"
+    - "\tset temp to A1V1_PotChestExt - 4 * temp + 4"
+    - "\tset A1V1_PotChestExt to temp"
     - "\tDisablePlayerControls"
     - "\tset doOnce to 1"
-    - "\tset cx to A1V1_IngrBagX"
-    - "\tset cy to A1V1_IngrBagY"
-    - "\tset cz to A1V1_IngrBagZ"
+    - "\tset cx to A1V1_PotChestX"
+    - "\tset cy to A1V1_PotChestY"
+    - "\tset cz to A1V1_PotChestZ"
     - "\tSetPos X cx"
     - "\tSetPos Y cy"
     - "\tSetPos Z cz"
-    - "\tset A1V1_IngrBagIndex to 3"
-    - "\tStartScript A1V1_IngrBagInitSt1_sc"
+    - "\tset A1V1_PotChestIndex to 3"
+    - "\tStartScript A1V1_PotChestInitSt1_sc"
     - "\treturn"
     - endif
     - ''
@@ -1103,7 +1101,7 @@
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagDel_1_sc
+      name: A1V1_PotChestDel_1_sc
       vars:
         shorts: 0
         longs: 0
@@ -1117,34 +1115,34 @@
       - func: If
         args:
         - 1
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_1 == 1"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_1 == 1"
       - func: SetRef
         args: player
       - func: RemoveItem
         args:
-        - A1V1_IngrBagItem_1
+        - A1V1_PotChestItem_1
         - 1
       - func: EndIf
         args: null
       - func: StopScript
-        args: A1V1_IngrBagDel_1_sc
+        args: A1V1_PotChestDel_1_sc
       - func: End
         args: null
       raw: []
   - SCTX:
-    - Begin A1V1_IngrBagDel_1_sc
+    - Begin A1V1_PotChestDel_1_sc
     - ''
-    - if ( player->GetItemCount A1V1_IngrBagItem_1 == 1 )
-    - "\tplayer->RemoveItem A1V1_IngrBagItem_1, 1"
+    - if ( player->GetItemCount A1V1_PotChestItem_1 == 1 )
+    - "\tplayer->RemoveItem A1V1_PotChestItem_1, 1"
     - endif
     - ''
-    - StopScript A1V1_IngrBagDel_1_sc
+    - StopScript A1V1_PotChestDel_1_sc
     - ''
     - End
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagDel_2_sc
+      name: A1V1_PotChestDel_2_sc
       vars:
         shorts: 0
         longs: 0
@@ -1158,34 +1156,34 @@
       - func: If
         args:
         - 1
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_2 == 1"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_2 == 1"
       - func: SetRef
         args: player
       - func: RemoveItem
         args:
-        - A1V1_IngrBagItem_2
+        - A1V1_PotChestItem_2
         - 1
       - func: EndIf
         args: null
       - func: StopScript
-        args: A1V1_IngrBagDel_2_sc
+        args: A1V1_PotChestDel_2_sc
       - func: End
         args: null
       raw: []
   - SCTX:
-    - Begin A1V1_IngrBagDel_2_sc
+    - Begin A1V1_PotChestDel_2_sc
     - ''
-    - if ( player->GetItemCount A1V1_IngrBagItem_2 == 1 )
-    - "\tplayer->RemoveItem A1V1_IngrBagItem_2, 1"
+    - if ( player->GetItemCount A1V1_PotChestItem_2 == 1 )
+    - "\tplayer->RemoveItem A1V1_PotChestItem_2, 1"
     - endif
     - ''
-    - StopScript A1V1_IngrBagDel_2_sc
+    - StopScript A1V1_PotChestDel_2_sc
     - ''
     - End
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagDel_3_sc
+      name: A1V1_PotChestDel_3_sc
       vars:
         shorts: 0
         longs: 0
@@ -1199,34 +1197,34 @@
       - func: If
         args:
         - 1
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_3 == 1"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_3 == 1"
       - func: SetRef
         args: player
       - func: RemoveItem
         args:
-        - A1V1_IngrBagItem_3
+        - A1V1_PotChestItem_3
         - 1
       - func: EndIf
         args: null
       - func: StopScript
-        args: A1V1_IngrBagDel_3_sc
+        args: A1V1_PotChestDel_3_sc
       - func: End
         args: null
       raw: []
   - SCTX:
-    - Begin A1V1_IngrBagDel_3_sc
+    - Begin A1V1_PotChestDel_3_sc
     - ''
-    - if ( player->GetItemCount A1V1_IngrBagItem_3 == 1 )
-    - "\tplayer->RemoveItem A1V1_IngrBagItem_3, 1"
+    - if ( player->GetItemCount A1V1_PotChestItem_3 == 1 )
+    - "\tplayer->RemoveItem A1V1_PotChestItem_3, 1"
     - endif
     - ''
-    - StopScript A1V1_IngrBagDel_3_sc
+    - StopScript A1V1_PotChestDel_3_sc
     - ''
     - End
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt10_sc
+      name: A1V1_PotChestInitSt10_sc
       vars:
         shorts: 1
         longs: 0
@@ -1515,24 +1513,24 @@
       - func: If
         args:
         - 1
-        - " G\x11A1V1_IngrBagIndex == 1"
+        - " G\x11A1V1_PotChestIndex == 1"
       - func: AddItem
         args:
-        - A1V1_IngrBagItem_1
+        - A1V1_PotChestItem_1
         - 1
       - func: ElseIf
         args:
         - 1
-        - " G\x11A1V1_IngrBagIndex == 2"
+        - " G\x11A1V1_PotChestIndex == 2"
       - func: AddItem
         args:
-        - A1V1_IngrBagItem_2
+        - A1V1_PotChestItem_2
         - 1
       - func: Else
         args: 1
       - func: AddItem
         args:
-        - A1V1_IngrBagItem_3
+        - A1V1_PotChestItem_3
         - 1
       - func: EndIf
         args: null
@@ -1544,12 +1542,12 @@
       - func: EnablePlayerControls
         args: null
       - func: StopScript
-        args: A1V1_IngrBagInitSt10_sc
+        args: A1V1_PotChestInitSt10_sc
       - func: End
         args: null
       raw: []
   - SCTX:
-    - begin A1V1_IngrBagInitSt10_sc
+    - begin A1V1_PotChestInitSt10_sc
     - ''
     - short temp
     - ''
@@ -1609,23 +1607,23 @@
     - "\tAddItem \"poison_goop00\", temp"
     - endif
     - ''
-    - if ( A1V1_IngrBagIndex == 1 )
-    - "\tAddItem \"A1V1_IngrBagItem_1\", 1"
-    - elseif ( A1V1_IngrBagIndex == 2 )
-    - "\tAddItem \"A1V1_IngrBagItem_2\", 1"
+    - if ( A1V1_PotChestIndex == 1 )
+    - "\tAddItem \"A1V1_PotChestItem_1\", 1"
+    - elseif ( A1V1_PotChestIndex == 2 )
+    - "\tAddItem \"A1V1_PotChestItem_2\", 1"
     - else
-    - "\tAddItem \"A1V1_IngrBagItem_3\", 1"
+    - "\tAddItem \"A1V1_PotChestItem_3\", 1"
     - endif
     - MessageBox "Ингредиенты выложены"
     - EnablePlayerControls
     - ''
-    - StopScript A1V1_IngrBagInitSt10_sc
+    - StopScript A1V1_PotChestInitSt10_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt10_sx
+      name: A1V1_PotChestInitSt10_sx
       vars:
         shorts: 1
         longs: 0
@@ -1717,7 +1715,7 @@
       - 01 00 09 01 00 10 14 00 C8 ED E3 F0 E5 E4 E8 E5 ED F2 FB 20 E2 FB EB EE E6 E5 ED FB 00 00 DD 10
       - 1C 10 17 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 31 30 5F 73 63 01 01
   - SCTX:
-    - begin A1V1_IngrBagInitSt10_sx
+    - begin A1V1_PotChestInitSt10_sx
     - ''
     - short temp
     - ''
@@ -1777,23 +1775,23 @@
     - "\txAddItem \"poison_goop00\", temp"
     - endif
     - ''
-    - if ( A1V1_IngrBagIndex == 1 )
-    - "\tAddItem \"A1V1_IngrBagItem_1\", 1"
-    - elseif ( A1V1_IngrBagIndex == 2 )
-    - "\tAddItem \"A1V1_IngrBagItem_2\", 1"
+    - if ( A1V1_PotChestIndex == 1 )
+    - "\tAddItem \"A1V1_PotChestItem_1\", 1"
+    - elseif ( A1V1_PotChestIndex == 2 )
+    - "\tAddItem \"A1V1_PotChestItem_2\", 1"
     - else
-    - "\tAddItem \"A1V1_IngrBagItem_3\", 1"
+    - "\tAddItem \"A1V1_PotChestItem_3\", 1"
     - endif
     - MessageBox "Ингредиенты выложены"
     - EnablePlayerControls
     - ''
-    - StopScript A1V1_IngrBagInitSt10_sc
+    - StopScript A1V1_PotChestInitSt10_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt1_sc
+      name: A1V1_PotChestInitSt1_sc
       vars:
         shorts: 1
         longs: 0
@@ -2485,14 +2483,14 @@
       - func: EndIf
         args: null
       - func: StopScript
-        args: A1V1_IngrBagInitSt1_sc
+        args: A1V1_PotChestInitSt1_sc
       - func: StartScript
-        args: A1V1_IngrBagInitSt2_sc
+        args: A1V1_PotChestInitSt2_sc
       - func: End
         args: null
       raw: []
   - SCTX:
-    - begin A1V1_IngrBagInitSt1_sc
+    - begin A1V1_PotChestInitSt1_sc
     - ''
     - short temp
     - ''
@@ -2657,14 +2655,14 @@
     - "\tRemoveItem \"ingred_bug_shell_03\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitSt1_sc
-    - StartScript A1V1_IngrBagInitSt2_sc
+    - StopScript A1V1_PotChestInitSt1_sc
+    - StartScript A1V1_PotChestInitSt2_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt1_sx
+      name: A1V1_PotChestInitSt1_sx
       vars:
         shorts: 1
         longs: 0
@@ -2819,7 +2817,7 @@
       - 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 31 5F 73 63 1B 10 16 41 31 56 31 5F 49 6E
       - 67 72 42 61 67 49 6E 69 74 53 74 32 5F 73 63 01 01
   - SCTX:
-    - begin A1V1_IngrBagInitSt1_sx
+    - begin A1V1_PotChestInitSt1_sx
     - ''
     - short temp
     - ''
@@ -2984,14 +2982,14 @@
     - "\txRemoveItem \"ingred_bug_shell_03\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitSt1_sc
-    - StartScript A1V1_IngrBagInitSt2_sc
+    - StopScript A1V1_PotChestInitSt1_sc
+    - StartScript A1V1_PotChestInitSt2_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt2_sc
+      name: A1V1_PotChestInitSt2_sc
       vars:
         shorts: 1
         longs: 0
@@ -3683,14 +3681,14 @@
       - func: EndIf
         args: null
       - func: StopScript
-        args: A1V1_IngrBagInitSt2_sc
+        args: A1V1_PotChestInitSt2_sc
       - func: StartScript
-        args: A1V1_IngrBagInitSt3_sc
+        args: A1V1_PotChestInitSt3_sc
       - func: End
         args: null
       raw: []
   - SCTX:
-    - begin A1V1_IngrBagInitSt2_sc
+    - begin A1V1_PotChestInitSt2_sc
     - ''
     - short temp
     - ''
@@ -3855,14 +3853,14 @@
     - "\tRemoveItem \"ingred_eye_of_beholder\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitSt2_sc
-    - StartScript A1V1_IngrBagInitSt3_sc
+    - StopScript A1V1_PotChestInitSt2_sc
+    - StartScript A1V1_PotChestInitSt3_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt2_sx
+      name: A1V1_PotChestInitSt2_sx
       vars:
         shorts: 1
         longs: 0
@@ -4015,7 +4013,7 @@
       - 1C 10 16 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 32 5F 73 63 1B 10 16 41 31 56 31
       - 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 33 5F 73 63 01 01
   - SCTX:
-    - begin A1V1_IngrBagInitSt2_sx
+    - begin A1V1_PotChestInitSt2_sx
     - ''
     - short temp
     - ''
@@ -4180,14 +4178,14 @@
     - "\txRemoveItem \"ingred_eye_of_beholder\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitSt2_sc
-    - StartScript A1V1_IngrBagInitSt3_sc
+    - StopScript A1V1_PotChestInitSt2_sc
+    - StartScript A1V1_PotChestInitSt3_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt3_sc
+      name: A1V1_PotChestInitSt3_sc
       vars:
         shorts: 1
         longs: 0
@@ -4879,14 +4877,14 @@
       - func: EndIf
         args: null
       - func: StopScript
-        args: A1V1_IngrBagInitSt3_sc
+        args: A1V1_PotChestInitSt3_sc
       - func: StartScript
-        args: A1V1_IngrBagInitSt4_sc
+        args: A1V1_PotChestInitSt4_sc
       - func: End
         args: null
       raw: []
   - SCTX:
-    - begin A1V1_IngrBagInitSt3_sc
+    - begin A1V1_PotChestInitSt3_sc
     - ''
     - short temp
     - ''
@@ -5051,14 +5049,14 @@
     - "\tRemoveItem \"ingred_liatom\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitSt3_sc
-    - StartScript A1V1_IngrBagInitSt4_sc
+    - StopScript A1V1_PotChestInitSt3_sc
+    - StartScript A1V1_PotChestInitSt4_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt3_sx
+      name: A1V1_PotChestInitSt3_sx
       vars:
         shorts: 1
         longs: 0
@@ -5213,7 +5211,7 @@
       - 61 74 6F 6D 29 3C 1C 10 16 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 33 5F 73 63 1B
       - 10 16 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 34 5F 73 63 01 01
   - SCTX:
-    - begin A1V1_IngrBagInitSt3_sx
+    - begin A1V1_PotChestInitSt3_sx
     - ''
     - short temp
     - ''
@@ -5378,14 +5376,14 @@
     - "\txRemoveItem \"ingred_liatom\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitSt3_sc
-    - StartScript A1V1_IngrBagInitSt4_sc
+    - StopScript A1V1_PotChestInitSt3_sc
+    - StartScript A1V1_PotChestInitSt4_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt4_sc
+      name: A1V1_PotChestInitSt4_sc
       vars:
         shorts: 1
         longs: 0
@@ -6077,14 +6075,14 @@
       - func: EndIf
         args: null
       - func: StopScript
-        args: A1V1_IngrBagInitSt4_sc
+        args: A1V1_PotChestInitSt4_sc
       - func: StartScript
-        args: A1V1_IngrBagInitStX_sc
+        args: A1V1_PotChestInitStX_sc
       - func: End
         args: null
       raw: []
   - SCTX:
-    - begin A1V1_IngrBagInitSt4_sc
+    - begin A1V1_PotChestInitSt4_sc
     - ''
     - short temp
     - ''
@@ -6249,14 +6247,14 @@
     - "\tRemoveItem \"ingred_scamp_claw\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitSt4_sc
-    - StartScript A1V1_IngrBagInitStX_sc
+    - StopScript A1V1_PotChestInitSt4_sc
+    - StartScript A1V1_PotChestInitStX_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt4_sx
+      name: A1V1_PotChestInitSt4_sx
       vars:
         shorts: 1
         longs: 0
@@ -6408,7 +6406,7 @@
       - 67 72 42 61 67 49 6E 69 74 53 74 34 5F 73 63 1B 10 16 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E
       - 69 74 53 74 58 5F 73 63 01 01
   - SCTX:
-    - begin A1V1_IngrBagInitSt4_sx
+    - begin A1V1_PotChestInitSt4_sx
     - ''
     - short temp
     - ''
@@ -6573,14 +6571,14 @@
     - "\txRemoveItem \"ingred_scamp_claw\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitSt4_sc
-    - StartScript A1V1_IngrBagInitStX_sc
+    - StopScript A1V1_PotChestInitSt4_sc
+    - StartScript A1V1_PotChestInitStX_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt5_sc
+      name: A1V1_PotChestInitSt5_sc
       vars:
         shorts: 1
         longs: 0
@@ -6784,56 +6782,56 @@
           owner: null
           type: Short
           index: 1
-        - " Xэ\x10 o\x16A1V1_IngrBagFakeIngred\0"
+        - " Xэ\x10 o\x16A1V1_PotChestFakeIngred\0"
       - func: If
         args:
         - 1
         - " s\x01\0 != 0"
       - func: RemoveItem
         args:
-        - A1V1_IngrBagFakeIngred
+        - A1V1_PotChestFakeIngred
         - 0
       - func: EndIf
         args: null
       - func: If
         args:
         - 1
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_1 == 1"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_1 == 1"
       - func: RemoveItem
         args:
-        - A1V1_IngrBagItem_1
+        - A1V1_PotChestItem_1
         - 1
       - func: EndIf
         args: null
       - func: If
         args:
         - 1
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_2 == 1"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_2 == 1"
       - func: RemoveItem
         args:
-        - A1V1_IngrBagItem_2
+        - A1V1_PotChestItem_2
         - 1
       - func: EndIf
         args: null
       - func: If
         args:
         - 1
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_3 == 1"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_3 == 1"
       - func: RemoveItem
         args:
-        - A1V1_IngrBagItem_3
+        - A1V1_PotChestItem_3
         - 1
       - func: EndIf
         args: null
       - func: StopScript
-        args: A1V1_IngrBagInitSt5_sc
+        args: A1V1_PotChestInitSt5_sc
       - func: StartScript
-        args: A1V1_IngrBagInitSt6_sc
+        args: A1V1_PotChestInitSt6_sc
       - func: End
         args: null
       raw: []
   - SCTX:
-    - begin A1V1_IngrBagInitSt5_sc
+    - begin A1V1_PotChestInitSt5_sc
     - ''
     - short temp
     - ''
@@ -6882,28 +6880,28 @@
     - "\tRemoveItem \"poison_goop00\", temp"
     - endif
     - ''
-    - set temp to ( GetItemCount A1V1_IngrBagFakeIngred )
+    - set temp to ( GetItemCount A1V1_PotChestFakeIngred )
     - if ( temp != 0 )
-    - "\tRemoveItem \"A1V1_IngrBagFakeIngred\", temp"
+    - "\tRemoveItem \"A1V1_PotChestFakeIngred\", temp"
     - endif
-    - if ( GetItemCount A1V1_IngrBagItem_1 == 1 )
-    - "\tRemoveItem A1V1_IngrBagItem_1, 1"
+    - if ( GetItemCount A1V1_PotChestItem_1 == 1 )
+    - "\tRemoveItem A1V1_PotChestItem_1, 1"
     - endif
-    - if ( GetItemCount A1V1_IngrBagItem_2 == 1 )
-    - "\tRemoveItem A1V1_IngrBagItem_2, 1"
+    - if ( GetItemCount A1V1_PotChestItem_2 == 1 )
+    - "\tRemoveItem A1V1_PotChestItem_2, 1"
     - endif
-    - if ( GetItemCount A1V1_IngrBagItem_3 == 1 )
-    - "\tRemoveItem A1V1_IngrBagItem_3, 1"
+    - if ( GetItemCount A1V1_PotChestItem_3 == 1 )
+    - "\tRemoveItem A1V1_PotChestItem_3, 1"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitSt5_sc
-    - StartScript A1V1_IngrBagInitSt6_sc
+    - StopScript A1V1_PotChestInitSt5_sc
+    - StartScript A1V1_PotChestInitSt6_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt5_sx
+      name: A1V1_PotChestInitSt5_sx
       vars:
         shorts: 1
         longs: 0
@@ -6979,7 +6977,7 @@
       - 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 35 5F 73 63 1B 10 16 41 31 56 31 5F 49 6E 67 72 42
       - 61 67 49 6E 69 74 53 74 36 5F 73 63 01 01
   - SCTX:
-    - begin A1V1_IngrBagInitSt5_sx
+    - begin A1V1_PotChestInitSt5_sx
     - ''
     - short temp
     - ''
@@ -7028,28 +7026,28 @@
     - "\txRemoveItem \"poison_goop00\", temp"
     - endif
     - ''
-    - set temp to ( GetItemCount A1V1_IngrBagFakeIngred )
+    - set temp to ( GetItemCount A1V1_PotChestFakeIngred )
     - ifx ( temp )
-    - "\txRemoveItem \"A1V1_IngrBagFakeIngred\", temp"
+    - "\txRemoveItem \"A1V1_PotChestFakeIngred\", temp"
     - endif
-    - if ( GetItemCount A1V1_IngrBagItem_1 == 1 )
-    - "\tRemoveItem A1V1_IngrBagItem_1, 1"
+    - if ( GetItemCount A1V1_PotChestItem_1 == 1 )
+    - "\tRemoveItem A1V1_PotChestItem_1, 1"
     - endif
-    - if ( GetItemCount A1V1_IngrBagItem_2 == 1 )
-    - "\tRemoveItem A1V1_IngrBagItem_2, 1"
+    - if ( GetItemCount A1V1_PotChestItem_2 == 1 )
+    - "\tRemoveItem A1V1_PotChestItem_2, 1"
     - endif
-    - if ( GetItemCount A1V1_IngrBagItem_3 == 1 )
-    - "\tRemoveItem A1V1_IngrBagItem_3, 1"
+    - if ( GetItemCount A1V1_PotChestItem_3 == 1 )
+    - "\tRemoveItem A1V1_PotChestItem_3, 1"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitSt5_sc
-    - StartScript A1V1_IngrBagInitSt6_sc
+    - StopScript A1V1_PotChestInitSt5_sc
+    - StartScript A1V1_PotChestInitSt6_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt6_sc
+      name: A1V1_PotChestInitSt6_sc
       vars:
         shorts: 1
         longs: 0
@@ -8061,14 +8059,14 @@
       - func: EndIf
         args: null
       - func: StopScript
-        args: A1V1_IngrBagInitSt6_sc
+        args: A1V1_PotChestInitSt6_sc
       - func: StartScript
-        args: A1V1_IngrBagInitSt7_sc
+        args: A1V1_PotChestInitSt7_sc
       - func: End
         args: null
       raw: []
   - SCTX:
-    - begin A1V1_IngrBagInitSt6_sc
+    - begin A1V1_PotChestInitSt6_sc
     - ''
     - short temp
     - ''
@@ -8273,14 +8271,14 @@
     - "\tAddItem \"ingred_bug_shell_03\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitSt6_sc
-    - StartScript A1V1_IngrBagInitSt7_sc
+    - StopScript A1V1_PotChestInitSt6_sc
+    - StartScript A1V1_PotChestInitSt7_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt6_sx
+      name: A1V1_PotChestInitSt6_sx
       vars:
         shorts: 1
         longs: 0
@@ -8511,7 +8509,7 @@
       - 16 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 36 5F 73 63 1B 10 16 41 31 56 31 5F 49
       - 6E 67 72 42 61 67 49 6E 69 74 53 74 37 5F 73 63 01 01
   - SCTX:
-    - begin A1V1_IngrBagInitSt6_sx
+    - begin A1V1_PotChestInitSt6_sx
     - ''
     - short temp
     - ''
@@ -8716,14 +8714,14 @@
     - "\txAddItem \"ingred_bug_shell_03\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitSt6_sc
-    - StartScript A1V1_IngrBagInitSt7_sc
+    - StopScript A1V1_PotChestInitSt6_sc
+    - StartScript A1V1_PotChestInitSt7_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt7_sc
+      name: A1V1_PotChestInitSt7_sc
       vars:
         shorts: 1
         longs: 0
@@ -9735,14 +9733,14 @@
       - func: EndIf
         args: null
       - func: StopScript
-        args: A1V1_IngrBagInitSt7_sc
+        args: A1V1_PotChestInitSt7_sc
       - func: StartScript
-        args: A1V1_IngrBagInitSt8_sc
+        args: A1V1_PotChestInitSt8_sc
       - func: End
         args: null
       raw: []
   - SCTX:
-    - begin A1V1_IngrBagInitSt7_sc
+    - begin A1V1_PotChestInitSt7_sc
     - ''
     - short temp
     - ''
@@ -9947,14 +9945,14 @@
     - "\tAddItem \"ingred_eye_of_beholder\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitSt7_sc
-    - StartScript A1V1_IngrBagInitSt8_sc
+    - StopScript A1V1_PotChestInitSt7_sc
+    - StartScript A1V1_PotChestInitSt8_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt7_sx
+      name: A1V1_PotChestInitSt7_sx
       vars:
         shorts: 1
         longs: 0
@@ -10182,7 +10180,7 @@
       - 00 28 3C 1C 10 16 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 37 5F 73 63 1B 10 16 41
       - 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 38 5F 73 63 01 01
   - SCTX:
-    - begin A1V1_IngrBagInitSt7_sx
+    - begin A1V1_PotChestInitSt7_sx
     - ''
     - short temp
     - ''
@@ -10387,14 +10385,14 @@
     - "\txAddItem \"ingred_eye_of_beholder\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitSt7_sc
-    - StartScript A1V1_IngrBagInitSt8_sc
+    - StopScript A1V1_PotChestInitSt7_sc
+    - StartScript A1V1_PotChestInitSt8_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt8_sc
+      name: A1V1_PotChestInitSt8_sc
       vars:
         shorts: 1
         longs: 0
@@ -11406,14 +11404,14 @@
       - func: EndIf
         args: null
       - func: StopScript
-        args: A1V1_IngrBagInitSt8_sc
+        args: A1V1_PotChestInitSt8_sc
       - func: StartScript
-        args: A1V1_IngrBagInitSt9_sc
+        args: A1V1_PotChestInitSt9_sc
       - func: End
         args: null
       raw: []
   - SCTX:
-    - begin A1V1_IngrBagInitSt8_sc
+    - begin A1V1_PotChestInitSt8_sc
     - ''
     - short temp
     - ''
@@ -11618,14 +11616,14 @@
     - "\tAddItem \"ingred_liatom\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitSt8_sc
-    - StartScript A1V1_IngrBagInitSt9_sc
+    - StopScript A1V1_PotChestInitSt8_sc
+    - StartScript A1V1_PotChestInitSt9_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt8_sx
+      name: A1V1_PotChestInitSt8_sx
       vars:
         shorts: 1
         longs: 0
@@ -11857,7 +11855,7 @@
       - 69 74 53 74 38 5F 73 63 1B 10 16 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 39 5F 73
       - 63 01 01
   - SCTX:
-    - begin A1V1_IngrBagInitSt8_sx
+    - begin A1V1_PotChestInitSt8_sx
     - ''
     - short temp
     - ''
@@ -12062,14 +12060,14 @@
     - "\txAddItem \"ingred_liatom\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitSt8_sc
-    - StartScript A1V1_IngrBagInitSt9_sc
+    - StopScript A1V1_PotChestInitSt8_sc
+    - StartScript A1V1_PotChestInitSt9_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt9_sc
+      name: A1V1_PotChestInitSt9_sc
       vars:
         shorts: 1
         longs: 0
@@ -13081,14 +13079,14 @@
       - func: EndIf
         args: null
       - func: StopScript
-        args: A1V1_IngrBagInitSt9_sc
+        args: A1V1_PotChestInitSt9_sc
       - func: StartScript
-        args: A1V1_IngrBagInitStY_sc
+        args: A1V1_PotChestInitStY_sc
       - func: End
         args: null
       raw: []
   - SCTX:
-    - begin A1V1_IngrBagInitSt9_sc
+    - begin A1V1_PotChestInitSt9_sc
     - ''
     - short temp
     - ''
@@ -13293,14 +13291,14 @@
     - "\tAddItem \"ingred_scamp_claw\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitSt9_sc
-    - StartScript A1V1_IngrBagInitStY_sc
+    - StopScript A1V1_PotChestInitSt9_sc
+    - StartScript A1V1_PotChestInitStY_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitSt9_sx
+      name: A1V1_PotChestInitSt9_sx
       vars:
         shorts: 1
         longs: 0
@@ -13526,7 +13524,7 @@
       - 6D 70 5F 63 6C 61 77 28 3C 1C 10 16 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 39 5F
       - 73 63 1B 10 16 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 59 5F 73 63 01 01
   - SCTX:
-    - begin A1V1_IngrBagInitSt9_sx
+    - begin A1V1_PotChestInitSt9_sx
     - ''
     - short temp
     - ''
@@ -13731,14 +13729,14 @@
     - "\txAddItem \"ingred_scamp_claw\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitSt9_sc
-    - StartScript A1V1_IngrBagInitStY_sc
+    - StopScript A1V1_PotChestInitSt9_sc
+    - StartScript A1V1_PotChestInitStY_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitStX_sc
+      name: A1V1_PotChestInitStX_sc
       vars:
         shorts: 1
         longs: 0
@@ -14430,14 +14428,14 @@
       - func: EndIf
         args: null
       - func: StopScript
-        args: A1V1_IngrBagInitStX_sc
+        args: A1V1_PotChestInitStX_sc
       - func: StartScript
-        args: A1V1_IngrBagInitSt5_sc
+        args: A1V1_PotChestInitSt5_sc
       - func: End
         args: null
       raw: []
   - SCTX:
-    - begin A1V1_IngrBagInitStX_sc
+    - begin A1V1_PotChestInitStX_sc
     - ''
     - short temp
     - ''
@@ -14602,14 +14600,14 @@
     - "\tRemoveItem \"ingred_wickwheat_01\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitStX_sc
-    - StartScript A1V1_IngrBagInitSt5_sc
+    - StopScript A1V1_PotChestInitStX_sc
+    - StartScript A1V1_PotChestInitSt5_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitStX_sx
+      name: A1V1_PotChestInitStX_sx
       vars:
         shorts: 1
         longs: 0
@@ -14765,7 +14763,7 @@
       - 16 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 58 5F 73 63 1B 10 16 41 31 56 31 5F 49
       - 6E 67 72 42 61 67 49 6E 69 74 53 74 35 5F 73 63 01 01
   - SCTX:
-    - begin A1V1_IngrBagInitStX_sx
+    - begin A1V1_PotChestInitStX_sx
     - ''
     - short temp
     - ''
@@ -14930,14 +14928,14 @@
     - "\txRemoveItem \"ingred_wickwheat_01\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitStX_sc
-    - StartScript A1V1_IngrBagInitSt5_sc
+    - StopScript A1V1_PotChestInitStX_sc
+    - StartScript A1V1_PotChestInitSt5_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitStY_sc
+      name: A1V1_PotChestInitStY_sc
       vars:
         shorts: 1
         longs: 0
@@ -15949,14 +15947,14 @@
       - func: EndIf
         args: null
       - func: StopScript
-        args: A1V1_IngrBagInitStY_sc
+        args: A1V1_PotChestInitStY_sc
       - func: StartScript
-        args: A1V1_IngrBagInitSt10_sc
+        args: A1V1_PotChestInitSt10_sc
       - func: End
         args: null
       raw: []
   - SCTX:
-    - begin A1V1_IngrBagInitStY_sc
+    - begin A1V1_PotChestInitStY_sc
     - ''
     - short temp
     - ''
@@ -16161,14 +16159,14 @@
     - "\tAddItem \"ingred_wickwheat_01\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitStY_sc
-    - StartScript A1V1_IngrBagInitSt10_sc
+    - StopScript A1V1_PotChestInitStY_sc
+    - StartScript A1V1_PotChestInitSt10_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagInitStY_sx
+      name: A1V1_PotChestInitStY_sx
       vars:
         shorts: 1
         longs: 0
@@ -16401,7 +16399,7 @@
       - 69 74 53 74 59 5F 73 63 1B 10 17 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 31 30 5F
       - 73 63 01 01
   - SCTX:
-    - begin A1V1_IngrBagInitStY_sx
+    - begin A1V1_PotChestInitStY_sx
     - ''
     - short temp
     - ''
@@ -16606,14 +16604,14 @@
     - "\txAddItem \"ingred_wickwheat_01\", temp"
     - endif
     - ''
-    - StopScript A1V1_IngrBagInitStY_sc
-    - StartScript A1V1_IngrBagInitSt10_sc
+    - StopScript A1V1_PotChestInitStY_sc
+    - StartScript A1V1_PotChestInitSt10_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagItem_1_sc
+      name: A1V1_PotChestItem_1_sc
       vars:
         shorts: 6
         longs: 0
@@ -16662,7 +16660,7 @@
           index: 1
         - ' 0'
       - func: StartScript
-        args: A1V1_IngrBagDel_1_sc
+        args: A1V1_PotChestDel_1_sc
       - func: ElseIf
         args:
         - 1
@@ -16696,12 +16694,12 @@
       - func: If
         args:
         - 1
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_2 == 1"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_2 == 1"
       - func: SetRef
         args: player
       - func: RemoveItem
         args:
-        - A1V1_IngrBagItem_2
+        - A1V1_PotChestItem_2
         - 1
       - func: EndIf
         args: null
@@ -16710,12 +16708,12 @@
       - func: If
         args:
         - 1
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_3 == 1"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_3 == 1"
       - func: SetRef
         args: player
       - func: RemoveItem
         args:
-        - A1V1_IngrBagItem_3
+        - A1V1_PotChestItem_3
         - 1
       - func: EndIf
         args: null
@@ -16735,21 +16733,21 @@
       - func: Set
         args:
         - kind: Global
-          name: A1V1_IngrBagX
+          name: A1V1_PotChestX
         - " X\n\x10X\0"
       - func: Set
         args:
         - kind: Global
-          name: A1V1_IngrBagY
+          name: A1V1_PotChestY
         - " X\n\x10Y\0"
       - func: Set
         args:
         - kind: Global
-          name: A1V1_IngrBagZ
+          name: A1V1_PotChestZ
         - " X\n\x10Z\0"
       - func: PlaceAtPC
         args:
-        - A1V1_IngrBagCont_1
+        - A1V1_PotChestCont_1
         - 1
         - kind: Val
           val: 50.0
@@ -16759,20 +16757,20 @@
       - func: If
         args:
         - 10
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_2 == 0"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_2 == 0"
       - func: SetRef
         args: player
       - func: If
         args:
         - 8
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_3 == 0"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_3 == 0"
       - func: Set
         args:
         - kind: Local
           owner: null
           type: Short
           index: 5
-        - " G\x0FA1V1_IngrBagExt 2 /"
+        - " G\x0FA1V1_PotChestExt 2 /"
       - func: Set
         args:
         - kind: Local
@@ -16795,7 +16793,7 @@
         args: player
       - func: AddItem
         args:
-        - A1V1_IngrBagItem_2
+        - A1V1_PotChestItem_2
         - 1
       - func: ElseIf
         args:
@@ -16805,7 +16803,7 @@
         args: player
       - func: AddItem
         args:
-        - A1V1_IngrBagItem_3
+        - A1V1_PotChestItem_3
         - 1
       - func: EndIf
         args: null
@@ -16831,7 +16829,7 @@
       - func: If
         args:
         - 2
-        - " G\x0FA1V1_IngrBagExt == 0"
+        - " G\x0FA1V1_PotChestExt == 0"
       - func: MessageBox
         args:
         - Вы действительно не хотите пользоваться мешком для ингредиентов?
@@ -16860,7 +16858,7 @@
         args: null
       raw: []
   - SCTX:
-    - Begin A1V1_IngrBagItem_1_sc
+    - Begin A1V1_PotChestItem_1_sc
     - ''
     - short wait
     - short OnPCEquip
@@ -16878,7 +16876,7 @@
     - "\tset temp1 to GetButtonPressed"
     - "\tif ( temp1 == 0 )"
     - "\t\tset wait to 0"
-    - "\t\tStartScript A1V1_IngrBagDel_1_sc"
+    - "\t\tStartScript A1V1_PotChestDel_1_sc"
     - "\telseif ( temp1 == 1 )"
     - "\t\tset wait to 0"
     - "\tendif"
@@ -16887,29 +16885,29 @@
     - ''
     - if ( OnPCAdd == 1 )
     - "\tset OnPCAdd to 0"
-    - "\tif ( player->GetItemCount A1V1_IngrBagItem_2 == 1 )"
-    - "\t\tplayer->RemoveItem A1V1_IngrBagItem_2, 1"
+    - "\tif ( player->GetItemCount A1V1_PotChestItem_2 == 1 )"
+    - "\t\tplayer->RemoveItem A1V1_PotChestItem_2, 1"
     - "\tendif"
-    - "\tif ( player->GetItemCount A1V1_IngrBagItem_3 == 1 )"
-    - "\t\tplayer->RemoveItem A1V1_IngrBagItem_3, 1"
+    - "\tif ( player->GetItemCount A1V1_PotChestItem_3 == 1 )"
+    - "\t\tplayer->RemoveItem A1V1_PotChestItem_3, 1"
     - "\tendif"
     - endif
     - ''
     - if ( OnPCDrop == 1 )
     - "\tset OnPCDrop to 0"
-    - "\tset A1V1_IngrBagX to ( GetPos X )"
-    - "\tset A1V1_IngrBagY to ( GetPos Y )"
-    - "\tset A1V1_IngrBagZ to ( GetPos Z )"
-    - "\tPlaceAtPC A1V1_IngrBagCont_1 1, 50, 0"
-    - "\tif ( player->GetItemCount A1V1_IngrBagItem_2 == 0 )"
-    - "\t\tif ( player->GetItemCount A1V1_IngrBagItem_3 == 0 )"
-    - "\t\t\tset temp1 to ( A1V1_IngrBagExt / 2 )\t\t\t\t; temp1 = flags div 2"
+    - "\tset A1V1_PotChestX to ( GetPos X )"
+    - "\tset A1V1_PotChestY to ( GetPos Y )"
+    - "\tset A1V1_PotChestZ to ( GetPos Z )"
+    - "\tPlaceAtPC A1V1_PotChestCont_1 1, 50, 0"
+    - "\tif ( player->GetItemCount A1V1_PotChestItem_2 == 0 )"
+    - "\t\tif ( player->GetItemCount A1V1_PotChestItem_3 == 0 )"
+    - "\t\t\tset temp1 to ( A1V1_PotChestExt / 2 )\t\t\t\t; temp1 = flags div 2"
     - "\t\t\tset temp2 to ( temp1 / 2 )\t\t\t\t\t\t\t\t\t; temp2 = (flags div 2) div 2 ~ flags & 0b100"
     - "\t\t\tset temp1 to ( temp1 - 2 * temp2 )\t\t\t\t\t\t\t; temp1 = flags div 2 - 2 ((flags div 2) div 2) = (flags div 2) mod 2 ~ flags & 0b010"
     - "\t\t\tif ( temp1 == 0 )"
-    - "\t\t\t\tplayer->AddItem A1V1_IngrBagItem_2, 1"
+    - "\t\t\t\tplayer->AddItem A1V1_PotChestItem_2, 1"
     - "\t\t\telseif ( temp2 == 0 )"
-    - "\t\t\t\tplayer->AddItem A1V1_IngrBagItem_3, 1"
+    - "\t\t\t\tplayer->AddItem A1V1_PotChestItem_3, 1"
     - "\t\t\tendif"
     - "\t\tendif"
     - "\tendif"
@@ -16918,7 +16916,7 @@
     - ''
     - if ( OnPCEquip == 1 )
     - "\tset OnPCEquip to 0"
-    - "\tif ( A1V1_IngrBagExt == 0 )"
+    - "\tif ( A1V1_PotChestExt == 0 )"
     - "\t\tMessageBox \"Вы действительно не хотите пользоваться мешком для ингредиентов?\" \"Да\" \"Нет\""
     - "\t\tset wait to 1"
     - "\telse"
@@ -16930,7 +16928,7 @@
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagItem_2_sc
+      name: A1V1_PotChestItem_2_sc
       vars:
         shorts: 6
         longs: 0
@@ -16979,7 +16977,7 @@
           index: 1
         - ' 0'
       - func: StartScript
-        args: A1V1_IngrBagDel_2_sc
+        args: A1V1_PotChestDel_2_sc
       - func: ElseIf
         args:
         - 1
@@ -17013,12 +17011,12 @@
       - func: If
         args:
         - 1
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_1 == 1"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_1 == 1"
       - func: SetRef
         args: player
       - func: RemoveItem
         args:
-        - A1V1_IngrBagItem_1
+        - A1V1_PotChestItem_1
         - 1
       - func: EndIf
         args: null
@@ -17027,12 +17025,12 @@
       - func: If
         args:
         - 1
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_3 == 1"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_3 == 1"
       - func: SetRef
         args: player
       - func: RemoveItem
         args:
-        - A1V1_IngrBagItem_3
+        - A1V1_PotChestItem_3
         - 1
       - func: EndIf
         args: null
@@ -17052,21 +17050,21 @@
       - func: Set
         args:
         - kind: Global
-          name: A1V1_IngrBagX
+          name: A1V1_PotChestX
         - " X\n\x10X\0"
       - func: Set
         args:
         - kind: Global
-          name: A1V1_IngrBagY
+          name: A1V1_PotChestY
         - " X\n\x10Y\0"
       - func: Set
         args:
         - kind: Global
-          name: A1V1_IngrBagZ
+          name: A1V1_PotChestZ
         - " X\n\x10Z\0"
       - func: PlaceAtPC
         args:
-        - A1V1_IngrBagCont_2
+        - A1V1_PotChestCont_2
         - 1
         - kind: Val
           val: 50.0
@@ -17076,27 +17074,27 @@
       - func: If
         args:
         - 10
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_1 == 0"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_1 == 0"
       - func: SetRef
         args: player
       - func: If
         args:
         - 8
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_3 == 0"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_3 == 0"
       - func: Set
         args:
         - kind: Local
           owner: null
           type: Short
           index: 5
-        - " G\x0FA1V1_IngrBagExt 2 /"
+        - " G\x0FA1V1_PotChestExt 2 /"
       - func: Set
         args:
         - kind: Local
           owner: null
           type: Short
           index: 6
-        - " G\x0FA1V1_IngrBagExt 2 s\x05\0 * -"
+        - " G\x0FA1V1_PotChestExt 2 s\x05\0 * -"
       - func: Set
         args:
         - kind: Local
@@ -17112,7 +17110,7 @@
         args: player
       - func: AddItem
         args:
-        - A1V1_IngrBagItem_1
+        - A1V1_PotChestItem_1
         - 1
       - func: ElseIf
         args:
@@ -17122,7 +17120,7 @@
         args: player
       - func: AddItem
         args:
-        - A1V1_IngrBagItem_3
+        - A1V1_PotChestItem_3
         - 1
       - func: EndIf
         args: null
@@ -17148,7 +17146,7 @@
       - func: If
         args:
         - 2
-        - " G\x0FA1V1_IngrBagExt == 0"
+        - " G\x0FA1V1_PotChestExt == 0"
       - func: MessageBox
         args:
         - Вы действительно не хотите пользоваться мешком для ингредиентов?
@@ -17177,7 +17175,7 @@
         args: null
       raw: []
   - SCTX:
-    - Begin A1V1_IngrBagItem_2_sc
+    - Begin A1V1_PotChestItem_2_sc
     - ''
     - short wait
     - short OnPCEquip
@@ -17195,7 +17193,7 @@
     - "\tset temp1 to GetButtonPressed"
     - "\tif ( temp1 == 0 )"
     - "\t\tset wait to 0"
-    - "\t\tStartScript A1V1_IngrBagDel_2_sc"
+    - "\t\tStartScript A1V1_PotChestDel_2_sc"
     - "\telseif ( temp1 == 1 )"
     - "\t\tset wait to 0"
     - "\tendif"
@@ -17204,29 +17202,29 @@
     - ''
     - if ( OnPCAdd == 1 )
     - "\tset OnPCAdd to 0"
-    - "\tif ( player->GetItemCount A1V1_IngrBagItem_1 == 1 )"
-    - "\t\tplayer->RemoveItem A1V1_IngrBagItem_1, 1"
+    - "\tif ( player->GetItemCount A1V1_PotChestItem_1 == 1 )"
+    - "\t\tplayer->RemoveItem A1V1_PotChestItem_1, 1"
     - "\tendif"
-    - "\tif ( player->GetItemCount A1V1_IngrBagItem_3 == 1 )"
-    - "\t\tplayer->RemoveItem A1V1_IngrBagItem_3, 1"
+    - "\tif ( player->GetItemCount A1V1_PotChestItem_3 == 1 )"
+    - "\t\tplayer->RemoveItem A1V1_PotChestItem_3, 1"
     - "\tendif"
     - endif
     - ''
     - if ( OnPCDrop == 1 )
     - "\tset OnPCDrop to 0"
-    - "\tset A1V1_IngrBagX to ( GetPos X )"
-    - "\tset A1V1_IngrBagY to ( GetPos Y )"
-    - "\tset A1V1_IngrBagZ to ( GetPos Z )"
-    - "\tPlaceAtPC A1V1_IngrBagCont_2 1, 50, 0"
-    - "\tif ( player->GetItemCount A1V1_IngrBagItem_1 == 0 )"
-    - "\t\tif ( player->GetItemCount A1V1_IngrBagItem_3 == 0 )"
-    - "\t\t\tset temp1 to ( A1V1_IngrBagExt / 2 )\t\t\t\t; temp1 = flags div 2"
-    - "\t\t\tset temp2 to ( A1V1_IngrBagExt - 2 * temp1 )\t; temp2 = flags - 2 (flags div 2) = flags mod 2 ~ flags & 0b001"
+    - "\tset A1V1_PotChestX to ( GetPos X )"
+    - "\tset A1V1_PotChestY to ( GetPos Y )"
+    - "\tset A1V1_PotChestZ to ( GetPos Z )"
+    - "\tPlaceAtPC A1V1_PotChestCont_2 1, 50, 0"
+    - "\tif ( player->GetItemCount A1V1_PotChestItem_1 == 0 )"
+    - "\t\tif ( player->GetItemCount A1V1_PotChestItem_3 == 0 )"
+    - "\t\t\tset temp1 to ( A1V1_PotChestExt / 2 )\t\t\t\t; temp1 = flags div 2"
+    - "\t\t\tset temp2 to ( A1V1_PotChestExt - 2 * temp1 )\t; temp2 = flags - 2 (flags div 2) = flags mod 2 ~ flags & 0b001"
     - "\t\t\tset temp1 to ( temp1 / 2 )\t\t\t\t\t\t\t\t\t; temp1 = (flags div 2) div 2 ~ flags & 0b100"
     - "\t\t\tif ( temp2 == 0 )"
-    - "\t\t\t\tplayer->AddItem A1V1_IngrBagItem_1, 1"
+    - "\t\t\t\tplayer->AddItem A1V1_PotChestItem_1, 1"
     - "\t\t\telseif ( temp1 == 0 )"
-    - "\t\t\t\tplayer->AddItem A1V1_IngrBagItem_3, 1"
+    - "\t\t\t\tplayer->AddItem A1V1_PotChestItem_3, 1"
     - "\t\t\tendif"
     - "\t\tendif"
     - "\tendif"
@@ -17235,7 +17233,7 @@
     - ''
     - if ( OnPCEquip == 1 )
     - "\tset OnPCEquip to 0"
-    - "\tif ( A1V1_IngrBagExt == 0 )"
+    - "\tif ( A1V1_PotChestExt == 0 )"
     - "\t\tMessageBox \"Вы действительно не хотите пользоваться мешком для ингредиентов?\" \"Да\" \"Нет\""
     - "\t\tset wait to 1"
     - "\telse"
@@ -17247,7 +17245,7 @@
 
 - SCPT:
   - SCHD:
-      name: A1V1_IngrBagItem_3_sc
+      name: A1V1_PotChestItem_3_sc
       vars:
         shorts: 6
         longs: 0
@@ -17296,7 +17294,7 @@
           index: 1
         - ' 0'
       - func: StartScript
-        args: A1V1_IngrBagDel_3_sc
+        args: A1V1_PotChestDel_3_sc
       - func: ElseIf
         args:
         - 1
@@ -17330,12 +17328,12 @@
       - func: If
         args:
         - 1
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_1 == 1"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_1 == 1"
       - func: SetRef
         args: player
       - func: RemoveItem
         args:
-        - A1V1_IngrBagItem_1
+        - A1V1_PotChestItem_1
         - 1
       - func: EndIf
         args: null
@@ -17344,12 +17342,12 @@
       - func: If
         args:
         - 1
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_2 == 1"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_2 == 1"
       - func: SetRef
         args: player
       - func: RemoveItem
         args:
-        - A1V1_IngrBagItem_2
+        - A1V1_PotChestItem_2
         - 1
       - func: EndIf
         args: null
@@ -17369,21 +17367,21 @@
       - func: Set
         args:
         - kind: Global
-          name: A1V1_IngrBagX
+          name: A1V1_PotChestX
         - " X\n\x10X\0"
       - func: Set
         args:
         - kind: Global
-          name: A1V1_IngrBagY
+          name: A1V1_PotChestY
         - " X\n\x10Y\0"
       - func: Set
         args:
         - kind: Global
-          name: A1V1_IngrBagZ
+          name: A1V1_PotChestZ
         - " X\n\x10Z\0"
       - func: PlaceAtPC
         args:
-        - A1V1_IngrBagCont_3
+        - A1V1_PotChestCont_3
         - 1
         - kind: Val
           val: 50.0
@@ -17393,20 +17391,20 @@
       - func: If
         args:
         - 11
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_1 == 0"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_1 == 0"
       - func: SetRef
         args: player
       - func: If
         args:
         - 9
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_2 == 0"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_2 == 0"
       - func: Set
         args:
         - kind: Local
           owner: null
           type: Short
           index: 5
-        - " G\x0FA1V1_IngrBagExt 2 /"
+        - " G\x0FA1V1_PotChestExt 2 /"
       - func: Set
         args:
         - kind: Local
@@ -17427,7 +17425,7 @@
           owner: null
           type: Short
           index: 5
-        - " G\x0FA1V1_IngrBagExt 2 s\x05\0 * -"
+        - " G\x0FA1V1_PotChestExt 2 s\x05\0 * -"
       - func: If
         args:
         - 1
@@ -17436,7 +17434,7 @@
         args: player
       - func: AddItem
         args:
-        - A1V1_IngrBagItem_1
+        - A1V1_PotChestItem_1
         - 1
       - func: ElseIf
         args:
@@ -17446,7 +17444,7 @@
         args: player
       - func: AddItem
         args:
-        - A1V1_IngrBagItem_2
+        - A1V1_PotChestItem_2
         - 1
       - func: EndIf
         args: null
@@ -17472,7 +17470,7 @@
       - func: If
         args:
         - 2
-        - " G\x0FA1V1_IngrBagExt == 0"
+        - " G\x0FA1V1_PotChestExt == 0"
       - func: MessageBox
         args:
         - Вы действительно не хотите пользоваться мешком для ингредиентов?
@@ -17501,7 +17499,7 @@
         args: null
       raw: []
   - SCTX:
-    - Begin A1V1_IngrBagItem_3_sc
+    - Begin A1V1_PotChestItem_3_sc
     - ''
     - short wait
     - short OnPCEquip
@@ -17519,7 +17517,7 @@
     - "\tset temp1 to GetButtonPressed"
     - "\tif ( temp1 == 0 )"
     - "\t\tset wait to 0"
-    - "\t\tStartScript A1V1_IngrBagDel_3_sc"
+    - "\t\tStartScript A1V1_PotChestDel_3_sc"
     - "\telseif ( temp1 == 1 )"
     - "\t\tset wait to 0"
     - "\tendif"
@@ -17528,30 +17526,30 @@
     - ''
     - if ( OnPCAdd == 1 )
     - "\tset OnPCAdd to 0"
-    - "\tif ( player->GetItemCount A1V1_IngrBagItem_1 == 1 )"
-    - "\t\tplayer->RemoveItem A1V1_IngrBagItem_1, 1"
+    - "\tif ( player->GetItemCount A1V1_PotChestItem_1 == 1 )"
+    - "\t\tplayer->RemoveItem A1V1_PotChestItem_1, 1"
     - "\tendif"
-    - "\tif ( player->GetItemCount A1V1_IngrBagItem_2 == 1 )"
-    - "\t\tplayer->RemoveItem A1V1_IngrBagItem_2, 1"
+    - "\tif ( player->GetItemCount A1V1_PotChestItem_2 == 1 )"
+    - "\t\tplayer->RemoveItem A1V1_PotChestItem_2, 1"
     - "\tendif"
     - endif
     - ''
     - if ( OnPCDrop == 1 )
     - "\tset OnPCDrop to 0"
-    - "\tset A1V1_IngrBagX to ( GetPos X )"
-    - "\tset A1V1_IngrBagY to ( GetPos Y )"
-    - "\tset A1V1_IngrBagZ to ( GetPos Z )"
-    - "\tPlaceAtPC A1V1_IngrBagCont_3 1, 50, 0"
-    - "\tif ( player->GetItemCount A1V1_IngrBagItem_1 == 0 )"
-    - "\t\tif ( player->GetItemCount A1V1_IngrBagItem_2 == 0 )"
-    - "\t\t\tset temp1 to ( A1V1_IngrBagExt / 2 )\t\t\t\t; temp1 = flags div 2"
+    - "\tset A1V1_PotChestX to ( GetPos X )"
+    - "\tset A1V1_PotChestY to ( GetPos Y )"
+    - "\tset A1V1_PotChestZ to ( GetPos Z )"
+    - "\tPlaceAtPC A1V1_PotChestCont_3 1, 50, 0"
+    - "\tif ( player->GetItemCount A1V1_PotChestItem_1 == 0 )"
+    - "\t\tif ( player->GetItemCount A1V1_PotChestItem_2 == 0 )"
+    - "\t\t\tset temp1 to ( A1V1_PotChestExt / 2 )\t\t\t\t; temp1 = flags div 2"
     - "\t\t\tset temp2 to ( temp1 / 2 )\t\t\t\t\t\t\t\t\t; temp2 = (flags div 2) div 2"
     - "\t\t\tset temp2 to ( temp1 - 2 * temp2 )\t\t\t\t\t\t\t; temp2 = flags div 2 - 2 ((flags div 2) div 2) = (flags div 2) mod 2 ~ flags & 0b010"
-    - "\t\t\tset temp1 to ( A1V1_IngrBagExt - 2 * temp1 )\t; temp1 = flags - 2 (flags div 2) = flags mod 2 ~ flags & 0b001"
+    - "\t\t\tset temp1 to ( A1V1_PotChestExt - 2 * temp1 )\t; temp1 = flags - 2 (flags div 2) = flags mod 2 ~ flags & 0b001"
     - "\t\t\tif ( temp1 == 0 )"
-    - "\t\t\t\tplayer->AddItem A1V1_IngrBagItem_1, 1"
+    - "\t\t\t\tplayer->AddItem A1V1_PotChestItem_1, 1"
     - "\t\t\telseif ( temp2 == 0 )"
-    - "\t\t\t\tplayer->AddItem A1V1_IngrBagItem_2, 1"
+    - "\t\t\t\tplayer->AddItem A1V1_PotChestItem_2, 1"
     - "\t\t\tendif"
     - "\t\tendif"
     - "\tendif"
@@ -17560,7 +17558,7 @@
     - ''
     - if ( OnPCEquip == 1 )
     - "\tset OnPCEquip to 0"
-    - "\tif ( A1V1_IngrBagExt == 0 )"
+    - "\tif ( A1V1_PotChestExt == 0 )"
     - "\t\tMessageBox \"Вы действительно не хотите пользоваться мешком для ингредиентов?\" \"Да\" \"Нет\""
     - "\t\tset wait to 1"
     - "\telse"
@@ -17572,7 +17570,7 @@
 
 - SCPT:
   - SCHD:
-      name: A1V1_StartIngrBag
+      name: A1V1_StartPotChest
       vars:
         shorts: 1
         longs: 0
@@ -17584,7 +17582,7 @@
   - SCDT:
       stmts:
       - func: StopScript
-        args: A1V1_StartIngrBag
+        args: A1V1_StartPotChest
       - func: If
         args:
         - 1
@@ -17605,24 +17603,24 @@
       - func: If
         args:
         - 5
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_1 == 0"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_1 == 0"
       - func: SetRef
         args: player
       - func: If
         args:
         - 3
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_2 == 0"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_2 == 0"
       - func: SetRef
         args: player
       - func: If
         args:
         - 1
-        - " Xэ\x10 o\x12A1V1_IngrBagItem_3 == 0"
+        - " Xэ\x10 o\x12A1V1_PotChestItem_3 == 0"
       - func: SetRef
         args: player
       - func: AddItem
         args:
-        - A1V1_IngrBagItem_1
+        - A1V1_PotChestItem_1
         - 1
       - func: EndIf
         args: null
@@ -17634,21 +17632,21 @@
         args: null
       raw: []
   - SCTX:
-    - Begin A1V1_StartIngrBag
+    - Begin A1V1_StartPotChest
     - ''
     - short doOnce
     - ''
-    - StopScript A1V1_StartIngrBag
+    - StopScript A1V1_StartPotChest
     - ''
     - if ( doOnce == 1 )
     - "\treturn"
     - endif
     - set doOnce to 1
     - ''
-    - if ( player->GetItemCount A1V1_IngrBagItem_1 == 0 )
-    - "\tif ( player->GetItemCount A1V1_IngrBagItem_2 == 0 )"
-    - "\t\tif ( player->GetItemCount A1V1_IngrBagItem_3 == 0 )"
-    - "\t\t\tplayer->AddItem A1V1_IngrBagItem_1, 1"
+    - if ( player->GetItemCount A1V1_PotChestItem_1 == 0 )
+    - "\tif ( player->GetItemCount A1V1_PotChestItem_2 == 0 )"
+    - "\t\tif ( player->GetItemCount A1V1_PotChestItem_3 == 0 )"
+    - "\t\t\tplayer->AddItem A1V1_PotChestItem_1, 1"
     - "\t\tendif"
     - "\tendif"
     - endif
@@ -17657,10 +17655,10 @@
 
 - SSCR:
   - DATA: '3241126419251619493'
-  - NAME: A1V1_StartIngrBag
+  - NAME: A1V1_StartPotChest
 
 - INGR:
-  - NAME: A1V1_IngrBagFakeIngred
+  - NAME: A1V1_PotChestFakeIngred
   - MODL: n\ingred_bittergreen_01.nif
   - FNAM: ERROR
   - IRDT:
@@ -17681,58 +17679,58 @@
   - ITEX: n\tx_bittergreen_petal_01.dds
 
 - CONT:
-  - NAME: A1V1_IngrBagCont_1
+  - NAME: A1V1_PotChestCont_1
   - MODL: o\Contain_Com_Sack_02.NIF
   - FNAM: Мешок с ингредиентами
   - CNDT: 10000.0
   - FLAG: ''
-  - SCRI: A1V1_IngrBagCont_1_sc
+  - SCRI: A1V1_PotChestCont_1_sc
 
 - CONT:
-  - NAME: A1V1_IngrBagCont_2
+  - NAME: A1V1_PotChestCont_2
   - MODL: o\Contain_Com_Sack_02.NIF
   - FNAM: Мешок с ингредиентами
   - CNDT: 10000.0
   - FLAG: ''
-  - SCRI: A1V1_IngrBagCont_2_sc
+  - SCRI: A1V1_PotChestCont_2_sc
 
 - CONT:
-  - NAME: A1V1_IngrBagCont_3
+  - NAME: A1V1_PotChestCont_3
   - MODL: o\Contain_Com_Sack_02.NIF
   - FNAM: Мешок с ингредиентами
   - CNDT: 10000.0
   - FLAG: ''
-  - SCRI: A1V1_IngrBagCont_3_sc
+  - SCRI: A1V1_PotChestCont_3_sc
 
 - MISC:
-  - NAME: A1V1_IngrBagItem_1
+  - NAME: A1V1_PotChestItem_1
   - MODL: o\contain_com_sack_02.nif
   - FNAM: Мешок с ингредиентами
   - MCDT:
       weight: 0.0
       value: 0
       is_key: false
-  - SCRI: A1V1_IngrBagItem_1_sc
-  - ITEX: m\a1_ingr_bag.dds
+  - SCRI: A1V1_PotChestItem_1_sc
+  - ITEX: m\a1_potions_chest.dds
 
 - MISC:
-  - NAME: A1V1_IngrBagItem_2
+  - NAME: A1V1_PotChestItem_2
   - MODL: o\contain_com_sack_02.nif
   - FNAM: Мешок с ингредиентами
   - MCDT:
       weight: 0.0
       value: 0
       is_key: false
-  - SCRI: A1V1_IngrBagItem_2_sc
-  - ITEX: m\a1_ingr_bag.dds
+  - SCRI: A1V1_PotChestItem_2_sc
+  - ITEX: m\a1_potions_chest.dds
 
 - MISC:
-  - NAME: A1V1_IngrBagItem_3
+  - NAME: A1V1_PotChestItem_3
   - MODL: o\contain_com_sack_02.nif
   - FNAM: Мешок с ингредиентами
   - MCDT:
       weight: 0.0
       value: 0
       is_key: false
-  - SCRI: A1V1_IngrBagItem_3_sc
-  - ITEX: m\a1_ingr_bag.dds
+  - SCRI: A1V1_PotChestItem_3_sc
+  - ITEX: m\a1_potions_chest.dds
