@@ -5,7 +5,7 @@
       author: A1
       description:
       - Сундук, позволяющий быстро выкладывать зелья. Версия для EcoAdjust.
-      records: 131
+      records: 48
   - MAST: Morrowind.esm
   - DATA: 79764287
   - MAST: Tribunal.esm
@@ -284,20 +284,8 @@
         args:
         - 2
         - " X\x18\x10 == 1"
-      - func: Set
-        args:
-        - kind: Local
-          owner: null
-          type: Short
-          index: 4
-        - ' 1'
-      - func: Return
-        args: null
-      - func: EndIf
-        args: null
-      - func: End
-        args: null
-      raw: []
+      raw:
+      - 05 01 73
   - SCTX:
     - Begin A1V1_PotChestCont_1_sc
     - ''
@@ -648,20 +636,8 @@
         args:
         - 2
         - " X\x18\x10 == 1"
-      - func: Set
-        args:
-        - kind: Local
-          owner: null
-          type: Short
-          index: 4
-        - ' 1'
-      - func: Return
-        args: null
-      - func: EndIf
-        args: null
-      - func: End
-        args: null
-      raw: []
+      raw:
+      - '05'
   - SCTX:
     - Begin A1V1_PotChestCont_2_sc
     - ''
@@ -1002,20 +978,8 @@
         args:
         - 2
         - " X\x18\x10 == 1"
-      - func: Set
-        args:
-        - kind: Local
-          owner: null
-          type: Short
-          index: 4
-        - ' 1'
-      - func: Return
-        args: null
-      - func: EndIf
-        args: null
-      - func: End
-        args: null
-      raw: []
+      raw:
+      - '05'
   - SCTX:
     - Begin A1V1_PotChestCont_3_sc
     - ''
@@ -1124,11 +1088,8 @@
         - 1
       - func: EndIf
         args: null
-      - func: StopScript
-        args: A1V1_PotChestDel_1_sc
-      - func: End
-        args: null
-      raw: []
+      raw:
+      - 1C 10 15 41 31 56 31 5F 50 6F 74 43 68 65 73 74 44 65 6C 5F 31 5F 73
   - SCTX:
     - Begin A1V1_PotChestDel_1_sc
     - ''
@@ -1165,11 +1126,8 @@
         - 1
       - func: EndIf
         args: null
-      - func: StopScript
-        args: A1V1_PotChestDel_2_sc
-      - func: End
-        args: null
-      raw: []
+      raw:
+      - 1C 10 15 41 31 56 31 5F 50 6F 74 43 68 65 73 74 44 65 6C 5F 32 5F 73
   - SCTX:
     - Begin A1V1_PotChestDel_2_sc
     - ''
@@ -1206,11 +1164,8 @@
         - 1
       - func: EndIf
         args: null
-      - func: StopScript
-        args: A1V1_PotChestDel_3_sc
-      - func: End
-        args: null
-      raw: []
+      raw:
+      - 1C 10 15 41 31 56 31 5F 50 6F 74 43 68 65 73 74 44 65 6C 5F 33 5F 73
   - SCTX:
     - Begin A1V1_PotChestDel_3_sc
     - ''
@@ -1541,11 +1496,8 @@
         - []
       - func: EnablePlayerControls
         args: null
-      - func: StopScript
-        args: A1V1_PotChestInitSt10_sc
-      - func: End
-        args: null
-      raw: []
+      raw:
+      - 1C 10 18 41 31 56 31 5F 50 6F 74 43 68 65 73 74 49 6E 69 74 53 74 31
   - SCTX:
     - begin A1V1_PotChestInitSt10_sc
     - ''
@@ -2486,8 +2438,6 @@
         args: A1V1_PotChestInitSt1_sc
       - func: StartScript
         args: A1V1_PotChestInitSt2_sc
-      - func: End
-        args: null
       raw: []
   - SCTX:
     - begin A1V1_PotChestInitSt1_sc
@@ -3684,8 +3634,6 @@
         args: A1V1_PotChestInitSt2_sc
       - func: StartScript
         args: A1V1_PotChestInitSt3_sc
-      - func: End
-        args: null
       raw: []
   - SCTX:
     - begin A1V1_PotChestInitSt2_sc
@@ -4880,8 +4828,6 @@
         args: A1V1_PotChestInitSt3_sc
       - func: StartScript
         args: A1V1_PotChestInitSt4_sc
-      - func: End
-        args: null
       raw: []
   - SCTX:
     - begin A1V1_PotChestInitSt3_sc
@@ -6078,8 +6024,6 @@
         args: A1V1_PotChestInitSt4_sc
       - func: StartScript
         args: A1V1_PotChestInitStX_sc
-      - func: End
-        args: null
       raw: []
   - SCTX:
     - begin A1V1_PotChestInitSt4_sc
@@ -6825,11 +6769,8 @@
         args: null
       - func: StopScript
         args: A1V1_PotChestInitSt5_sc
-      - func: StartScript
-        args: A1V1_PotChestInitSt6_sc
-      - func: End
-        args: null
-      raw: []
+      raw:
+      - 1B 10 17 41 31 56 31 5F 50 6F 74 43 68 65 73 74 49 6E
   - SCTX:
     - begin A1V1_PotChestInitSt5_sc
     - ''
@@ -8062,8 +8003,6 @@
         args: A1V1_PotChestInitSt6_sc
       - func: StartScript
         args: A1V1_PotChestInitSt7_sc
-      - func: End
-        args: null
       raw: []
   - SCTX:
     - begin A1V1_PotChestInitSt6_sc
@@ -9736,8 +9675,6 @@
         args: A1V1_PotChestInitSt7_sc
       - func: StartScript
         args: A1V1_PotChestInitSt8_sc
-      - func: End
-        args: null
       raw: []
   - SCTX:
     - begin A1V1_PotChestInitSt7_sc
@@ -11407,8 +11344,6 @@
         args: A1V1_PotChestInitSt8_sc
       - func: StartScript
         args: A1V1_PotChestInitSt9_sc
-      - func: End
-        args: null
       raw: []
   - SCTX:
     - begin A1V1_PotChestInitSt8_sc
@@ -13082,8 +13017,6 @@
         args: A1V1_PotChestInitSt9_sc
       - func: StartScript
         args: A1V1_PotChestInitStY_sc
-      - func: End
-        args: null
       raw: []
   - SCTX:
     - begin A1V1_PotChestInitSt9_sc
@@ -14431,8 +14364,6 @@
         args: A1V1_PotChestInitStX_sc
       - func: StartScript
         args: A1V1_PotChestInitSt5_sc
-      - func: End
-        args: null
       raw: []
   - SCTX:
     - begin A1V1_PotChestInitStX_sc
@@ -15950,8 +15881,6 @@
         args: A1V1_PotChestInitStY_sc
       - func: StartScript
         args: A1V1_PotChestInitSt10_sc
-      - func: End
-        args: null
       raw: []
   - SCTX:
     - begin A1V1_PotChestInitStY_sc
@@ -16845,18 +16774,9 @@
         - ' 1'
       - func: Else
         args: 1
-      - func: MessageBox
-        args:
-        - По миру разбросаны ваши мешки с ингредиентами.
-        - []
-        - []
-      - func: EndIf
-        args: null
-      - func: EndIf
-        args: null
-      - func: End
-        args: null
-      raw: []
+      raw:
+      - 00 10 2E 00 CF EE 20 EC E8 F0 F3 20 F0 E0 E7 E1 F0 EE F1 E0 ED FB 20 E2 E0 F8 E8 20 EC E5 F8 EA
+      - E8 20 F1 20 E8 ED E3 F0 E5 E4 E8
   - SCTX:
     - Begin A1V1_PotChestItem_1_sc
     - ''
@@ -17162,18 +17082,9 @@
         - ' 1'
       - func: Else
         args: 1
-      - func: MessageBox
-        args:
-        - По миру разбросаны ваши мешки с ингредиентами.
-        - []
-        - []
-      - func: EndIf
-        args: null
-      - func: EndIf
-        args: null
-      - func: End
-        args: null
-      raw: []
+      raw:
+      - 00 10 2E 00 CF EE 20 EC E8 F0 F3 20 F0 E0 E7 E1 F0 EE F1 E0 ED FB 20 E2 E0 F8 E8 20 EC E5 F8 EA
+      - E8 20 F1 20 E8 ED E3 F0 E5 E4
   - SCTX:
     - Begin A1V1_PotChestItem_2_sc
     - ''
@@ -17486,18 +17397,9 @@
         - ' 1'
       - func: Else
         args: 1
-      - func: MessageBox
-        args:
-        - По миру разбросаны ваши мешки с ингредиентами.
-        - []
-        - []
-      - func: EndIf
-        args: null
-      - func: EndIf
-        args: null
-      - func: End
-        args: null
-      raw: []
+      raw:
+      - 00 10 2E 00 CF EE 20 EC E8 F0 F3 20 F0 E0 E7 E1 F0 EE F1 E0 ED FB 20 E2 E0 F8 E8 20 EC E5 F8 EA
+      - E8 20 F1 20 E8 ED E3 F0 E5 E4
   - SCTX:
     - Begin A1V1_PotChestItem_3_sc
     - ''
@@ -17624,13 +17526,8 @@
         - 1
       - func: EndIf
         args: null
-      - func: EndIf
-        args: null
-      - func: EndIf
-        args: null
-      - func: End
-        args: null
-      raw: []
+      raw:
+      - '09'
   - SCTX:
     - Begin A1V1_StartPotChest
     - ''
@@ -17654,7 +17551,7 @@
     - End
 
 - SSCR:
-  - DATA: '3241126419251619493'
+  - DATA: '20032296662076624187'
   - NAME: A1V1_StartPotChest
 
 - INGR:
