@@ -119,9 +119,13 @@ def main():
     copytree('Data Files', 'ar/Data Files')
     prepare_text('README.md', 'Readme', 'ar/')
     copyfile('A1_IngredientsBag_V1.esp.yaml', 'ar/Data Files/A1_IngredientsBag_V1.esp.yaml')
+    copyfile('A1_IngredientsBag_V1_MFR.esp.yaml', 'ar/Data Files/A1_IngredientsBag_V1_MFR.esp.yaml')
     merge_mwse_scripts('ar/Data Files/A1_IngredientsBag_V1.esp.yaml')
     write_records_count('ar/Data Files/A1_IngredientsBag_V1.esp.yaml')
+    merge_mwse_scripts('ar/Data Files/A1_IngredientsBag_V1_MFR.esp.yaml')
+    write_records_count('ar/Data Files/A1_IngredientsBag_V1_MFR.esp.yaml')
     assembly_plugin('ar/Data Files/A1_IngredientsBag_V1.esp', 2004, 2, 14, 18, 53, 0)
+    assembly_plugin('ar/Data Files/A1_IngredientsBag_V1_MFR.esp', 2004, 2, 14, 18, 53, 0)
     make_archive('A1_Containers_0.1', 'ar')
     rmtree('ar')
 
