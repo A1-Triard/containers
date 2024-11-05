@@ -17680,32 +17680,32 @@
 
 - CONT:
   - NAME: A1V1_PotChestCont_1
-  - MODL: o\Contain_Com_Sack_02.NIF
-  - FNAM: Мешок с ингредиентами
+  - MODL: o\contain_chest10.nif
+  - FNAM: Сундук с зельями
   - CNDT: 10000.0
   - FLAG: ''
   - SCRI: A1V1_PotChestCont_1_sc
 
 - CONT:
   - NAME: A1V1_PotChestCont_2
-  - MODL: o\Contain_Com_Sack_02.NIF
-  - FNAM: Мешок с ингредиентами
+  - MODL: o\contain_chest10.nif
+  - FNAM: Сундук с зельями
   - CNDT: 10000.0
   - FLAG: ''
   - SCRI: A1V1_PotChestCont_2_sc
 
 - CONT:
   - NAME: A1V1_PotChestCont_3
-  - MODL: o\Contain_Com_Sack_02.NIF
-  - FNAM: Мешок с ингредиентами
+  - MODL: o\contain_chest10.nif
+  - FNAM: Сундук с зельями
   - CNDT: 10000.0
   - FLAG: ''
   - SCRI: A1V1_PotChestCont_3_sc
 
 - MISC:
   - NAME: A1V1_PotChestItem_1
-  - MODL: o\contain_com_sack_02.nif
-  - FNAM: Мешок с ингредиентами
+  - MODL: o\contain_chest10.nif
+  - FNAM: Сундук с зельями
   - MCDT:
       weight: 0.0
       value: 0
@@ -17715,8 +17715,8 @@
 
 - MISC:
   - NAME: A1V1_PotChestItem_2
-  - MODL: o\contain_com_sack_02.nif
-  - FNAM: Мешок с ингредиентами
+  - MODL: o\contain_chest10.nif
+  - FNAM: Сундук с зельями
   - MCDT:
       weight: 0.0
       value: 0
@@ -17726,8 +17726,8 @@
 
 - MISC:
   - NAME: A1V1_PotChestItem_3
-  - MODL: o\contain_com_sack_02.nif
-  - FNAM: Мешок с ингредиентами
+  - MODL: o\contain_chest10.nif
+  - FNAM: Сундук с зельями
   - MCDT:
       weight: 0.0
       value: 0
