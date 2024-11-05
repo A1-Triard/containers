@@ -17577,7 +17577,7 @@
         shorts: 1
         longs: 0
         floats: 0
-      data_size: 224
+      data_size: 214
       var_table_size: 7
   - SCVR:
     - doOnce
@@ -17605,19 +17605,19 @@
       - func: If
         args:
         - 5
-        - " Xэ\x10 o\x14A1V1_IngrBagItem_1 == 0"
+        - " Xэ\x10 o\x12A1V1_IngrBagItem_1 == 0"
       - func: SetRef
         args: player
       - func: If
         args:
         - 3
-        - " Xэ\x10 o\x14A1V1_IngrBagItem_2 == 0"
+        - " Xэ\x10 o\x12A1V1_IngrBagItem_2 == 0"
       - func: SetRef
         args: player
       - func: If
         args:
         - 1
-        - " Xэ\x10 o\x14A1V1_IngrBagItem_3 == 0"
+        - " Xэ\x10 o\x12A1V1_IngrBagItem_3 == 0"
       - func: SetRef
         args: player
       - func: AddItem
@@ -17632,8 +17632,7 @@
         args: null
       - func: End
         args: null
-      raw:
-      - 00 00 82 75 3C 90 00 35 00 8B
+      raw: []
   - SCTX:
     - Begin A1V1_StartIngrBag
     - ''
