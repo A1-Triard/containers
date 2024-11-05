@@ -4,7 +4,7 @@
       file_type: ESP
       author: A1
       description:
-      - Сундук, позволяющий быстро выкладывать зелья. Версия для EcoAdjust.
+      - Сундук, позволяющий быстро выкладывать зелья. Версия для EcoAdjMisc.
       records: 52
   - MAST: Morrowind.esm
   - DATA: 79764287
