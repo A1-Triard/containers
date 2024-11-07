@@ -8380,16 +8380,611 @@
     - Begin A1V7_IncAlchemy
     - ''
     - short a
-    - long str
-    - long pcRef
+    - short b
     - ''
     - set a to A1V7_AlchemyPlus
-    - setx str to xStringBuild "A1V7_AlchemyPlus_%d" a
-    - setx pcRef to xGetRef "player"
-    - pcRef->xAddItem str 1
-    - pcRef->xEquip str
-    - set a to ( a + 1 )
-    - set A1V7_AlchemyPlus to a
+    - set b to ( a + 1 )
+    - set A1V7_AlchemyPlus to b
+    - ''
+    - if ( a == 0 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_0, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_0"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 1 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_1, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_1"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 2 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_2, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_2"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 3 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_3, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_3"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 4 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_4, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_4"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 5 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_5, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_5"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 6 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_6, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_6"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 7 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_7, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_7"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 8 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_8, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_8"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 9 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_9, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_9"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 10 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_10, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_10"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 11 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_11, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_11"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 12 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_12, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_12"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 13 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_13, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_13"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 14 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_14, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_14"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 15 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_15, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_15"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 16 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_16, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_16"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 17 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_17, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_17"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 18 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_18, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_18"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 19 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_19, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_19"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 20 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_20, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_20"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 21 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_21, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_21"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 22 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_22, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_22"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 23 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_23, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_23"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 24 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_24, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_24"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 25 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_25, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_25"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 26 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_26, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_26"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 27 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_27, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_27"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 28 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_28, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_28"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 29 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_29, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_29"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 30 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_30, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_30"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 31 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_31, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_31"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 32 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_32, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_32"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 33 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_33, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_33"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 34 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_34, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_34"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 35 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_35, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_35"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 36 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_36, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_36"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 37 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_37, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_37"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 38 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_38, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_38"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 39 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_39, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_39"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 40 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_40, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_40"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 41 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_41, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_41"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 42 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_42, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_42"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 43 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_43, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_43"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 44 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_44, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_44"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 45 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_45, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_45"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 46 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_46, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_46"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 47 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_47, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_47"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 48 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_48, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_48"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 49 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_49, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_49"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 50 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_50, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_50"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 51 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_51, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_51"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 52 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_52, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_52"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 53 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_53, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_53"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 54 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_54, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_54"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 55 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_55, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_55"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 56 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_56, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_56"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 57 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_57, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_57"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 58 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_58, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_58"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 59 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_59, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_59"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 60 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_60, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_60"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 61 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_61, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_61"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 62 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_62, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_62"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 63 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_63, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_63"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 64 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_64, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_64"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 65 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_65, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_65"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 66 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_66, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_66"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 67 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_67, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_67"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 68 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_68, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_68"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 69 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_69, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_69"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 70 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_70, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_70"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 71 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_71, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_71"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 72 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_72, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_72"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 73 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_73, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_73"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 74 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_74, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_74"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 75 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_75, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_75"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 76 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_76, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_76"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 77 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_77, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_77"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 78 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_78, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_78"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 79 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_79, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_79"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 80 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_80, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_80"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 81 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_81, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_81"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 82 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_82, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_82"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 83 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_83, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_83"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 84 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_84, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_84"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 85 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_85, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_85"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 86 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_86, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_86"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 87 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_87, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_87"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 88 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_88, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_88"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 89 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_89, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_89"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 90 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_90, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_90"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 91 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_91, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_91"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 92 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_92, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_92"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 93 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_93, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_93"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 94 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_94, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_94"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 95 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_95, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_95"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 96 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_96, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_96"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 97 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_97, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_97"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 98 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_98, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_98"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( a == 99 )
+    - "\tplayer->AddItem A1V7_AlchemyPlus_99, 1"
+    - "\tplayer->Equip A1V7_AlchemyPlus_99"
+    - "\treturn"
+    - endif
     - ''
     - StopScript A1V7_IncAlchemy
     - ''
