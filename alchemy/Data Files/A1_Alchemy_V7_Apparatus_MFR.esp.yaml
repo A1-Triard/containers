@@ -154,15 +154,6 @@
     - Begin A1V7_ADelPlus
     - ''
     - short doRemove
-    - long pcRef
-    - long invRef
-    - long invItem
-    - long invCount
-    - long invRefType
-    - long tempLong
-    - float tempFloat
-    - long invNextRef
-    - short temp
     - ''
     - if ( doRemove == 1 )
     - "\tset doRemove to 0"
@@ -172,39 +163,308 @@
     - "\treturn"
     - endif
     - ''
-    - setx pcRef to xGetRef "player"
-    - whilex ( pcRef )
-    - "\tsetx invItem,invCount,invRefType,tempLong,tempFloat,tempLong,invNextRef to pcRef->xContentList invRef"
-    - "\tset invRef to invNextRef"
-    - "\tifx ( invItem )"
-    - "\t\tif ( invRefType == 1263488834 )"
-    - "\t\t\tset temp to 1"
-    - "\t\telse"
-    - "\t\t\tset temp to 0"
-    - "\t\tendif"
-    - "\t\tifx ( temp )"
-    - "\t\t\tsetx tempLong to xStringCompare invItem \"A1V7_AlchemyPlus_\""
-    - "\t\t\tif ( tempLong <= 0 )"
-    - "\t\t\t\tset temp to 0"
-    - "\t\t\tendif"
-    - "\t\tendif"
-    - "\t\tifx ( temp )"
-    - "\t\t\tsetx tempLong to xStringCompare invItem \"A1V7_AlchemyPlus_a\""
-    - "\t\t\tif ( tempLong >= 0 )"
-    - "\t\t\t\tset temp to 0"
-    - "\t\t\tendif"
-    - "\t\tendif"
-    - "\t\tifx ( temp )"
-    - "\t\t\tpcRef->xRemoveItem invItem invCount"
-    - "\t\t\tset invRef to 0"
-    - "\t\t\tset pcRef to 0"
-    - "\t\tendif"
-    - "\tendif"
-    - "\tif ( invNextRef == 0 )"
-    - "\t\tset pcRef to 0"
-    - "\t\tset doRemove to 1"
-    - "\tendif"
-    - endwhile
+    - if ( player->GetItemCount A1V7_AlchemyPlus_0 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_0, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_1 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_1, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_2 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_2, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_3 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_3, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_4 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_4, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_5== 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_5, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_6 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_6, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_7 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_7, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_8 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_8, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_9 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_9, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_10 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_10, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_11 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_11, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_12 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_12, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_13 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_13, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_14 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_14, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_15== 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_15, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_16 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_16, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_17 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_17, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_18 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_18, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_19 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_19, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_20 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_20, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_21 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_21, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_22 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_22, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_23 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_23, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_24 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_24, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_25== 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_25, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_26 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_26, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_27 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_27, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_28 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_28, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_29 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_29, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_30 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_30, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_31 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_31, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_32 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_32, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_33 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_33, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_34 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_34, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_35== 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_35, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_36 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_36, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_37 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_37, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_38 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_38, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_39 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_39, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_40 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_40, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_41 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_41, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_42 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_42, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_43 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_43, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_44 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_44, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_45== 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_45, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_46 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_46, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_47 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_47, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_48 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_48, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_49 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_49, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_50 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_50, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_51 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_51, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_52 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_52, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_53 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_53, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_54 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_54, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_55== 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_55, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_56 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_56, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_57 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_57, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_58 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_58, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_59 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_59, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_60 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_60, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_61 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_61, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_62 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_62, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_63 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_63, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_64 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_64, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_65== 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_65, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_66 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_66, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_67 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_67, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_68 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_68, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_69 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_69, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_70 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_70, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_71 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_71, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_72 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_72, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_73 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_73, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_74 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_74, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_75== 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_75, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_76 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_76, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_77 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_77, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_78 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_78, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_79 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_79, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_80 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_80, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_81 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_81, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_82 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_82, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_83 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_83, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_84 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_84, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_85== 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_85, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_86 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_86, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_87 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_87, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_88 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_88, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_89 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_89, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_90 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_90, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_91 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_91, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_92 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_92, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_93 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_93, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_94 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_94, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_95== 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_95, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_96 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_96, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_97 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_97, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_98 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_98, 1"
+    - endif
+    - if ( player->GetItemCount A1V7_AlchemyPlus_99 == 1 )
+    - "\tplayer->RemoveItem A1V7_AlchemyPlus_99, 1"
+    - endif
+    - ''
+    - set doRemove to 1
     - ''
     - End
 
