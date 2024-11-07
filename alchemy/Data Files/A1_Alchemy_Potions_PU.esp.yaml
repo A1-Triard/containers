@@ -1,0 +1,1631 @@
+- TES3:
+  - HEDR:
+      version: 1067869798
+      file_type: ESP
+      author: A1
+      description:
+      - Модифицирует некоторые существующие и добавляет новые зелья. Вспомогательный плагин для A1_Alchemy_V7_Apparatus.
+      - ''
+      - Версия для Potion Upgrade
+      records: 85
+  - MAST: Morrowind.esm
+  - DATA: 79764287
+  - MAST: Tribunal.esm
+  - DATA: 6616539
+  - MAST: Bloodmoon.esm
+  - DATA: 11799703
+
+- ALCH:
+  - NAME: p_burden_s
+  - MODL: m\K_Fresh_Aqua.nif
+  - TEXT: m\K_Fresh_Aqua.dds
+  - FNAM: Сопротивление норм. оружию ст.
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistNormalWeapons
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_paralyze_s
+  - MODL: m\K_Fresh_Aqua.nif
+  - TEXT: m\K_Fresh_Aqua.dds
+  - FNAM: Сопротивление параличу станд.
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistParalysis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_silence_s
+  - MODL: m\K_Fresh_Crush.nif
+  - TEXT: m\K_Fresh_Crush.dds
+  - FNAM: Щит стандартное
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: Shield
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_burden_c
+  - MODL: m\K_Cheap_Aqua.nif
+  - TEXT: m\K_Cheap_Aqua.dds
+  - FNAM: Сопротивление норм. оружию деш.
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistNormalWeapons
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 15
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_burden_b
+  - MODL: m\K_Bargain_Aqua.nif
+  - TEXT: m\K_Bargain_Aqua.dds
+  - FNAM: Сопротивление норм. оружию уц.
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistNormalWeapons
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_burden_q
+  - MODL: m\K_Quality_Aqua.nif
+  - TEXT: m\K_Quality_Aqua.dds
+  - FNAM: Сопротивление норм. оружию кач.
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistNormalWeapons
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_burden_e
+  - MODL: m\K_Exclusive_Aqua.nif
+  - TEXT: m\K_Exclusive_Aqua.dds
+  - FNAM: Сопротивление норм. оружию экс.
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistNormalWeapons
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 60
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_paralyze_c
+  - MODL: m\K_Cheap_Aqua.nif
+  - TEXT: m\K_Cheap_Aqua.dds
+  - FNAM: Cопротивление параличу дешевое
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistParalysis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 15
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_paralyze_b
+  - MODL: m\K_Bargain_Aqua.nif
+  - TEXT: m\K_Bargain_Aqua.dds
+  - FNAM: Сопротивление параличу уценен.
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistParalysis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_paralyze_e
+  - MODL: m\K_Exclusive_Aqua.nif
+  - TEXT: m\K_Exclusive_Aqua.dds
+  - FNAM: Сопротивление параличу экскл.
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistParalysis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 60
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_paralyze_q
+  - MODL: m\K_Quality_Aqua.nif
+  - TEXT: m\K_Quality_Aqua.dds
+  - FNAM: Сопротивление параличу качест.
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistParalysis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_silence_c
+  - MODL: m\K_Cheap_Crush.nif
+  - TEXT: m\K_Cheap_Crush.dds
+  - FNAM: Щит дешевое
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: Shield
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 15
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_silence_b
+  - MODL: m\K_Bargain_Crush.nif
+  - TEXT: m\K_Bargain_Crush.tga
+  - FNAM: Щит уцененное
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: Shield
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_silence_q
+  - MODL: m\K_Quality_Crush.nif
+  - TEXT: m\K_Quality_Crush.dds
+  - FNAM: Щит качественное
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: Shield
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_silence_e
+  - MODL: m\K_Exclusive_Crush.nif
+  - TEXT: m\K_Exclusive_Crush.dds
+  - FNAM: Щит эксклюзивное
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: Shield
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 60
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_cure_blight_s
+  - MODL: m\K_Fresh_Aqua.nif
+  - TEXT: m\K_Fresh_Aqua.dds
+  - FNAM: Излечить моровую болезнь
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: CureBlightDisease
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_recall_s
+  - MODL: m\K_Fresh_Grape.nif
+  - TEXT: m\K_Fresh_Grape.dds
+  - FNAM: Возврат
+  - ALDT:
+      weight: 0.5
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: Recall
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_levitation_b
+  - MODL: m\K_Bargain_Crush.nif
+  - TEXT: m\K_Bargain_Crush.tga
+  - FNAM: Левитация уцененное
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: Levitate
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_almsivi_intervention_s
+  - MODL: m\K_Fresh_Grape.nif
+  - TEXT: m\K_Fresh_Grape.dds
+  - FNAM: Зелье дурацкого счастья
+  - ALDT:
+      weight: 0.5
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: AlmsiviIntervention
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_cure_common_s
+  - MODL: m\K_Fresh_Aqua.nif
+  - TEXT: m\K_Fresh_Aqua.dds
+  - FNAM: Излечить обычную болезнь
+  - ALDT:
+      weight: 0.5
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: CureCommonDisease
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_cure_paralyzation_s
+  - MODL: m\K_Fresh_Aqua.nif
+  - TEXT: m\K_Fresh_Aqua.dds
+  - FNAM: Излечить паралич
+  - ALDT:
+      weight: 0.5
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: CureParalyzation
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_cure_poison_s
+  - MODL: m\K_Fresh_Aqua.nif
+  - TEXT: m\K_Fresh_Aqua.dds
+  - FNAM: Противоядие
+  - ALDT:
+      weight: 0.5
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: CurePoison
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_mark_s
+  - MODL: m\K_Fresh_Grape.nif
+  - TEXT: m\K_Fresh_Grape.dds
+  - FNAM: Пометка
+  - ALDT:
+      weight: 0.5
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: Mark
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_detect_creatures_s
+  - MODL: m\K_Fresh_Grape.nif
+  - TEXT: m\K_Fresh_Grape.dds
+  - FNAM: Обнаружить сущность стандартное
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectAnimal
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_detect_key_s
+  - MODL: m\K_Fresh_Grape.nif
+  - TEXT: m\K_Fresh_Grape.dds
+  - FNAM: Найти ключ стандартное
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectKey
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_dispel_s
+  - MODL: m\K_Fresh_Grape.nif
+  - TEXT: m\K_Fresh_Grape.dds
+  - FNAM: Развеять стандартное
+  - ALDT:
+      weight: 1.0
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: Dispel
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_telekinesis_s
+  - MODL: m\K_Fresh_7up.nif
+  - TEXT: m\K_Fresh_7up.dds
+  - FNAM: Телекинез стандартное
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: Telekinesis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_water_breathing_s
+  - MODL: m\K_Fresh_Crush.nif
+  - TEXT: m\K_Fresh_Crush.dds
+  - FNAM: Водное дыхание стандартное
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterBreathing
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_water_walking_s
+  - MODL: m\K_Fresh_Crush.nif
+  - TEXT: m\K_Fresh_Crush.dds
+  - FNAM: Хождение по воде стандартное
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterWalking
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_detect_enchantment_s
+  - MODL: m\K_Fresh_Grape.nif
+  - TEXT: m\K_Fresh_Grape.dds
+  - FNAM: Обнаружить чары стандартное
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectEnchantment
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 15
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_detect_creatures_b
+  - MODL: m\K_Bargain_Grape.nif
+  - TEXT: m\K_Bargain_Grape.dds
+  - FNAM: Обнаружить сущность уцененное
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectAnimal
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_detect_creatures_c
+  - MODL: m\K_Cheap_Grape.nif
+  - TEXT: m\K_Cheap_Grape.dds
+  - FNAM: Обнаружить сущность дешевое
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectAnimal
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 10
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_detect_creatures_e
+  - MODL: m\K_Exclusive_Grape.nif
+  - TEXT: m\K_Exclusive_Grape.dds
+  - FNAM: Обнаружить сущность эксклюзив.
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectAnimal
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_detect_creatures_q
+  - MODL: m\K_Quality_Grape.nif
+  - TEXT: m\K_Quality_Grape.dds
+  - FNAM: Обнаружить сущность качествен.
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectAnimal
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_detect_enchantment_b
+  - MODL: m\K_Bargain_Grape.nif
+  - TEXT: m\K_Bargain_Grape.dds
+  - FNAM: Обнаружить чары уцененное
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectEnchantment
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_detect_enchantment_c
+  - MODL: m\K_Cheap_Grape.nif
+  - TEXT: m\K_Cheap_Grape.dds
+  - FNAM: Обнаружить чары дешевое
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectEnchantment
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 10
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_detect_enchantment_e
+  - MODL: m\K_Exclusive_Grape.nif
+  - TEXT: m\K_Exclusive_Grape.dds
+  - FNAM: Обнаружить чары эксклюзивное
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectEnchantment
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_detect_enchantment_q
+  - MODL: m\K_Quality_Grape.nif
+  - TEXT: m\K_Quality_Grape.dds
+  - FNAM: Обнаружить чары качественное
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectEnchantment
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_detect_key_b
+  - MODL: m\K_Bargain_Grape.nif
+  - TEXT: m\K_Bargain_Grape.dds
+  - FNAM: Найти ключ уцененное
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectKey
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_detect_key_c
+  - MODL: m\K_Cheap_Grape.nif
+  - TEXT: m\K_Cheap_Grape.dds
+  - FNAM: Найти ключ дешевое
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectKey
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 10
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_detect_key_e
+  - MODL: m\K_Exclusive_Grape.nif
+  - TEXT: m\K_Exclusive_Grape.dds
+  - FNAM: Найти ключ эксклюзивное
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectKey
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_detect_key_q
+  - MODL: m\K_Quality_Grape.nif
+  - TEXT: m\K_Quality_Grape.dds
+  - FNAM: Найти ключ качественное
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectKey
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_dispel_q
+  - MODL: m\K_Quality_Grape.nif
+  - TEXT: m\K_Quality_Grape.dds
+  - FNAM: Развеять качественное
+  - ALDT:
+      weight: 0.75
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: Dispel
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_dispel_e
+  - MODL: m\K_Exclusive_Grape.nif
+  - TEXT: m\K_Exclusive_Grape.dds
+  - FNAM: Развеять эксклюзивное
+  - ALDT:
+      weight: 0.5
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: Dispel
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_dispel_c
+  - MODL: m\K_Cheap_Grape.nif
+  - TEXT: m\K_Cheap_Grape.dds
+  - FNAM: Развеять дешевое
+  - ALDT:
+      weight: 1.5
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: Dispel
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_dispel_b
+  - MODL: m\K_Bargain_Grape.nif
+  - TEXT: m\K_Bargain_Grape.dds
+  - FNAM: Развеять уцененное
+  - ALDT:
+      weight: 2.0
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: Dispel
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_feather_s
+  - MODL: m\K_Fresh_Crush.nif
+  - TEXT: m\K_Fresh_Crush.dds
+  - FNAM: Перо стандартное
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: Feather
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_fortify_attack_b
+  - MODL: m\K_Bargain_Aqua.nif
+  - TEXT: m\K_Bargain_Aqua.tga
+  - FNAM: Увеличить атаку уцененное
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: FortifyAttackBonus
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_fortify_attack_c
+  - MODL: m\K_Cheap_Aqua.nif
+  - TEXT: m\K_Cheap_Aqua.tga
+  - FNAM: Увеличить атаку дешевое
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: FortifyAttackBonus
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 15
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_fortify_attack_s
+  - MODL: m\K_Fresh_Aqua.nif
+  - TEXT: m\K_Fresh_Aqua.tga
+  - FNAM: Увеличить атаку стандартное
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: FortifyAttackBonus
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_fortify_attack_q
+  - MODL: m\K_Quality_Aqua.nif
+  - TEXT: m\K_Quality_Aqua.tga
+  - FNAM: Увеличить атаку качественное
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: FortifyAttackBonus
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_swift_swim_s
+  - MODL: m\K_Fresh_Crush.nif
+  - TEXT: m\K_Fresh_Crush.dds
+  - FNAM: Быстрое плавание стандартное
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: SwiftSwim
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_swift_swim_b
+  - MODL: m\K_Bargain_Crush.nif
+  - TEXT: m\K_Bargain_Crush.dds
+  - FNAM: Быстрое плавание уцененное
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: SwiftSwim
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_telekinesis_c
+  - MODL: m\K_Cheap_7up.nif
+  - TEXT: m\K_Cheap_7up.dds
+  - FNAM: Телекинез дешевое
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: Telekinesis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 10
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_telekinesis_b
+  - MODL: m\K_Bargain_7up.nif
+  - TEXT: m\K_Bargain_7up.dds
+  - FNAM: Телекинез уцененное
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: Telekinesis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_telekinesis_q
+  - MODL: m\K_Quality_7up.nif
+  - TEXT: m\K_Quality_7up.dds
+  - FNAM: Телекинез качественное
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: Telekinesis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_telekinesis_e
+  - MODL: m\K_Exclusive_7up.nif
+  - TEXT: m\K_Exclusive_7up.dds
+  - FNAM: Телекинез эксклюзивное
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: Telekinesis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_water_breathing_q
+  - MODL: m\K_Quality_Crush.nif
+  - TEXT: m\K_Quality_Crush.dds
+  - FNAM: Водное дыхание качественное
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterBreathing
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_water_breathing_e
+  - MODL: m\K_Exclusive_Crush.nif
+  - TEXT: m\K_Exclusive_Crush.dds
+  - FNAM: Водное дыхание эксклюзивное
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterBreathing
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_water_breathing_c
+  - MODL: m\K_Cheap_Crush.nif
+  - TEXT: m\K_Cheap_Crush.dds
+  - FNAM: Водное дыхание дешевое
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterBreathing
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_water_breathing_b
+  - MODL: m\K_Bargain_Crush.nif
+  - TEXT: m\K_Bargain_Crush.dds
+  - FNAM: Водное дыхание уцененное
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterBreathing
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 5
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_water_walking_b
+  - MODL: m\K_Bargain_Crush.nif
+  - TEXT: m\K_Bargain_Crush.dds
+  - FNAM: Хождение по воде уцененное
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterWalking
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 5
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_water_walking_c
+  - MODL: m\K_Cheap_Crush.nif
+  - TEXT: m\K_Cheap_Crush.dds
+  - FNAM: Хождение по воде дешевое
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterWalking
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_water_walking_e
+  - MODL: m\K_Exclusive_Crush.nif
+  - TEXT: m\K_Exclusive_Crush.dds
+  - FNAM: Хождение по воде эксклюзивное
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterWalking
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_water_walking_q
+  - MODL: m\K_Quality_Crush.nif
+  - TEXT: m\K_Quality_Crush.dds
+  - FNAM: Хождение по воде качественное
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterWalking
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_blight_resistance_b
+  - MODL: m\K_Bargain_Aqua.nif
+  - TEXT: m\K_Bargain_Aqua.dds
+  - FNAM: Сопротивление мору уцененное
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistBlightDisease
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_blight_resistance_c
+  - MODL: m\K_Cheap_Aqua.nif
+  - TEXT: m\K_Cheap_Aqua.dds
+  - FNAM: Сопротивление мору дешевое
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistBlightDisease
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 15
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_blight_resistance_e
+  - MODL: m\K_Exclusive_Aqua.nif
+  - TEXT: m\K_Exclusive_Aqua.dds
+  - FNAM: Сопротивление мору эксклюзивное
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistBlightDisease
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 60
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_blight_resistance_q
+  - MODL: m\K_Quality_Aqua.nif
+  - TEXT: m\K_Quality_Aqua.dds
+  - FNAM: Сопротивление мору качественное
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistBlightDisease
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_blight_resistance_s
+  - MODL: m\K_Fresh_Aqua.nif
+  - TEXT: m\K_Fresh_Aqua.dds
+  - FNAM: Сопротивление мору стандартное
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistBlightDisease
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_slowfall_b
+  - MODL: m\K_Bargain_Crush.nif
+  - TEXT: m\K_Bargain_Crush.dds
+  - FNAM: Замедление падения уцененное
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: SlowFall
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_slowfall_c
+  - MODL: m\K_Cheap_Crush.nif
+  - TEXT: m\K_Cheap_Crush.dds
+  - FNAM: Замедление падения дешевое
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: SlowFall
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 15
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_slowfall_e
+  - MODL: m\K_Exclusive_Crush.nif
+  - TEXT: m\K_Exclusive_Crush.dds
+  - FNAM: Замедление падения эксклюзивное
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: SlowFall
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 60
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_slowfall_q
+  - MODL: m\K_Quality_Crush.nif
+  - TEXT: m\K_Quality_Crush.dds
+  - FNAM: Замедление падения качественное
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: SlowFall
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_slowfall_s
+  - MODL: m\K_Fresh_Crush.nif
+  - TEXT: m\K_Fresh_Crush.dds
+  - FNAM: Замедление падения стандартное
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: SlowFall
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_sanctuary_b
+  - MODL: m\K_Bargain_Crush.nif
+  - TEXT: m\K_Bargain_Crush.dds
+  - FNAM: Светоч уцененное
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: Sanctuary
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_sanctuary_c
+  - MODL: m\K_Cheap_Crush.nif
+  - TEXT: m\K_Cheap_Crush.dds
+  - FNAM: Светоч дешевое
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: Sanctuary
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 15
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_sanctuary_e
+  - MODL: m\K_Exclusive_Crush.nif
+  - TEXT: m\K_Exclusive_Crush.dds
+  - FNAM: Светоч эксклюзивное
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: Sanctuary
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 60
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_sanctuary_q
+  - MODL: m\K_Quality_Crush.nif
+  - TEXT: m\K_Quality_Crush.dds
+  - FNAM: Светоч качественное
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: Sanctuary
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_sanctuary_s
+  - MODL: m\K_Fresh_Crush.nif
+  - TEXT: m\K_Fresh_Crush.dds
+  - FNAM: Светоч стандартное
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: Sanctuary
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_summon_centurion_sphere_b
+  - MODL: m\K_Bargain_Crush.nif
+  - TEXT: m\K_Bargain_Crush.dds
+  - FNAM: Вызов Сферы-центуриона уценен.
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: SummonCenturionSphere
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 5
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_summon_centurion_sphere_c
+  - MODL: m\K_Cheap_Crush.nif
+  - TEXT: m\K_Cheap_Crush.dds
+  - FNAM: Вызов Сферы-центуриона дешевое
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: SummonCenturionSphere
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_summon_centurion_sphere_e
+  - MODL: m\K_Exclusive_Crush.nif
+  - TEXT: m\K_Exclusive_Crush.dds
+  - FNAM: Вызов Сферы-центуриона экскл.
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: SummonCenturionSphere
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_summon_centurion_sphere_q
+  - MODL: m\K_Quality_Crush.nif
+  - TEXT: m\K_Quality_Crush.dds
+  - FNAM: Вызов Сферы-центуриона качеств.
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: SummonCenturionSphere
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_summon_centurion_sphere_s
+  - MODL: m\K_Fresh_Crush.nif
+  - TEXT: m\K_Fresh_Crush.dds
+  - FNAM: Вызов Сферы-центуриона станд.
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: SummonCenturionSphere
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 15
+      magnitude_min: 1
+      magnitude_max: 1

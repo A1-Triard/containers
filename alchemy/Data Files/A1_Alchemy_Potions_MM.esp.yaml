@@ -1,0 +1,1631 @@
+- TES3:
+  - HEDR:
+      version: 1067869798
+      file_type: ESP
+      author: A1
+      description:
+      - Модифицирует некоторые существующие и добавляет новые зелья. Вспомогательный плагин для A1_Alchemy_V7_Apparatus.
+      - ''
+      - Версия для MagicMarker
+      records: 85
+  - MAST: Morrowind.esm
+  - DATA: 79764287
+  - MAST: Tribunal.esm
+  - DATA: 6616539
+  - MAST: Bloodmoon.esm
+  - DATA: 11799703
+
+- ALCH:
+  - NAME: p_burden_s
+  - MODL: m\Misc_Potion_Standard_01.NIF
+  - TEXT: m\Pm_Sta_Res_Nor.dds
+  - FNAM: Стандартное зелье Даэдра
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistNormalWeapons
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_paralyze_s
+  - MODL: m\Misc_Potion_Standard_01.nif
+  - TEXT: m\Pm_Sta_Res_Par.dds
+  - FNAM: Станд. сопротивление параличу
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistParalysis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_silence_s
+  - MODL: m\Misc_Potion_Standard_01.nif
+  - TEXT: m\Pm_Sta_Shi.dds
+  - FNAM: Стандартное зелье щита
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: Shield
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_burden_c
+  - MODL: m\Misc_Potion_Cheap_01.nif
+  - TEXT: m\Pm_Che_Res_Nor.dds
+  - FNAM: Дешевое зелье Даэдра
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistNormalWeapons
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 15
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_burden_b
+  - MODL: m\Misc_Potion_Bargain_01.nif
+  - TEXT: m\Pm_Bar_Res_Nor.dds
+  - FNAM: Уцененное зелье Даэдра
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistNormalWeapons
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_burden_q
+  - MODL: m\Misc_Potion_Quality_01.nif
+  - TEXT: m\Pm_Qua_Res_Nor.dds
+  - FNAM: Качественное зелье Даэдра
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistNormalWeapons
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_burden_e
+  - MODL: m\Misc_Potion_Exclusive_01.nif
+  - TEXT: m\Pm_Exc_Res_Nor.dds
+  - FNAM: Эксклюзивное зелье Даэдра
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistNormalWeapons
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 60
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_paralyze_c
+  - MODL: m\Misc_Potion_Cheap_01.nif
+  - TEXT: m\Pm_Che_Res_Par.dds
+  - FNAM: Дешевое сопротивление параличу
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistParalysis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 15
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_paralyze_b
+  - MODL: m\Misc_Potion_Bargain_01.nif
+  - TEXT: m\Pm_Bar_Res_Par.dds
+  - FNAM: Уцененное сопротивл. параличу
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistParalysis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_paralyze_e
+  - MODL: m\Misc_Potion_Exclusive_01.nif
+  - TEXT: m\Pm_Exc_Res_Par.dds
+  - FNAM: Экскл. сопротивление параличу
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistParalysis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 60
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_paralyze_q
+  - MODL: m\Misc_Potion_Quality_01.nif
+  - TEXT: m\Pm_Qua_Res_Par.dds
+  - FNAM: Качественное сопрот. параличу
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistParalysis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_silence_c
+  - MODL: m\Misc_Potion_Cheap_01.nif
+  - TEXT: m\Pm_Che_Shi.dds
+  - FNAM: Дешевое зелье щита
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: Shield
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 15
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_silence_b
+  - MODL: m\Misc_Potion_Bargain_01.nif
+  - TEXT: m\Pm_Bar_Shi.dds
+  - FNAM: Уцененное зелье щита
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: Shield
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_silence_q
+  - MODL: m\Misc_Potion_Quality_01.nif
+  - TEXT: m\Pm_Qua_Shi.dds
+  - FNAM: Качественное зелье щита
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: Shield
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_silence_e
+  - MODL: m\Misc_Potion_Exclusive_01.nif
+  - TEXT: m\Pm_Exc_Shi.dds
+  - FNAM: Эксклюзивное зелье щита
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: Shield
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 60
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_cure_blight_s
+  - MODL: m\misc_potion_fresh_01.nif
+  - TEXT: m\Pm_Fre_Bli.dds
+  - FNAM: Зелье лечения моровых болезней
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: CureBlightDisease
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_recall_s
+  - MODL: m\Misc_Potion_Fresh_01.nif
+  - TEXT: m\Pm_Fre_Rec.dds
+  - FNAM: Зелье воспоминания
+  - ALDT:
+      weight: 0.5
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: Recall
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_levitation_b
+  - MODL: m\Misc_Potion_Bargain_01.nif
+  - TEXT: m\Pm_Bar_Lev.dds
+  - FNAM: Уцененное зелье левитации
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: Levitate
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_almsivi_intervention_s
+  - MODL: m\Misc_Potion_Fresh_01.nif
+  - TEXT: m\Pm_Fre_Alm_Int.dds
+  - FNAM: Зелье дурацкого счастья
+  - ALDT:
+      weight: 0.5
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: AlmsiviIntervention
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_cure_common_s
+  - MODL: m\Misc_Potion_Fresh_01.nif
+  - TEXT: m\Pm_Fre_Com.dds
+  - FNAM: Зелье лечения обычных недугов
+  - ALDT:
+      weight: 0.5
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: CureCommonDisease
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_cure_paralyzation_s
+  - MODL: m\Misc_Potion_Fresh_01.nif
+  - TEXT: m\Pm_Fre_Par.dds
+  - FNAM: Зелье лечения парализации
+  - ALDT:
+      weight: 0.5
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: CureParalyzation
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_cure_poison_s
+  - MODL: m\Misc_Potion_Fresh_01.nif
+  - TEXT: m\Pm_Fre_Poi.dds
+  - FNAM: Зелье лечения отравлений
+  - ALDT:
+      weight: 0.5
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: CurePoison
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_mark_s
+  - MODL: m\Misc_Potion_Fresh_01.nif
+  - TEXT: m\Pm_Fre_Mar.dds
+  - FNAM: Зелье пометки
+  - ALDT:
+      weight: 0.5
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: Mark
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_detect_creatures_s
+  - MODL: m\misc_potion_standard_01.nif
+  - TEXT: m\Pm_Sta_Det_Ani.dds
+  - FNAM: Станд. зелье обнаруж. существ
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectAnimal
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_detect_key_s
+  - MODL: m\misc_potion_standard_01.nif
+  - TEXT: m\Pm_Sta_Det_Key.dds
+  - FNAM: Стандартное зелье обнар. ключа
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectKey
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_dispel_s
+  - MODL: m\misc_potion_standard_01.nif
+  - TEXT: m\Pm_Sta_Dis.dds
+  - FNAM: Стандартное зелье развеивания
+  - ALDT:
+      weight: 1.0
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: Dispel
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_telekinesis_s
+  - MODL: m\misc_potion_standard_01.nif
+  - TEXT: m\Pm_Sta_Tel.dds
+  - FNAM: Стандартное зелье телекинеза
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: Telekinesis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_water_breathing_s
+  - MODL: m\misc_potion_standard_01.nif
+  - TEXT: m\Pm_Sta_Wab.dds
+  - FNAM: Стандарт. зелье водного дыхания
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterBreathing
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_water_walking_s
+  - MODL: m\misc_potion_standard_01.nif
+  - TEXT: m\Pm_Sta_Waw.dds
+  - FNAM: Станд. зелье хождения по воде
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterWalking
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_detect_enchantment_s
+  - MODL: m\misc_potion_standard_01.nif
+  - TEXT: m\Pm_Sta_Det_Enc.dds
+  - FNAM: Стандартное зелье обнаруж. чар
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectEnchantment
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 15
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_detect_creatures_b
+  - MODL: m\misc_potion_bargain_01.nif
+  - TEXT: m\Pm_Bar_Det_Ani.dds
+  - FNAM: Уцененн. зелье обнаруж. существ
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectAnimal
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_detect_creatures_c
+  - MODL: m\misc_potion_cheap_01.nif
+  - TEXT: m\Pm_Che_Det_Ani.dds
+  - FNAM: Дешевое зелье обнаруж. существ
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectAnimal
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 10
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_detect_creatures_e
+  - MODL: m\misc_potion_exclusive_01.nif
+  - TEXT: m\Pm_Exc_Det_Ani.dds
+  - FNAM: Эксклюз. зелье обнаруж. существ
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectAnimal
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_detect_creatures_q
+  - MODL: m\misc_potion_quality_01.nif
+  - TEXT: m\Pm_Qua_Det_Ani.dds
+  - FNAM: Качеств. зелье обнаруж. существ
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectAnimal
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_detect_enchantment_b
+  - MODL: m\misc_potion_bargain_01.nif
+  - TEXT: m\Pm_Bar_Det_Enc.dds
+  - FNAM: Уцененное зелье обнаружения чар
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectEnchantment
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_detect_enchantment_c
+  - MODL: m\misc_potion_cheap_01.nif
+  - TEXT: m\Pm_Che_Det_Enc.dds
+  - FNAM: Дешевое зелье обнаружения чар
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectEnchantment
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 10
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_detect_enchantment_e
+  - MODL: m\misc_potion_exclusive_01.nif
+  - TEXT: m\Pm_Exc_Det_Enc.dds
+  - FNAM: Эксклюзивное зелье обнаруж. чар
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectEnchantment
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_detect_enchantment_q
+  - MODL: m\misc_potion_quality_01.nif
+  - TEXT: m\Pm_Qua_Det_Enc.dds
+  - FNAM: Качественное зелье обнаруж. чар
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectEnchantment
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_detect_key_b
+  - MODL: m\misc_potion_bargain_01.nif
+  - TEXT: m\Pm_Bar_Det_Key.dds
+  - FNAM: Уцененное зелье обнаруж. ключа
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectKey
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_detect_key_c
+  - MODL: m\misc_potion_cheap_01.nif
+  - TEXT: m\Pm_Che_Det_Key.dds
+  - FNAM: Дешевое зелье обнаружения ключа
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectKey
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 10
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_detect_key_e
+  - MODL: m\misc_potion_exclusive_01.nif
+  - TEXT: m\Pm_Exc_Det_Key.dds
+  - FNAM: Эксклюзивное зелье обнар. ключа
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectKey
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_detect_key_q
+  - MODL: m\misc_potion_quality_01.nif
+  - TEXT: m\Pm_Qua_Det_Key.dds
+  - FNAM: Качественное зелье обнар. ключа
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: DetectKey
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_dispel_q
+  - MODL: m\misc_potion_quality_01.nif
+  - TEXT: m\Pm_Qua_Dis.dds
+  - FNAM: Качественное зелье развеивания
+  - ALDT:
+      weight: 0.75
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: Dispel
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_dispel_e
+  - MODL: m\misc_potion_exclusive_01.nif
+  - TEXT: m\Pm_Exc_Dis.dds
+  - FNAM: Эксклюзивное зелье развеивания
+  - ALDT:
+      weight: 0.5
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: Dispel
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_dispel_c
+  - MODL: m\misc_potion_cheap_01.nif
+  - TEXT: m\Pm_Che_Dis.dds
+  - FNAM: Дешевое зелье развеивания
+  - ALDT:
+      weight: 1.5
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: Dispel
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_dispel_b
+  - MODL: m\misc_potion_bargain_01.nif
+  - TEXT: m\Pm_Bar_Dis.dds
+  - FNAM: Уцененное зелье развеивания
+  - ALDT:
+      weight: 2.0
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: Dispel
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 1
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_feather_s
+  - MODL: m\misc_potion_standard_01.nif
+  - TEXT: m\Pm_Sta_Fea.dds
+  - FNAM: Стандартное зелье пера
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: Feather
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_fortify_attack_b
+  - MODL: m\misc_potion_bargain_01.nif
+  - TEXT: m\Pm_Bar_For_Ata.dds
+  - FNAM: Уцененное улучшение атаки
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: FortifyAttackBonus
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_fortify_attack_c
+  - MODL: m\misc_potion_cheap_01.nif
+  - TEXT: m\Pm_Che_For_Ata.dds
+  - FNAM: Дешевое улучшение атаки
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: FortifyAttackBonus
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 15
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_fortify_attack_s
+  - MODL: m\misc_potion_standard_01.nif
+  - TEXT: m\Pm_Sta_For_Ata.dds
+  - FNAM: Стандартное улучшение атаки
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: FortifyAttackBonus
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_fortify_attack_q
+  - MODL: m\misc_potion_quality_01.nif
+  - TEXT: m\Pm_Qua_For_Ata.dds
+  - FNAM: Качественное улучшение атаки
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: FortifyAttackBonus
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_swift_swim_s
+  - MODL: m\misc_potion_standard_01.nif
+  - TEXT: m\Pm_Sta_Swi.dds
+  - FNAM: Стандарт. зелье быстроплавания
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: SwiftSwim
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_swift_swim_b
+  - MODL: m\Misc_Potion_Bargain_01.nif
+  - TEXT: m\Pm_Bar_Swi.dds
+  - FNAM: Уцененное зелье быстроплавания
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: SwiftSwim
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_telekinesis_c
+  - MODL: m\misc_potion_cheap_01.nif
+  - TEXT: m\Pm_Che_Tel.dds
+  - FNAM: Дешевое зелье телекинеза
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: Telekinesis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 10
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_telekinesis_b
+  - MODL: m\misc_potion_bargain_01.nif
+  - TEXT: m\Pm_Bar_Tel.dds
+  - FNAM: Уцененное зелье телекинеза
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: Telekinesis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_telekinesis_q
+  - MODL: m\misc_potion_quality_01.nif
+  - TEXT: m\Pm_Qua_Tel.dds
+  - FNAM: Качественное зелье телекинеза
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: Telekinesis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_telekinesis_e
+  - MODL: m\misc_potion_exclusive_01.nif
+  - TEXT: m\Pm_Exc_Tel.dds
+  - FNAM: Эксклюзивное зелье телекинеза
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: Telekinesis
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_water_breathing_q
+  - MODL: m\misc_potion_quality_01.nif
+  - TEXT: m\Pm_Qua_Wab.dds
+  - FNAM: Качеств. зелье водного дыхания
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterBreathing
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_water_breathing_e
+  - MODL: m\misc_potion_exclusive_01.nif
+  - TEXT: m\Pm_Exc_Wab.dds
+  - FNAM: Экскл. зелье водного дыхания
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterBreathing
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_water_breathing_c
+  - MODL: m\misc_potion_cheap_01.nif
+  - TEXT: m\Pm_Che_Wab.dds
+  - FNAM: Дешевое зелье водного дыхания
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterBreathing
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_water_breathing_b
+  - MODL: m\misc_potion_bargain_01.nif
+  - TEXT: m\Pm_Bar_Wab.dds
+  - FNAM: Уцененное зелье водного дыхания
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterBreathing
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 5
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_water_walking_b
+  - MODL: m\misc_potion_bargain_01.nif
+  - TEXT: m\Pm_Bar_Waw.dds
+  - FNAM: Уцен. зелье хождения по воде
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterWalking
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 5
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_water_walking_c
+  - MODL: m\misc_potion_cheap_01.nif
+  - TEXT: m\Pm_Che_Waw.dds
+  - FNAM: Дешевое зелье хождения по воде
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterWalking
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_water_walking_e
+  - MODL: m\misc_potion_exclusive_01.nif
+  - TEXT: m\Pm_Exc_Waw.dds
+  - FNAM: Экскл. зелье хождения по воде
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterWalking
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_water_walking_q
+  - MODL: m\misc_potion_quality_01.nif
+  - TEXT: m\Pm_Qua_Waw.dds
+  - FNAM: Качеств. зелье хождения по воде
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: WaterWalking
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_blight_resistance_b
+  - MODL: m\misc_potion_bargain_01.nif
+  - TEXT: m\Pm_Bar_Res_Bli.dds
+  - FNAM: Уцененное сопротивление мору
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistBlightDisease
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_blight_resistance_c
+  - MODL: m\misc_potion_cheap_01.nif
+  - TEXT: m\Pm_Che_Res_Bli.dds
+  - FNAM: Дешевое сопротивление мору
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistBlightDisease
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 15
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_blight_resistance_e
+  - MODL: m\misc_potion_exclusive_01.nif
+  - TEXT: m\Pm_Exc_Res_Bli.dds
+  - FNAM: Эксклюзивное сопротивление мору
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistBlightDisease
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 60
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_blight_resistance_q
+  - MODL: m\misc_potion_quality_01.nif
+  - TEXT: m\Pm_Qua_Res_Bli.dds
+  - FNAM: Качественное сопротивление мору
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistBlightDisease
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_blight_resistance_s
+  - MODL: m\misc_potion_standard_01.nif
+  - TEXT: m\Pm_Sta_Res_Bli.dds
+  - FNAM: Стандартное сопротивление мору
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: ResistBlightDisease
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_slowfall_b
+  - MODL: m\misc_potion_bargain_01.nif
+  - TEXT: m\Pm_Bar_Slo.dds
+  - FNAM: Уцененное зелье медлен. падения
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: SlowFall
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_slowfall_c
+  - MODL: m\misc_potion_cheap_01.nif
+  - TEXT: m\Pm_Che_Slo.dds
+  - FNAM: Дешев. зелье медленного падения
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: SlowFall
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 15
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_slowfall_e
+  - MODL: m\misc_potion_exclusive_01.nif
+  - TEXT: m\Pm_Exc_Slo.dds
+  - FNAM: Экскл. зелье медленного падения
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: SlowFall
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 60
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_slowfall_q
+  - MODL: m\misc_potion_quality_01.nif
+  - TEXT: m\Pm_Qua_Slo.dds
+  - FNAM: Кач. зелье медленного падения
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: SlowFall
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_slowfall_s
+  - MODL: m\misc_potion_standard_01.nif
+  - TEXT: m\Pm_Sta_Slo.dds
+  - FNAM: Станд. зелье медленного падения
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: SlowFall
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_sanctuary_b
+  - MODL: m\misc_potion_bargain_01.nif
+  - TEXT: m\Pm_Bar_San.dds
+  - FNAM: Уцененное зелье светоча
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: Sanctuary
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 5
+      magnitude_max: 5
+
+- ALCH:
+  - NAME: p_sanctuary_c
+  - MODL: m\misc_potion_cheap_01.nif
+  - TEXT: m\Pm_Che_San.dds
+  - FNAM: Дешевое зелье светоча
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: Sanctuary
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 15
+      magnitude_min: 8
+      magnitude_max: 8
+
+- ALCH:
+  - NAME: p_sanctuary_e
+  - MODL: m\misc_potion_exclusive_01.nif
+  - TEXT: m\Pm_Exc_San.dds
+  - FNAM: Эксклюзивное зелье светоча
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: Sanctuary
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 60
+      magnitude_min: 20
+      magnitude_max: 20
+
+- ALCH:
+  - NAME: p_sanctuary_q
+  - MODL: m\misc_potion_quality_01.nif
+  - TEXT: m\Pm_Qua_San.dds
+  - FNAM: Качественное зелье светоча
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: Sanctuary
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 15
+      magnitude_max: 15
+
+- ALCH:
+  - NAME: p_sanctuary_s
+  - MODL: m\misc_potion_standard_01.nif
+  - TEXT: m\Pm_Sta_San.dds
+  - FNAM: Стандартное зелье светоча
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: Sanctuary
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 10
+      magnitude_max: 10
+
+- ALCH:
+  - NAME: p_summon_centurion_sphere_b
+  - MODL: m\misc_potion_bargain_01.nif
+  - TEXT: m\Pm_Bar_Sum_Cla.dds
+  - FNAM: Уцен. з. выз. Сферы-центуриона
+  - ALDT:
+      weight: 1.5
+      value: 5
+      auto_calculate_value: false
+  - ENAM:
+      index: SummonCenturionSphere
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 5
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_summon_centurion_sphere_c
+  - MODL: m\misc_potion_cheap_01.nif
+  - TEXT: m\Pm_Che_Sum_Cla.dds
+  - FNAM: Дешев. з. выз. Сферы-центуриона
+  - ALDT:
+      weight: 1.0
+      value: 15
+      auto_calculate_value: false
+  - ENAM:
+      index: SummonCenturionSphere
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 8
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_summon_centurion_sphere_e
+  - MODL: m\misc_potion_exclusive_01.nif
+  - TEXT: m\Pm_Exc_Sum_Cla.dds
+  - FNAM: Экскл. з. выз. Сферы-центуриона
+  - ALDT:
+      weight: 0.25
+      value: 175
+      auto_calculate_value: false
+  - ENAM:
+      index: SummonCenturionSphere
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 45
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_summon_centurion_sphere_q
+  - MODL: m\misc_potion_quality_01.nif
+  - TEXT: m\Pm_Qua_Sum_Cla.dds
+  - FNAM: Кач. з. выз. Сферы-центуриона
+  - ALDT:
+      weight: 0.5
+      value: 80
+      auto_calculate_value: false
+  - ENAM:
+      index: SummonCenturionSphere
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 30
+      magnitude_min: 1
+      magnitude_max: 1
+
+- ALCH:
+  - NAME: p_summon_centurion_sphere_s
+  - MODL: m\misc_potion_standard_01.nif
+  - TEXT: m\Pm_Sta_Sum_Cla.dds
+  - FNAM: Станд. з. выз. Сферы-центуриона
+  - ALDT:
+      weight: 0.75
+      value: 35
+      auto_calculate_value: false
+  - ENAM:
+      index: SummonCenturionSphere
+      skill: null
+      attribute: null
+      range: Self
+      area: 0
+      duration: 15
+      magnitude_min: 1
+      magnitude_max: 1
