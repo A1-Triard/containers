@@ -9817,6 +9817,44 @@
     - endif
     - ''
     - End
+  - SCDT:
+      stmts:
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " X\x18\x10\0"
+      - func: MwsePushS
+        args: 0
+      - func: MwsePushS
+        args: 115
+      - func: MwseGetLocal
+        args: null
+      - func: MwsePop
+        args: 4
+      - func: MwseJumpShortZero
+        args: 389
+      - func: PlaceAtPC
+        args:
+        - Dremora_lord
+        - 1
+        - kind: Val
+          val: 128.0
+        - 1
+      raw:
+      - 1C 3C 13 38 00 00 13 38 6C 00 02 3C 13 38 48 00 0A 38 60 00 17 28 3F 69 29 5E 69 6E 67 72 65 64
+      - 5F 44 61 65 5F 63 75 72 73 65 64 5F 13 38 00 00 13 38 6C 00 00 3C 68 3E 13 38 00 00 13 38 73 00
+      - 02 3C 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 B6 00 13 38 00 00 13 38 6C 00 00 3C 13 38
+      - 9A 00 0A 38 A6 00 0B 69 6E 67 72 65 64 5F 25 31 38 73 0B 3F 13 38 00 00 13 38 6C 00 02 3C 0A 38
+      - 56 01 13 38 BE 00 0A 38 D2 00 13 28 3F 69 29 5E 69 6E 67 72 65 64 5F 63 75 72 73 65 64 5F 13 38
+      - 00 00 13 38 6C 00 00 3C 68 3E 13 38 00 00 13 38 73 00 02 3C 13 38 00 00 13 38 73 00 00 3C 0F 38
+      - 04 00 0C 38 28 01 13 38 00 00 13 38 6C 00 00 3C 13 38 0C 01 0A 38 18 01 0B 69 6E 67 72 65 64 5F
+      - 25 31 34 73 0B 3F 13 38 00 00 13 38 6C 00 02 3C 0A 38 56 01 00 10 1C 00 CE F8 E8 E1 EA E0 21 20
+      - CD E5 E8 E7 E2 E5 F1 F2 ED FB E9 20 EF F0 E5 E4 EC E5 F2 2E 00 01 03 4F 4B 00 05 01 6C 01 00 02
+      - 20 30 13 38 00 00 13 38 6C 00 00 3C 0F 38 04 00 0C 38 85 01 11 38 01 00 00 00 13 38 00 00 13 38
+      - 6C 00 00 3C 0C 01 06 70 6C 61 79 65 72 28 3C DB 10 01 01
 
 - SSCR:
   - DATA: '2118625382187888739'
