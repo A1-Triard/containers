@@ -1772,7 +1772,7 @@
     - "\tAddItem \"ingred_frost_salts_01\", temp"
     - endif
     - ''
-    - StopScript A1V7_AInitSt6_sc
+    - StopScript A1V7_AInitSt1_sc
     - StartScript A1V7_AInitSt7_sc
     - ''
     - end
@@ -2218,7 +2218,7 @@
     - "\txAddItem \"ingred_frost_salts_01\", temp"
     - endif
     - ''
-    - StopScript A1V7_AInitSt6_sc
+    - StopScript A1V7_AInitSt1_sc
     - StartScript A1V7_AInitSt7_sc
     - ''
     - end

@@ -1907,14 +1907,14 @@
     - "\tAddItem \"ingred_bug_shell_03\", temp"
     - endif
     - ''
-    - StopScript A1V7_AInitSt6_sc
+    - StopScript A1V7_AInitSt1_sc
     - StartScript A1V7_AInitSt7_sc
     - ''
     - end
 
 - SCPT:
   - SCHD:
-      name: A1V7_AInitSt6_sx
+      name: A1V7_AInitSt1_sx
       vars:
         shorts: 1
         longs: 0
@@ -2145,7 +2145,7 @@
       - 16 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 36 5F 73 63 1B 10 16 41 31 56 31 5F 49
       - 6E 67 72 42 61 67 49 6E 69 74 53 74 37 5F 73 63 01 01
   - SCTX:
-    - begin A1V7_AInitSt6_sx
+    - begin A1V7_AInitSt1_sx
     - ''
     - short temp
     - ''
@@ -2350,7 +2350,7 @@
     - "\txAddItem \"ingred_bug_shell_03\", temp"
     - endif
     - ''
-    - StopScript A1V7_AInitSt6_sc
+    - StopScript A1V7_AInitSt1_sc
     - StartScript A1V7_AInitSt7_sc
     - ''
     - end
