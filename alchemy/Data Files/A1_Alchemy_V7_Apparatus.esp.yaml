@@ -132,6 +132,3771 @@
 
 - SCPT:
   - SCHD:
+      name: A1V7_AInitSt10_sc
+      vars:
+        shorts: 1
+        longs: 0
+        floats: 0
+      data_size: 1031
+      var_table_size: 5
+  - SCVR:
+    - temp
+  - SCDT:
+      stmts:
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_trama_root_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_trama_root_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_trama_root_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x1Fingred_treated_bittergreen_uniq\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_treated_bittergreen_uniq
+        - 0
+      - func: AddItem
+        args:
+        - ingred_treated_bittergreen_uniq
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x16ingred_vampire_dust_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_vampire_dust_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_vampire_dust_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_void_salts_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_void_salts_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_void_salts_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_wickwheat_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_wickwheat_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_wickwheat_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x17ingred_willow_anther_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_willow_anther_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_willow_anther_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\rpoison_goop00\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - poison_goop00
+        - 0
+      - func: AddItem
+        args:
+        - poison_goop00
+        - 0
+      - func: EndIf
+        args: null
+      - func: If
+        args:
+        - 1
+        - " G\x11A1V7_AIndex == 1"
+      - func: AddItem
+        args:
+        - A1V7_AItem_1
+        - 1
+      - func: ElseIf
+        args:
+        - 1
+        - " G\x11A1V7_AIndex == 2"
+      - func: AddItem
+        args:
+        - A1V7_AItem_2
+        - 1
+      - func: Else
+        args: 1
+      - func: AddItem
+        args:
+        - A1V7_AItem_3
+        - 1
+      - func: EndIf
+        args: null
+      - func: MessageBox
+        args:
+        - Ингредиенты выложены
+        - []
+        - []
+      - func: EnablePlayerControls
+        args: null
+      - func: StopScript
+        args: A1V7_AInitSt10_sc
+      - func: End
+        args: null
+      raw: []
+  - SCTX:
+    - begin A1V7_AInitSt10_sc
+    - ''
+    - short temp
+    - ''
+    - set temp to ( player->GetItemCount "ingred_trama_root_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_trama_root_01\", temp"
+    - "\tAddItem \"ingred_trama_root_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_treated_bittergreen_uniq" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_treated_bittergreen_uniq\", temp"
+    - "\tAddItem \"ingred_treated_bittergreen_uniq\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_vampire_dust_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_vampire_dust_01\", temp"
+    - "\tAddItem \"ingred_vampire_dust_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_void_salts_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_void_salts_01\", temp"
+    - "\tAddItem \"ingred_void_salts_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_wickwheat_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_wickwheat_01\", temp"
+    - "\tAddItem \"ingred_wickwheat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_willow_anther_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_willow_anther_01\", temp"
+    - "\tAddItem \"ingred_willow_anther_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "poison_goop00" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"poison_goop00\", temp"
+    - "\tAddItem \"poison_goop00\", temp"
+    - endif
+    - ''
+    - StopScript A1V7_AInitSt10_sc
+    - StartScript A1V7_ApparatusActivate_sc
+    - ''
+    - end
+
+- SCPT:
+  - SCHD:
+      name: A1V7_AInitSt10_sx
+      vars:
+        shorts: 1
+        longs: 0
+        floats: 0
+      data_size: 1614
+      var_table_size: 5
+  - SCVR:
+    - temp
+  - SCDT:
+      stmts:
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_sload_soap_01\0"
+      - func: MwsePushS
+        args: 0
+      - func: MwsePushS
+        args: 115
+      - func: MwseGetLocal
+        args: null
+      - func: MwsePop
+        args: 4
+      - func: MwseJumpShortZero
+        args: 154
+      - func: MwsePushS
+        args: 0
+      - func: MwsePushS
+        args: 115
+      - func: MwseGetLocal
+        args: null
+      - func: MwsePushS
+        args: 79
+      raw:
+      - 0A 38 65 00 14 69 6E 67 72 65 64 5F 73 6C 6F 61 64 5F 73 6F 61 70 5F 30 31 00 0C 01 06 70 6C 61
+      - 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 82 00 0A 38 98 00 14 69 6E 67 72 65 64 5F 73
+      - 6C 6F 61 64 5F 73 6F 61 70 5F 30 31 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 24 20 58
+      - FD 10 20 6F 1C 69 6E 67 72 65 64 5F 73 74 6F 6E 65 66 6C 6F 77 65 72 5F 70 65 74 61 6C 73 5F 30
+      - 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 4C 01 13 38 00 00 13 38 73 00 00 3C 13 38
+      - F1 00 0A 38 0F 01 1C 69 6E 67 72 65 64 5F 73 74 6F 6E 65 66 6C 6F 77 65 72 5F 70 65 74 61 6C 73
+      - 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 2C 01 0A 38 4A
+      - 01 1C 69 6E 67 72 65 64 5F 73 74 6F 6E 65 66 6C 6F 77 65 72 5F 70 65 74 61 6C 73 5F 30 31 00 28
+      - 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1C 20 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 74 72
+      - 61 6D 61 5F 72 6F 6F 74 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 E6 01 13 38
+      - 00 00 13 38 73 00 00 3C 13 38 9B 01 0A 38 B1 01 14 69 6E 67 72 65 64 5F 74 72 61 6D 61 5F 72 6F
+      - 6F 74 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 CE 01 0A
+      - 38 E4 01 14 69 6E 67 72 65 64 5F 74 72 61 6D 61 5F 72 6F 6F 74 5F 30 31 00 28 3C 0C 01 06 70 6C
+      - 61 79 65 72 05 01 73 01 00 27 20 58 FD 10 20 6F 1F 69 6E 67 72 65 64 5F 74 72 65 61 74 65 64 5F
+      - 62 69 74 74 65 72 67 72 65 65 6E 5F 75 6E 69 71 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C
+      - 38 9F 02 13 38 00 00 13 38 73 00 00 3C 13 38 40 02 0A 38 60 02 1F 69 6E 67 72 65 64 5F 74 72 65
+      - 61 74 65 64 5F 62 69 74 74 65 72 67 72 65 65 6E 5F 75 6E 69 71 0C 01 06 70 6C 61 79 65 72 29 3C
+      - 13 38 00 00 13 38 73 00 00 3C 13 38 7D 02 0A 38 9D 02 1F 69 6E 67 72 65 64 5F 74 72 65 61 74 65
+      - 64 5F 62 69 74 74 65 72 67 72 65 65 6E 5F 75 6E 69 71 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73
+      - 01 00 1E 20 58 FD 10 20 6F 16 69 6E 67 72 65 64 5F 76 61 6D 70 69 72 65 5F 64 75 73 74 5F 30 31
+      - 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 3F 03 13 38 00 00 13 38 73 00 00 3C 13 38 F0
+      - 02 0A 38 08 03 16 69 6E 67 72 65 64 5F 76 61 6D 70 69 72 65 5F 64 75 73 74 5F 30 31 00 0C 01 06
+      - 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 25 03 0A 38 3D 03 16 69 6E 67 72 65
+      - 64 5F 76 61 6D 70 69 72 65 5F 64 75 73 74 5F 30 31 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73
+      - 01 00 1C 20 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 76 6F 69 64 5F 73 61 6C 74 73 5F 30 31 00 13
+      - 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 D9 03 13 38 00 00 13 38 73 00 00 3C 13 38 8E 03 0A
+      - 38 A4 03 14 69 6E 67 72 65 64 5F 76 6F 69 64 5F 73 61 6C 74 73 5F 30 31 00 0C 01 06 70 6C 61 79
+      - 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 C1 03 0A 38 D7 03 14 69 6E 67 72 65 64 5F 76 6F
+      - 69 64 5F 73 61 6C 74 73 5F 30 31 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1B 20 58 FD
+      - 10 20 6F 13 69 6E 67 72 65 64 5F 77 69 63 6B 77 68 65 61 74 5F 30 31 00 13 38 00 00 13 38 73 00
+      - 00 3C 0F 38 04 00 0C 38 6E 04 13 38 00 00 13 38 73 00 00 3C 13 38 27 04 0A 38 3B 04 13 69 6E 67
+      - 72 65 64 5F 77 69 63 6B 77 68 65 61 74 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13
+      - 38 73 00 00 3C 13 38 58 04 0A 38 6C 04 13 69 6E 67 72 65 64 5F 77 69 63 6B 77 68 65 61 74 5F 30
+      - 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1F 20 58 FD 10 20 6F 17 69 6E 67 72 65 64 5F
+      - 77 69 6C 6C 6F 77 5F 61 6E 74 68 65 72 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C
+      - 38 0F 05 13 38 00 00 13 38 73 00 00 3C 13 38 C0 04 0A 38 D8 04 17 69 6E 67 72 65 64 5F 77 69 6C
+      - 6C 6F 77 5F 61 6E 74 68 65 72 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00
+      - 00 3C 13 38 F5 04 0A 38 0D 05 17 69 6E 67 72 65 64 5F 77 69 6C 6C 6F 77 5F 61 6E 74 68 65 72 5F
+      - 30 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 15 20 58 FD 10 20 6F 0D 70 6F 69 73 6F 6E
+      - 5F 67 6F 6F 70 30 30 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 92 05 13 38 00 00 13 38
+      - 73 00 00 3C 13 38 57 05 0A 38 65 05 0D 70 6F 69 73 6F 6E 5F 67 6F 6F 70 30 30 0C 01 06 70 6C 61
+      - 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 82 05 0A 38 90 05 0D 70 6F 69 73 6F 6E 5F 67
+      - 6F 6F 70 30 30 28 3C 06 01 01 19 20 47 11 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 64 65 78 20
+      - 3D 3D 20 31 D4 10 12 41 31 56 31 5F 49 6E 67 72 42 61 67 49 74 65 6D 5F 31 01 00 08 01 01 19 20
+      - 47 11 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 64 65 78 20 3D 3D 20 32 D4 10 12 41 31 56 31 5F
+      - 49 6E 67 72 42 61 67 49 74 65 6D 5F 32 01 00 07 01 01 D4 10 12 41 31 56 31 5F 49 6E 67 72 42 61
+      - 67 49 74 65 6D 5F 33 01 00 09 01 00 10 14 00 C8 ED E3 F0 E5 E4 E8 E5 ED F2 FB 20 E2 FB EB EE E6
+      - E5 ED FB 00 00 DD 10 1C 10 17 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 31 30 5F 73
+      - 63 01 01
+  - SCTX:
+    - begin A1V7_AInitSt10_sx
+    - ''
+    - short temp
+    - ''
+    - set temp to ( player->GetItemCount "ingred_sload_soap_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_sload_soap_01\", temp"
+    - "\txAddItem \"ingred_sload_soap_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_stoneflower_petals_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_stoneflower_petals_01\", temp"
+    - "\txAddItem \"ingred_stoneflower_petals_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_trama_root_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_trama_root_01\", temp"
+    - "\txAddItem \"ingred_trama_root_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_treated_bittergreen_uniq" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_treated_bittergreen_uniq\", temp"
+    - "\txAddItem \"ingred_treated_bittergreen_uniq\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_vampire_dust_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_vampire_dust_01\", temp"
+    - "\txAddItem \"ingred_vampire_dust_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_void_salts_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_void_salts_01\", temp"
+    - "\txAddItem \"ingred_void_salts_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_wickwheat_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_wickwheat_01\", temp"
+    - "\txAddItem \"ingred_wickwheat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_willow_anther_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_willow_anther_01\", temp"
+    - "\txAddItem \"ingred_willow_anther_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "poison_goop00" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"poison_goop00\", temp"
+    - "\txAddItem \"poison_goop00\", temp"
+    - endif
+    - ''
+    - StopScript A1V7_AInitSt10_sc
+    - StartScript A1V7_ApparatusActivate_sc
+    - ''
+    - end
+
+- SCPT:
+  - SCHD:
+      name: A1V7_AInitSt1_sc
+      vars:
+        shorts: 1
+        longs: 0
+        floats: 0
+      data_size: 4825
+      var_table_size: 5
+  - SCVR:
+    - temp
+  - SCDT:
+      stmts:
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x11food_kwama_egg_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - food_kwama_egg_01
+        - 0
+      - func: AddItem
+        args:
+        - food_kwama_egg_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x11food_kwama_egg_02\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - food_kwama_egg_02
+        - 0
+      - func: AddItem
+        args:
+        - food_kwama_egg_02
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x19ingred_6th_corprusmeat_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_6th_corprusmeat_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_6th_corprusmeat_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x19ingred_6th_corprusmeat_02\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_6th_corprusmeat_02
+        - 0
+      - func: AddItem
+        args:
+        - ingred_6th_corprusmeat_02
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x19ingred_6th_corprusmeat_03\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_6th_corprusmeat_03
+        - 0
+      - func: AddItem
+        args:
+        - ingred_6th_corprusmeat_03
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x19ingred_6th_corprusmeat_04\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_6th_corprusmeat_04
+        - 0
+      - func: AddItem
+        args:
+        - ingred_6th_corprusmeat_04
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x19ingred_6th_corprusmeat_05\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_6th_corprusmeat_05
+        - 0
+      - func: AddItem
+        args:
+        - ingred_6th_corprusmeat_05
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x19ingred_6th_corprusmeat_06\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_6th_corprusmeat_06
+        - 0
+      - func: AddItem
+        args:
+        - ingred_6th_corprusmeat_06
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x19ingred_6th_corprusmeat_07\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_6th_corprusmeat_07
+        - 0
+      - func: AddItem
+        args:
+        - ingred_6th_corprusmeat_07
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_alit_hide_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_alit_hide_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_alit_hide_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_ash_salts_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_ash_salts_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_ash_salts_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x11ingred_ash_yam_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_ash_yam_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_ash_yam_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_bc_ampoule_pod\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_bc_ampoule_pod
+        - 0
+      - func: AddItem
+        args:
+        - ingred_bc_ampoule_pod
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x18ingred_bc_bungler's_bane\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_bc_bungler's_bane
+        - 0
+      - func: AddItem
+        args:
+        - ingred_bc_bungler's_bane
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_bc_coda_flower\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_bc_coda_flower
+        - 0
+      - func: AddItem
+        args:
+        - ingred_bc_coda_flower
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_bc_hypha_facia\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_bc_hypha_facia
+        - 0
+      - func: AddItem
+        args:
+        - ingred_bc_hypha_facia
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_bc_spore_pod\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_bc_spore_pod
+        - 0
+      - func: AddItem
+        args:
+        - ingred_bc_spore_pod
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x1Cingred_bittergreen_petals_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_bittergreen_petals_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_bittergreen_petals_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x16ingred_black_anther_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_black_anther_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_black_anther_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x16ingred_black_lichen_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_black_lichen_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_black_lichen_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x0Fingred_bloat_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_bloat_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_bloat_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x12ingred_bonemeal_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_bonemeal_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_bonemeal_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x0Fingred_bread_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_bread_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_bread_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_bread_01_UNI2\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_bread_01_UNI2
+        - 0
+      - func: AddItem
+        args:
+        - ingred_bread_01_UNI2
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_bread_01_UNI3\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_bread_01_UNI3
+        - 0
+      - func: AddItem
+        args:
+        - ingred_bread_01_UNI3
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_chokeweed_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_chokeweed_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_chokeweed_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x12ingred_comberry_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_comberry_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_comberry_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x12ingred_coprinus_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_coprinus_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_coprinus_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x17ingred_corkbulb_root_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_corkbulb_root_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_corkbulb_root_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x1Aingred_corprus_weepings_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_corprus_weepings_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_corprus_weepings_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_crab_meat_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_crab_meat_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_crab_meat_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x17ingred_daedras_heart_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_daedras_heart_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_daedras_heart_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_daedra_skin_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_daedra_skin_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_daedra_skin_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x11ingred_diamond_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_diamond_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_diamond_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_dreugh_wax_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_dreugh_wax_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_dreugh_wax_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_ectoplasm_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_ectoplasm_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_ectoplasm_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x11ingred_emerald_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_emerald_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_emerald_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_fire_petal_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_fire_petal_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_fire_petal_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_fire_salts_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_fire_salts_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_fire_salts_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_frost_salts_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_frost_salts_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_frost_salts_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: StopScript
+        args: A1V7_AInitSt6_sc
+      - func: StartScript
+        args: A1V7_AInitSt7_sc
+      - func: End
+        args: null
+      raw: []
+  - SCTX:
+    - begin A1V7_AInitSt1_sc
+    - ''
+    - short temp
+    - ''
+    - set temp to ( player->GetItemCount "food_kwama_egg_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"food_kwama_egg_01\", temp"
+    - "\tAddItem \"food_kwama_egg_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "food_kwama_egg_02" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"food_kwama_egg_02\", temp"
+    - "\tAddItem \"food_kwama_egg_02\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_6th_corprusmeat_01\", temp"
+    - "\tAddItem \"ingred_6th_corprusmeat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_02" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_6th_corprusmeat_02\", temp"
+    - "\tAddItem \"ingred_6th_corprusmeat_02\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_03" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_6th_corprusmeat_03\", temp"
+    - "\tAddItem \"ingred_6th_corprusmeat_03\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_04" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_6th_corprusmeat_04\", temp"
+    - "\tAddItem \"ingred_6th_corprusmeat_04\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_05" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_6th_corprusmeat_05\", temp"
+    - "\tAddItem \"ingred_6th_corprusmeat_05\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_06" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_6th_corprusmeat_06\", temp"
+    - "\tAddItem \"ingred_6th_corprusmeat_06\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_07" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_6th_corprusmeat_07\", temp"
+    - "\tAddItem \"ingred_6th_corprusmeat_07\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_alit_hide_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_alit_hide_01\", temp"
+    - "\tAddItem \"ingred_alit_hide_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_ash_salts_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_ash_salts_01\", temp"
+    - "\tAddItem \"ingred_ash_salts_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_ash_yam_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_ash_yam_01\", temp"
+    - "\tAddItem \"ingred_ash_yam_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bc_ampoule_pod" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_bc_ampoule_pod\", temp"
+    - "\tAddItem \"ingred_bc_ampoule_pod\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bc_bungler's_bane" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_bc_bungler's_bane\", temp"
+    - "\tAddItem \"ingred_bc_bungler's_bane\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bc_coda_flower" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_bc_coda_flower\", temp"
+    - "\tAddItem \"ingred_bc_coda_flower\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bc_hypha_facia" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_bc_hypha_facia\", temp"
+    - "\tAddItem \"ingred_bc_hypha_facia\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bc_spore_pod" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_bc_spore_pod\", temp"
+    - "\tAddItem \"ingred_bc_spore_pod\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bittergreen_petals_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_bittergreen_petals_01\", temp"
+    - "\tAddItem \"ingred_bittergreen_petals_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_black_anther_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_black_anther_01\", temp"
+    - "\tAddItem \"ingred_black_anther_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_black_lichen_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_black_lichen_01\", temp"
+    - "\tAddItem \"ingred_black_lichen_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bloat_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_bloat_01\", temp"
+    - "\tAddItem \"ingred_bloat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bonemeal_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_bonemeal_01\", temp"
+    - "\tAddItem \"ingred_bonemeal_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bread_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_bread_01\", temp"
+    - "\tAddItem \"ingred_bread_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bread_01_UNI2" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_bread_01_UNI2\", temp"
+    - "\tAddItem \"ingred_bread_01_UNI2\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bread_01_UNI3" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_bread_01_UNI3\", temp"
+    - "\tAddItem \"ingred_bread_01_UNI3\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_chokeweed_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_chokeweed_01\", temp"
+    - "\tAddItem \"ingred_chokeweed_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_comberry_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_comberry_01\", temp"
+    - "\tAddItem \"ingred_comberry_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_coprinus_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_coprinus_01\", temp"
+    - "\tAddItem \"ingred_coprinus_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_corkbulb_root_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_corkbulb_root_01\", temp"
+    - "\tAddItem \"ingred_corkbulb_root_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_corprus_weepings_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_corprus_weepings_01\", temp"
+    - "\tAddItem \"ingred_corprus_weepings_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_crab_meat_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_crab_meat_01\", temp"
+    - "\tAddItem \"ingred_crab_meat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_daedras_heart_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_daedras_heart_01\", temp"
+    - "\tAddItem \"ingred_daedras_heart_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_daedra_skin_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_daedra_skin_01\", temp"
+    - "\tAddItem \"ingred_daedra_skin_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_diamond_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_diamond_01\", temp"
+    - "\tAddItem \"ingred_diamond_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_dreugh_wax_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_dreugh_wax_01\", temp"
+    - "\tAddItem \"ingred_dreugh_wax_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_ectoplasm_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_ectoplasm_01\", temp"
+    - "\tAddItem \"ingred_ectoplasm_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_emerald_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_emerald_01\", temp"
+    - "\tAddItem \"ingred_emerald_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_fire_petal_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_fire_petal_01\", temp"
+    - "\tAddItem \"ingred_fire_petal_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_fire_salts_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_fire_salts_01\", temp"
+    - "\tAddItem \"ingred_fire_salts_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_frost_salts_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_frost_salts_01\", temp"
+    - "\tAddItem \"ingred_frost_salts_01\", temp"
+    - endif
+    - ''
+    - StopScript A1V7_AInitSt6_sc
+    - StartScript A1V7_AInitSt7_sc
+    - ''
+    - end
+
+- SCPT:
+  - SCHD:
+      name: A1V7_AInitSt1_sx
+      vars:
+        shorts: 1
+        longs: 0
+        floats: 0
+      data_size: 6251
+      var_table_size: 5
+  - SCVR:
+    - temp
+  - SCDT:
+      stmts:
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x11food_kwama_egg_01\0"
+      - func: MwsePushS
+        args: 0
+      - func: MwsePushS
+        args: 115
+      - func: MwseGetLocal
+        args: null
+      - func: MwsePop
+        args: 4
+      - func: MwseJumpShortZero
+        args: 143
+      - func: MwsePushS
+        args: 0
+      - func: MwsePushS
+        args: 115
+      - func: MwseGetLocal
+        args: null
+      - func: MwsePushS
+        args: 76
+      raw:
+      - 0A 38 5E 00 11 66 6F 6F 64 5F 6B 77 61 6D 61 5F 65 67 67 5F 30 31 0C 01 06 70 6C 61 79 65 72 29
+      - 3C 13 38 00 00 13 38 73 00 00 3C 13 38 7B 00 0A 38 8D 00 11 66 6F 6F 64 5F 6B 77 61 6D 61 5F 65
+      - 67 67 5F 30 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 19 20 58 FD 10 20 6F 11 66 6F 6F
+      - 64 5F 6B 77 61 6D 61 5F 65 67 67 5F 30 32 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 1E
+      - 01 13 38 00 00 13 38 73 00 00 3C 13 38 DB 00 0A 38 ED 00 11 66 6F 6F 64 5F 6B 77 61 6D 61 5F 65
+      - 67 67 5F 30 32 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 0A 01 0A 38
+      - 1C 01 11 66 6F 6F 64 5F 6B 77 61 6D 61 5F 65 67 67 5F 30 32 28 3C 0C 01 06 70 6C 61 79 65 72 05
+      - 01 73 01 00 21 20 58 FD 10 20 6F 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65
+      - 61 74 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 C5 01 13 38 00 00 13 38 73 00
+      - 00 3C 13 38 72 01 0A 38 8C 01 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61
+      - 74 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 A9 01 0A 38 C3
+      - 01 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 31 28 3C 0C 01 06
+      - 70 6C 61 79 65 72 05 01 73 01 00 21 20 58 FD 10 20 6F 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F
+      - 72 70 72 75 73 6D 65 61 74 5F 30 32 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 6C 02 13
+      - 38 00 00 13 38 73 00 00 3C 13 38 19 02 0A 38 33 02 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72
+      - 70 72 75 73 6D 65 61 74 5F 30 32 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C
+      - 13 38 50 02 0A 38 6A 02 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F
+      - 30 32 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 21 20 58 FD 10 20 6F 19 69 6E 67 72 65 64
+      - 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 33 00 13 38 00 00 13 38 73 00 00 3C 0F 38
+      - 04 00 0C 38 13 03 13 38 00 00 13 38 73 00 00 3C 13 38 C0 02 0A 38 DA 02 19 69 6E 67 72 65 64 5F
+      - 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 33 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00
+      - 00 13 38 73 00 00 3C 13 38 F7 02 0A 38 11 03 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72
+      - 75 73 6D 65 61 74 5F 30 33 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 21 20 58 FD 10 20 6F
+      - 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 34 00 13 38 00 00 13
+      - 38 73 00 00 3C 0F 38 04 00 0C 38 BA 03 13 38 00 00 13 38 73 00 00 3C 13 38 67 03 0A 38 81 03 19
+      - 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 34 0C 01 06 70 6C 61 79
+      - 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 9E 03 0A 38 B8 03 19 69 6E 67 72 65 64 5F 36 74
+      - 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 34 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00
+      - 21 20 58 FD 10 20 6F 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30
+      - 35 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 61 04 13 38 00 00 13 38 73 00 00 3C 13 38
+      - 0E 04 0A 38 28 04 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 35
+      - 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 45 04 0A 38 5F 04 19 69 6E
+      - 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 35 28 3C 0C 01 06 70 6C 61 79
+      - 65 72 05 01 73 01 00 21 20 58 FD 10 20 6F 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75
+      - 73 6D 65 61 74 5F 30 36 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 08 05 13 38 00 00 13
+      - 38 73 00 00 3C 13 38 B5 04 0A 38 CF 04 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73
+      - 6D 65 61 74 5F 30 36 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 EC 04
+      - 0A 38 06 05 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 36 28 3C
+      - 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 21 20 58 FD 10 20 6F 19 69 6E 67 72 65 64 5F 36 74 68
+      - 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 37 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38
+      - AF 05 13 38 00 00 13 38 73 00 00 3C 13 38 5C 05 0A 38 76 05 19 69 6E 67 72 65 64 5F 36 74 68 5F
+      - 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 37 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73
+      - 00 00 3C 13 38 93 05 0A 38 AD 05 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65
+      - 61 74 5F 30 37 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1B 20 58 FD 10 20 6F 13 69 6E 67
+      - 72 65 64 5F 61 6C 69 74 5F 68 69 64 65 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C
+      - 38 44 06 13 38 00 00 13 38 73 00 00 3C 13 38 FD 05 0A 38 11 06 13 69 6E 67 72 65 64 5F 61 6C 69
+      - 74 5F 68 69 64 65 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38
+      - 2E 06 0A 38 42 06 13 69 6E 67 72 65 64 5F 61 6C 69 74 5F 68 69 64 65 5F 30 31 28 3C 0C 01 06 70
+      - 6C 61 79 65 72 05 01 73 01 00 1B 20 58 FD 10 20 6F 13 69 6E 67 72 65 64 5F 61 73 68 5F 73 61 6C
+      - 74 73 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 D9 06 13 38 00 00 13 38 73 00
+      - 00 3C 13 38 92 06 0A 38 A6 06 13 69 6E 67 72 65 64 5F 61 73 68 5F 73 61 6C 74 73 5F 30 31 0C 01
+      - 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 C3 06 0A 38 D7 06 13 69 6E 67 72
+      - 65 64 5F 61 73 68 5F 73 61 6C 74 73 5F 30 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 19
+      - 20 58 FD 10 20 6F 11 69 6E 67 72 65 64 5F 61 73 68 5F 79 61 6D 5F 30 31 00 13 38 00 00 13 38 73
+      - 00 00 3C 0F 38 04 00 0C 38 68 07 13 38 00 00 13 38 73 00 00 3C 13 38 25 07 0A 38 37 07 11 69 6E
+      - 67 72 65 64 5F 61 73 68 5F 79 61 6D 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38
+      - 73 00 00 3C 13 38 54 07 0A 38 66 07 11 69 6E 67 72 65 64 5F 61 73 68 5F 79 61 6D 5F 30 31 28 3C
+      - 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1D 20 58 FD 10 20 6F 15 69 6E 67 72 65 64 5F 62 63 5F
+      - 61 6D 70 6F 75 6C 65 5F 70 6F 64 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 03 08 13 38
+      - 00 00 13 38 73 00 00 3C 13 38 B8 07 0A 38 CE 07 15 69 6E 67 72 65 64 5F 62 63 5F 61 6D 70 6F 75
+      - 6C 65 5F 70 6F 64 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 EB 07 0A
+      - 38 01 08 15 69 6E 67 72 65 64 5F 62 63 5F 61 6D 70 6F 75 6C 65 5F 70 6F 64 28 3C 0C 01 06 70 6C
+      - 61 79 65 72 05 01 73 01 00 20 20 58 FD 10 20 6F 18 69 6E 67 72 65 64 5F 62 63 5F 62 75 6E 67 6C
+      - 65 72 27 73 5F 62 61 6E 65 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 A9 08 13 38 00 00
+      - 13 38 73 00 00 3C 13 38 56 08 0A 38 70 08 18 69 6E 67 72 65 64 5F 62 63 5F 62 75 6E 67 6C 65 72
+      - 27 73 5F 62 61 6E 65 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 8D
+      - 08 0A 38 A7 08 18 69 6E 67 72 65 64 5F 62 63 5F 62 75 6E 67 6C 65 72 27 73 5F 62 61 6E 65 00 28
+      - 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1D 20 58 FD 10 20 6F 15 69 6E 67 72 65 64 5F 62 63
+      - 5F 63 6F 64 61 5F 66 6C 6F 77 65 72 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 44 09 13
+      - 38 00 00 13 38 73 00 00 3C 13 38 F9 08 0A 38 0F 09 15 69 6E 67 72 65 64 5F 62 63 5F 63 6F 64 61
+      - 5F 66 6C 6F 77 65 72 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 2C 09
+      - 0A 38 42 09 15 69 6E 67 72 65 64 5F 62 63 5F 63 6F 64 61 5F 66 6C 6F 77 65 72 28 3C 0C 01 06 70
+      - 6C 61 79 65 72 05 01 73 01 00 1D 20 58 FD 10 20 6F 15 69 6E 67 72 65 64 5F 62 63 5F 68 79 70 68
+      - 61 5F 66 61 63 69 61 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 DF 09 13 38 00 00 13 38
+      - 73 00 00 3C 13 38 94 09 0A 38 AA 09 15 69 6E 67 72 65 64 5F 62 63 5F 68 79 70 68 61 5F 66 61 63
+      - 69 61 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 C7 09 0A 38 DD 09 15
+      - 69 6E 67 72 65 64 5F 62 63 5F 68 79 70 68 61 5F 66 61 63 69 61 28 3C 0C 01 06 70 6C 61 79 65 72
+      - 05 01 73 01 00 1B 20 58 FD 10 20 6F 13 69 6E 67 72 65 64 5F 62 63 5F 73 70 6F 72 65 5F 70 6F 64
+      - 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 74 0A 13 38 00 00 13 38 73 00 00 3C 13 38 2D
+      - 0A 0A 38 41 0A 13 69 6E 67 72 65 64 5F 62 63 5F 73 70 6F 72 65 5F 70 6F 64 0C 01 06 70 6C 61 79
+      - 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 5E 0A 0A 38 72 0A 13 69 6E 67 72 65 64 5F 62 63
+      - 5F 73 70 6F 72 65 5F 70 6F 64 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 24 20 58 FD 10 20
+      - 6F 1C 69 6E 67 72 65 64 5F 62 69 74 74 65 72 67 72 65 65 6E 5F 70 65 74 61 6C 73 5F 30 31 00 13
+      - 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 26 0B 13 38 00 00 13 38 73 00 00 3C 13 38 CB 0A 0A
+      - 38 E9 0A 1C 69 6E 67 72 65 64 5F 62 69 74 74 65 72 67 72 65 65 6E 5F 70 65 74 61 6C 73 5F 30 31
+      - 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 06 0B 0A 38 24 0B 1C 69
+      - 6E 67 72 65 64 5F 62 69 74 74 65 72 67 72 65 65 6E 5F 70 65 74 61 6C 73 5F 30 31 00 28 3C 0C 01
+      - 06 70 6C 61 79 65 72 05 01 73 01 00 1E 20 58 FD 10 20 6F 16 69 6E 67 72 65 64 5F 62 6C 61 63 6B
+      - 5F 61 6E 74 68 65 72 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 C6 0B 13 38 00
+      - 00 13 38 73 00 00 3C 13 38 77 0B 0A 38 8F 0B 16 69 6E 67 72 65 64 5F 62 6C 61 63 6B 5F 61 6E 74
+      - 68 65 72 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 AC 0B
+      - 0A 38 C4 0B 16 69 6E 67 72 65 64 5F 62 6C 61 63 6B 5F 61 6E 74 68 65 72 5F 30 31 00 28 3C 0C 01
+      - 06 70 6C 61 79 65 72 05 01 73 01 00 1E 20 58 FD 10 20 6F 16 69 6E 67 72 65 64 5F 62 6C 61 63 6B
+      - 5F 6C 69 63 68 65 6E 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 66 0C 13 38 00
+      - 00 13 38 73 00 00 3C 13 38 17 0C 0A 38 2F 0C 16 69 6E 67 72 65 64 5F 62 6C 61 63 6B 5F 6C 69 63
+      - 68 65 6E 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 4C 0C
+      - 0A 38 64 0C 16 69 6E 67 72 65 64 5F 62 6C 61 63 6B 5F 6C 69 63 68 65 6E 5F 30 31 00 28 3C 0C 01
+      - 06 70 6C 61 79 65 72 05 01 73 01 00 17 20 58 FD 10 20 6F 0F 69 6E 67 72 65 64 5F 62 6C 6F 61 74
+      - 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 EF 0C 13 38 00 00 13 38 73 00 00 3C
+      - 13 38 B0 0C 0A 38 C0 0C 0F 69 6E 67 72 65 64 5F 62 6C 6F 61 74 5F 30 31 0C 01 06 70 6C 61 79 65
+      - 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 DD 0C 0A 38 ED 0C 0F 69 6E 67 72 65 64 5F 62 6C 6F
+      - 61 74 5F 30 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1A 20 58 FD 10 20 6F 12 69 6E 67
+      - 72 65 64 5F 62 6F 6E 65 6D 65 61 6C 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38
+      - 83 0D 13 38 00 00 13 38 73 00 00 3C 13 38 3C 0D 0A 38 50 0D 12 69 6E 67 72 65 64 5F 62 6F 6E 65
+      - 6D 65 61 6C 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 6D
+      - 0D 0A 38 81 0D 12 69 6E 67 72 65 64 5F 62 6F 6E 65 6D 65 61 6C 5F 30 31 00 28 3C 0C 01 06 70 6C
+      - 61 79 65 72 05 01 73 01 00 17 20 58 FD 10 20 6F 0F 69 6E 67 72 65 64 5F 62 72 65 61 64 5F 30 31
+      - 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 0C 0E 13 38 00 00 13 38 73 00 00 3C 13 38 CD
+      - 0D 0A 38 DD 0D 0F 69 6E 67 72 65 64 5F 62 72 65 61 64 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C
+      - 13 38 00 00 13 38 73 00 00 3C 13 38 FA 0D 0A 38 0A 0E 0F 69 6E 67 72 65 64 5F 62 72 65 61 64 5F
+      - 30 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1C 20 58 FD 10 20 6F 14 69 6E 67 72 65 64
+      - 5F 62 72 65 61 64 5F 30 31 5F 55 4E 49 32 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 A6
+      - 0E 13 38 00 00 13 38 73 00 00 3C 13 38 5B 0E 0A 38 71 0E 14 69 6E 67 72 65 64 5F 62 72 65 61 64
+      - 5F 30 31 5F 55 4E 49 32 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38
+      - 8E 0E 0A 38 A4 0E 14 69 6E 67 72 65 64 5F 62 72 65 61 64 5F 30 31 5F 55 4E 49 32 00 28 3C 0C 01
+      - 06 70 6C 61 79 65 72 05 01 73 01 00 1C 20 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 62 72 65 61 64
+      - 5F 30 31 5F 55 4E 49 33 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 40 0F 13 38 00 00 13
+      - 38 73 00 00 3C 13 38 F5 0E 0A 38 0B 0F 14 69 6E 67 72 65 64 5F 62 72 65 61 64 5F 30 31 5F 55 4E
+      - 49 33 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 28 0F 0A 38 3E 0F
+      - 14 69 6E 67 72 65 64 5F 62 72 65 61 64 5F 30 31 5F 55 4E 49 33 00 28 3C 0C 01 06 70 6C 61 79 65
+      - 72 05 01 73 01 00 1B 20 58 FD 10 20 6F 13 69 6E 67 72 65 64 5F 63 68 6F 6B 65 77 65 65 64 5F 30
+      - 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 D5 0F 13 38 00 00 13 38 73 00 00 3C 13 38
+      - 8E 0F 0A 38 A2 0F 13 69 6E 67 72 65 64 5F 63 68 6F 6B 65 77 65 65 64 5F 30 31 0C 01 06 70 6C 61
+      - 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 BF 0F 0A 38 D3 0F 13 69 6E 67 72 65 64 5F 63
+      - 68 6F 6B 65 77 65 65 64 5F 30 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1A 20 58 FD 10
+      - 20 6F 12 69 6E 67 72 65 64 5F 63 6F 6D 62 65 72 72 79 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C
+      - 0F 38 04 00 0C 38 69 10 13 38 00 00 13 38 73 00 00 3C 13 38 22 10 0A 38 36 10 12 69 6E 67 72 65
+      - 64 5F 63 6F 6D 62 65 72 72 79 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73
+      - 00 00 3C 13 38 53 10 0A 38 67 10 12 69 6E 67 72 65 64 5F 63 6F 6D 62 65 72 72 79 5F 30 31 00 28
+      - 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1A 20 58 FD 10 20 6F 12 69 6E 67 72 65 64 5F 63 6F
+      - 70 72 69 6E 75 73 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 FD 10 13 38 00 00
+      - 13 38 73 00 00 3C 13 38 B6 10 0A 38 CA 10 12 69 6E 67 72 65 64 5F 63 6F 70 72 69 6E 75 73 5F 30
+      - 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 E7 10 0A 38 FB 10 12
+      - 69 6E 67 72 65 64 5F 63 6F 70 72 69 6E 75 73 5F 30 31 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01
+      - 73 01 00 1F 20 58 FD 10 20 6F 17 69 6E 67 72 65 64 5F 63 6F 72 6B 62 75 6C 62 5F 72 6F 6F 74 5F
+      - 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 9E 11 13 38 00 00 13 38 73 00 00 3C 13
+      - 38 4F 11 0A 38 67 11 17 69 6E 67 72 65 64 5F 63 6F 72 6B 62 75 6C 62 5F 72 6F 6F 74 5F 30 31 0C
+      - 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 84 11 0A 38 9C 11 17 69 6E 67
+      - 72 65 64 5F 63 6F 72 6B 62 75 6C 62 5F 72 6F 6F 74 5F 30 31 28 3C 0C 01 06 70 6C 61 79 65 72 05
+      - 01 73 01 00 22 20 58 FD 10 20 6F 1A 69 6E 67 72 65 64 5F 63 6F 72 70 72 75 73 5F 77 65 65 70 69
+      - 6E 67 73 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 4A 12 13 38 00 00 13 38 73
+      - 00 00 3C 13 38 F3 11 0A 38 0F 12 1A 69 6E 67 72 65 64 5F 63 6F 72 70 72 75 73 5F 77 65 65 70 69
+      - 6E 67 73 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 2C 12
+      - 0A 38 48 12 1A 69 6E 67 72 65 64 5F 63 6F 72 70 72 75 73 5F 77 65 65 70 69 6E 67 73 5F 30 31 00
+      - 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1B 20 58 FD 10 20 6F 13 69 6E 67 72 65 64 5F 63
+      - 72 61 62 5F 6D 65 61 74 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 DF 12 13 38
+      - 00 00 13 38 73 00 00 3C 13 38 98 12 0A 38 AC 12 13 69 6E 67 72 65 64 5F 63 72 61 62 5F 6D 65 61
+      - 74 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 C9 12 0A 38 DD
+      - 12 13 69 6E 67 72 65 64 5F 63 72 61 62 5F 6D 65 61 74 5F 30 31 28 3C 0C 01 06 70 6C 61 79 65 72
+      - 05 01 73 01 00 1F 20 58 FD 10 20 6F 17 69 6E 67 72 65 64 5F 64 61 65 64 72 61 73 5F 68 65 61 72
+      - 74 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 80 13 13 38 00 00 13 38 73 00 00
+      - 3C 13 38 31 13 0A 38 49 13 17 69 6E 67 72 65 64 5F 64 61 65 64 72 61 73 5F 68 65 61 72 74 5F 30
+      - 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 66 13 0A 38 7E 13 17 69
+      - 6E 67 72 65 64 5F 64 61 65 64 72 61 73 5F 68 65 61 72 74 5F 30 31 28 3C 0C 01 06 70 6C 61 79 65
+      - 72 05 01 73 01 00 1D 20 58 FD 10 20 6F 15 69 6E 67 72 65 64 5F 64 61 65 64 72 61 5F 73 6B 69 6E
+      - 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 1B 14 13 38 00 00 13 38 73 00 00 3C
+      - 13 38 D0 13 0A 38 E6 13 15 69 6E 67 72 65 64 5F 64 61 65 64 72 61 5F 73 6B 69 6E 5F 30 31 0C 01
+      - 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 03 14 0A 38 19 14 15 69 6E 67 72
+      - 65 64 5F 64 61 65 64 72 61 5F 73 6B 69 6E 5F 30 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01
+      - 00 19 20 58 FD 10 20 6F 11 69 6E 67 72 65 64 5F 64 69 61 6D 6F 6E 64 5F 30 31 00 13 38 00 00 13
+      - 38 73 00 00 3C 0F 38 04 00 0C 38 AA 14 13 38 00 00 13 38 73 00 00 3C 13 38 67 14 0A 38 79 14 11
+      - 69 6E 67 72 65 64 5F 64 69 61 6D 6F 6E 64 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00
+      - 13 38 73 00 00 3C 13 38 96 14 0A 38 A8 14 11 69 6E 67 72 65 64 5F 64 69 61 6D 6F 6E 64 5F 30 31
+      - 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1C 20 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 64
+      - 72 65 75 67 68 5F 77 61 78 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 44 15 13
+      - 38 00 00 13 38 73 00 00 3C 13 38 F9 14 0A 38 0F 15 14 69 6E 67 72 65 64 5F 64 72 65 75 67 68 5F
+      - 77 61 78 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 2C 15
+      - 0A 38 42 15 14 69 6E 67 72 65 64 5F 64 72 65 75 67 68 5F 77 61 78 5F 30 31 00 28 3C 0C 01 06 70
+      - 6C 61 79 65 72 05 01 73 01 00 1B 20 58 FD 10 20 6F 13 69 6E 67 72 65 64 5F 65 63 74 6F 70 6C 61
+      - 73 6D 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 D9 15 13 38 00 00 13 38 73 00
+      - 00 3C 13 38 92 15 0A 38 A6 15 13 69 6E 67 72 65 64 5F 65 63 74 6F 70 6C 61 73 6D 5F 30 31 0C 01
+      - 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 C3 15 0A 38 D7 15 13 69 6E 67 72
+      - 65 64 5F 65 63 74 6F 70 6C 61 73 6D 5F 30 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 19
+      - 20 58 FD 10 20 6F 11 69 6E 67 72 65 64 5F 65 6D 65 72 61 6C 64 5F 30 31 00 13 38 00 00 13 38 73
+      - 00 00 3C 0F 38 04 00 0C 38 68 16 13 38 00 00 13 38 73 00 00 3C 13 38 25 16 0A 38 37 16 11 69 6E
+      - 67 72 65 64 5F 65 6D 65 72 61 6C 64 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38
+      - 73 00 00 3C 13 38 54 16 0A 38 66 16 11 69 6E 67 72 65 64 5F 65 6D 65 72 61 6C 64 5F 30 31 28 3C
+      - 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1C 20 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 66 69 72
+      - 65 5F 70 65 74 61 6C 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 02 17 13 38 00
+      - 00 13 38 73 00 00 3C 13 38 B7 16 0A 38 CD 16 14 69 6E 67 72 65 64 5F 66 69 72 65 5F 70 65 74 61
+      - 6C 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 EA 16 0A 38
+      - 00 17 14 69 6E 67 72 65 64 5F 66 69 72 65 5F 70 65 74 61 6C 5F 30 31 00 28 3C 0C 01 06 70 6C 61
+      - 79 65 72 05 01 73 01 00 1C 20 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 66 69 72 65 5F 73 61 6C 74
+      - 73 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 9C 17 13 38 00 00 13 38 73 00 00
+      - 3C 13 38 51 17 0A 38 67 17 14 69 6E 67 72 65 64 5F 66 69 72 65 5F 73 61 6C 74 73 5F 30 31 00 0C
+      - 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 84 17 0A 38 9A 17 14 69 6E 67
+      - 72 65 64 5F 66 69 72 65 5F 73 61 6C 74 73 5F 30 31 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73
+      - 01 00 1D 20 58 FD 10 20 6F 15 69 6E 67 72 65 64 5F 66 72 6F 73 74 5F 73 61 6C 74 73 5F 30 31 00
+      - 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 37 18 13 38 00 00 13 38 73 00 00 3C 13 38 EC 17
+      - 0A 38 02 18 15 69 6E 67 72 65 64 5F 66 72 6F 73 74 5F 73 61 6C 74 73 5F 30 31 0C 01 06 70 6C 61
+      - 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 1F 18 0A 38 35 18 15 69 6E 67 72 65 64 5F 66
+      - 72 6F 73 74 5F 73 61 6C 74 73 5F 30 31 28 3C 1C 10 16 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E
+      - 69 74 53 74 36 5F 73 63 1B 10 16 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 37 5F 73
+      - 63 01 01
+  - SCTX:
+    - begin A1V7_AInitSt1_sx
+    - ''
+    - short temp
+    - ''
+    - set temp to ( player->GetItemCount "food_kwama_egg_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"food_kwama_egg_01\", temp"
+    - "\txAddItem \"food_kwama_egg_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "food_kwama_egg_02" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"food_kwama_egg_02\", temp"
+    - "\txAddItem \"food_kwama_egg_02\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_6th_corprusmeat_01\", temp"
+    - "\txAddItem \"ingred_6th_corprusmeat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_02" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_6th_corprusmeat_02\", temp"
+    - "\txAddItem \"ingred_6th_corprusmeat_02\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_03" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_6th_corprusmeat_03\", temp"
+    - "\txAddItem \"ingred_6th_corprusmeat_03\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_04" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_6th_corprusmeat_04\", temp"
+    - "\txAddItem \"ingred_6th_corprusmeat_04\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_05" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_6th_corprusmeat_05\", temp"
+    - "\txAddItem \"ingred_6th_corprusmeat_05\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_06" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_6th_corprusmeat_06\", temp"
+    - "\txAddItem \"ingred_6th_corprusmeat_06\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_6th_corprusmeat_07" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_6th_corprusmeat_07\", temp"
+    - "\txAddItem \"ingred_6th_corprusmeat_07\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_alit_hide_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_alit_hide_01\", temp"
+    - "\txAddItem \"ingred_alit_hide_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_ash_salts_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_ash_salts_01\", temp"
+    - "\txAddItem \"ingred_ash_salts_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_ash_yam_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_ash_yam_01\", temp"
+    - "\txAddItem \"ingred_ash_yam_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bc_ampoule_pod" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_bc_ampoule_pod\", temp"
+    - "\txAddItem \"ingred_bc_ampoule_pod\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bc_bungler's_bane" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_bc_bungler's_bane\", temp"
+    - "\txAddItem \"ingred_bc_bungler's_bane\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bc_coda_flower" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_bc_coda_flower\", temp"
+    - "\txAddItem \"ingred_bc_coda_flower\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bc_hypha_facia" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_bc_hypha_facia\", temp"
+    - "\txAddItem \"ingred_bc_hypha_facia\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bc_spore_pod" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_bc_spore_pod\", temp"
+    - "\txAddItem \"ingred_bc_spore_pod\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bittergreen_petals_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_bittergreen_petals_01\", temp"
+    - "\txAddItem \"ingred_bittergreen_petals_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_black_anther_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_black_anther_01\", temp"
+    - "\txAddItem \"ingred_black_anther_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_black_lichen_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_black_lichen_01\", temp"
+    - "\txAddItem \"ingred_black_lichen_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bloat_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_bloat_01\", temp"
+    - "\txAddItem \"ingred_bloat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bonemeal_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_bonemeal_01\", temp"
+    - "\txAddItem \"ingred_bonemeal_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bread_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_bread_01\", temp"
+    - "\txAddItem \"ingred_bread_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bread_01_UNI2" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_bread_01_UNI2\", temp"
+    - "\txAddItem \"ingred_bread_01_UNI2\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_bread_01_UNI3" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_bread_01_UNI3\", temp"
+    - "\txAddItem \"ingred_bread_01_UNI3\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_chokeweed_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_chokeweed_01\", temp"
+    - "\txAddItem \"ingred_chokeweed_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_comberry_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_comberry_01\", temp"
+    - "\txAddItem \"ingred_comberry_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_coprinus_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_coprinus_01\", temp"
+    - "\txAddItem \"ingred_coprinus_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_corkbulb_root_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_corkbulb_root_01\", temp"
+    - "\txAddItem \"ingred_corkbulb_root_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_corprus_weepings_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_corprus_weepings_01\", temp"
+    - "\txAddItem \"ingred_corprus_weepings_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_crab_meat_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_crab_meat_01\", temp"
+    - "\txAddItem \"ingred_crab_meat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_daedras_heart_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_daedras_heart_01\", temp"
+    - "\txAddItem \"ingred_daedras_heart_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_daedra_skin_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_daedra_skin_01\", temp"
+    - "\txAddItem \"ingred_daedra_skin_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_diamond_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_diamond_01\", temp"
+    - "\txAddItem \"ingred_diamond_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_dreugh_wax_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_dreugh_wax_01\", temp"
+    - "\txAddItem \"ingred_dreugh_wax_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_ectoplasm_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_ectoplasm_01\", temp"
+    - "\txAddItem \"ingred_ectoplasm_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_emerald_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_emerald_01\", temp"
+    - "\txAddItem \"ingred_emerald_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_fire_petal_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_fire_petal_01\", temp"
+    - "\txAddItem \"ingred_fire_petal_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_fire_salts_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_fire_salts_01\", temp"
+    - "\txAddItem \"ingred_fire_salts_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_frost_salts_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_frost_salts_01\", temp"
+    - "\txAddItem \"ingred_frost_salts_01\", temp"
+    - endif
+    - ''
+    - StopScript A1V7_AInitSt6_sc
+    - StartScript A1V7_AInitSt7_sc
+    - ''
+    - end
+
+- SCPT:
+  - SCHD:
+      name: A1V7_AInitSt7_sc
+      vars:
+        shorts: 1
+        longs: 0
+        floats: 0
+      data_size: 4703
+      var_table_size: 5
+  - SCVR:
+    - temp
+  - SCDT:
+      stmts:
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_ghoul_heart_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_ghoul_heart_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_ghoul_heart_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_gold_kanet_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_gold_kanet_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_gold_kanet_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x18ingred_gold_kanet_unique\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_gold_kanet_unique
+        - 0
+      - func: AddItem
+        args:
+        - ingred_gold_kanet_unique
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_gravedust_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_gravedust_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_gravedust_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x16ingred_green_lichen_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_green_lichen_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_green_lichen_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_guar_hide_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_guar_hide_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_guar_hide_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x17ingred_guar_hide_girith\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_guar_hide_girith
+        - 0
+      - func: AddItem
+        args:
+        - ingred_guar_hide_girith
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x17ingred_guar_hide_marsus\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_guar_hide_marsus
+        - 0
+      - func: AddItem
+        args:
+        - ingred_guar_hide_marsus
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x18ingred_hackle-lo_leaf_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_hackle-lo_leaf_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_hackle-lo_leaf_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x11ingred_heather_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_heather_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_heather_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_hound_meat_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_hound_meat_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_hound_meat_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_human_meat_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_human_meat_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_human_meat_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x16ingred_kagouti_hide_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_kagouti_hide_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_kagouti_hide_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_kresh_fiber_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_kresh_fiber_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_kresh_fiber_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x16ingred_kwama_cuttle_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_kwama_cuttle_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_kwama_cuttle_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_marshmerrow_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_marshmerrow_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_marshmerrow_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_moon_sugar_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_moon_sugar_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_moon_sugar_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x0Eingred_muck_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_muck_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_muck_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x17ingred_netch_leather_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_netch_leather_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_netch_leather_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x0Fingred_pearl_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_pearl_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_pearl_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x16ingred_racer_plumes_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_racer_plumes_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_racer_plumes_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x12ingred_rat_meat_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_rat_meat_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_rat_meat_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_raw_ebony_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_raw_ebony_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_raw_ebony_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_raw_glass_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_raw_glass_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_raw_glass_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x16ingred_raw_glass_tinos\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_raw_glass_tinos
+        - 0
+      - func: AddItem
+        args:
+        - ingred_raw_glass_tinos
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_red_lichen_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_red_lichen_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_red_lichen_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x0Fingred_resin_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_resin_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_resin_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x12ingred_roobrush_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_roobrush_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_roobrush_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x0Eingred_ruby_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_ruby_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_ruby_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x11ingred_russula_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_russula_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_russula_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x12ingred_saltrice_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_saltrice_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_saltrice_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x10ingred_scales_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_scales_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_scales_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_scamp_skin_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_scamp_skin_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_scamp_skin_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_scathecraw_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_scathecraw_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_scathecraw_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_scrap_metal_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_scrap_metal_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_scrap_metal_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_scrib_jelly_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_scrib_jelly_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_scrib_jelly_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_scrib_jelly_02\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_scrib_jelly_02
+        - 0
+      - func: AddItem
+        args:
+        - ingred_scrib_jelly_02
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_scrib_jerky_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_scrib_jerky_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_scrib_jerky_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x11ingred_scuttle_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_scuttle_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_scuttle_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_shalk_resin_01\0"
+      - func: If
+        args:
+        - 2
+        - " s\x01\0 != 0"
+      - func: SetRef
+        args: player
+      - func: RemoveItem
+        args:
+        - ingred_shalk_resin_01
+        - 0
+      - func: AddItem
+        args:
+        - ingred_shalk_resin_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: StopScript
+        args: A1V7_AInitSt7_sc
+      - func: StartScript
+        args: A1V7_AInitSt10_sc
+      - func: End
+        args: null
+      raw: []
+  - SCTX:
+    - begin A1V7_AInitSt7_sc
+    - ''
+    - short temp
+    - ''
+    - set temp to ( player->GetItemCount "ingred_ghoul_heart_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_ghoul_heart_01\", temp"
+    - "\tAddItem \"ingred_ghoul_heart_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_gold_kanet_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_gold_kanet_01\", temp"
+    - "\tAddItem \"ingred_gold_kanet_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_gold_kanet_unique" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_gold_kanet_unique\", temp"
+    - "\tAddItem \"ingred_gold_kanet_unique\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_gravedust_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_gravedust_01\", temp"
+    - "\tAddItem \"ingred_gravedust_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_green_lichen_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_green_lichen_01\", temp"
+    - "\tAddItem \"ingred_green_lichen_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_guar_hide_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_guar_hide_01\", temp"
+    - "\tAddItem \"ingred_guar_hide_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_guar_hide_girith" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_guar_hide_girith\", temp"
+    - "\tAddItem \"ingred_guar_hide_girith\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_guar_hide_marsus" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_guar_hide_marsus\", temp"
+    - "\tAddItem \"ingred_guar_hide_marsus\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_hackle-lo_leaf_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_hackle-lo_leaf_01\", temp"
+    - "\tAddItem \"ingred_hackle-lo_leaf_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_heather_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_heather_01\", temp"
+    - "\tAddItem \"ingred_heather_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_hound_meat_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_hound_meat_01\", temp"
+    - "\tAddItem \"ingred_hound_meat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_human_meat_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_human_meat_01\", temp"
+    - "\tAddItem \"ingred_human_meat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_kagouti_hide_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_kagouti_hide_01\", temp"
+    - "\tAddItem \"ingred_kagouti_hide_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_kresh_fiber_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_kresh_fiber_01\", temp"
+    - "\tAddItem \"ingred_kresh_fiber_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_kwama_cuttle_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_kwama_cuttle_01\", temp"
+    - "\tAddItem \"ingred_kwama_cuttle_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_marshmerrow_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_marshmerrow_01\", temp"
+    - "\tAddItem \"ingred_marshmerrow_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_moon_sugar_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_moon_sugar_01\", temp"
+    - "\tAddItem \"ingred_moon_sugar_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_muck_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_muck_01\", temp"
+    - "\tAddItem \"ingred_muck_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_netch_leather_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_netch_leather_01\", temp"
+    - "\tAddItem \"ingred_netch_leather_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_pearl_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_pearl_01\", temp"
+    - "\tAddItem \"ingred_pearl_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_racer_plumes_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_racer_plumes_01\", temp"
+    - "\tAddItem \"ingred_racer_plumes_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_rat_meat_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_rat_meat_01\", temp"
+    - "\tAddItem \"ingred_rat_meat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_raw_ebony_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_raw_ebony_01\", temp"
+    - "\tAddItem \"ingred_raw_ebony_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_raw_glass_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_raw_glass_01\", temp"
+    - "\tAddItem \"ingred_raw_glass_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_raw_glass_tinos" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_raw_glass_tinos\", temp"
+    - "\tAddItem \"ingred_raw_glass_tinos\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_red_lichen_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_red_lichen_01\", temp"
+    - "\tAddItem \"ingred_red_lichen_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_resin_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_resin_01\", temp"
+    - "\tAddItem \"ingred_resin_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_roobrush_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_roobrush_01\", temp"
+    - "\tAddItem \"ingred_roobrush_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_ruby_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_ruby_01\", temp"
+    - "\tAddItem \"ingred_ruby_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_russula_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_russula_01\", temp"
+    - "\tAddItem \"ingred_russula_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_saltrice_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_saltrice_01\", temp"
+    - "\tAddItem \"ingred_saltrice_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scales_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_scales_01\", temp"
+    - "\tAddItem \"ingred_scales_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scamp_skin_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_scamp_skin_01\", temp"
+    - "\tAddItem \"ingred_scamp_skin_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scathecraw_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_scathecraw_01\", temp"
+    - "\tAddItem \"ingred_scathecraw_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scrap_metal_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_scrap_metal_01\", temp"
+    - "\tAddItem \"ingred_scrap_metal_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scrib_jelly_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_scrib_jelly_01\", temp"
+    - "\tAddItem \"ingred_scrib_jelly_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scrib_jelly_02" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_scrib_jelly_02\", temp"
+    - "\tAddItem \"ingred_scrib_jelly_02\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scrib_jerky_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_scrib_jerky_01\", temp"
+    - "\tAddItem \"ingred_scrib_jerky_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scuttle_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_scuttle_01\", temp"
+    - "\tAddItem \"ingred_scuttle_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_shalk_resin_01" )
+    - if ( temp != 0 )
+    - "\tplayer->RemoveItem \"ingred_shalk_resin_01\", temp"
+    - "\tAddItem \"ingred_shalk_resin_01\", temp"
+    - endif
+    - ''
+    - StopScript A1V7_AInitSt7_sc
+    - StartScript A1V7_AInitSt10_sc
+    - ''
+    - end
+
+- SCPT:
+  - SCHD:
+      name: A1V7_AInitSt7_sx
+      vars:
+        shorts: 1
+        longs: 0
+        floats: 0
+      data_size: 6143
+      var_table_size: 5
+  - SCVR:
+    - temp
+  - SCDT:
+      stmts:
+      - func: SetRef
+        args: player
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_ghoul_heart_01\0"
+      - func: MwsePushS
+        args: 0
+      - func: MwsePushS
+        args: 115
+      - func: MwseGetLocal
+        args: null
+      - func: MwsePop
+        args: 4
+      - func: MwseJumpShortZero
+        args: 155
+      - func: MwsePushS
+        args: 0
+      - func: MwsePushS
+        args: 115
+      - func: MwseGetLocal
+        args: null
+      - func: MwsePushS
+        args: 80
+      raw:
+      - 0A 38 66 00 15 69 6E 67 72 65 64 5F 67 68 6F 75 6C 5F 68 65 61 72 74 5F 30 31 0C 01 06 70 6C 61
+      - 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 83 00 0A 38 99 00 15 69 6E 67 72 65 64 5F 67
+      - 68 6F 75 6C 5F 68 65 61 72 74 5F 30 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1C 20 58
+      - FD 10 20 6F 14 69 6E 67 72 65 64 5F 67 6F 6C 64 5F 6B 61 6E 65 74 5F 30 31 00 13 38 00 00 13 38
+      - 73 00 00 3C 0F 38 04 00 0C 38 35 01 13 38 00 00 13 38 73 00 00 3C 13 38 EA 00 0A 38 00 01 14 69
+      - 6E 67 72 65 64 5F 67 6F 6C 64 5F 6B 61 6E 65 74 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13
+      - 38 00 00 13 38 73 00 00 3C 13 38 1D 01 0A 38 33 01 14 69 6E 67 72 65 64 5F 67 6F 6C 64 5F 6B 61
+      - 6E 65 74 5F 30 31 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 20 20 58 FD 10 20 6F 18 69
+      - 6E 67 72 65 64 5F 67 6F 6C 64 5F 6B 61 6E 65 74 5F 75 6E 69 71 75 65 00 13 38 00 00 13 38 73 00
+      - 00 3C 0F 38 04 00 0C 38 DB 01 13 38 00 00 13 38 73 00 00 3C 13 38 88 01 0A 38 A2 01 18 69 6E 67
+      - 72 65 64 5F 67 6F 6C 64 5F 6B 61 6E 65 74 5F 75 6E 69 71 75 65 00 0C 01 06 70 6C 61 79 65 72 29
+      - 3C 13 38 00 00 13 38 73 00 00 3C 13 38 BF 01 0A 38 D9 01 18 69 6E 67 72 65 64 5F 67 6F 6C 64 5F
+      - 6B 61 6E 65 74 5F 75 6E 69 71 75 65 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1B 20 58
+      - FD 10 20 6F 13 69 6E 67 72 65 64 5F 67 72 61 76 65 64 75 73 74 5F 30 31 00 13 38 00 00 13 38 73
+      - 00 00 3C 0F 38 04 00 0C 38 70 02 13 38 00 00 13 38 73 00 00 3C 13 38 29 02 0A 38 3D 02 13 69 6E
+      - 67 72 65 64 5F 67 72 61 76 65 64 75 73 74 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00
+      - 13 38 73 00 00 3C 13 38 5A 02 0A 38 6E 02 13 69 6E 67 72 65 64 5F 67 72 61 76 65 64 75 73 74 5F
+      - 30 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1E 20 58 FD 10 20 6F 16 69 6E 67 72 65 64
+      - 5F 67 72 65 65 6E 5F 6C 69 63 68 65 6E 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C
+      - 38 10 03 13 38 00 00 13 38 73 00 00 3C 13 38 C1 02 0A 38 D9 02 16 69 6E 67 72 65 64 5F 67 72 65
+      - 65 6E 5F 6C 69 63 68 65 6E 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00
+      - 00 3C 13 38 F6 02 0A 38 0E 03 16 69 6E 67 72 65 64 5F 67 72 65 65 6E 5F 6C 69 63 68 65 6E 5F 30
+      - 31 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1B 20 58 FD 10 20 6F 13 69 6E 67 72 65 64
+      - 5F 67 75 61 72 5F 68 69 64 65 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 A5 03
+      - 13 38 00 00 13 38 73 00 00 3C 13 38 5E 03 0A 38 72 03 13 69 6E 67 72 65 64 5F 67 75 61 72 5F 68
+      - 69 64 65 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 8F 03 0A
+      - 38 A3 03 13 69 6E 67 72 65 64 5F 67 75 61 72 5F 68 69 64 65 5F 30 31 28 3C 0C 01 06 70 6C 61 79
+      - 65 72 05 01 73 01 00 1F 20 58 FD 10 20 6F 17 69 6E 67 72 65 64 5F 67 75 61 72 5F 68 69 64 65 5F
+      - 67 69 72 69 74 68 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 46 04 13 38 00 00 13 38 73
+      - 00 00 3C 13 38 F7 03 0A 38 0F 04 17 69 6E 67 72 65 64 5F 67 75 61 72 5F 68 69 64 65 5F 67 69 72
+      - 69 74 68 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 2C 04 0A 38 44 04
+      - 17 69 6E 67 72 65 64 5F 67 75 61 72 5F 68 69 64 65 5F 67 69 72 69 74 68 28 3C 0C 01 06 70 6C 61
+      - 79 65 72 05 01 73 01 00 1F 20 58 FD 10 20 6F 17 69 6E 67 72 65 64 5F 67 75 61 72 5F 68 69 64 65
+      - 5F 6D 61 72 73 75 73 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 E7 04 13 38 00 00 13 38
+      - 73 00 00 3C 13 38 98 04 0A 38 B0 04 17 69 6E 67 72 65 64 5F 67 75 61 72 5F 68 69 64 65 5F 6D 61
+      - 72 73 75 73 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 CD 04 0A 38 E5
+      - 04 17 69 6E 67 72 65 64 5F 67 75 61 72 5F 68 69 64 65 5F 6D 61 72 73 75 73 28 3C 0C 01 06 70 6C
+      - 61 79 65 72 05 01 73 01 00 20 20 58 FD 10 20 6F 18 69 6E 67 72 65 64 5F 68 61 63 6B 6C 65 2D 6C
+      - 6F 5F 6C 65 61 66 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 8D 05 13 38 00 00
+      - 13 38 73 00 00 3C 13 38 3A 05 0A 38 54 05 18 69 6E 67 72 65 64 5F 68 61 63 6B 6C 65 2D 6C 6F 5F
+      - 6C 65 61 66 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 71
+      - 05 0A 38 8B 05 18 69 6E 67 72 65 64 5F 68 61 63 6B 6C 65 2D 6C 6F 5F 6C 65 61 66 5F 30 31 00 28
+      - 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 19 20 58 FD 10 20 6F 11 69 6E 67 72 65 64 5F 68 65
+      - 61 74 68 65 72 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 1C 06 13 38 00 00 13
+      - 38 73 00 00 3C 13 38 D9 05 0A 38 EB 05 11 69 6E 67 72 65 64 5F 68 65 61 74 68 65 72 5F 30 31 0C
+      - 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 08 06 0A 38 1A 06 11 69 6E 67
+      - 72 65 64 5F 68 65 61 74 68 65 72 5F 30 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1C 20
+      - 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 68 6F 75 6E 64 5F 6D 65 61 74 5F 30 31 00 13 38 00 00 13
+      - 38 73 00 00 3C 0F 38 04 00 0C 38 B6 06 13 38 00 00 13 38 73 00 00 3C 13 38 6B 06 0A 38 81 06 14
+      - 69 6E 67 72 65 64 5F 68 6F 75 6E 64 5F 6D 65 61 74 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C
+      - 13 38 00 00 13 38 73 00 00 3C 13 38 9E 06 0A 38 B4 06 14 69 6E 67 72 65 64 5F 68 6F 75 6E 64 5F
+      - 6D 65 61 74 5F 30 31 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1C 20 58 FD 10 20 6F 14
+      - 69 6E 67 72 65 64 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F
+      - 38 04 00 0C 38 50 07 13 38 00 00 13 38 73 00 00 3C 13 38 05 07 0A 38 1B 07 14 69 6E 67 72 65 64
+      - 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38
+      - 73 00 00 3C 13 38 38 07 0A 38 4E 07 14 69 6E 67 72 65 64 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30
+      - 31 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1E 20 58 FD 10 20 6F 16 69 6E 67 72 65 64
+      - 5F 6B 61 67 6F 75 74 69 5F 68 69 64 65 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C
+      - 38 F0 07 13 38 00 00 13 38 73 00 00 3C 13 38 A1 07 0A 38 B9 07 16 69 6E 67 72 65 64 5F 6B 61 67
+      - 6F 75 74 69 5F 68 69 64 65 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00
+      - 00 3C 13 38 D6 07 0A 38 EE 07 16 69 6E 67 72 65 64 5F 6B 61 67 6F 75 74 69 5F 68 69 64 65 5F 30
+      - 31 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1D 20 58 FD 10 20 6F 15 69 6E 67 72 65 64
+      - 5F 6B 72 65 73 68 5F 66 69 62 65 72 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38
+      - 8B 08 13 38 00 00 13 38 73 00 00 3C 13 38 40 08 0A 38 56 08 15 69 6E 67 72 65 64 5F 6B 72 65 73
+      - 68 5F 66 69 62 65 72 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13
+      - 38 73 08 0A 38 89 08 15 69 6E 67 72 65 64 5F 6B 72 65 73 68 5F 66 69 62 65 72 5F 30 31 28 3C 0C
+      - 01 06 70 6C 61 79 65 72 05 01 73 01 00 1E 20 58 FD 10 20 6F 16 69 6E 67 72 65 64 5F 6B 77 61 6D
+      - 61 5F 63 75 74 74 6C 65 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 2B 09 13 38
+      - 00 00 13 38 73 00 00 3C 13 38 DC 08 0A 38 F4 08 16 69 6E 67 72 65 64 5F 6B 77 61 6D 61 5F 63 75
+      - 74 74 6C 65 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 11
+      - 09 0A 38 29 09 16 69 6E 67 72 65 64 5F 6B 77 61 6D 61 5F 63 75 74 74 6C 65 5F 30 31 00 28 3C 0C
+      - 01 06 70 6C 61 79 65 72 05 01 73 01 00 1D 20 58 FD 10 20 6F 15 69 6E 67 72 65 64 5F 6D 61 72 73
+      - 68 6D 65 72 72 6F 77 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 C6 09 13 38 00
+      - 00 13 38 73 00 00 3C 13 38 7B 09 0A 38 91 09 15 69 6E 67 72 65 64 5F 6D 61 72 73 68 6D 65 72 72
+      - 6F 77 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 AE 09 0A 38
+      - C4 09 15 69 6E 67 72 65 64 5F 6D 61 72 73 68 6D 65 72 72 6F 77 5F 30 31 28 3C 0C 01 06 70 6C 61
+      - 79 65 72 05 01 73 01 00 1C 20 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 6D 6F 6F 6E 5F 73 75 67 61
+      - 72 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 60 0A 13 38 00 00 13 38 73 00 00
+      - 3C 13 38 15 0A 0A 38 2B 0A 14 69 6E 67 72 65 64 5F 6D 6F 6F 6E 5F 73 75 67 61 72 5F 30 31 00 0C
+      - 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 48 0A 0A 38 5E 0A 14 69 6E 67
+      - 72 65 64 5F 6D 6F 6F 6E 5F 73 75 67 61 72 5F 30 31 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73
+      - 01 00 16 20 58 FD 10 20 6F 0E 69 6E 67 72 65 64 5F 6D 75 63 6B 5F 30 31 00 13 38 00 00 13 38 73
+      - 00 00 3C 0F 38 04 00 0C 38 E8 0A 13 38 00 00 13 38 73 00 00 3C 13 38 A9 0A 0A 38 B9 0A 0E 69 6E
+      - 67 72 65 64 5F 6D 75 63 6B 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00
+      - 00 3C 13 38 D6 0A 0A 38 E6 0A 0E 69 6E 67 72 65 64 5F 6D 75 63 6B 5F 30 31 00 28 3C 0C 01 06 70
+      - 6C 61 79 65 72 05 01 73 01 00 1F 20 58 FD 10 20 6F 17 69 6E 67 72 65 64 5F 6E 65 74 63 68 5F 6C
+      - 65 61 74 68 65 72 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 89 0B 13 38 00 00
+      - 13 38 73 00 00 3C 13 38 3A 0B 0A 38 52 0B 17 69 6E 67 72 65 64 5F 6E 65 74 63 68 5F 6C 65 61 74
+      - 68 65 72 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 6F 0B 0A
+      - 38 87 0B 17 69 6E 67 72 65 64 5F 6E 65 74 63 68 5F 6C 65 61 74 68 65 72 5F 30 31 28 3C 0C 01 06
+      - 70 6C 61 79 65 72 05 01 73 01 00 17 20 58 FD 10 20 6F 0F 69 6E 67 72 65 64 5F 70 65 61 72 6C 5F
+      - 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 12 0C 13 38 00 00 13 38 73 00 00 3C 13
+      - 38 D3 0B 0A 38 E3 0B 0F 69 6E 67 72 65 64 5F 70 65 61 72 6C 5F 30 31 0C 01 06 70 6C 61 79 65 72
+      - 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 00 0C 0A 38 10 0C 0F 69 6E 67 72 65 64 5F 70 65 61 72
+      - 6C 5F 30 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1E 20 58 FD 10 20 6F 16 69 6E 67 72
+      - 65 64 5F 72 61 63 65 72 5F 70 6C 75 6D 65 73 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04
+      - 00 0C 38 B2 0C 13 38 00 00 13 38 73 00 00 3C 13 38 63 0C 0A 38 7B 0C 16 69 6E 67 72 65 64 5F 72
+      - 61 63 65 72 5F 70 6C 75 6D 65 73 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38
+      - 73 00 00 3C 13 38 98 0C 0A 38 B0 0C 16 69 6E 67 72 65 64 5F 72 61 63 65 72 5F 70 6C 75 6D 65 73
+      - 5F 30 31 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1A 20 58 FD 10 20 6F 12 69 6E 67 72
+      - 65 64 5F 72 61 74 5F 6D 65 61 74 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 46
+      - 0D 13 38 00 00 13 38 73 00 00 3C 13 38 FF 0C 0A 38 13 0D 12 69 6E 67 72 65 64 5F 72 61 74 5F 6D
+      - 65 61 74 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 30 0D
+      - 0A 38 44 0D 12 69 6E 67 72 65 64 5F 72 61 74 5F 6D 65 61 74 5F 30 31 00 28 3C 0C 01 06 70 6C 61
+      - 79 65 72 05 01 73 01 00 1B 20 58 FD 10 20 6F 13 69 6E 67 72 65 64 5F 72 61 77 5F 65 62 6F 6E 79
+      - 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 DB 0D 13 38 00 00 13 38 73 00 00 3C
+      - 13 38 94 0D 0A 38 A8 0D 13 69 6E 67 72 65 64 5F 72 61 77 5F 65 62 6F 6E 79 5F 30 31 0C 01 06 70
+      - 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 C5 0D 0A 38 D9 0D 13 69 6E 67 72 65 64
+      - 5F 72 61 77 5F 65 62 6F 6E 79 5F 30 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1B 20 58
+      - FD 10 20 6F 13 69 6E 67 72 65 64 5F 72 61 77 5F 67 6C 61 73 73 5F 30 31 00 13 38 00 00 13 38 73
+      - 00 00 3C 0F 38 04 00 0C 38 70 0E 13 38 00 00 13 38 73 00 00 3C 13 38 29 0E 0A 38 3D 0E 13 69 6E
+      - 67 72 65 64 5F 72 61 77 5F 67 6C 61 73 73 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00
+      - 13 38 73 00 00 3C 13 38 5A 0E 0A 38 6E 0E 13 69 6E 67 72 65 64 5F 72 61 77 5F 67 6C 61 73 73 5F
+      - 30 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1E 20 58 FD 10 20 6F 16 69 6E 67 72 65 64
+      - 5F 72 61 77 5F 67 6C 61 73 73 5F 74 69 6E 6F 73 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C
+      - 38 10 0F 13 38 00 00 13 38 73 00 00 3C 13 38 C1 0E 0A 38 D9 0E 16 69 6E 67 72 65 64 5F 72 61 77
+      - 5F 67 6C 61 73 73 5F 74 69 6E 6F 73 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00
+      - 00 3C 13 38 F6 0E 0A 38 0E 0F 16 69 6E 67 72 65 64 5F 72 61 77 5F 67 6C 61 73 73 5F 74 69 6E 6F
+      - 73 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1C 20 58 FD 10 20 6F 14 69 6E 67 72 65 64
+      - 5F 72 65 64 5F 6C 69 63 68 65 6E 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 AA
+      - 0F 13 38 00 00 13 38 73 00 00 3C 13 38 5F 0F 0A 38 75 0F 14 69 6E 67 72 65 64 5F 72 65 64 5F 6C
+      - 69 63 68 65 6E 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38
+      - 92 0F 0A 38 A8 0F 14 69 6E 67 72 65 64 5F 72 65 64 5F 6C 69 63 68 65 6E 5F 30 31 00 28 3C 0C 01
+      - 06 70 6C 61 79 65 72 05 01 73 01 00 17 20 58 FD 10 20 6F 0F 69 6E 67 72 65 64 5F 72 65 73 69 6E
+      - 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 33 10 13 38 00 00 13 38 73 00 00 3C
+      - 13 38 F4 0F 0A 38 04 10 0F 69 6E 67 72 65 64 5F 72 65 73 69 6E 5F 30 31 0C 01 06 70 6C 61 79 65
+      - 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 21 10 0A 38 31 10 0F 69 6E 67 72 65 64 5F 72 65 73
+      - 69 6E 5F 30 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1A 20 58 FD 10 20 6F 12 69 6E 67
+      - 72 65 64 5F 72 6F 6F 62 72 75 73 68 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38
+      - C7 10 13 38 00 00 13 38 73 00 00 3C 13 38 80 10 0A 38 94 10 12 69 6E 67 72 65 64 5F 72 6F 6F 62
+      - 72 75 73 68 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 B1
+      - 10 0A 38 C5 10 12 69 6E 67 72 65 64 5F 72 6F 6F 62 72 75 73 68 5F 30 31 00 28 3C 0C 01 06 70 6C
+      - 61 79 65 72 05 01 73 01 00 16 20 58 FD 10 20 6F 0E 69 6E 67 72 65 64 5F 72 75 62 79 5F 30 31 00
+      - 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 4F 11 13 38 00 00 13 38 73 00 00 3C 13 38 10 11
+      - 0A 38 20 11 0E 69 6E 67 72 65 64 5F 72 75 62 79 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13
+      - 38 00 00 13 38 73 00 00 3C 13 38 3D 11 0A 38 4D 11 0E 69 6E 67 72 65 64 5F 72 75 62 79 5F 30 31
+      - 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 19 20 58 FD 10 20 6F 11 69 6E 67 72 65 64 5F
+      - 72 75 73 73 75 6C 61 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 DE 11 13 38 00
+      - 00 13 38 73 00 00 3C 13 38 9B 11 0A 38 AD 11 11 69 6E 67 72 65 64 5F 72 75 73 73 75 6C 61 5F 30
+      - 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 CA 11 0A 38 DC 11 11 69
+      - 6E 67 72 65 64 5F 72 75 73 73 75 6C 61 5F 30 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00
+      - 1A 20 58 FD 10 20 6F 12 69 6E 67 72 65 64 5F 73 61 6C 74 72 69 63 65 5F 30 31 00 13 38 00 00 13
+      - 38 73 00 00 3C 0F 38 04 00 0C 38 72 12 13 38 00 00 13 38 73 00 00 3C 13 38 2B 12 0A 38 3F 12 12
+      - 69 6E 67 72 65 64 5F 73 61 6C 74 72 69 63 65 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38
+      - 00 00 13 38 73 00 00 3C 13 38 5C 12 0A 38 70 12 12 69 6E 67 72 65 64 5F 73 61 6C 74 72 69 63 65
+      - 5F 30 31 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 18 20 58 FD 10 20 6F 10 69 6E 67 72
+      - 65 64 5F 73 63 61 6C 65 73 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 00 13 13
+      - 38 00 00 13 38 73 00 00 3C 13 38 BD 12 0A 38 CF 12 10 69 6E 67 72 65 64 5F 73 63 61 6C 65 73 5F
+      - 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 EC 12 0A 38 FE 12
+      - 10 69 6E 67 72 65 64 5F 73 63 61 6C 65 73 5F 30 31 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73
+      - 01 00 1C 20 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 73 63 61 6D 70 5F 73 6B 69 6E 5F 30 31 00 13
+      - 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 9A 13 13 38 00 00 13 38 73 00 00 3C 13 38 4F 13 0A
+      - 38 65 13 14 69 6E 67 72 65 64 5F 73 63 61 6D 70 5F 73 6B 69 6E 5F 30 31 00 0C 01 06 70 6C 61 79
+      - 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 82 13 0A 38 98 13 14 69 6E 67 72 65 64 5F 73 63
+      - 61 6D 70 5F 73 6B 69 6E 5F 30 31 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1C 20 58 FD
+      - 10 20 6F 14 69 6E 67 72 65 64 5F 73 63 61 74 68 65 63 72 61 77 5F 30 31 00 13 38 00 00 13 38 73
+      - 00 00 3C 0F 38 04 00 0C 38 34 14 13 38 00 00 13 38 73 00 00 3C 13 38 E9 13 0A 38 FF 13 14 69 6E
+      - 67 72 65 64 5F 73 63 61 74 68 65 63 72 61 77 5F 30 31 00 0C 01 06 70 6C 61 79 65 72 29 3C 13 38
+      - 00 00 13 38 73 00 00 3C 13 38 1C 14 0A 38 32 14 14 69 6E 67 72 65 64 5F 73 63 61 74 68 65 63 72
+      - 61 77 5F 30 31 00 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1D 20 58 FD 10 20 6F 15 69 6E
+      - 67 72 65 64 5F 73 63 72 61 70 5F 6D 65 74 61 6C 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38
+      - 04 00 0C 38 CF 14 13 38 00 00 13 38 73 00 00 3C 13 38 84 14 0A 38 9A 14 15 69 6E 67 72 65 64 5F
+      - 73 63 72 61 70 5F 6D 65 74 61 6C 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73
+      - 00 00 3C 13 38 B7 14 0A 38 CD 14 15 69 6E 67 72 65 64 5F 73 63 72 61 70 5F 6D 65 74 61 6C 5F 30
+      - 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1D 20 58 FD 10 20 6F 15 69 6E 67 72 65 64 5F
+      - 73 63 72 69 62 5F 6A 65 6C 6C 79 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 6A
+      - 15 13 38 00 00 13 38 73 00 00 3C 13 38 1F 15 0A 38 35 15 15 69 6E 67 72 65 64 5F 73 63 72 69 62
+      - 5F 6A 65 6C 6C 79 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38
+      - 52 15 0A 38 68 15 15 69 6E 67 72 65 64 5F 73 63 72 69 62 5F 6A 65 6C 6C 79 5F 30 31 28 3C 0C 01
+      - 06 70 6C 61 79 65 72 05 01 73 01 00 1D 20 58 FD 10 20 6F 15 69 6E 67 72 65 64 5F 73 63 72 69 62
+      - 5F 6A 65 6C 6C 79 5F 30 32 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 05 16 13 38 00 00
+      - 13 38 73 00 00 3C 13 38 BA 15 0A 38 D0 15 15 69 6E 67 72 65 64 5F 73 63 72 69 62 5F 6A 65 6C 6C
+      - 79 5F 30 32 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 ED 15 0A 38 03
+      - 16 15 69 6E 67 72 65 64 5F 73 63 72 69 62 5F 6A 65 6C 6C 79 5F 30 32 28 3C 0C 01 06 70 6C 61 79
+      - 65 72 05 01 73 01 00 1D 20 58 FD 10 20 6F 15 69 6E 67 72 65 64 5F 73 63 72 69 62 5F 6A 65 72 6B
+      - 79 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 A0 16 13 38 00 00 13 38 73 00 00
+      - 3C 13 38 55 16 0A 38 6B 16 15 69 6E 67 72 65 64 5F 73 63 72 69 62 5F 6A 65 72 6B 79 5F 30 31 0C
+      - 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38 88 16 0A 38 9E 16 15 69 6E 67
+      - 72 65 64 5F 73 63 72 69 62 5F 6A 65 72 6B 79 5F 30 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73
+      - 01 00 19 20 58 FD 10 20 6F 11 69 6E 67 72 65 64 5F 73 63 75 74 74 6C 65 5F 30 31 00 13 38 00 00
+      - 13 38 73 00 00 3C 0F 38 04 00 0C 38 2F 17 13 38 00 00 13 38 73 00 00 3C 13 38 EC 16 0A 38 FE 16
+      - 11 69 6E 67 72 65 64 5F 73 63 75 74 74 6C 65 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00
+      - 00 13 38 73 00 00 3C 13 38 1B 17 0A 38 2D 17 11 69 6E 67 72 65 64 5F 73 63 75 74 74 6C 65 5F 30
+      - 31 28 3C 0C 01 06 70 6C 61 79 65 72 05 01 73 01 00 1D 20 58 FD 10 20 6F 15 69 6E 67 72 65 64 5F
+      - 73 68 61 6C 6B 5F 72 65 73 69 6E 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 CA
+      - 17 13 38 00 00 13 38 73 00 00 3C 13 38 7F 17 0A 38 95 17 15 69 6E 67 72 65 64 5F 73 68 61 6C 6B
+      - 5F 72 65 73 69 6E 5F 30 31 0C 01 06 70 6C 61 79 65 72 29 3C 13 38 00 00 13 38 73 00 00 3C 13 38
+      - B2 17 0A 38 C8 17 15 69 6E 67 72 65 64 5F 73 68 61 6C 6B 5F 72 65 73 69 6E 5F 30 31 28 3C 1C 10
+      - 16 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 37 5F 73 63 1B 10 17 41 31 56 31 5F 49
+      - 6E 67 72 42 61 67 49 6E 69 74 53 74 31 30 5F 73 63 01 01
+  - SCTX:
+    - begin A1V7_AInitSt7_sx
+    - ''
+    - short temp
+    - ''
+    - set temp to ( player->GetItemCount "ingred_ghoul_heart_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_ghoul_heart_01\", temp"
+    - "\txAddItem \"ingred_ghoul_heart_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_gold_kanet_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_gold_kanet_01\", temp"
+    - "\txAddItem \"ingred_gold_kanet_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_gold_kanet_unique" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_gold_kanet_unique\", temp"
+    - "\txAddItem \"ingred_gold_kanet_unique\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_gravedust_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_gravedust_01\", temp"
+    - "\txAddItem \"ingred_gravedust_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_green_lichen_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_green_lichen_01\", temp"
+    - "\txAddItem \"ingred_green_lichen_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_guar_hide_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_guar_hide_01\", temp"
+    - "\txAddItem \"ingred_guar_hide_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_guar_hide_girith" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_guar_hide_girith\", temp"
+    - "\txAddItem \"ingred_guar_hide_girith\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_guar_hide_marsus" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_guar_hide_marsus\", temp"
+    - "\txAddItem \"ingred_guar_hide_marsus\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_hackle-lo_leaf_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_hackle-lo_leaf_01\", temp"
+    - "\txAddItem \"ingred_hackle-lo_leaf_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_heather_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_heather_01\", temp"
+    - "\txAddItem \"ingred_heather_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_hound_meat_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_hound_meat_01\", temp"
+    - "\txAddItem \"ingred_hound_meat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_human_meat_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_human_meat_01\", temp"
+    - "\txAddItem \"ingred_human_meat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_kagouti_hide_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_kagouti_hide_01\", temp"
+    - "\txAddItem \"ingred_kagouti_hide_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_kresh_fiber_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_kresh_fiber_01\", temp"
+    - "\txAddItem \"ingred_kresh_fiber_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_kwama_cuttle_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_kwama_cuttle_01\", temp"
+    - "\txAddItem \"ingred_kwama_cuttle_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_marshmerrow_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_marshmerrow_01\", temp"
+    - "\txAddItem \"ingred_marshmerrow_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_moon_sugar_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_moon_sugar_01\", temp"
+    - "\txAddItem \"ingred_moon_sugar_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_muck_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_muck_01\", temp"
+    - "\txAddItem \"ingred_muck_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_netch_leather_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_netch_leather_01\", temp"
+    - "\txAddItem \"ingred_netch_leather_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_pearl_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_pearl_01\", temp"
+    - "\txAddItem \"ingred_pearl_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_racer_plumes_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_racer_plumes_01\", temp"
+    - "\txAddItem \"ingred_racer_plumes_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_rat_meat_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_rat_meat_01\", temp"
+    - "\txAddItem \"ingred_rat_meat_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_raw_ebony_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_raw_ebony_01\", temp"
+    - "\txAddItem \"ingred_raw_ebony_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_raw_glass_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_raw_glass_01\", temp"
+    - "\txAddItem \"ingred_raw_glass_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_raw_glass_tinos" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_raw_glass_tinos\", temp"
+    - "\txAddItem \"ingred_raw_glass_tinos\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_red_lichen_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_red_lichen_01\", temp"
+    - "\txAddItem \"ingred_red_lichen_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_resin_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_resin_01\", temp"
+    - "\txAddItem \"ingred_resin_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_roobrush_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_roobrush_01\", temp"
+    - "\txAddItem \"ingred_roobrush_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_ruby_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_ruby_01\", temp"
+    - "\txAddItem \"ingred_ruby_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_russula_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_russula_01\", temp"
+    - "\txAddItem \"ingred_russula_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_saltrice_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_saltrice_01\", temp"
+    - "\txAddItem \"ingred_saltrice_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scales_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_scales_01\", temp"
+    - "\txAddItem \"ingred_scales_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scamp_skin_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_scamp_skin_01\", temp"
+    - "\txAddItem \"ingred_scamp_skin_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scathecraw_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_scathecraw_01\", temp"
+    - "\txAddItem \"ingred_scathecraw_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scrap_metal_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_scrap_metal_01\", temp"
+    - "\txAddItem \"ingred_scrap_metal_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scrib_jelly_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_scrib_jelly_01\", temp"
+    - "\txAddItem \"ingred_scrib_jelly_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scrib_jelly_02" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_scrib_jelly_02\", temp"
+    - "\txAddItem \"ingred_scrib_jelly_02\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scrib_jerky_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_scrib_jerky_01\", temp"
+    - "\txAddItem \"ingred_scrib_jerky_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_scuttle_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_scuttle_01\", temp"
+    - "\txAddItem \"ingred_scuttle_01\", temp"
+    - endif
+    - set temp to ( player->GetItemCount "ingred_shalk_resin_01" )
+    - ifx ( temp )
+    - "\tplayer->xRemoveItem \"ingred_shalk_resin_01\", temp"
+    - "\txAddItem \"ingred_shalk_resin_01\", temp"
+    - endif
+    - ''
+    - StopScript A1V7_AInitSt7_sc
+    - StartScript A1V7_AInitSt10_sc
+    - ''
+    - end
+- SCPT:
+  - SCHD:
       name: A1V7_ADelPlus
       vars:
         shorts: 1
@@ -3782,7 +7547,7 @@
     - ''
     - if ( OnActivate == 1 )
     - "\tDisablePlayerControls"
-    - '   StartScript A1V7_AInitSt1_sc'
+    - "\tStartScript A1V7_AInitSt1_sc"
     - "\treturn"
     - endif
     - ''
@@ -4418,7 +8183,7 @@
     - ''
     - if ( OnActivate == 1 )
     - "\tDisablePlayerControls"
-    - '   StartScript A1V7_AInitSt1_sc'
+    - "\tStartScript A1V7_AInitSt1_sc"
     - "\treturn"
     - endif
     - ''
@@ -79343,33 +83108,6 @@
   - TEXT:
     - <DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>Ваш навык алхимии вырос.<BR>
     - ''
-
-- SCPT:
-  - SCHD:
-      name: A1V7_AInitSt1_sc
-      vars:
-        shorts: 0
-        longs: 0
-        floats: 0
-      data_size: 49
-      var_table_size: 0
-  - SCVR:
-    - ''
-    - ^
-  - SCDT:
-      stmts:
-      - func: StopScript
-        args: A1V7_AInitSt1_sc
-      - func: StartScript
-        args: A1V7_ApparatusActivate_sc
-      - func: End
-        args: null
-      raw: []
-  - SCTX:
-    - begin A1V7_AInitSt1_sc
-    - "\tStopScript A1V7_AInitSt1_sc"
-    - "\tStartScript A1V7_ApparatusActivate_sc"
-    - end
 
 - SCPT:
   - SCHD:
