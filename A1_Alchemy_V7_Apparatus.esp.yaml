@@ -7,7 +7,7 @@
       - Новая система алхимии, позволяющая создавать стандартные зелья (такие же как в магазинах).
       - ''
       - Версия для использования без MFR.esm
-      records: 605
+      records: 607
   - MAST: Morrowind.esm
   - DATA: 79764287
   - MAST: Tribunal.esm
@@ -75211,24 +75211,16 @@
   - SCHD:
       name: A1V7_ApparatusCont_1_sc
       vars:
-        shorts: 5
-        longs: 7
+        shorts: 4
+        longs: 0
         floats: 13
-      data_size: 1710
-      var_table_size: 208
+      data_size: 1542
+      var_table_size: 139
   - SCVR:
     - doOnce
     - doDisable
-    - doSetUp
     - doActivate
     - waitActivate
-    - invItem
-    - invCount
-    - invRef
-    - tempLong
-    - pcRef
-    - invRefType
-    - invNextRef
     - cx
     - cy
     - cz
@@ -75297,7 +75289,7 @@
       - func: If
         args:
         - 26
-        - " s\x05\0 == 2"
+        - " s\x04\0 == 2"
       - func: If
         args:
         - 2
@@ -75326,14 +75318,14 @@
       - 56 37 5F 43 61 6C 63 41 6C 63 68 65 6D 79 32 20 3D 3D 20 31 05 01 47 11 41 31 56 37 5F 43 61 6C
       - 63 41 6C 63 68 65 6D 79 32 02 20 30 05 01 6D 14 41 31 56 37 5F 43 61 6C 63 41 6C 63 68 65 6D 79
       - 32 5F 73 63 73 02 00 02 20 30 1B 10 14 41 31 56 37 5F 43 61 6C 63 41 6C 63 68 65 6D 79 32 5F 73
-      - 63 09 01 06 01 09 09 20 58 20 10 20 3D 3D 20 30 05 01 73 05 00 02 20 30 DE 10 06 01 03 20 20 58
+      - 63 09 01 06 01 09 09 20 58 20 10 20 3D 3D 20 30 05 01 73 04 00 02 20 30 DE 10 06 01 03 20 20 58
       - FD 10 20 6F 14 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 49 74 65 6D 5F 31 20 3D 3D 20 30 05 01
       - 47 15 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 44 69 73 61 62 6C 65 02 20 31 05 01 73 02 00 02
       - 20 31 1B 10 1B 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 44 65 61 63 74 69 76 61 74 65 5F 73 63
       - 07 01 01 1B 10 12 41 31 56 37 5F 41 44 65 69 6E 69 74 53 74 31 5F 73 63 09 01 09 01 24 01 08 01
-      - 04 09 20 73 05 00 20 3D 3D 20 31 06 01 01 09 20 58 20 10 20 3D 3D 20 31 05 01 73 05 00 02 20 32
+      - 04 09 20 73 04 00 20 3D 3D 20 31 06 01 01 09 20 58 20 10 20 3D 3D 20 31 05 01 73 04 00 02 20 32
       - 09 01 24 01 09 01 06 01 01 09 20 58 20 10 20 3D 3D 20 31 24 01 09 01 13 38 00 00 13 38 73 00 00
-      - 3C 0F 38 04 00 0C 38 A9 02 0A 38 73 05 05 01 47 13 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 45
+      - 3C 0F 38 04 00 0C 38 A9 02 0A 38 BB 05 05 01 47 13 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 45
       - 78 74 5F 31 02 20 31 DE 10 05 01 73 01 00 02 20 31 05 01 66 01 00 13 20 47 0F 41 31 56 37 5F 41
       - 70 70 61 72 61 74 75 73 58 00 05 01 66 02 00 13 20 47 0F 41 31 56 37 5F 41 70 70 61 72 61 74 75
       - 73 59 00 05 01 66 03 00 13 20 47 0F 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 5A 00 0B 10 58 66
@@ -75350,22 +75342,17 @@
       - 07 00 20 2B 05 01 66 06 00 09 20 33 30 20 66 04 00 20 2A 05 01 66 07 00 09 20 32 30 20 66 05 00
       - 20 2A 05 01 66 0C 00 10 20 66 01 00 20 66 06 00 20 2D 20 66 07 00 20 2D 05 01 66 06 00 09 20 33
       - 30 20 66 05 00 20 2A 05 01 66 07 00 09 20 32 30 20 66 04 00 20 2A 05 01 66 0D 00 10 20 66 02 00
-      - 20 66 06 00 20 2B 20 66 07 00 20 2D 2A 3C 13 38 00 00 13 38 6C 00 02 3C 13 38 01 00 13 38 6C 00
-      - 02 3C 13 38 02 00 13 38 6C 00 02 3C 13 38 01 00 13 38 6C 00 00 3C 0F 38 04 00 0C 38 34 05 13 38
-      - 01 00 13 38 6C 00 00 3C 13 38 00 00 13 38 6C 00 00 3C 29 3C 2A 3C 13 38 00 00 13 38 6C 00 02 3C
-      - 13 38 01 00 13 38 6C 00 02 3C 13 38 02 00 13 38 6C 00 02 3C 0A 38 E8 04 D4 10 14 41 31 56 37 5F
-      - 41 70 70 61 72 61 74 75 73 49 74 65 6D 5F 31 01 00 05 01 47 15 41 31 56 37 5F 41 70 70 61 72 61
-      - 74 75 73 44 69 73 61 62 6C 65 02 20 30 05 01 73 03 00 02 20 31 24 01 06 01 04 09 20 73 04 00 20
-      - 3D 3D 20 31 05 01 73 05 00 02 20 31 05 01 73 04 00 02 20 30 17 10 24 01 09 01 06 01 0B 09 20 73
-      - 03 00 20 3D 3D 20 31 05 01 73 03 00 02 20 30 05 01 47 0D 41 31 56 37 5F 41 6C 65 6D 62 69 63 58
-      - 05 20 66 08 00 00 05 01 47 0D 41 31 56 37 5F 41 6C 65 6D 62 69 63 59 05 20 66 09 00 00 05 01 47
-      - 10 41 31 56 37 5F 43 61 6C 63 69 6E 61 74 6F 72 58 05 20 66 0A 00 00 05 01 47 10 41 31 56 37 5F
-      - 43 61 6C 63 69 6E 61 74 6F 72 59 05 20 66 0B 00 00 05 01 47 0C 41 31 56 37 5F 52 65 74 6F 72 74
-      - 58 05 20 66 0C 00 00 05 01 47 0C 41 31 56 37 5F 52 65 74 6F 72 74 59 05 20 66 0D 00 00 05 01 47
-      - 0F 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 5A 05 20 66 03 00 00 05 01 47 13 41 31 56 37 5F 41
-      - 70 70 61 72 61 74 75 73 49 6E 64 65 78 02 20 31 1B 10 13 41 31 56 37 5F 41 70 70 61 72 61 74 75
-      - 73 53 65 74 55 70 24 01 09 01 06 01 03 09 20 58 18 10 20 3D 3D 20 31 DE 10 1B 10 10 41 31 56 37
-      - 5F 41 49 6E 69 74 53 74 31 5F 73 63 24 01 09 01 01 01
+      - 20 66 06 00 20 2B 20 66 07 00 20 2D 05 01 47 15 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 44 69
+      - 73 61 62 6C 65 02 20 30 05 01 47 0D 41 31 56 37 5F 41 6C 65 6D 62 69 63 58 05 20 66 08 00 00 05
+      - 01 47 0D 41 31 56 37 5F 41 6C 65 6D 62 69 63 59 05 20 66 09 00 00 05 01 47 10 41 31 56 37 5F 43
+      - 61 6C 63 69 6E 61 74 6F 72 58 05 20 66 0A 00 00 05 01 47 10 41 31 56 37 5F 43 61 6C 63 69 6E 61
+      - 74 6F 72 59 05 20 66 0B 00 00 05 01 47 0C 41 31 56 37 5F 52 65 74 6F 72 74 58 05 20 66 0C 00 00
+      - 05 01 47 0C 41 31 56 37 5F 52 65 74 6F 72 74 59 05 20 66 0D 00 00 05 01 47 0F 41 31 56 37 5F 41
+      - 70 70 61 72 61 74 75 73 5A 05 20 66 03 00 00 05 01 47 13 41 31 56 37 5F 41 70 70 61 72 61 74 75
+      - 73 49 6E 64 65 78 02 20 31 1B 10 11 41 31 56 37 5F 41 43 6C 65 61 6E 53 74 31 5F 73 63 24 01 06
+      - 01 04 09 20 73 03 00 20 3D 3D 20 31 05 01 73 04 00 02 20 31 05 01 73 03 00 02 20 30 17 10 24 01
+      - 09 01 06 01 03 09 20 58 18 10 20 3D 3D 20 31 DE 10 1B 10 10 41 31 56 37 5F 41 49 6E 69 74 53 74
+      - 31 5F 73 63 24 01 09 01 01 01
   - SCTX:
     - Begin A1V7_ApparatusCont_1_sc
     - ''
@@ -75374,10 +75361,6 @@
     - float cx
     - float cy
     - float cz
-    - long invItem
-    - long invCount
-    - long invRef
-    - long tempLong
     - float aCos
     - float aSin
     - float tempFloat
@@ -75388,11 +75371,7 @@
     - float calcinatorY
     - float retortX
     - float retortY
-    - short doSetUp
     - short doActivate
-    - long pcRef
-    - long invRefType
-    - long invNextRef
     - short waitActivate
     - ''
     - if ( doDisable > 20 )
@@ -75485,26 +75464,7 @@
     - "\tset tempFloat to ( 30 * aSin )"
     - "\tset tempFloat2 to ( 20 * aCos )"
     - "\tset retortY to ( cy + tempFloat - tempFloat2 )"
-    - "\tsetx invItem,invCount,invRef to xInventory"
-    - "\twhilex ( invCount )"
-    - "\t\txRemoveItem invItem invCount"
-    - "\t\tsetx invItem,invCount,invRef to xInventory"
-    - "\tendwhile"
-    - "\tAddItem \"A1V7_ApparatusItem_1\", 1"
     - "\tset A1V7_ApparatusDisable to 0"
-    - "\tset doSetUp to 1"
-    - "\treturn"
-    - endif
-    - ''
-    - if ( doActivate == 1 )
-    - "\tset waitActivate to 1"
-    - "\tset doActivate to 0"
-    - "\tActivate"
-    - "\treturn"
-    - endif
-    - ''
-    - if ( doSetUp == 1 )
-    - "\tset doSetUp to 0"
     - "\tset A1V7_AlembicX to alembicX"
     - "\tset A1V7_AlembicY to alembicY"
     - "\tset A1V7_CalcinatorX to calcinatorX"
@@ -75513,7 +75473,14 @@
     - "\tset A1V7_RetortY to retortY"
     - "\tset A1V7_ApparatusZ to cz"
     - "\tset A1V7_ApparatusIndex to 1"
-    - "\tStartScript A1V7_ApparatusSetUp"
+    - "\tStartScript A1V7_ACleanSt1_sc"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( doActivate == 1 )
+    - "\tset waitActivate to 1"
+    - "\tset doActivate to 0"
+    - "\tActivate"
     - "\treturn"
     - endif
     - ''
@@ -75529,24 +75496,16 @@
   - SCHD:
       name: A1V7_ApparatusCont_2_sc
       vars:
-        shorts: 5
-        longs: 7
+        shorts: 4
+        longs: 0
         floats: 13
-      data_size: 1710
-      var_table_size: 208
+      data_size: 1542
+      var_table_size: 139
   - SCVR:
     - doOnce
     - doDisable
-    - doSetUp
     - doActivate
     - waitActivate
-    - invItem
-    - invCount
-    - invRef
-    - tempLong
-    - pcRef
-    - invRefType
-    - invNextRef
     - cx
     - cy
     - cz
@@ -75615,7 +75574,7 @@
       - func: If
         args:
         - 26
-        - " s\x05\0 == 2"
+        - " s\x04\0 == 2"
       - func: If
         args:
         - 2
@@ -75644,14 +75603,14 @@
       - 56 37 5F 43 61 6C 63 41 6C 63 68 65 6D 79 32 20 3D 3D 20 31 05 01 47 11 41 31 56 37 5F 43 61 6C
       - 63 41 6C 63 68 65 6D 79 32 02 20 30 05 01 6D 14 41 31 56 37 5F 43 61 6C 63 41 6C 63 68 65 6D 79
       - 32 5F 73 63 73 02 00 02 20 30 1B 10 14 41 31 56 37 5F 43 61 6C 63 41 6C 63 68 65 6D 79 32 5F 73
-      - 63 09 01 06 01 09 09 20 58 20 10 20 3D 3D 20 30 05 01 73 05 00 02 20 30 DE 10 06 01 03 20 20 58
+      - 63 09 01 06 01 09 09 20 58 20 10 20 3D 3D 20 30 05 01 73 04 00 02 20 30 DE 10 06 01 03 20 20 58
       - FD 10 20 6F 14 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 49 74 65 6D 5F 32 20 3D 3D 20 30 05 01
       - 47 15 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 44 69 73 61 62 6C 65 02 20 32 05 01 73 02 00 02
       - 20 31 1B 10 1B 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 44 65 61 63 74 69 76 61 74 65 5F 73 63
       - 07 01 01 1B 10 12 41 31 56 37 5F 41 44 65 69 6E 69 74 53 74 31 5F 73 63 09 01 09 01 24 01 08 01
-      - 04 09 20 73 05 00 20 3D 3D 20 31 06 01 01 09 20 58 20 10 20 3D 3D 20 31 05 01 73 05 00 02 20 32
+      - 04 09 20 73 04 00 20 3D 3D 20 31 06 01 01 09 20 58 20 10 20 3D 3D 20 31 05 01 73 04 00 02 20 32
       - 09 01 24 01 09 01 06 01 01 09 20 58 20 10 20 3D 3D 20 31 24 01 09 01 13 38 00 00 13 38 73 00 00
-      - 3C 0F 38 04 00 0C 38 A9 02 0A 38 73 05 05 01 47 13 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 45
+      - 3C 0F 38 04 00 0C 38 A9 02 0A 38 BB 05 05 01 47 13 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 45
       - 78 74 5F 32 02 20 31 DE 10 05 01 73 01 00 02 20 31 05 01 66 01 00 13 20 47 0F 41 31 56 37 5F 41
       - 70 70 61 72 61 74 75 73 58 00 05 01 66 02 00 13 20 47 0F 41 31 56 37 5F 41 70 70 61 72 61 74 75
       - 73 59 00 05 01 66 03 00 13 20 47 0F 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 5A 00 0B 10 58 66
@@ -75668,22 +75627,17 @@
       - 07 00 20 2B 05 01 66 06 00 09 20 33 30 20 66 04 00 20 2A 05 01 66 07 00 09 20 32 30 20 66 05 00
       - 20 2A 05 01 66 0C 00 10 20 66 01 00 20 66 06 00 20 2D 20 66 07 00 20 2D 05 01 66 06 00 09 20 33
       - 30 20 66 05 00 20 2A 05 01 66 07 00 09 20 32 30 20 66 04 00 20 2A 05 01 66 0D 00 10 20 66 02 00
-      - 20 66 06 00 20 2B 20 66 07 00 20 2D 2A 3C 13 38 00 00 13 38 6C 00 02 3C 13 38 01 00 13 38 6C 00
-      - 02 3C 13 38 02 00 13 38 6C 00 02 3C 13 38 01 00 13 38 6C 00 00 3C 0F 38 04 00 0C 38 34 05 13 38
-      - 01 00 13 38 6C 00 00 3C 13 38 00 00 13 38 6C 00 00 3C 29 3C 2A 3C 13 38 00 00 13 38 6C 00 02 3C
-      - 13 38 01 00 13 38 6C 00 02 3C 13 38 02 00 13 38 6C 00 02 3C 0A 38 E8 04 D4 10 14 41 31 56 37 5F
-      - 41 70 70 61 72 61 74 75 73 49 74 65 6D 5F 32 01 00 05 01 47 15 41 31 56 37 5F 41 70 70 61 72 61
-      - 74 75 73 44 69 73 61 62 6C 65 02 20 30 05 01 73 03 00 02 20 31 24 01 06 01 04 09 20 73 04 00 20
-      - 3D 3D 20 31 05 01 73 05 00 02 20 31 05 01 73 04 00 02 20 30 17 10 24 01 09 01 06 01 0B 09 20 73
-      - 03 00 20 3D 3D 20 31 05 01 73 03 00 02 20 30 05 01 47 0D 41 31 56 37 5F 41 6C 65 6D 62 69 63 58
-      - 05 20 66 08 00 00 05 01 47 0D 41 31 56 37 5F 41 6C 65 6D 62 69 63 59 05 20 66 09 00 00 05 01 47
-      - 10 41 31 56 37 5F 43 61 6C 63 69 6E 61 74 6F 72 58 05 20 66 0A 00 00 05 01 47 10 41 31 56 37 5F
-      - 43 61 6C 63 69 6E 61 74 6F 72 59 05 20 66 0B 00 00 05 01 47 0C 41 31 56 37 5F 52 65 74 6F 72 74
-      - 58 05 20 66 0C 00 00 05 01 47 0C 41 31 56 37 5F 52 65 74 6F 72 74 59 05 20 66 0D 00 00 05 01 47
-      - 0F 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 5A 05 20 66 03 00 00 05 01 47 13 41 31 56 37 5F 41
-      - 70 70 61 72 61 74 75 73 49 6E 64 65 78 02 20 32 1B 10 13 41 31 56 37 5F 41 70 70 61 72 61 74 75
-      - 73 53 65 74 55 70 24 01 09 01 06 01 03 09 20 58 18 10 20 3D 3D 20 31 DE 10 1B 10 10 41 31 56 37
-      - 5F 41 49 6E 69 74 53 74 31 5F 73 63 24 01 09 01 01 01
+      - 20 66 06 00 20 2B 20 66 07 00 20 2D 05 01 47 15 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 44 69
+      - 73 61 62 6C 65 02 20 30 05 01 47 0D 41 31 56 37 5F 41 6C 65 6D 62 69 63 58 05 20 66 08 00 00 05
+      - 01 47 0D 41 31 56 37 5F 41 6C 65 6D 62 69 63 59 05 20 66 09 00 00 05 01 47 10 41 31 56 37 5F 43
+      - 61 6C 63 69 6E 61 74 6F 72 58 05 20 66 0A 00 00 05 01 47 10 41 31 56 37 5F 43 61 6C 63 69 6E 61
+      - 74 6F 72 59 05 20 66 0B 00 00 05 01 47 0C 41 31 56 37 5F 52 65 74 6F 72 74 58 05 20 66 0C 00 00
+      - 05 01 47 0C 41 31 56 37 5F 52 65 74 6F 72 74 59 05 20 66 0D 00 00 05 01 47 0F 41 31 56 37 5F 41
+      - 70 70 61 72 61 74 75 73 5A 05 20 66 03 00 00 05 01 47 13 41 31 56 37 5F 41 70 70 61 72 61 74 75
+      - 73 49 6E 64 65 78 02 20 32 1B 10 11 41 31 56 37 5F 41 43 6C 65 61 6E 53 74 31 5F 73 63 24 01 06
+      - 01 04 09 20 73 03 00 20 3D 3D 20 31 05 01 73 04 00 02 20 31 05 01 73 03 00 02 20 30 17 10 24 01
+      - 09 01 06 01 03 09 20 58 18 10 20 3D 3D 20 31 DE 10 1B 10 10 41 31 56 37 5F 41 49 6E 69 74 53 74
+      - 31 5F 73 63 24 01 09 01 01 01
   - SCTX:
     - Begin A1V7_ApparatusCont_2_sc
     - ''
@@ -75692,10 +75646,6 @@
     - float cx
     - float cy
     - float cz
-    - long invItem
-    - long invCount
-    - long invRef
-    - long tempLong
     - float aCos
     - float aSin
     - float tempFloat
@@ -75706,11 +75656,7 @@
     - float calcinatorY
     - float retortX
     - float retortY
-    - short doSetUp
     - short doActivate
-    - long pcRef
-    - long invRefType
-    - long invNextRef
     - short waitActivate
     - ''
     - if ( doDisable > 20 )
@@ -75803,26 +75749,7 @@
     - "\tset tempFloat to ( 30 * aSin )"
     - "\tset tempFloat2 to ( 20 * aCos )"
     - "\tset retortY to ( cy + tempFloat - tempFloat2 )"
-    - "\tsetx invItem,invCount,invRef to xInventory"
-    - "\twhilex ( invCount )"
-    - "\t\txRemoveItem invItem invCount"
-    - "\t\tsetx invItem,invCount,invRef to xInventory"
-    - "\tendwhile"
-    - "\tAddItem \"A1V7_ApparatusItem_2\", 1"
     - "\tset A1V7_ApparatusDisable to 0"
-    - "\tset doSetUp to 1"
-    - "\treturn"
-    - endif
-    - ''
-    - if ( doActivate == 1 )
-    - "\tset waitActivate to 1"
-    - "\tset doActivate to 0"
-    - "\tActivate"
-    - "\treturn"
-    - endif
-    - ''
-    - if ( doSetUp == 1 )
-    - "\tset doSetUp to 0"
     - "\tset A1V7_AlembicX to alembicX"
     - "\tset A1V7_AlembicY to alembicY"
     - "\tset A1V7_CalcinatorX to calcinatorX"
@@ -75831,7 +75758,14 @@
     - "\tset A1V7_RetortY to retortY"
     - "\tset A1V7_ApparatusZ to cz"
     - "\tset A1V7_ApparatusIndex to 2"
-    - "\tStartScript A1V7_ApparatusSetUp"
+    - "\tStartScript A1V7_ACleanSt1_sc"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( doActivate == 1 )
+    - "\tset waitActivate to 1"
+    - "\tset doActivate to 0"
+    - "\tActivate"
     - "\treturn"
     - endif
     - ''
@@ -75847,24 +75781,16 @@
   - SCHD:
       name: A1V7_ApparatusCont_3_sc
       vars:
-        shorts: 5
-        longs: 7
+        shorts: 4
+        longs: 0
         floats: 13
-      data_size: 1710
-      var_table_size: 208
+      data_size: 1542
+      var_table_size: 139
   - SCVR:
     - doOnce
     - doDisable
-    - doSetUp
     - doActivate
     - waitActivate
-    - invItem
-    - invCount
-    - invRef
-    - tempLong
-    - pcRef
-    - invRefType
-    - invNextRef
     - cx
     - cy
     - cz
@@ -75933,7 +75859,7 @@
       - func: If
         args:
         - 26
-        - " s\x05\0 == 2"
+        - " s\x04\0 == 2"
       - func: If
         args:
         - 2
@@ -75962,14 +75888,14 @@
       - 56 37 5F 43 61 6C 63 41 6C 63 68 65 6D 79 32 20 3D 3D 20 31 05 01 47 11 41 31 56 37 5F 43 61 6C
       - 63 41 6C 63 68 65 6D 79 32 02 20 30 05 01 6D 14 41 31 56 37 5F 43 61 6C 63 41 6C 63 68 65 6D 79
       - 32 5F 73 63 73 02 00 02 20 30 1B 10 14 41 31 56 37 5F 43 61 6C 63 41 6C 63 68 65 6D 79 32 5F 73
-      - 63 09 01 06 01 09 09 20 58 20 10 20 3D 3D 20 30 05 01 73 05 00 02 20 30 DE 10 06 01 03 20 20 58
+      - 63 09 01 06 01 09 09 20 58 20 10 20 3D 3D 20 30 05 01 73 04 00 02 20 30 DE 10 06 01 03 20 20 58
       - FD 10 20 6F 14 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 49 74 65 6D 5F 33 20 3D 3D 20 30 05 01
       - 47 15 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 44 69 73 61 62 6C 65 02 20 33 05 01 73 02 00 02
       - 20 31 1B 10 1B 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 44 65 61 63 74 69 76 61 74 65 5F 73 63
       - 07 01 01 1B 10 12 41 31 56 37 5F 41 44 65 69 6E 69 74 53 74 31 5F 73 63 09 01 09 01 24 01 08 01
-      - 04 09 20 73 05 00 20 3D 3D 20 31 06 01 01 09 20 58 20 10 20 3D 3D 20 31 05 01 73 05 00 02 20 32
+      - 04 09 20 73 04 00 20 3D 3D 20 31 06 01 01 09 20 58 20 10 20 3D 3D 20 31 05 01 73 04 00 02 20 32
       - 09 01 24 01 09 01 06 01 01 09 20 58 20 10 20 3D 3D 20 31 24 01 09 01 13 38 00 00 13 38 73 00 00
-      - 3C 0F 38 04 00 0C 38 A9 02 0A 38 73 05 05 01 47 13 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 45
+      - 3C 0F 38 04 00 0C 38 A9 02 0A 38 BB 05 05 01 47 13 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 45
       - 78 74 5F 33 02 20 31 DE 10 05 01 73 01 00 02 20 31 05 01 66 01 00 13 20 47 0F 41 31 56 37 5F 41
       - 70 70 61 72 61 74 75 73 58 00 05 01 66 02 00 13 20 47 0F 41 31 56 37 5F 41 70 70 61 72 61 74 75
       - 73 59 00 05 01 66 03 00 13 20 47 0F 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 5A 00 0B 10 58 66
@@ -75986,22 +75912,17 @@
       - 07 00 20 2B 05 01 66 06 00 09 20 33 30 20 66 04 00 20 2A 05 01 66 07 00 09 20 32 30 20 66 05 00
       - 20 2A 05 01 66 0C 00 10 20 66 01 00 20 66 06 00 20 2D 20 66 07 00 20 2D 05 01 66 06 00 09 20 33
       - 30 20 66 05 00 20 2A 05 01 66 07 00 09 20 32 30 20 66 04 00 20 2A 05 01 66 0D 00 10 20 66 02 00
-      - 20 66 06 00 20 2B 20 66 07 00 20 2D 2A 3C 13 38 00 00 13 38 6C 00 02 3C 13 38 01 00 13 38 6C 00
-      - 02 3C 13 38 02 00 13 38 6C 00 02 3C 13 38 01 00 13 38 6C 00 00 3C 0F 38 04 00 0C 38 34 05 13 38
-      - 01 00 13 38 6C 00 00 3C 13 38 00 00 13 38 6C 00 00 3C 29 3C 2A 3C 13 38 00 00 13 38 6C 00 02 3C
-      - 13 38 01 00 13 38 6C 00 02 3C 13 38 02 00 13 38 6C 00 02 3C 0A 38 E8 04 D4 10 14 41 31 56 37 5F
-      - 41 70 70 61 72 61 74 75 73 49 74 65 6D 5F 33 01 00 05 01 47 15 41 31 56 37 5F 41 70 70 61 72 61
-      - 74 75 73 44 69 73 61 62 6C 65 02 20 30 05 01 73 03 00 02 20 31 24 01 06 01 04 09 20 73 04 00 20
-      - 3D 3D 20 31 05 01 73 05 00 02 20 31 05 01 73 04 00 02 20 30 17 10 24 01 09 01 06 01 0B 09 20 73
-      - 03 00 20 3D 3D 20 31 05 01 73 03 00 02 20 30 05 01 47 0D 41 31 56 37 5F 41 6C 65 6D 62 69 63 58
-      - 05 20 66 08 00 00 05 01 47 0D 41 31 56 37 5F 41 6C 65 6D 62 69 63 59 05 20 66 09 00 00 05 01 47
-      - 10 41 31 56 37 5F 43 61 6C 63 69 6E 61 74 6F 72 58 05 20 66 0A 00 00 05 01 47 10 41 31 56 37 5F
-      - 43 61 6C 63 69 6E 61 74 6F 72 59 05 20 66 0B 00 00 05 01 47 0C 41 31 56 37 5F 52 65 74 6F 72 74
-      - 58 05 20 66 0C 00 00 05 01 47 0C 41 31 56 37 5F 52 65 74 6F 72 74 59 05 20 66 0D 00 00 05 01 47
-      - 0F 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 5A 05 20 66 03 00 00 05 01 47 13 41 31 56 37 5F 41
-      - 70 70 61 72 61 74 75 73 49 6E 64 65 78 02 20 33 1B 10 13 41 31 56 37 5F 41 70 70 61 72 61 74 75
-      - 73 53 65 74 55 70 24 01 09 01 06 01 03 09 20 58 18 10 20 3D 3D 20 31 DE 10 1B 10 10 41 31 56 37
-      - 5F 41 49 6E 69 74 53 74 31 5F 73 63 24 01 09 01 01 01
+      - 20 66 06 00 20 2B 20 66 07 00 20 2D 05 01 47 15 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 44 69
+      - 73 61 62 6C 65 02 20 30 05 01 47 0D 41 31 56 37 5F 41 6C 65 6D 62 69 63 58 05 20 66 08 00 00 05
+      - 01 47 0D 41 31 56 37 5F 41 6C 65 6D 62 69 63 59 05 20 66 09 00 00 05 01 47 10 41 31 56 37 5F 43
+      - 61 6C 63 69 6E 61 74 6F 72 58 05 20 66 0A 00 00 05 01 47 10 41 31 56 37 5F 43 61 6C 63 69 6E 61
+      - 74 6F 72 59 05 20 66 0B 00 00 05 01 47 0C 41 31 56 37 5F 52 65 74 6F 72 74 58 05 20 66 0C 00 00
+      - 05 01 47 0C 41 31 56 37 5F 52 65 74 6F 72 74 59 05 20 66 0D 00 00 05 01 47 0F 41 31 56 37 5F 41
+      - 70 70 61 72 61 74 75 73 5A 05 20 66 03 00 00 05 01 47 13 41 31 56 37 5F 41 70 70 61 72 61 74 75
+      - 73 49 6E 64 65 78 02 20 33 1B 10 11 41 31 56 37 5F 41 43 6C 65 61 6E 53 74 31 5F 73 63 24 01 06
+      - 01 04 09 20 73 03 00 20 3D 3D 20 31 05 01 73 04 00 02 20 31 05 01 73 03 00 02 20 30 17 10 24 01
+      - 09 01 06 01 03 09 20 58 18 10 20 3D 3D 20 31 DE 10 1B 10 10 41 31 56 37 5F 41 49 6E 69 74 53 74
+      - 31 5F 73 63 24 01 09 01 01 01
   - SCTX:
     - Begin A1V7_ApparatusCont_3_sc
     - ''
@@ -76010,10 +75931,6 @@
     - float cx
     - float cy
     - float cz
-    - long invItem
-    - long invCount
-    - long invRef
-    - long tempLong
     - float aCos
     - float aSin
     - float tempFloat
@@ -76024,11 +75941,7 @@
     - float calcinatorY
     - float retortX
     - float retortY
-    - short doSetUp
     - short doActivate
-    - long pcRef
-    - long invRefType
-    - long invNextRef
     - short waitActivate
     - ''
     - if ( doDisable > 20 )
@@ -76121,26 +76034,7 @@
     - "\tset tempFloat to ( 30 * aSin )"
     - "\tset tempFloat2 to ( 20 * aCos )"
     - "\tset retortY to ( cy + tempFloat - tempFloat2 )"
-    - "\tsetx invItem,invCount,invRef to xInventory"
-    - "\twhilex ( invCount )"
-    - "\t\txRemoveItem invItem invCount"
-    - "\t\tsetx invItem,invCount,invRef to xInventory"
-    - "\tendwhile"
-    - "\tAddItem \"A1V7_ApparatusItem_3\", 1"
     - "\tset A1V7_ApparatusDisable to 0"
-    - "\tset doSetUp to 1"
-    - "\treturn"
-    - endif
-    - ''
-    - if ( doActivate == 1 )
-    - "\tset waitActivate to 1"
-    - "\tset doActivate to 0"
-    - "\tActivate"
-    - "\treturn"
-    - endif
-    - ''
-    - if ( doSetUp == 1 )
-    - "\tset doSetUp to 0"
     - "\tset A1V7_AlembicX to alembicX"
     - "\tset A1V7_AlembicY to alembicY"
     - "\tset A1V7_CalcinatorX to calcinatorX"
@@ -76149,7 +76043,14 @@
     - "\tset A1V7_RetortY to retortY"
     - "\tset A1V7_ApparatusZ to cz"
     - "\tset A1V7_ApparatusIndex to 3"
-    - "\tStartScript A1V7_ApparatusSetUp"
+    - "\tStartScript A1V7_ACleanSt1_sc"
+    - "\treturn"
+    - endif
+    - ''
+    - if ( doActivate == 1 )
+    - "\tset waitActivate to 1"
+    - "\tset doActivate to 0"
+    - "\tActivate"
     - "\treturn"
     - endif
     - ''
@@ -86613,3 +86514,64 @@
   - INTV: 100
   - BNAM:
     - Journal HT_CureBlight 10
+
+- SCPT:
+  - SCHD:
+      name: A1V7_ACleanSt1_sc
+      vars:
+        shorts: 0
+        longs: 0
+        floats: 0
+      data_size: 186
+      var_table_size: 0
+  - SCVR:
+    - ''
+    - ^
+  - SCDT:
+      stmts:
+      - func: If
+        args:
+        - 1
+        - " G\x13A1V7_ApparatusIndex == 1"
+      - func: AddItem
+        args:
+        - A1V7_ApparatusItem_1
+        - 1
+      - func: ElseIf
+        args:
+        - 1
+        - " G\x13A1V7_ApparatusIndex == 2"
+      - func: AddItem
+        args:
+        - A1V7_ApparatusItem_2
+        - 1
+      - func: Else
+        args: 1
+      - func: AddItem
+        args:
+        - A1V7_ApparatusItem_3
+        - 1
+      - func: EndIf
+        args: null
+      - func: StopScript
+        args: A1V7_ACleanSt1_sc
+      - func: StartScript
+        args: A1V7_ApparatusSetUp
+      - func: End
+        args: null
+      raw: []
+  - SCTX:
+    - begin A1V7_ACleanSt1_sc
+    - ''
+    - if ( A1V7_ApparatusIndex  == 1 )
+    - "\tAddItem \"A1V7_ApparatusItem_1\", 1"
+    - elseif ( A1V7_ApparatusIndex == 2 )
+    - "\tAddItem \"A1V7_ApparatusItem_2\", 1"
+    - else
+    - "\tAddItem \"A1V7_ApparatusItem_3\", 1"
+    - endif
+    - ''
+    - StopScript A1V7_ACleanSt1_sc
+    - StartScript A1V7_ApparatusSetUp
+    - ''
+    - end
