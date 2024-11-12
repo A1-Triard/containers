@@ -132,6 +132,2836 @@
 
 - SCPT:
   - SCHD:
+      name: A1V7_ACleanSt1_sc
+      vars:
+        shorts: 1
+        longs: 0
+        floats: 0
+      data_size: 3074
+      var_table_size: 5
+  - SCVR:
+    - temp
+  - SCDT:
+      stmts:
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x11food_kwama_egg_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - food_kwama_egg_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x11food_kwama_egg_02\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - food_kwama_egg_02
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x19ingred_6th_corprusmeat_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_6th_corprusmeat_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x19ingred_6th_corprusmeat_02\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_6th_corprusmeat_02
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x19ingred_6th_corprusmeat_03\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_6th_corprusmeat_03
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x19ingred_6th_corprusmeat_04\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_6th_corprusmeat_04
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x19ingred_6th_corprusmeat_05\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_6th_corprusmeat_05
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x19ingred_6th_corprusmeat_06\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_6th_corprusmeat_06
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x19ingred_6th_corprusmeat_07\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_6th_corprusmeat_07
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_alit_hide_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_alit_hide_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_ash_salts_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_ash_salts_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x11ingred_ash_yam_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_ash_yam_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_bc_ampoule_pod\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_bc_ampoule_pod
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x18ingred_bc_bungler's_bane\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_bc_bungler's_bane
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_bc_coda_flower\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_bc_coda_flower
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_bc_hypha_facia\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_bc_hypha_facia
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_bc_spore_pod\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_bc_spore_pod
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x1Cingred_bittergreen_petals_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_bittergreen_petals_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x16ingred_black_anther_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_black_anther_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x16ingred_black_lichen_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_black_lichen_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x0Fingred_bloat_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_bloat_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x12ingred_bonemeal_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_bonemeal_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x0Fingred_bread_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_bread_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_bread_01_UNI2\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_bread_01_UNI2
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_bread_01_UNI3\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_bread_01_UNI3
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_chokeweed_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_chokeweed_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x12ingred_comberry_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_comberry_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x12ingred_coprinus_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_coprinus_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x17ingred_corkbulb_root_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_corkbulb_root_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x1Aingred_corprus_weepings_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_corprus_weepings_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_crab_meat_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_crab_meat_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x17ingred_daedras_heart_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_daedras_heart_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_daedra_skin_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_daedra_skin_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x11ingred_diamond_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_diamond_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_dreugh_wax_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_dreugh_wax_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_ectoplasm_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_ectoplasm_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x11ingred_emerald_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_emerald_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_fire_petal_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_fire_petal_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_fire_salts_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_fire_salts_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_frost_salts_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_frost_salts_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: StopScript
+        args: A1V7_ACleanSt1_sc
+      - func: StartScript
+        args: A1V7_ACleanSt2_sc
+      - func: End
+        args: null
+      raw: []
+  - SCTX:
+    - begin A1V7_ACleanSt1_sc
+    - ''
+    - short temp
+    - ''
+    - set temp to ( GetItemCount "food_kwama_egg_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"food_kwama_egg_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "food_kwama_egg_02" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"food_kwama_egg_02\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_6th_corprusmeat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_02" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_6th_corprusmeat_02\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_03" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_6th_corprusmeat_03\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_04" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_6th_corprusmeat_04\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_05" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_6th_corprusmeat_05\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_06" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_6th_corprusmeat_06\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_07" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_6th_corprusmeat_07\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_alit_hide_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_alit_hide_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_ash_salts_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_ash_salts_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_ash_yam_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_ash_yam_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bc_ampoule_pod" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bc_ampoule_pod\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bc_bungler's_bane" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bc_bungler's_bane\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bc_coda_flower" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bc_coda_flower\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bc_hypha_facia" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bc_hypha_facia\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bc_spore_pod" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bc_spore_pod\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bittergreen_petals_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bittergreen_petals_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_black_anther_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_black_anther_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_black_lichen_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_black_lichen_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bloat_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bloat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bonemeal_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bonemeal_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bread_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bread_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bread_01_UNI2" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bread_01_UNI2\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bread_01_UNI3" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_bread_01_UNI3\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_chokeweed_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_chokeweed_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_comberry_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_comberry_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_coprinus_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_coprinus_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_corkbulb_root_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_corkbulb_root_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_corprus_weepings_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_corprus_weepings_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_crab_meat_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_crab_meat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_daedras_heart_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_daedras_heart_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_daedra_skin_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_daedra_skin_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_diamond_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_diamond_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_dreugh_wax_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_dreugh_wax_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_ectoplasm_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_ectoplasm_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_emerald_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_emerald_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_fire_petal_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_fire_petal_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_fire_salts_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_fire_salts_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_frost_salts_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_frost_salts_01\", temp"
+    - endif
+    - ''
+    - StopScript A1V7_ACleanSt1_sc
+    - StartScript A1V7_ACleanSt2_sc
+    - ''
+    - end
+
+- SCPT:
+  - SCHD:
+      name: A1V7_ACleanSt1_sx
+      vars:
+        shorts: 1
+        longs: 0
+        floats: 0
+      data_size: 3847
+      var_table_size: 5
+  - SCVR:
+    - temp
+  - SCDT:
+      stmts:
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x11food_kwama_egg_01\0"
+      - func: MwsePushS
+        args: 0
+      - func: MwsePushS
+        args: 115
+      - func: MwseGetLocal
+        args: null
+      - func: MwsePop
+        args: 4
+      - func: MwseJumpShortZero
+        args: 87
+      - func: MwsePushS
+        args: 0
+      - func: MwsePushS
+        args: 115
+      - func: MwseGetLocal
+        args: null
+      - func: MwsePushS
+        args: 67
+      raw:
+      - 0A 38 55 00 11 66 6F 6F 64 5F 6B 77 61 6D 61 5F 65 67 67 5F 30 31 29 3C 05 01 73 01 00 19 20 58
+      - FD 10 20 6F 11 66 6F 6F 64 5F 6B 77 61 6D 61 5F 65 67 67 5F 30 32 00 13 38 00 00 13 38 73 00 00
+      - 3C 0F 38 04 00 0C 38 AE 00 13 38 00 00 13 38 73 00 00 3C 13 38 9A 00 0A 38 AC 00 11 66 6F 6F 64
+      - 5F 6B 77 61 6D 61 5F 65 67 67 5F 30 32 29 3C 05 01 73 01 00 21 20 58 FD 10 20 6F 19 69 6E 67 72
+      - 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C
+      - 0F 38 04 00 0C 38 15 01 13 38 00 00 13 38 73 00 00 3C 13 38 F9 00 0A 38 13 01 19 69 6E 67 72 65
+      - 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 31 29 3C 05 01 73 01 00 21 20 58 FD 10
+      - 20 6F 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 32 00 13 38 00
+      - 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 7C 01 13 38 00 00 13 38 73 00 00 3C 13 38 60 01 0A 38 7A
+      - 01 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 32 29 3C 05 01 73
+      - 01 00 21 20 58 FD 10 20 6F 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74
+      - 5F 30 33 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 E3 01 13 38 00 00 13 38 73 00 00 3C
+      - 13 38 C7 01 0A 38 E1 01 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F
+      - 30 33 29 3C 05 01 73 01 00 21 20 58 FD 10 20 6F 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70
+      - 72 75 73 6D 65 61 74 5F 30 34 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 4A 02 13 38 00
+      - 00 13 38 73 00 00 3C 13 38 2E 02 0A 38 48 02 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72
+      - 75 73 6D 65 61 74 5F 30 34 29 3C 05 01 73 01 00 21 20 58 FD 10 20 6F 19 69 6E 67 72 65 64 5F 36
+      - 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 35 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00
+      - 0C 38 B1 02 13 38 00 00 13 38 73 00 00 3C 13 38 95 02 0A 38 AF 02 19 69 6E 67 72 65 64 5F 36 74
+      - 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 35 29 3C 05 01 73 01 00 21 20 58 FD 10 20 6F 19 69
+      - 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 36 00 13 38 00 00 13 38 73
+      - 00 00 3C 0F 38 04 00 0C 38 18 03 13 38 00 00 13 38 73 00 00 3C 13 38 FC 02 0A 38 16 03 19 69 6E
+      - 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 36 29 3C 05 01 73 01 00 21 20
+      - 58 FD 10 20 6F 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 37 00
+      - 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 7F 03 13 38 00 00 13 38 73 00 00 3C 13 38 63 03
+      - 0A 38 7D 03 19 69 6E 67 72 65 64 5F 36 74 68 5F 63 6F 72 70 72 75 73 6D 65 61 74 5F 30 37 29 3C
+      - 05 01 73 01 00 1B 20 58 FD 10 20 6F 13 69 6E 67 72 65 64 5F 61 6C 69 74 5F 68 69 64 65 5F 30 31
+      - 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 DA 03 13 38 00 00 13 38 73 00 00 3C 13 38 C4
+      - 03 0A 38 D8 03 13 69 6E 67 72 65 64 5F 61 6C 69 74 5F 68 69 64 65 5F 30 31 29 3C 05 01 73 01 00
+      - 1B 20 58 FD 10 20 6F 13 69 6E 67 72 65 64 5F 61 73 68 5F 73 61 6C 74 73 5F 30 31 00 13 38 00 00
+      - 13 38 73 00 00 3C 0F 38 04 00 0C 38 35 04 13 38 00 00 13 38 73 00 00 3C 13 38 1F 04 0A 38 33 04
+      - 13 69 6E 67 72 65 64 5F 61 73 68 5F 73 61 6C 74 73 5F 30 31 29 3C 05 01 73 01 00 19 20 58 FD 10
+      - 20 6F 11 69 6E 67 72 65 64 5F 61 73 68 5F 79 61 6D 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F
+      - 38 04 00 0C 38 8C 04 13 38 00 00 13 38 73 00 00 3C 13 38 78 04 0A 38 8A 04 11 69 6E 67 72 65 64
+      - 5F 61 73 68 5F 79 61 6D 5F 30 31 29 3C 05 01 73 01 00 1D 20 58 FD 10 20 6F 15 69 6E 67 72 65 64
+      - 5F 62 63 5F 61 6D 70 6F 75 6C 65 5F 70 6F 64 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38
+      - EB 04 13 38 00 00 13 38 73 00 00 3C 13 38 D3 04 0A 38 E9 04 15 69 6E 67 72 65 64 5F 62 63 5F 61
+      - 6D 70 6F 75 6C 65 5F 70 6F 64 29 3C 05 01 73 01 00 20 20 58 FD 10 20 6F 18 69 6E 67 72 65 64 5F
+      - 62 63 5F 62 75 6E 67 6C 65 72 27 73 5F 62 61 6E 65 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00
+      - 0C 38 51 05 13 38 00 00 13 38 73 00 00 3C 13 38 35 05 0A 38 4F 05 18 69 6E 67 72 65 64 5F 62 63
+      - 5F 62 75 6E 67 6C 65 72 27 73 5F 62 61 6E 65 00 29 3C 05 01 73 01 00 1D 20 58 FD 10 20 6F 15 69
+      - 6E 67 72 65 64 5F 62 63 5F 63 6F 64 61 5F 66 6C 6F 77 65 72 00 13 38 00 00 13 38 73 00 00 3C 0F
+      - 38 04 00 0C 38 B0 05 13 38 00 00 13 38 73 00 00 3C 13 38 98 05 0A 38 AE 05 15 69 6E 67 72 65 64
+      - 5F 62 63 5F 63 6F 64 61 5F 66 6C 6F 77 65 72 29 3C 05 01 73 01 00 1D 20 58 FD 10 20 6F 15 69 6E
+      - 67 72 65 64 5F 62 63 5F 68 79 70 68 61 5F 66 61 63 69 61 00 13 38 00 00 13 38 73 00 00 3C 0F 38
+      - 04 00 0C 38 0F 06 13 38 00 00 13 38 73 00 00 3C 13 38 F7 05 0A 38 0D 06 15 69 6E 67 72 65 64 5F
+      - 62 63 5F 68 79 70 68 61 5F 66 61 63 69 61 29 3C 05 01 73 01 00 1B 20 58 FD 10 20 6F 13 69 6E 67
+      - 72 65 64 5F 62 63 5F 73 70 6F 72 65 5F 70 6F 64 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C
+      - 38 6A 06 13 38 00 00 13 38 73 00 00 3C 13 38 54 06 0A 38 68 06 13 69 6E 67 72 65 64 5F 62 63 5F
+      - 73 70 6F 72 65 5F 70 6F 64 29 3C 05 01 73 01 00 24 20 58 FD 10 20 6F 1C 69 6E 67 72 65 64 5F 62
+      - 69 74 74 65 72 67 72 65 65 6E 5F 70 65 74 61 6C 73 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F
+      - 38 04 00 0C 38 D8 06 13 38 00 00 13 38 73 00 00 3C 13 38 B8 06 0A 38 D6 06 1C 69 6E 67 72 65 64
+      - 5F 62 69 74 74 65 72 67 72 65 65 6E 5F 70 65 74 61 6C 73 5F 30 31 00 29 3C 05 01 73 01 00 1E 20
+      - 58 FD 10 20 6F 16 69 6E 67 72 65 64 5F 62 6C 61 63 6B 5F 61 6E 74 68 65 72 5F 30 31 00 13 38 00
+      - 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 3A 07 13 38 00 00 13 38 73 00 00 3C 13 38 20 07 0A 38 38
+      - 07 16 69 6E 67 72 65 64 5F 62 6C 61 63 6B 5F 61 6E 74 68 65 72 5F 30 31 00 29 3C 05 01 73 01 00
+      - 1E 20 58 FD 10 20 6F 16 69 6E 67 72 65 64 5F 62 6C 61 63 6B 5F 6C 69 63 68 65 6E 5F 30 31 00 13
+      - 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 9C 07 13 38 00 00 13 38 73 00 00 3C 13 38 82 07 0A
+      - 38 9A 07 16 69 6E 67 72 65 64 5F 62 6C 61 63 6B 5F 6C 69 63 68 65 6E 5F 30 31 00 29 3C 05 01 73
+      - 01 00 17 20 58 FD 10 20 6F 0F 69 6E 67 72 65 64 5F 62 6C 6F 61 74 5F 30 31 00 13 38 00 00 13 38
+      - 73 00 00 3C 0F 38 04 00 0C 38 EF 07 13 38 00 00 13 38 73 00 00 3C 13 38 DD 07 0A 38 ED 07 0F 69
+      - 6E 67 72 65 64 5F 62 6C 6F 61 74 5F 30 31 29 3C 05 01 73 01 00 1A 20 58 FD 10 20 6F 12 69 6E 67
+      - 72 65 64 5F 62 6F 6E 65 6D 65 61 6C 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38
+      - 49 08 13 38 00 00 13 38 73 00 00 3C 13 38 33 08 0A 38 47 08 12 69 6E 67 72 65 64 5F 62 6F 6E 65
+      - 6D 65 61 6C 5F 30 31 00 29 3C 05 01 73 01 00 17 20 58 FD 10 20 6F 0F 69 6E 67 72 65 64 5F 62 72
+      - 65 61 64 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 9C 08 13 38 00 00 13 38 73
+      - 00 00 3C 13 38 8A 08 0A 38 9A 08 0F 69 6E 67 72 65 64 5F 62 72 65 61 64 5F 30 31 29 3C 05 01 73
+      - 01 00 1C 20 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 62 72 65 61 64 5F 30 31 5F 55 4E 49 32 00 13
+      - 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 FA 08 13 38 00 00 13 38 73 00 00 3C 13 38 E2 08 0A
+      - 38 F8 08 14 69 6E 67 72 65 64 5F 62 72 65 61 64 5F 30 31 5F 55 4E 49 32 00 29 3C 05 01 73 01 00
+      - 1C 20 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 62 72 65 61 64 5F 30 31 5F 55 4E 49 33 00 13 38 00
+      - 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 58 09 13 38 00 00 13 38 73 00 00 3C 13 38 40 09 0A 38 56
+      - 09 14 69 6E 67 72 65 64 5F 62 72 65 61 64 5F 30 31 5F 55 4E 49 33 00 29 3C 05 01 73 01 00 1B 20
+      - 58 FD 10 20 6F 13 69 6E 67 72 65 64 5F 63 68 6F 6B 65 77 65 65 64 5F 30 31 00 13 38 00 00 13 38
+      - 73 00 00 3C 0F 38 04 00 0C 38 B3 09 13 38 00 00 13 38 73 00 00 3C 13 38 9D 09 0A 38 B1 09 13 69
+      - 6E 67 72 65 64 5F 63 68 6F 6B 65 77 65 65 64 5F 30 31 29 3C 05 01 73 01 00 1A 20 58 FD 10 20 6F
+      - 12 69 6E 67 72 65 64 5F 63 6F 6D 62 65 72 72 79 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38
+      - 04 00 0C 38 0D 0A 13 38 00 00 13 38 73 00 00 3C 13 38 F7 09 0A 38 0B 0A 12 69 6E 67 72 65 64 5F
+      - 63 6F 6D 62 65 72 72 79 5F 30 31 00 29 3C 05 01 73 01 00 1A 20 58 FD 10 20 6F 12 69 6E 67 72 65
+      - 64 5F 63 6F 70 72 69 6E 75 73 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 67 0A
+      - 13 38 00 00 13 38 73 00 00 3C 13 38 51 0A 0A 38 65 0A 12 69 6E 67 72 65 64 5F 63 6F 70 72 69 6E
+      - 75 73 5F 30 31 00 29 3C 05 01 73 01 00 1F 20 58 FD 10 20 6F 17 69 6E 67 72 65 64 5F 63 6F 72 6B
+      - 62 75 6C 62 5F 72 6F 6F 74 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 CA 0A 13
+      - 38 00 00 13 38 73 00 00 3C 13 38 B0 0A 0A 38 C8 0A 17 69 6E 67 72 65 64 5F 63 6F 72 6B 62 75 6C
+      - 62 5F 72 6F 6F 74 5F 30 31 29 3C 05 01 73 01 00 22 20 58 FD 10 20 6F 1A 69 6E 67 72 65 64 5F 63
+      - 6F 72 70 72 75 73 5F 77 65 65 70 69 6E 67 73 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04
+      - 00 0C 38 34 0B 13 38 00 00 13 38 73 00 00 3C 13 38 16 0B 0A 38 32 0B 1A 69 6E 67 72 65 64 5F 63
+      - 6F 72 70 72 75 73 5F 77 65 65 70 69 6E 67 73 5F 30 31 00 29 3C 05 01 73 01 00 1B 20 58 FD 10 20
+      - 6F 13 69 6E 67 72 65 64 5F 63 72 61 62 5F 6D 65 61 74 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C
+      - 0F 38 04 00 0C 38 8F 0B 13 38 00 00 13 38 73 00 00 3C 13 38 79 0B 0A 38 8D 0B 13 69 6E 67 72 65
+      - 64 5F 63 72 61 62 5F 6D 65 61 74 5F 30 31 29 3C 05 01 73 01 00 1F 20 58 FD 10 20 6F 17 69 6E 67
+      - 72 65 64 5F 64 61 65 64 72 61 73 5F 68 65 61 72 74 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F
+      - 38 04 00 0C 38 F2 0B 13 38 00 00 13 38 73 00 00 3C 13 38 D8 0B 0A 38 F0 0B 17 69 6E 67 72 65 64
+      - 5F 64 61 65 64 72 61 73 5F 68 65 61 72 74 5F 30 31 29 3C 05 01 73 01 00 1D 20 58 FD 10 20 6F 15
+      - 69 6E 67 72 65 64 5F 64 61 65 64 72 61 5F 73 6B 69 6E 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C
+      - 0F 38 04 00 0C 38 51 0C 13 38 00 00 13 38 73 00 00 3C 13 38 39 0C 0A 38 4F 0C 15 69 6E 67 72 65
+      - 64 5F 64 61 65 64 72 61 5F 73 6B 69 6E 5F 30 31 29 3C 05 01 73 01 00 19 20 58 FD 10 20 6F 11 69
+      - 6E 67 72 65 64 5F 64 69 61 6D 6F 6E 64 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C
+      - 38 A8 0C 13 38 00 00 13 38 73 00 00 3C 13 38 94 0C 0A 38 A6 0C 11 69 6E 67 72 65 64 5F 64 69 61
+      - 6D 6F 6E 64 5F 30 31 29 3C 05 01 73 01 00 1C 20 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 64 72 65
+      - 75 67 68 5F 77 61 78 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 06 0D 13 38 00
+      - 00 13 38 73 00 00 3C 13 38 EE 0C 0A 38 04 0D 14 69 6E 67 72 65 64 5F 64 72 65 75 67 68 5F 77 61
+      - 78 5F 30 31 00 29 3C 05 01 73 01 00 1B 20 58 FD 10 20 6F 13 69 6E 67 72 65 64 5F 65 63 74 6F 70
+      - 6C 61 73 6D 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 61 0D 13 38 00 00 13 38
+      - 73 00 00 3C 13 38 4B 0D 0A 38 5F 0D 13 69 6E 67 72 65 64 5F 65 63 74 6F 70 6C 61 73 6D 5F 30 31
+      - 29 3C 05 01 73 01 00 19 20 58 FD 10 20 6F 11 69 6E 67 72 65 64 5F 65 6D 65 72 61 6C 64 5F 30 31
+      - 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 B8 0D 13 38 00 00 13 38 73 00 00 3C 13 38 A4
+      - 0D 0A 38 B6 0D 11 69 6E 67 72 65 64 5F 65 6D 65 72 61 6C 64 5F 30 31 29 3C 05 01 73 01 00 1C 20
+      - 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 66 69 72 65 5F 70 65 74 61 6C 5F 30 31 00 13 38 00 00 13
+      - 38 73 00 00 3C 0F 38 04 00 0C 38 16 0E 13 38 00 00 13 38 73 00 00 3C 13 38 FE 0D 0A 38 14 0E 14
+      - 69 6E 67 72 65 64 5F 66 69 72 65 5F 70 65 74 61 6C 5F 30 31 00 29 3C 05 01 73 01 00 1C 20 58 FD
+      - 10 20 6F 14 69 6E 67 72 65 64 5F 66 69 72 65 5F 73 61 6C 74 73 5F 30 31 00 13 38 00 00 13 38 73
+      - 00 00 3C 0F 38 04 00 0C 38 74 0E 13 38 00 00 13 38 73 00 00 3C 13 38 5C 0E 0A 38 72 0E 14 69 6E
+      - 67 72 65 64 5F 66 69 72 65 5F 73 61 6C 74 73 5F 30 31 00 29 3C 05 01 73 01 00 1D 20 58 FD 10 20
+      - 6F 15 69 6E 67 72 65 64 5F 66 72 6F 73 74 5F 73 61 6C 74 73 5F 30 31 00 13 38 00 00 13 38 73 00
+      - 00 3C 0F 38 04 00 0C 38 D3 0E 13 38 00 00 13 38 73 00 00 3C 13 38 BB 0E 0A 38 D1 0E 15 69 6E 67
+      - 72 65 64 5F 66 72 6F 73 74 5F 73 61 6C 74 73 5F 30 31 29 3C 1C 10 16 41 31 56 31 5F 49 6E 67 72
+      - 42 61 67 49 6E 69 74 53 74 31 5F 73 63 1B 10 16 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74
+      - 53 74 32 5F 73 63 01 01
+  - SCTX:
+    - begin A1V7_ACleanSt1_sx
+    - ''
+    - short temp
+    - ''
+    - set temp to ( GetItemCount "food_kwama_egg_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"food_kwama_egg_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "food_kwama_egg_02" )
+    - ifx ( temp )
+    - "\txRemoveItem \"food_kwama_egg_02\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_6th_corprusmeat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_02" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_6th_corprusmeat_02\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_03" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_6th_corprusmeat_03\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_04" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_6th_corprusmeat_04\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_05" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_6th_corprusmeat_05\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_06" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_6th_corprusmeat_06\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_6th_corprusmeat_07" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_6th_corprusmeat_07\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_alit_hide_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_alit_hide_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_ash_salts_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_ash_salts_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_ash_yam_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_ash_yam_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bc_ampoule_pod" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_bc_ampoule_pod\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bc_bungler's_bane" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_bc_bungler's_bane\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bc_coda_flower" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_bc_coda_flower\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bc_hypha_facia" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_bc_hypha_facia\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bc_spore_pod" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_bc_spore_pod\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bittergreen_petals_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_bittergreen_petals_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_black_anther_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_black_anther_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_black_lichen_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_black_lichen_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bloat_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_bloat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bonemeal_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_bonemeal_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bread_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_bread_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bread_01_UNI2" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_bread_01_UNI2\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_bread_01_UNI3" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_bread_01_UNI3\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_chokeweed_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_chokeweed_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_comberry_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_comberry_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_coprinus_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_coprinus_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_corkbulb_root_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_corkbulb_root_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_corprus_weepings_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_corprus_weepings_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_crab_meat_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_crab_meat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_daedras_heart_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_daedras_heart_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_daedra_skin_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_daedra_skin_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_diamond_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_diamond_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_dreugh_wax_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_dreugh_wax_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_ectoplasm_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_ectoplasm_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_emerald_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_emerald_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_fire_petal_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_fire_petal_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_fire_salts_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_fire_salts_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_frost_salts_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_frost_salts_01\", temp"
+    - endif
+    - ''
+    - StopScript A1V7_ACleanSt1_sc
+    - StartScript A1V7_ACleanSt2_sc
+    - ''
+    - end
+
+- SCPT:
+  - SCHD:
+      name: A1V7_ACleanSt2_sc
+      vars:
+        shorts: 1
+        longs: 0
+        floats: 0
+      data_size: 2992
+      var_table_size: 5
+  - SCVR:
+    - temp
+  - SCDT:
+      stmts:
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_ghoul_heart_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_ghoul_heart_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_gold_kanet_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_gold_kanet_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x18ingred_gold_kanet_unique\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_gold_kanet_unique
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_gravedust_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_gravedust_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x16ingred_green_lichen_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_green_lichen_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_guar_hide_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_guar_hide_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x17ingred_guar_hide_girith\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_guar_hide_girith
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x17ingred_guar_hide_marsus\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_guar_hide_marsus
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x18ingred_hackle-lo_leaf_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_hackle-lo_leaf_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x11ingred_heather_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_heather_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_hound_meat_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_hound_meat_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_human_meat_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_human_meat_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x16ingred_kagouti_hide_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_kagouti_hide_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_kresh_fiber_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_kresh_fiber_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x16ingred_kwama_cuttle_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_kwama_cuttle_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_marshmerrow_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_marshmerrow_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_moon_sugar_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_moon_sugar_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x0Eingred_muck_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_muck_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x17ingred_netch_leather_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_netch_leather_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x0Fingred_pearl_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_pearl_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x16ingred_racer_plumes_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_racer_plumes_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x12ingred_rat_meat_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_rat_meat_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_raw_ebony_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_raw_ebony_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_raw_glass_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_raw_glass_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x16ingred_raw_glass_tinos\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_raw_glass_tinos
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_red_lichen_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_red_lichen_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x0Fingred_resin_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_resin_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x12ingred_roobrush_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_roobrush_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x0Eingred_ruby_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_ruby_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x11ingred_russula_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_russula_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x12ingred_saltrice_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_saltrice_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x10ingred_scales_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_scales_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_scamp_skin_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_scamp_skin_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_scathecraw_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_scathecraw_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_scrap_metal_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_scrap_metal_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_scrib_jelly_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_scrib_jelly_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_scrib_jelly_02\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_scrib_jelly_02
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_scrib_jerky_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_scrib_jerky_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x11ingred_scuttle_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_scuttle_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_shalk_resin_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_shalk_resin_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: StopScript
+        args: A1V7_ACleanSt2_sc
+      - func: StartScript
+        args: A1V7_ACleanSt5_sc
+      - func: End
+        args: null
+      raw: []
+  - SCTX:
+    - begin A1V7_ACleanSt2_sc
+    - ''
+    - short temp
+    - ''
+    - set temp to ( GetItemCount "ingred_ghoul_heart_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_ghoul_heart_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_gold_kanet_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_gold_kanet_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_gold_kanet_unique" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_gold_kanet_unique\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_gravedust_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_gravedust_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_green_lichen_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_green_lichen_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_guar_hide_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_guar_hide_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_guar_hide_girith" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_guar_hide_girith\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_guar_hide_marsus" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_guar_hide_marsus\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_hackle-lo_leaf_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_hackle-lo_leaf_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_heather_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_heather_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_hound_meat_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_hound_meat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_human_meat_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_human_meat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_kagouti_hide_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_kagouti_hide_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_kresh_fiber_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_kresh_fiber_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_kwama_cuttle_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_kwama_cuttle_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_marshmerrow_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_marshmerrow_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_moon_sugar_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_moon_sugar_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_muck_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_muck_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_netch_leather_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_netch_leather_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_pearl_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_pearl_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_racer_plumes_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_racer_plumes_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_rat_meat_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_rat_meat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_raw_ebony_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_raw_ebony_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_raw_glass_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_raw_glass_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_raw_glass_tinos" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_raw_glass_tinos\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_red_lichen_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_red_lichen_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_resin_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_resin_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_roobrush_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_roobrush_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_ruby_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_ruby_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_russula_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_russula_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_saltrice_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_saltrice_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scales_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scales_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scamp_skin_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scamp_skin_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scathecraw_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scathecraw_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scrap_metal_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scrap_metal_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scrib_jelly_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scrib_jelly_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scrib_jelly_02" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scrib_jelly_02\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scrib_jerky_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scrib_jerky_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scuttle_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_scuttle_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_shalk_resin_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_shalk_resin_01\", temp"
+    - endif
+    - ''
+    - StopScript A1V7_ACleanSt2_sc
+    - StartScript A1V7_ACleanSt5_sc
+    - ''
+    - end
+
+- SCPT:
+  - SCHD:
+      name: A1V7_ACleanSt2_sx
+      vars:
+        shorts: 1
+        longs: 0
+        floats: 0
+      data_size: 3772
+      var_table_size: 5
+  - SCVR:
+    - temp
+  - SCDT:
+      stmts:
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x15ingred_ghoul_heart_01\0"
+      - func: MwsePushS
+        args: 0
+      - func: MwsePushS
+        args: 115
+      - func: MwseGetLocal
+        args: null
+      - func: MwsePop
+        args: 4
+      - func: MwseJumpShortZero
+        args: 95
+      - func: MwsePushS
+        args: 0
+      - func: MwsePushS
+        args: 115
+      - func: MwseGetLocal
+        args: null
+      - func: MwsePushS
+        args: 71
+      raw:
+      - 0A 38 5D 00 15 69 6E 67 72 65 64 5F 67 68 6F 75 6C 5F 68 65 61 72 74 5F 30 31 29 3C 05 01 73 01
+      - 00 1C 20 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 67 6F 6C 64 5F 6B 61 6E 65 74 5F 30 31 00 13 38
+      - 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 BD 00 13 38 00 00 13 38 73 00 00 3C 13 38 A5 00 0A 38
+      - BB 00 14 69 6E 67 72 65 64 5F 67 6F 6C 64 5F 6B 61 6E 65 74 5F 30 31 00 29 3C 05 01 73 01 00 20
+      - 20 58 FD 10 20 6F 18 69 6E 67 72 65 64 5F 67 6F 6C 64 5F 6B 61 6E 65 74 5F 75 6E 69 71 75 65 00
+      - 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 23 01 13 38 00 00 13 38 73 00 00 3C 13 38 07 01
+      - 0A 38 21 01 18 69 6E 67 72 65 64 5F 67 6F 6C 64 5F 6B 61 6E 65 74 5F 75 6E 69 71 75 65 00 29 3C
+      - 05 01 73 01 00 1B 20 58 FD 10 20 6F 13 69 6E 67 72 65 64 5F 67 72 61 76 65 64 75 73 74 5F 30 31
+      - 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 7E 01 13 38 00 00 13 38 73 00 00 3C 13 38 68
+      - 01 0A 38 7C 01 13 69 6E 67 72 65 64 5F 67 72 61 76 65 64 75 73 74 5F 30 31 29 3C 05 01 73 01 00
+      - 1E 20 58 FD 10 20 6F 16 69 6E 67 72 65 64 5F 67 72 65 65 6E 5F 6C 69 63 68 65 6E 5F 30 31 00 13
+      - 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 E0 01 13 38 00 00 13 38 73 00 00 3C 13 38 C6 01 0A
+      - 38 DE 01 16 69 6E 67 72 65 64 5F 67 72 65 65 6E 5F 6C 69 63 68 65 6E 5F 30 31 00 29 3C 05 01 73
+      - 01 00 1B 20 58 FD 10 20 6F 13 69 6E 67 72 65 64 5F 67 75 61 72 5F 68 69 64 65 5F 30 31 00 13 38
+      - 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 3B 02 13 38 00 00 13 38 73 00 00 3C 13 38 25 02 0A 38
+      - 39 02 13 69 6E 67 72 65 64 5F 67 75 61 72 5F 68 69 64 65 5F 30 31 29 3C 05 01 73 01 00 1F 20 58
+      - FD 10 20 6F 17 69 6E 67 72 65 64 5F 67 75 61 72 5F 68 69 64 65 5F 67 69 72 69 74 68 00 13 38 00
+      - 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 9E 02 13 38 00 00 13 38 73 00 00 3C 13 38 84 02 0A 38 9C
+      - 02 17 69 6E 67 72 65 64 5F 67 75 61 72 5F 68 69 64 65 5F 67 69 72 69 74 68 29 3C 05 01 73 01 00
+      - 1F 20 58 FD 10 20 6F 17 69 6E 67 72 65 64 5F 67 75 61 72 5F 68 69 64 65 5F 6D 61 72 73 75 73 00
+      - 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 01 03 13 38 00 00 13 38 73 00 00 3C 13 38 E7 02
+      - 0A 38 FF 02 17 69 6E 67 72 65 64 5F 67 75 61 72 5F 68 69 64 65 5F 6D 61 72 73 75 73 29 3C 05 01
+      - 73 01 00 20 20 58 FD 10 20 6F 18 69 6E 67 72 65 64 5F 68 61 63 6B 6C 65 2D 6C 6F 5F 6C 65 61 66
+      - 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 67 03 13 38 00 00 13 38 73 00 00 3C
+      - 13 38 4B 03 0A 38 65 03 18 69 6E 67 72 65 64 5F 68 61 63 6B 6C 65 2D 6C 6F 5F 6C 65 61 66 5F 30
+      - 31 00 29 3C 05 01 73 01 00 19 20 58 FD 10 20 6F 11 69 6E 67 72 65 64 5F 68 65 61 74 68 65 72 5F
+      - 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 BE 03 13 38 00 00 13 38 73 00 00 3C 13
+      - 38 AA 03 0A 38 BC 03 11 69 6E 67 72 65 64 5F 68 65 61 74 68 65 72 5F 30 31 29 3C 05 01 73 01 00
+      - 1C 20 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 68 6F 75 6E 64 5F 6D 65 61 74 5F 30 31 00 13 38 00
+      - 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 1C 04 13 38 00 00 13 38 73 00 00 3C 13 38 04 04 0A 38 1A
+      - 04 14 69 6E 67 72 65 64 5F 68 6F 75 6E 64 5F 6D 65 61 74 5F 30 31 00 29 3C 05 01 73 01 00 1C 20
+      - 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30 31 00 13 38 00 00 13
+      - 38 73 00 00 3C 0F 38 04 00 0C 38 7A 04 13 38 00 00 13 38 73 00 00 3C 13 38 62 04 0A 38 78 04 14
+      - 69 6E 67 72 65 64 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30 31 00 29 3C 05 01 73 01 00 1E 20 58 FD
+      - 10 20 6F 16 69 6E 67 72 65 64 5F 6B 61 67 6F 75 74 69 5F 68 69 64 65 5F 30 31 00 13 38 00 00 13
+      - 38 73 00 00 3C 0F 38 04 00 0C 38 DC 04 13 38 00 00 13 38 73 00 00 3C 13 38 C2 04 0A 38 DA 04 16
+      - 69 6E 67 72 65 64 5F 6B 61 67 6F 75 74 69 5F 68 69 64 65 5F 30 31 00 29 3C 05 01 73 01 00 1D 20
+      - 58 FD 10 20 6F 15 69 6E 67 72 65 64 5F 6B 72 65 73 68 5F 66 69 62 65 72 5F 30 31 00 13 38 00 00
+      - 13 38 73 00 00 3C 0F 38 04 00 0C 38 3B 05 13 38 00 00 13 38 73 00 00 3C 13 38 23 05 0A 38 39 05
+      - 15 69 6E 67 72 65 64 5F 6B 72 65 73 68 5F 66 69 62 65 72 5F 30 31 29 3C 05 01 73 01 00 1E 20 58
+      - FD 10 20 6F 16 69 6E 67 72 65 64 5F 6B 77 61 6D 61 5F 63 75 74 74 6C 65 5F 30 31 00 13 38 00 00
+      - 13 38 73 00 00 3C 0F 38 04 00 0C 38 9D 05 13 38 00 00 13 38 73 00 00 3C 13 38 83 05 0A 38 9B 05
+      - 16 69 6E 67 72 65 64 5F 6B 77 61 6D 61 5F 63 75 74 74 6C 65 5F 30 31 00 29 3C 05 01 73 01 00 1D
+      - 20 58 FD 10 20 6F 15 69 6E 67 72 65 64 5F 6D 61 72 73 68 6D 65 72 72 6F 77 5F 30 31 00 13 38 00
+      - 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 FC 05 13 38 00 00 13 38 73 00 00 3C 13 38 E4 05 0A 38 FA
+      - 05 15 69 6E 67 72 65 64 5F 6D 61 72 73 68 6D 65 72 72 6F 77 5F 30 31 29 3C 05 01 73 01 00 1C 20
+      - 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 6D 6F 6F 6E 5F 73 75 67 61 72 5F 30 31 00 13 38 00 00 13
+      - 38 73 00 00 3C 0F 38 04 00 0C 38 5A 06 13 38 00 00 13 38 73 00 00 3C 13 38 42 06 0A 38 58 06 14
+      - 69 6E 67 72 65 64 5F 6D 6F 6F 6E 5F 73 75 67 61 72 5F 30 31 00 29 3C 05 01 73 01 00 16 20 58 FD
+      - 10 20 6F 0E 69 6E 67 72 65 64 5F 6D 75 63 6B 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04
+      - 00 0C 38 AC 06 13 38 00 00 13 38 73 00 00 3C 13 38 9A 06 0A 38 AA 06 0E 69 6E 67 72 65 64 5F 6D
+      - 75 63 6B 5F 30 31 00 29 3C 05 01 73 01 00 1F 20 58 FD 10 20 6F 17 69 6E 67 72 65 64 5F 6E 65 74
+      - 63 68 5F 6C 65 61 74 68 65 72 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 0F 07
+      - 13 38 00 00 13 38 73 00 00 3C 13 38 F5 06 0A 38 0D 07 17 69 6E 67 72 65 64 5F 6E 65 74 63 68 5F
+      - 6C 65 61 74 68 65 72 5F 30 31 29 3C 05 01 73 01 00 17 20 58 FD 10 20 6F 0F 69 6E 67 72 65 64 5F
+      - 70 65 61 72 6C 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 62 07 13 38 00 00 13
+      - 38 73 00 00 3C 13 38 50 07 0A 38 60 07 0F 69 6E 67 72 65 64 5F 70 65 61 72 6C 5F 30 31 29 3C 05
+      - 01 73 01 00 1E 20 58 FD 10 20 6F 16 69 6E 67 72 65 64 5F 72 61 63 65 72 5F 70 6C 75 6D 65 73 5F
+      - 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 C4 07 13 38 00 00 13 38 73 00 00 3C 13
+      - 38 AA 07 0A 38 C2 07 16 69 6E 67 72 65 64 5F 72 61 63 65 72 5F 70 6C 75 6D 65 73 5F 30 31 00 29
+      - 3C 05 01 73 01 00 1A 20 58 FD 10 20 6F 12 69 6E 67 72 65 64 5F 72 61 74 5F 6D 65 61 74 5F 30 31
+      - 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 1E 08 13 38 00 00 13 38 73 00 00 3C 13 38 08
+      - 08 0A 38 1C 08 12 69 6E 67 72 65 64 5F 72 61 74 5F 6D 65 61 74 5F 30 31 00 29 3C 05 01 73 01 00
+      - 1B 20 58 FD 10 20 6F 13 69 6E 67 72 65 64 5F 72 61 77 5F 65 62 6F 6E 79 5F 30 31 00 13 38 00 00
+      - 13 38 73 00 00 3C 0F 38 04 00 0C 38 79 08 13 38 00 00 13 38 73 00 00 3C 13 38 63 08 0A 38 77 08
+      - 13 69 6E 67 72 65 64 5F 72 61 77 5F 65 62 6F 6E 79 5F 30 31 29 3C 05 01 73 01 00 1B 20 58 FD 10
+      - 20 6F 13 69 6E 67 72 65 64 5F 72 61 77 5F 67 6C 61 73 73 5F 30 31 00 13 38 00 00 13 38 73 00 00
+      - 3C 0F 38 04 00 0C 38 D4 08 13 38 00 00 13 38 73 00 00 3C 13 38 BE 08 0A 38 D2 08 13 69 6E 67 72
+      - 65 64 5F 72 61 77 5F 67 6C 61 73 73 5F 30 31 29 3C 05 01 73 01 00 1E 20 58 FD 10 20 6F 16 69 6E
+      - 67 72 65 64 5F 72 61 77 5F 67 6C 61 73 73 5F 74 69 6E 6F 73 00 13 38 00 00 13 38 73 00 00 3C 0F
+      - 38 04 00 0C 38 36 09 13 38 00 00 13 38 73 00 00 3C 13 38 1C 09 0A 38 34 09 16 69 6E 67 72 65 64
+      - 5F 72 61 77 5F 67 6C 61 73 73 5F 74 69 6E 6F 73 00 29 3C 05 01 73 01 00 1C 20 58 FD 10 20 6F 14
+      - 69 6E 67 72 65 64 5F 72 65 64 5F 6C 69 63 68 65 6E 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F
+      - 38 04 00 0C 38 94 09 13 38 00 00 13 38 73 00 00 3C 13 38 7C 09 0A 38 92 09 14 69 6E 67 72 65 64
+      - 5F 72 65 64 5F 6C 69 63 68 65 6E 5F 30 31 00 29 3C 05 01 73 01 00 17 20 58 FD 10 20 6F 0F 69 6E
+      - 67 72 65 64 5F 72 65 73 69 6E 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 E7 09
+      - 13 38 00 00 13 38 73 00 00 3C 13 38 D5 09 0A 38 E5 09 0F 69 6E 67 72 65 64 5F 72 65 73 69 6E 5F
+      - 30 31 29 3C 05 01 73 01 00 1A 20 58 FD 10 20 6F 12 69 6E 67 72 65 64 5F 72 6F 6F 62 72 75 73 68
+      - 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 41 0A 13 38 00 00 13 38 73 00 00 3C
+      - 13 38 2B 0A 0A 38 3F 0A 12 69 6E 67 72 65 64 5F 72 6F 6F 62 72 75 73 68 5F 30 31 00 29 3C 05 01
+      - 73 01 00 16 20 58 FD 10 20 6F 0E 69 6E 67 72 65 64 5F 72 75 62 79 5F 30 31 00 13 38 00 00 13 38
+      - 73 00 00 3C 0F 38 04 00 0C 38 93 0A 13 38 00 00 13 38 73 00 00 3C 13 38 81 0A 0A 38 91 0A 0E 69
+      - 6E 67 72 65 64 5F 72 75 62 79 5F 30 31 00 29 3C 05 01 73 01 00 19 20 58 FD 10 20 6F 11 69 6E 67
+      - 72 65 64 5F 72 75 73 73 75 6C 61 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 EA
+      - 0A 13 38 00 00 13 38 73 00 00 3C 13 38 D6 0A 0A 38 E8 0A 11 69 6E 67 72 65 64 5F 72 75 73 73 75
+      - 6C 61 5F 30 31 29 3C 05 01 73 01 00 1A 20 58 FD 10 20 6F 12 69 6E 67 72 65 64 5F 73 61 6C 74 72
+      - 69 63 65 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 44 0B 13 38 00 00 13 38 73
+      - 00 00 3C 13 38 2E 0B 0A 38 42 0B 12 69 6E 67 72 65 64 5F 73 61 6C 74 72 69 63 65 5F 30 31 00 29
+      - 3C 05 01 73 01 00 18 20 58 FD 10 20 6F 10 69 6E 67 72 65 64 5F 73 63 61 6C 65 73 5F 30 31 00 13
+      - 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 9A 0B 13 38 00 00 13 38 73 00 00 3C 13 38 86 0B 0A
+      - 38 98 0B 10 69 6E 67 72 65 64 5F 73 63 61 6C 65 73 5F 30 31 00 29 3C 05 01 73 01 00 1C 20 58 FD
+      - 10 20 6F 14 69 6E 67 72 65 64 5F 73 63 61 6D 70 5F 73 6B 69 6E 5F 30 31 00 13 38 00 00 13 38 73
+      - 00 00 3C 0F 38 04 00 0C 38 F8 0B 13 38 00 00 13 38 73 00 00 3C 13 38 E0 0B 0A 38 F6 0B 14 69 6E
+      - 67 72 65 64 5F 73 63 61 6D 70 5F 73 6B 69 6E 5F 30 31 00 29 3C 05 01 73 01 00 1C 20 58 FD 10 20
+      - 6F 14 69 6E 67 72 65 64 5F 73 63 61 74 68 65 63 72 61 77 5F 30 31 00 13 38 00 00 13 38 73 00 00
+      - 3C 0F 38 04 00 0C 38 56 0C 13 38 00 00 13 38 73 00 00 3C 13 38 3E 0C 0A 38 54 0C 14 69 6E 67 72
+      - 65 64 5F 73 63 61 74 68 65 63 72 61 77 5F 30 31 00 29 3C 05 01 73 01 00 1D 20 58 FD 10 20 6F 15
+      - 69 6E 67 72 65 64 5F 73 63 72 61 70 5F 6D 65 74 61 6C 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C
+      - 0F 38 04 00 0C 38 B5 0C 13 38 00 00 13 38 73 00 00 3C 13 38 9D 0C 0A 38 B3 0C 15 69 6E 67 72 65
+      - 64 5F 73 63 72 61 70 5F 6D 65 74 61 6C 5F 30 31 29 3C 05 01 73 01 00 1D 20 58 FD 10 20 6F 15 69
+      - 6E 67 72 65 64 5F 73 63 72 69 62 5F 6A 65 6C 6C 79 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F
+      - 38 04 00 0C 38 14 0D 13 38 00 00 13 38 73 00 00 3C 13 38 FC 0C 0A 38 12 0D 15 69 6E 67 72 65 64
+      - 5F 73 63 72 69 62 5F 6A 65 6C 6C 79 5F 30 31 29 3C 05 01 73 01 00 1D 20 58 FD 10 20 6F 15 69 6E
+      - 67 72 65 64 5F 73 63 72 69 62 5F 6A 65 6C 6C 79 5F 30 32 00 13 38 00 00 13 38 73 00 00 3C 0F 38
+      - 04 00 0C 38 73 0D 13 38 00 00 13 38 73 00 00 3C 13 38 5B 0D 0A 38 71 0D 15 69 6E 67 72 65 64 5F
+      - 73 63 72 69 62 5F 6A 65 6C 6C 79 5F 30 32 29 3C 05 01 73 01 00 1D 20 58 FD 10 20 6F 15 69 6E 67
+      - 72 65 64 5F 73 63 72 69 62 5F 6A 65 72 6B 79 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04
+      - 00 0C 38 D2 0D 13 38 00 00 13 38 73 00 00 3C 13 38 BA 0D 0A 38 D0 0D 15 69 6E 67 72 65 64 5F 73
+      - 63 72 69 62 5F 6A 65 72 6B 79 5F 30 31 29 3C 05 01 73 01 00 19 20 58 FD 10 20 6F 11 69 6E 67 72
+      - 65 64 5F 73 63 75 74 74 6C 65 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 29 0E
+      - 13 38 00 00 13 38 73 00 00 3C 13 38 15 0E 0A 38 27 0E 11 69 6E 67 72 65 64 5F 73 63 75 74 74 6C
+      - 65 5F 30 31 29 3C 05 01 73 01 00 1D 20 58 FD 10 20 6F 15 69 6E 67 72 65 64 5F 73 68 61 6C 6B 5F
+      - 72 65 73 69 6E 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 88 0E 13 38 00 00 13
+      - 38 73 00 00 3C 13 38 70 0E 0A 38 86 0E 15 69 6E 67 72 65 64 5F 73 68 61 6C 6B 5F 72 65 73 69 6E
+      - 5F 30 31 29 3C 1C 10 16 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 32 5F 73 63 1B 10
+      - 16 41 31 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 35 5F 73 63 01 01
+  - SCTX:
+    - begin A1V7_ACleanSt2_sx
+    - ''
+    - short temp
+    - ''
+    - set temp to ( GetItemCount "ingred_ghoul_heart_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_ghoul_heart_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_gold_kanet_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_gold_kanet_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_gold_kanet_unique" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_gold_kanet_unique\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_gravedust_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_gravedust_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_green_lichen_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_green_lichen_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_guar_hide_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_guar_hide_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_guar_hide_girith" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_guar_hide_girith\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_guar_hide_marsus" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_guar_hide_marsus\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_hackle-lo_leaf_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_hackle-lo_leaf_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_heather_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_heather_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_hound_meat_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_hound_meat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_human_meat_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_human_meat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_kagouti_hide_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_kagouti_hide_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_kresh_fiber_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_kresh_fiber_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_kwama_cuttle_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_kwama_cuttle_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_marshmerrow_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_marshmerrow_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_moon_sugar_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_moon_sugar_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_muck_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_muck_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_netch_leather_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_netch_leather_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_pearl_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_pearl_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_racer_plumes_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_racer_plumes_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_rat_meat_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_rat_meat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_raw_ebony_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_raw_ebony_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_raw_glass_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_raw_glass_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_raw_glass_tinos" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_raw_glass_tinos\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_red_lichen_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_red_lichen_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_resin_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_resin_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_roobrush_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_roobrush_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_ruby_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_ruby_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_russula_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_russula_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_saltrice_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_saltrice_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scales_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_scales_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scamp_skin_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_scamp_skin_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scathecraw_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_scathecraw_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scrap_metal_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_scrap_metal_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scrib_jelly_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_scrib_jelly_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scrib_jelly_02" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_scrib_jelly_02\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scrib_jerky_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_scrib_jerky_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_scuttle_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_scuttle_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_shalk_resin_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_shalk_resin_01\", temp"
+    - endif
+    - ''
+    - StopScript A1V7_ACleanSt2_sc
+    - StartScript A1V7_ACleanSt5_sc
+    - ''
+    - end
+
+- SCPT:
+  - SCHD:
+      name: A1V7_ACleanSt5_sc
+      vars:
+        shorts: 1
+        longs: 0
+        floats: 0
+      data_size: 1005
+      var_table_size: 5
+  - SCVR:
+    - temp
+  - SCDT:
+      stmts:
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_sload_soap_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_sload_soap_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x1Cingred_stoneflower_petals_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_stoneflower_petals_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_trama_root_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_trama_root_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x1Fingred_treated_bittergreen_uniq\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_treated_bittergreen_uniq
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x16ingred_vampire_dust_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_vampire_dust_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_void_salts_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_void_salts_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x13ingred_wickwheat_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_wickwheat_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x17ingred_willow_anther_01\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - ingred_willow_anther_01
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\rpoison_goop00\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - poison_goop00
+        - 0
+      - func: EndIf
+        args: null
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x16A1V7_ApparatusFakeIngred\0"
+      - func: If
+        args:
+        - 1
+        - " s\x01\0 != 0"
+      - func: RemoveItem
+        args:
+        - A1V7_ApparatusFakeIngred
+        - 0
+      - func: EndIf
+        args: null
+      - func: If
+        args:
+        - 1
+        - " Xэ\x10 o\x12A1V7_ApparatusItem_1 == 1"
+      - func: RemoveItem
+        args:
+        - A1V7_ApparatusItem_1
+        - 1
+      - func: EndIf
+        args: null
+      - func: If
+        args:
+        - 1
+        - " Xэ\x10 o\x12A1V7_ApparatusItem_2 == 1"
+      - func: RemoveItem
+        args:
+        - A1V7_ApparatusItem_2
+        - 1
+      - func: EndIf
+        args: null
+      - func: If
+        args:
+        - 1
+        - " Xэ\x10 o\x12A1V7_ApparatusItem_3 == 1"
+      - func: RemoveItem
+        args:
+        - A1V7_ApparatusItem_3
+        - 1
+      - func: EndIf
+        args: null
+      - func: StopScript
+        args: A1V7_ACleanSt5_sc
+      - func: StartScript
+        args: A1V7_ACleanSt6_sc
+      - func: End
+        args: null
+      raw: []
+  - SCTX:
+    - begin A1V7_ACleanSt5_sc
+    - ''
+    - short temp
+    - ''
+    - set temp to ( GetItemCount "ingred_sload_soap_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_sload_soap_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_stoneflower_petals_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_stoneflower_petals_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_trama_root_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_trama_root_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_treated_bittergreen_uniq" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_treated_bittergreen_uniq\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_vampire_dust_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_vampire_dust_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_void_salts_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_void_salts_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_wickwheat_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_wickwheat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_willow_anther_01" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"ingred_willow_anther_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "poison_goop00" )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"poison_goop00\", temp"
+    - endif
+    - ''
+    - set temp to ( GetItemCount A1V7_ApparatusFakeIngred )
+    - if ( temp != 0 )
+    - "\tRemoveItem \"A1V7_ApparatusFakeIngred\", temp"
+    - endif
+    - if ( GetItemCount A1V7_ApparatusItem_1 == 1 )
+    - "\tRemoveItem A1V7_ApparatusItem_1, 1"
+    - endif
+    - if ( GetItemCount A1V7_ApparatusItem_2 == 1 )
+    - "\tRemoveItem A1V7_ApparatusItem_2, 1"
+    - endif
+    - if ( GetItemCount A1V7_ApparatusItem_3 == 1 )
+    - "\tRemoveItem A1V7_ApparatusItem_3, 1"
+    - endif
+    - ''
+    - if ( A1V7_ApparatusIndex  == 1 )
+    - "\tAddItem \"A1V7_ApparatusItem_1\", 1"
+    - elseif ( A1V7_ApparatusIndex == 2 )
+    - "\tAddItem \"A1V7_ApparatusItem_2\", 1"
+    - else
+    - "\tAddItem \"A1V7_ApparatusItem_3\", 1"
+    - endif
+    - ''
+    - StopScript A1V7_ACleanSt5_sc
+    - StartScript A1V7_ApparatusSetUp
+    - ''
+    - end
+
+- SCPT:
+  - SCHD:
+      name: A1V7_ACleanSt5_sx
+      vars:
+        shorts: 1
+        longs: 0
+        floats: 0
+      data_size: 1201
+      var_table_size: 5
+  - SCVR:
+    - temp
+  - SCDT:
+      stmts:
+      - func: Set
+        args:
+        - kind: Local
+          owner: null
+          type: Short
+          index: 1
+        - " Xэ\x10 o\x14ingred_sload_soap_01\0"
+      - func: MwsePushS
+        args: 0
+      - func: MwsePushS
+        args: 115
+      - func: MwseGetLocal
+        args: null
+      - func: MwsePop
+        args: 4
+      - func: MwseJumpShortZero
+        args: 94
+      - func: MwsePushS
+        args: 0
+      - func: MwsePushS
+        args: 115
+      - func: MwseGetLocal
+        args: null
+      - func: MwsePushS
+        args: 70
+      raw:
+      - 0A 38 5C 00 14 69 6E 67 72 65 64 5F 73 6C 6F 61 64 5F 73 6F 61 70 5F 30 31 00 29 3C 05 01 73 01
+      - 00 24 20 58 FD 10 20 6F 1C 69 6E 67 72 65 64 5F 73 74 6F 6E 65 66 6C 6F 77 65 72 5F 70 65 74 61
+      - 6C 73 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 CC 00 13 38 00 00 13 38 73 00
+      - 00 3C 13 38 AC 00 0A 38 CA 00 1C 69 6E 67 72 65 64 5F 73 74 6F 6E 65 66 6C 6F 77 65 72 5F 70 65
+      - 74 61 6C 73 5F 30 31 00 29 3C 05 01 73 01 00 1C 20 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 74 72
+      - 61 6D 61 5F 72 6F 6F 74 5F 30 31 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 2A 01 13 38
+      - 00 00 13 38 73 00 00 3C 13 38 12 01 0A 38 28 01 14 69 6E 67 72 65 64 5F 74 72 61 6D 61 5F 72 6F
+      - 6F 74 5F 30 31 00 29 3C 05 01 73 01 00 27 20 58 FD 10 20 6F 1F 69 6E 67 72 65 64 5F 74 72 65 61
+      - 74 65 64 5F 62 69 74 74 65 72 67 72 65 65 6E 5F 75 6E 69 71 00 13 38 00 00 13 38 73 00 00 3C 0F
+      - 38 04 00 0C 38 9D 01 13 38 00 00 13 38 73 00 00 3C 13 38 7B 01 0A 38 9B 01 1F 69 6E 67 72 65 64
+      - 5F 74 72 65 61 74 65 64 5F 62 69 74 74 65 72 67 72 65 65 6E 5F 75 6E 69 71 29 3C 05 01 73 01 00
+      - 1E 20 58 FD 10 20 6F 16 69 6E 67 72 65 64 5F 76 61 6D 70 69 72 65 5F 64 75 73 74 5F 30 31 00 13
+      - 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 FF 01 13 38 00 00 13 38 73 00 00 3C 13 38 E5 01 0A
+      - 38 FD 01 16 69 6E 67 72 65 64 5F 76 61 6D 70 69 72 65 5F 64 75 73 74 5F 30 31 00 29 3C 05 01 73
+      - 01 00 1C 20 58 FD 10 20 6F 14 69 6E 67 72 65 64 5F 76 6F 69 64 5F 73 61 6C 74 73 5F 30 31 00 13
+      - 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 5D 02 13 38 00 00 13 38 73 00 00 3C 13 38 45 02 0A
+      - 38 5B 02 14 69 6E 67 72 65 64 5F 76 6F 69 64 5F 73 61 6C 74 73 5F 30 31 00 29 3C 05 01 73 01 00
+      - 1B 20 58 FD 10 20 6F 13 69 6E 67 72 65 64 5F 77 69 63 6B 77 68 65 61 74 5F 30 31 00 13 38 00 00
+      - 13 38 73 00 00 3C 0F 38 04 00 0C 38 B8 02 13 38 00 00 13 38 73 00 00 3C 13 38 A2 02 0A 38 B6 02
+      - 13 69 6E 67 72 65 64 5F 77 69 63 6B 77 68 65 61 74 5F 30 31 29 3C 05 01 73 01 00 1F 20 58 FD 10
+      - 20 6F 17 69 6E 67 72 65 64 5F 77 69 6C 6C 6F 77 5F 61 6E 74 68 65 72 5F 30 31 00 13 38 00 00 13
+      - 38 73 00 00 3C 0F 38 04 00 0C 38 1B 03 13 38 00 00 13 38 73 00 00 3C 13 38 01 03 0A 38 19 03 17
+      - 69 6E 67 72 65 64 5F 77 69 6C 6C 6F 77 5F 61 6E 74 68 65 72 5F 30 31 29 3C 05 01 73 01 00 15 20
+      - 58 FD 10 20 6F 0D 70 6F 69 73 6F 6E 5F 67 6F 6F 70 30 30 00 13 38 00 00 13 38 73 00 00 3C 0F 38
+      - 04 00 0C 38 6A 03 13 38 00 00 13 38 73 00 00 3C 13 38 5A 03 0A 38 68 03 0D 70 6F 69 73 6F 6E 5F
+      - 67 6F 6F 70 30 30 29 3C 05 01 73 01 00 1E 20 58 FD 10 20 6F 16 41 31 56 31 5F 49 6E 67 72 42 61
+      - 67 46 61 6B 65 49 6E 67 72 65 64 00 13 38 00 00 13 38 73 00 00 3C 0F 38 04 00 0C 38 CC 03 13 38
+      - 00 00 13 38 73 00 00 3C 13 38 B2 03 0A 38 CA 03 16 41 31 56 31 5F 49 6E 67 72 42 61 67 46 61 6B
+      - 65 49 6E 67 72 65 64 00 29 3C 06 01 01 1E 20 58 FD 10 20 6F 12 41 31 56 31 5F 49 6E 67 72 42 61
+      - 67 49 74 65 6D 5F 31 20 3D 3D 20 31 D5 10 12 41 31 56 31 5F 49 6E 67 72 42 61 67 49 74 65 6D 5F
+      - 31 01 00 09 01 06 01 01 1E 20 58 FD 10 20 6F 12 41 31 56 31 5F 49 6E 67 72 42 61 67 49 74 65 6D
+      - 5F 32 20 3D 3D 20 31 D5 10 12 41 31 56 31 5F 49 6E 67 72 42 61 67 49 74 65 6D 5F 32 01 00 09 01
+      - 06 01 01 1E 20 58 FD 10 20 6F 12 41 31 56 31 5F 49 6E 67 72 42 61 67 49 74 65 6D 5F 33 20 3D 3D
+      - 20 31 D5 10 12 41 31 56 31 5F 49 6E 67 72 42 61 67 49 74 65 6D 5F 33 01 00 09 01 1C 10 16 41 31
+      - 56 31 5F 49 6E 67 72 42 61 67 49 6E 69 74 53 74 35 5F 73 63 1B 10 16 41 31 56 31 5F 49 6E 67 72
+      - 42 61 67 49 6E 69 74 53 74 36 5F 73 63 01 01
+  - SCTX:
+    - begin A1V7_ACleanSt5_sx
+    - ''
+    - short temp
+    - ''
+    - set temp to ( GetItemCount "ingred_sload_soap_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_sload_soap_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_stoneflower_petals_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_stoneflower_petals_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_trama_root_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_trama_root_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_treated_bittergreen_uniq" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_treated_bittergreen_uniq\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_vampire_dust_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_vampire_dust_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_void_salts_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_void_salts_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_wickwheat_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_wickwheat_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "ingred_willow_anther_01" )
+    - ifx ( temp )
+    - "\txRemoveItem \"ingred_willow_anther_01\", temp"
+    - endif
+    - set temp to ( GetItemCount "poison_goop00" )
+    - ifx ( temp )
+    - "\txRemoveItem \"poison_goop00\", temp"
+    - endif
+    - ''
+    - set temp to ( GetItemCount A1V7_ApparatusFakeIngred )
+    - ifx ( temp )
+    - "\txRemoveItem \"A1V7_ApparatusFakeIngred\", temp"
+    - endif
+    - if ( GetItemCount A1V7_ApparatusItem_1 == 1 )
+    - "\tRemoveItem A1V7_ApparatusItem_1, 1"
+    - endif
+    - if ( GetItemCount A1V7_ApparatusItem_2 == 1 )
+    - "\tRemoveItem A1V7_ApparatusItem_2, 1"
+    - endif
+    - if ( GetItemCount A1V7_ApparatusItem_3 == 1 )
+    - "\tRemoveItem A1V7_ApparatusItem_3, 1"
+    - endif
+    - ''
+    - if ( A1V7_ApparatusIndex  == 1 )
+    - "\tAddItem \"A1V7_ApparatusItem_1\", 1"
+    - elseif ( A1V7_ApparatusIndex == 2 )
+    - "\tAddItem \"A1V7_ApparatusItem_2\", 1"
+    - else
+    - "\tAddItem \"A1V7_ApparatusItem_3\", 1"
+    - endif
+    - ''
+    - StopScript A1V7_ACleanSt5_sc
+    - StartScript A1V7_ApparatusSetUp
+    - ''
+    - end
+
+- SCPT:
+  - SCHD:
       name: A1V7_AAdd10_DetKey_45
       vars:
         shorts: 4
@@ -86514,64 +89344,3 @@
   - INTV: 100
   - BNAM:
     - Journal HT_CureBlight 10
-
-- SCPT:
-  - SCHD:
-      name: A1V7_ACleanSt1_sc
-      vars:
-        shorts: 0
-        longs: 0
-        floats: 0
-      data_size: 186
-      var_table_size: 0
-  - SCVR:
-    - ''
-    - ^
-  - SCDT:
-      stmts:
-      - func: If
-        args:
-        - 1
-        - " G\x13A1V7_ApparatusIndex == 1"
-      - func: AddItem
-        args:
-        - A1V7_ApparatusItem_1
-        - 1
-      - func: ElseIf
-        args:
-        - 1
-        - " G\x13A1V7_ApparatusIndex == 2"
-      - func: AddItem
-        args:
-        - A1V7_ApparatusItem_2
-        - 1
-      - func: Else
-        args: 1
-      - func: AddItem
-        args:
-        - A1V7_ApparatusItem_3
-        - 1
-      - func: EndIf
-        args: null
-      - func: StopScript
-        args: A1V7_ACleanSt1_sc
-      - func: StartScript
-        args: A1V7_ApparatusSetUp
-      - func: End
-        args: null
-      raw: []
-  - SCTX:
-    - begin A1V7_ACleanSt1_sc
-    - ''
-    - if ( A1V7_ApparatusIndex  == 1 )
-    - "\tAddItem \"A1V7_ApparatusItem_1\", 1"
-    - elseif ( A1V7_ApparatusIndex == 2 )
-    - "\tAddItem \"A1V7_ApparatusItem_2\", 1"
-    - else
-    - "\tAddItem \"A1V7_ApparatusItem_3\", 1"
-    - endif
-    - ''
-    - StopScript A1V7_ACleanSt1_sc
-    - StartScript A1V7_ApparatusSetUp
-    - ''
-    - end
