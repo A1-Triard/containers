@@ -7,7 +7,7 @@
       - Новая система алхимии, позволяющая создавать стандартные зелья (такие же как в магазинах).
       - ''
       - Версия для использования без MFR.esm
-      records: 614
+      records: 615
   - MAST: Morrowind.esm
   - DATA: 79764287
   - MAST: Tribunal.esm
@@ -138,6 +138,11 @@
 - GLOB:
   - NAME: A1V7_ApparatusCos
   - FNAM: f
+  - FLTV: 0.0
+
+- GLOB:
+  - NAME: A1V7_ApparatusActivate
+  - FNAM: s
   - FLTV: 0.0
 
 - SCPT:
@@ -79032,7 +79037,7 @@
         shorts: 0
         longs: 0
         floats: 0
-      data_size: 95
+      data_size: 124
       var_table_size: 0
   - SCDT:
       stmts:
@@ -79049,6 +79054,11 @@
         - []
       - func: EnablePlayerControls
         args: null
+      - func: Set
+        args:
+        - kind: Global
+          name: A1V7_ApparatusActivate
+        - ' 1'
       - func: StopScript
         args: A1V7_ApparatusActivate_sc
       - func: End
@@ -79061,6 +79071,7 @@
     - ''
     - MessageBox "Установка активирована"
     - EnablePlayerControls
+    - set A1V7_ApparatusActivate to 1
     - ''
     - StopScript A1V7_ApparatusActivate_sc
     - ''
@@ -79073,7 +79084,7 @@
         shorts: 4
         longs: 0
         floats: 13
-      data_size: 1490
+      data_size: 1563
       var_table_size: 139
   - SCVR:
     - doOnce
@@ -79207,9 +79218,11 @@
       - 6F 72 74 58 05 20 66 0C 00 00 05 01 47 0C 41 31 56 37 5F 52 65 74 6F 72 74 59 05 20 66 0D 00 00
       - 05 01 47 0F 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 5A 05 20 66 03 00 00 05 01 47 13 41 31 56
       - 37 5F 41 70 70 61 72 61 74 75 73 49 6E 64 65 78 02 20 31 1B 10 11 41 31 56 37 5F 41 43 6C 65 61
-      - 6E 53 74 31 5F 73 63 24 01 09 01 06 01 04 09 20 73 03 00 20 3D 3D 20 31 05 01 73 04 00 02 20 31
-      - 05 01 73 03 00 02 20 30 17 10 24 01 09 01 06 01 03 09 20 58 18 10 20 3D 3D 20 31 DE 10 1B 10 10
-      - 41 31 56 37 5F 41 49 6E 69 74 53 74 31 5F 73 63 24 01 09 01 01 01
+      - 6E 53 74 31 5F 73 63 24 01 09 01 06 01 06 09 20 73 03 00 20 3D 3D 20 31 06 01 03 1E 20 47 16 41
+      - 31 56 37 5F 41 70 70 61 72 61 74 75 73 41 63 74 69 76 61 74 65 20 3D 3D 20 31 05 01 73 04 00 02
+      - 20 31 05 01 73 03 00 02 20 30 17 10 09 01 24 01 09 01 06 01 05 09 20 58 18 10 20 3D 3D 20 31 DE
+      - 10 05 01 47 16 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 41 63 74 69 76 61 74 65 02 20 30 05 01
+      - 73 03 00 02 20 31 1B 10 10 41 31 56 37 5F 41 49 6E 69 74 53 74 31 5F 73 63 24 01 09 01 01 01
   - SCTX:
     - Begin A1V7_ApparatusCont_1_sc
     - ''
@@ -79332,14 +79345,18 @@
     - endif
     - ''
     - if ( doActivate == 1 )
-    - "\tset waitActivate to 1"
-    - "\tset doActivate to 0"
-    - "\tActivate"
+    - "\tif ( A1V7_ApparatusActivate == 1 )"
+    - "\t\tset waitActivate to 1"
+    - "\t\tset doActivate to 0"
+    - "\t\tActivate"
+    - "\tendif"
     - "\treturn"
     - endif
     - ''
     - if ( OnActivate == 1 )
     - "\tDisablePlayerControls"
+    - "\tset A1V7_ApparatusActivate to 0"
+    - "\tset doActivate to 1"
     - "\tStartScript A1V7_AInitSt1_sc"
     - "\treturn"
     - endif
@@ -79353,7 +79370,7 @@
         shorts: 4
         longs: 0
         floats: 13
-      data_size: 1490
+      data_size: 1563
       var_table_size: 139
   - SCVR:
     - doOnce
@@ -79487,9 +79504,11 @@
       - 6F 72 74 58 05 20 66 0C 00 00 05 01 47 0C 41 31 56 37 5F 52 65 74 6F 72 74 59 05 20 66 0D 00 00
       - 05 01 47 0F 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 5A 05 20 66 03 00 00 05 01 47 13 41 31 56
       - 37 5F 41 70 70 61 72 61 74 75 73 49 6E 64 65 78 02 20 32 1B 10 11 41 31 56 37 5F 41 43 6C 65 61
-      - 6E 53 74 31 5F 73 63 24 01 09 01 06 01 04 09 20 73 03 00 20 3D 3D 20 31 05 01 73 04 00 02 20 31
-      - 05 01 73 03 00 02 20 30 17 10 24 01 09 01 06 01 03 09 20 58 18 10 20 3D 3D 20 31 DE 10 1B 10 10
-      - 41 31 56 37 5F 41 49 6E 69 74 53 74 31 5F 73 63 24 01 09 01 01 01
+      - 6E 53 74 31 5F 73 63 24 01 09 01 06 01 06 09 20 73 03 00 20 3D 3D 20 31 06 01 03 1E 20 47 16 41
+      - 31 56 37 5F 41 70 70 61 72 61 74 75 73 41 63 74 69 76 61 74 65 20 3D 3D 20 31 05 01 73 04 00 02
+      - 20 31 05 01 73 03 00 02 20 30 17 10 09 01 24 01 09 01 06 01 05 09 20 58 18 10 20 3D 3D 20 31 DE
+      - 10 05 01 47 16 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 41 63 74 69 76 61 74 65 02 20 30 05 01
+      - 73 03 00 02 20 31 1B 10 10 41 31 56 37 5F 41 49 6E 69 74 53 74 31 5F 73 63 24 01 09 01 01 01
   - SCTX:
     - Begin A1V7_ApparatusCont_2_sc
     - ''
@@ -79612,14 +79631,18 @@
     - endif
     - ''
     - if ( doActivate == 1 )
-    - "\tset waitActivate to 1"
-    - "\tset doActivate to 0"
-    - "\tActivate"
+    - "\tif ( A1V7_ApparatusActivate == 1 )"
+    - "\t\tset waitActivate to 1"
+    - "\t\tset doActivate to 0"
+    - "\t\tActivate"
+    - "\tendif"
     - "\treturn"
     - endif
     - ''
     - if ( OnActivate == 1 )
     - "\tDisablePlayerControls"
+    - "\tset A1V7_ApparatusActivate to 0"
+    - "\tset doActivate to 1"
     - "\tStartScript A1V7_AInitSt1_sc"
     - "\treturn"
     - endif
@@ -79633,7 +79656,7 @@
         shorts: 4
         longs: 0
         floats: 13
-      data_size: 1490
+      data_size: 1563
       var_table_size: 139
   - SCVR:
     - doOnce
@@ -79767,9 +79790,11 @@
       - 6F 72 74 58 05 20 66 0C 00 00 05 01 47 0C 41 31 56 37 5F 52 65 74 6F 72 74 59 05 20 66 0D 00 00
       - 05 01 47 0F 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 5A 05 20 66 03 00 00 05 01 47 13 41 31 56
       - 37 5F 41 70 70 61 72 61 74 75 73 49 6E 64 65 78 02 20 33 1B 10 11 41 31 56 37 5F 41 43 6C 65 61
-      - 6E 53 74 31 5F 73 63 24 01 09 01 06 01 04 09 20 73 03 00 20 3D 3D 20 31 05 01 73 04 00 02 20 31
-      - 05 01 73 03 00 02 20 30 17 10 24 01 09 01 06 01 03 09 20 58 18 10 20 3D 3D 20 31 DE 10 1B 10 10
-      - 41 31 56 37 5F 41 49 6E 69 74 53 74 31 5F 73 63 24 01 09 01 01 01
+      - 6E 53 74 31 5F 73 63 24 01 09 01 06 01 06 09 20 73 03 00 20 3D 3D 20 31 06 01 03 1E 20 47 16 41
+      - 31 56 37 5F 41 70 70 61 72 61 74 75 73 41 63 74 69 76 61 74 65 20 3D 3D 20 31 05 01 73 04 00 02
+      - 20 31 05 01 73 03 00 02 20 30 17 10 09 01 24 01 09 01 06 01 05 09 20 58 18 10 20 3D 3D 20 31 DE
+      - 10 05 01 47 16 41 31 56 37 5F 41 70 70 61 72 61 74 75 73 41 63 74 69 76 61 74 65 02 20 30 05 01
+      - 73 03 00 02 20 31 1B 10 10 41 31 56 37 5F 41 49 6E 69 74 53 74 31 5F 73 63 24 01 09 01 01 01
   - SCTX:
     - Begin A1V7_ApparatusCont_3_sc
     - ''
@@ -79892,14 +79917,18 @@
     - endif
     - ''
     - if ( doActivate == 1 )
-    - "\tset waitActivate to 1"
-    - "\tset doActivate to 0"
-    - "\tActivate"
+    - "\tif ( A1V7_ApparatusActivate == 1 )"
+    - "\t\tset waitActivate to 1"
+    - "\t\tset doActivate to 0"
+    - "\t\tActivate"
+    - "\tendif"
     - "\treturn"
     - endif
     - ''
     - if ( OnActivate == 1 )
     - "\tDisablePlayerControls"
+    - "\tset A1V7_ApparatusActivate to 0"
+    - "\tset doActivate to 1"
     - "\tStartScript A1V7_AInitSt1_sc"
     - "\treturn"
     - endif
